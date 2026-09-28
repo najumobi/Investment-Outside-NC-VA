@@ -35,7 +35,7 @@ STEP 4 (workbench, cell C): read the shortlist and the tracked list from Dropbox
 plan = json.loads(dbx_read(run_folder("DATE", "ncva") + "/detail_plan.json").decode("utf-8")); urls = [p["url"] for p in plan if p.get("url")][:40]
 remote_details(urls, "details")
 tracked = json.loads(dbx_read(run_folder("DATE", "ncva") + "/tracked_urls.json").decode("utf-8")); remote_details([t["url"] for t in tracked], "tracked")
-(If the shortlist has more than 40 rows, only the first 40 are fetched; say so in the report.)
+(If the shortlist has more than 40 rows, only the first 40 are fetched (best rent-to-price first; the rest carry a detail-pending flag and return next week); say so in the report.)
 
 STEP 5 (local): weekly_sweep.py wait details.json --date=DATE --region=ncva; weekly_sweep.py prep --date=DATE --region=ncva. Prep merges the facts, downloads each shortlisted listing's front photo into the run folder's photos subfolder, prints a facts table (price, year built, days on market, status, flood factor, remarks) and writes judgments_template.json.
 

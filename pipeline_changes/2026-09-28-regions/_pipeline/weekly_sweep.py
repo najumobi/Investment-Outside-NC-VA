@@ -61,6 +61,7 @@ if stage == "plan":
 if stage == "ingest":
     raw = rd(RUN + "listings_raw.csv"); health = jl(RUN + "fetch_counts.json") if os.path.exists(RUN + "fetch_counts.json") else {"counts": {}, "bad": []}
     idx = {r["key"]: r for r in rd(PIPE + "seen_index.csv")}; fields_idx = list(next(iter(idx.values())).keys())
+    if "detail_pending" not in fields_idx: fields_idx.append("detail_pending")   # 2026-09-28: shortlisted rows whose detail page has not been fetched yet (dense regions exceed the 40-page cap)
     present = set(); deltas = {}
     for r in raw:
         k = akey(r["address"]); present.add(k); p = str(int(num(r["price"]))) if num(r["price"]) else ""
@@ -121,15 +122,19 @@ if stage == "ingest":
         if rec["rent_to_price_pct"] != "" and rec["rent_to_price_pct"] < 0.9: ko.append("rent-to-price under 0.9%")
         rec["knockouts"] = "; ".join(ko)
         fresh = rec["delta"] in ("new", "relisted") or rec["delta"].startswith("price cut")
-        rec["shortlist"] = "YES" if (fresh and not ko and p and p <= C["practical_ceiling"]) else ""
+        pending = idx.get(k, {}).get("detail_pending") == "yes"   # shortlisted on an earlier run, detail page never fetched
+        rec["shortlist"] = "YES" if ((fresh or pending) and not ko and p and p <= C["practical_ceiling"]) else ""
+        if pending and not fresh: rec["delta"] = (rec["delta"] + "; detail pending").strip("; ")
         scored.append(rec)
-        if rec["shortlist"]: shortlist.append(rec)
+        if rec["shortlist"]: shortlist.append(rec); idx[k]["detail_pending"] = "yes"
+    wr(PIPE + "seen_index.csv", list(idx.values()), fields_idx)
     keys = []
     for o in scored:
         for kk in o.keys():
             if kk not in keys: keys.append(kk)
     wr(RUN + "scored.csv", scored, keys)
-    js(RUN + "detail_plan.json", [{"address": s["address"], "url": s["url"], "zurl": s.get("zurl", "")} for s in shortlist])
+    shortlist.sort(key=lambda s: -(s["rent_to_price_pct"] if s["rent_to_price_pct"] != "" else 0))   # the workbench fetches the first 40 detail pages: best rent-to-price first
+    js(RUN + "detail_plan.json", [{"address": s["address"], "url": s["url"], "zurl": s.get("zurl", ""), "rent_to_price_pct": s["rent_to_price_pct"], "delta": s["delta"]} for s in shortlist])
     dl = {}
     for v in deltas.values(): dl[v.split(" ")[0]] = dl.get(v.split(" ")[0], 0) + 1
     note(f"## Fetch health\n{health.get('fetched_ok','?')}/{health.get('pages','?')} list pages ok; bad pages: {len(health.get('bad', []))}; ZIPs with both portals ok: {len(ok_zips)}/{len(cnt)}; listings this week: {len(raw)}")
@@ -137,7 +142,7 @@ if stage == "ingest":
     for g_ in gone[:40]: note(f"  off list: {g_}")
     for r in scored:
         if r["delta"] in ("new", "relisted") or r["delta"].startswith("price cut"): note(f"  {r['delta'][:24]:24s} | {r['address'][:46]:46s} | ${r['price']} | {r['beds']}bd {r['sqft']}sf | tier {r['tract_tier']} {r['gate1_x1.0'][:4]} | r2p {r['rent_to_price_pct']} | {r['knockouts'] or 'SHORTLIST'}")
-    note(f"## Shortlist ({len(shortlist)} rows need detail pages)")
+    note(f"## Shortlist ({len(shortlist)} rows need detail pages; {sum(1 for s in shortlist if 'detail pending' in s['delta'])} carried over from earlier runs; the workbench fetches the first 40 by rent-to-price)")
     print(f"\nNEXT: {len(shortlist)} detail URLs in detail_plan.json; in the workbench run remote_details(<urls>, 'details') and remote_details(<tracked urls>, 'tracked'); then locally: wait details.json && prep")
 
 if stage == "prep":
@@ -155,6 +160,14 @@ if stage == "prep":
         facts[street] = {"address": p["address"], "price": s.get("price"), "built": d.get("built"), "dom": d.get("dom"), "status": d.get("status"), "history": d.get("history", ""), "flood": d.get("flood"), "tax_annual": d.get("tax_annual"), "mls": d.get("mls", ""), "listed_by": d.get("listed_by", ""), "zoning_line": (d.get("zoning_line") or "")[:120], "unit_rent_text": d.get("unit_rent_text", ""), "remarks": (d.get("remarks") or d.get("excerpt") or "")[:900], "tract_tier": s.get("tract_tier"), "tract_median_rent": s.get("tract_median_rent"), "rent_to_price_pct": s.get("rent_to_price_pct"), "beds": s.get("beds"), "sqft": s.get("sqft"), "photo_url": photo, "photo_local": local, "url": p["url"]}
         tmpl[street] = {"grade": "GREEN|GREEN-verify|YELLOW|RED|OUT", "c": "C1..C6 from the front photo", "units": 2, "units_txt": "one line: what the building is per remarks and photos", "rents": None, "cond": "one line: why this grade; RED items per file 08", "pnote": "one line photo note", "flood": d.get("flood"), "built": d.get("built"), "dom": d.get("dom"), "status": d.get("status"), "last_sold": ""}
     js(RUN + "facts.json", facts); js(RUN + "judgments_template.json", tmpl)
+    # clear the detail backlog flag for every shortlisted row whose detail page came back; the rest stay pending for next week
+    idx = {r["key"]: r for r in rd(PIPE + "seen_index.csv")}; fields_idx = list(next(iter(idx.values())).keys()); cleared = 0
+    for p in plan:
+        d = det.get(p["url"]) or det.get(p.get("zurl", "")) or {}; k = akey(p["address"])
+        if d and k in idx and idx[k].get("detail_pending") == "yes": idx[k]["detail_pending"] = ""; cleared += 1
+    if cleared: wr(PIPE + "seen_index.csv", list(idx.values()), fields_idx)
+    still = sum(1 for e in idx.values() if e.get("detail_pending") == "yes")
+    note(f"## Detail backlog: {cleared} shortlisted rows detailed this run; {still} rows still pending a detail page (all regions)")
     for street, f in facts.items():
         print(f"\n=== {f['address']} | ${f['price']} | built {f['built']} | dom {f['dom']} | {f['status']} | flood {f['flood']} | tax {f['tax_annual']} | tier {f['tract_tier']} med {f['tract_median_rent']} r2p {f['rent_to_price_pct']}\n  photo: {f['photo_local']}\n  history: {f['history'][:160]}\n  rent text: {f['unit_rent_text']}\n  remarks: {f['remarks'][:500]}")
     print(f"\nNEXT: view each photo with Read, then write judgments.json (copy judgments_template.json, fill grade/c/units/units_txt/rents/cond/pnote), then: underwrite")

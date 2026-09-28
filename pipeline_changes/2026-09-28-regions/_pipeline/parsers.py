@@ -72,7 +72,8 @@ def key(a):
     # 2026-09-28: the portals spell the same street differently (Zillow "749 Mount Airy St" vs Redfin "749 Mt Airy St" slipped through as a new listing on 9/21), so fold the common variants before matching
     s=re.sub(r'\b(mount)\b','mt',s); s=re.sub(r'\b(fort)\b','ft',s); s=re.sub(r'\b(saint)\b','st',s); s=re.sub(r'\b(terrace)\b','ter',s); s=re.sub(r'\b(parkway)\b','pkwy',s); s=re.sub(r'\b(highway)\b','hwy',s); s=re.sub(r'\b(trail)\b','trl',s); s=re.sub(r'\b(square)\b','sq',s)
     s=re.sub(r'\b(north ?east)\b','ne',s); s=re.sub(r'\b(north ?west)\b','nw',s); s=re.sub(r'\b(south ?east)\b','se',s); s=re.sub(r'\b(south ?west)\b','sw',s); s=re.sub(r'\b(north)\b','n',s); s=re.sub(r'\b(south)\b','s',s); s=re.sub(r'\b(east)\b','e',s); s=re.sub(r'\b(west)\b','w',s)
-    s=re.sub(r'\bunit .*$|\bapt .*$|#.*$','',s); s=re.sub(r'[^a-z0-9 ]','',s); return re.sub(r'\s+',' ',s).strip()
+    s=re.sub(r'\bunit .*$|\bapt .*$|#.*$','',s); s=re.sub(r'[^a-z0-9 ]','',s); s=re.sub(r'\s+',' ',s).strip()
+    return re.sub(r'\b(\w+)( \1\b)+','\\1',s)   # 2026-09-28: Zillow repeats the suffix ("Main Street St", "Arthur Ave Ave") -> one token, so the Redfin row matches
 
 def grab(c, pat, n=3, w=80, flags=re.I):
     out=[]

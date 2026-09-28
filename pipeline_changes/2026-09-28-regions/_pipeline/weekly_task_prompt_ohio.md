@@ -29,13 +29,13 @@ remote_fetch_lists(0); remote_fetch_lists(1); remote_fetch_lists(2)
 Cell B: remote_fetch_lists(3); remote_fetch_lists(4); health = remote_parse_lists()
 If cell B prints HALT (more than 20 percent of list pages failed), stop here and report; do not run ingest.
 
-STEP 3 (local): weekly_sweep.py wait listings_raw.csv --date=DATE --region=ohio; weekly_sweep.py wait fetch_counts.json --date=DATE --region=ohio; weekly_sweep.py ingest --date=DATE --region=ohio. Ingest updates the seen index, geocodes new addresses, applies this region's tract gate and the knockouts, and writes detail_plan.json (the shortlist). On the FIRST run of a region every listing is new, so the shortlist can be long; only the first 40 detail pages are fetched (step 4) and the rest wait for next week's diff.
+STEP 3 (local): weekly_sweep.py wait listings_raw.csv --date=DATE --region=ohio; weekly_sweep.py wait fetch_counts.json --date=DATE --region=ohio; weekly_sweep.py ingest --date=DATE --region=ohio. Ingest updates the seen index, geocodes new addresses, applies this region's tract gate and the knockouts, and writes detail_plan.json (the shortlist). On the FIRST run of a region every listing is new, so the shortlist can be long; only the first 50 detail pages are fetched (step 4) and the rest wait for next week's diff.
 
 STEP 4 (workbench, cell C): read the shortlist and the tracked list from Dropbox and fetch their detail pages:
-plan = json.loads(dbx_read(run_folder("DATE", "ohio") + "/detail_plan.json").decode("utf-8")); urls = [p["url"] for p in plan if p.get("url")][:40]
+plan = json.loads(dbx_read(run_folder("DATE", "ohio") + "/detail_plan.json").decode("utf-8")); urls = [p["url"] for p in plan if p.get("url")][:50]
 remote_details(urls, "details")
 tracked = json.loads(dbx_read(run_folder("DATE", "ohio") + "/tracked_urls.json").decode("utf-8")); remote_details([t["url"] for t in tracked], "tracked")
-(If the shortlist has more than 40 rows, only the first 40 are fetched; say so in the report.)
+(If the shortlist has more than 50 rows, only the first 50 are fetched (best rent-to-price first; the rest carry a detail-pending flag and return next week); say so in the report.)
 
 STEP 5 (local): weekly_sweep.py wait details.json --date=DATE --region=ohio; weekly_sweep.py prep --date=DATE --region=ohio. Prep merges the facts, downloads each shortlisted listing's front photo into the run folder's photos subfolder, prints a facts table (price, year built, days on market, status, flood factor, remarks) and writes judgments_template.json.
 
