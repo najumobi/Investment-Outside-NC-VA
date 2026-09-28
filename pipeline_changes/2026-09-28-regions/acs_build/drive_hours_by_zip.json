@@ -1,0 +1,1802 @@
+{
+ "13760": {
+  "place": "Endicott",
+  "st": "NY",
+  "osrm_h": 9.33,
+  "google_eq_h": 8.11
+ },
+ "19139": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.92,
+  "google_eq_h": 5.15
+ },
+ "13905": {
+  "place": "Binghamton",
+  "st": "NY",
+  "osrm_h": 9.04,
+  "google_eq_h": 7.86
+ },
+ "19111": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.2,
+  "google_eq_h": 5.39
+ },
+ "18702": {
+  "place": "Wilkes Barre",
+  "st": "PA",
+  "osrm_h": 7.72,
+  "google_eq_h": 6.71
+ },
+ "18704": {
+  "place": "Kingston",
+  "st": "PA",
+  "osrm_h": 7.57,
+  "google_eq_h": 6.59
+ },
+ "19148": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.86,
+  "google_eq_h": 5.1
+ },
+ "19121": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.0,
+  "google_eq_h": 5.22
+ },
+ "19149": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.14,
+  "google_eq_h": 5.34
+ },
+ "19131": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.0,
+  "google_eq_h": 5.22
+ },
+ "19151": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.92,
+  "google_eq_h": 5.15
+ },
+ "18504": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.85,
+  "google_eq_h": 6.82
+ },
+ "19120": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.14,
+  "google_eq_h": 5.34
+ },
+ "19143": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.86,
+  "google_eq_h": 5.1
+ },
+ "18509": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.84,
+  "google_eq_h": 6.82
+ },
+ "19152": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.19,
+  "google_eq_h": 5.38
+ },
+ "13903": {
+  "place": "Binghamton",
+  "st": "NY",
+  "osrm_h": 9.09,
+  "google_eq_h": 7.9
+ },
+ "19082": {
+  "place": "Upper Darby",
+  "st": "PA",
+  "osrm_h": 5.87,
+  "google_eq_h": 5.11
+ },
+ "19114": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.21,
+  "google_eq_h": 5.4
+ },
+ "19601": {
+  "place": "Reading",
+  "st": "PA",
+  "osrm_h": 6.21,
+  "google_eq_h": 5.4
+ },
+ "08021": {
+  "place": "Clementon",
+  "st": "NJ",
+  "osrm_h": 6.0,
+  "google_eq_h": 5.22
+ },
+ "19144": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.13,
+  "google_eq_h": 5.33
+ },
+ "18505": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.79,
+  "google_eq_h": 6.77
+ },
+ "19141": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.12,
+  "google_eq_h": 5.32
+ },
+ "19050": {
+  "place": "Lansdowne",
+  "st": "PA",
+  "osrm_h": 5.84,
+  "google_eq_h": 5.08
+ },
+ "14830": {
+  "place": "Corning",
+  "st": "NY",
+  "osrm_h": 8.93,
+  "google_eq_h": 7.77
+ },
+ "08105": {
+  "place": "Camden",
+  "st": "NJ",
+  "osrm_h": 5.95,
+  "google_eq_h": 5.18
+ },
+ "19401": {
+  "place": "Norristown",
+  "st": "PA",
+  "osrm_h": 6.11,
+  "google_eq_h": 5.32
+ },
+ "19446": {
+  "place": "Lansdale",
+  "st": "PA",
+  "osrm_h": 6.32,
+  "google_eq_h": 5.5
+ },
+ "14843": {
+  "place": "Hornell",
+  "st": "NY",
+  "osrm_h": 9.74,
+  "google_eq_h": 8.47
+ },
+ "18512": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.87,
+  "google_eq_h": 6.84
+ },
+ "08360": {
+  "place": "Vineland",
+  "st": "NJ",
+  "osrm_h": 6.05,
+  "google_eq_h": 5.26
+ },
+ "18510": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.79,
+  "google_eq_h": 6.77
+ },
+ "19128": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.13,
+  "google_eq_h": 5.33
+ },
+ "19136": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.15,
+  "google_eq_h": 5.35
+ },
+ "19153": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.76,
+  "google_eq_h": 5.01
+ },
+ "19023": {
+  "place": "Darby",
+  "st": "PA",
+  "osrm_h": 5.76,
+  "google_eq_h": 5.01
+ },
+ "19805": {
+  "place": "Wilmington",
+  "st": "DE",
+  "osrm_h": 5.31,
+  "google_eq_h": 4.61
+ },
+ "18508": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.88,
+  "google_eq_h": 6.85
+ },
+ "08401": {
+  "place": "Atlantic City",
+  "st": "NJ",
+  "osrm_h": 6.82,
+  "google_eq_h": 5.93
+ },
+ "13790": {
+  "place": "Johnson City",
+  "st": "NY",
+  "osrm_h": 9.08,
+  "google_eq_h": 7.89
+ },
+ "17815": {
+  "place": "Bloomsburg",
+  "st": "PA",
+  "osrm_h": 7.27,
+  "google_eq_h": 6.32
+ },
+ "17901": {
+  "place": "Pottsville",
+  "st": "PA",
+  "osrm_h": 6.6,
+  "google_eq_h": 5.74
+ },
+ "14901": {
+  "place": "Elmira",
+  "st": "NY",
+  "osrm_h": 9.02,
+  "google_eq_h": 7.84
+ },
+ "19026": {
+  "place": "Drexel Hill",
+  "st": "PA",
+  "osrm_h": 5.79,
+  "google_eq_h": 5.03
+ },
+ "19140": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.07,
+  "google_eq_h": 5.28
+ },
+ "19020": {
+  "place": "Bensalem",
+  "st": "PA",
+  "osrm_h": 6.29,
+  "google_eq_h": 5.47
+ },
+ "19134": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.0,
+  "google_eq_h": 5.22
+ },
+ "19720": {
+  "place": "New Castle",
+  "st": "DE",
+  "osrm_h": 5.25,
+  "google_eq_h": 4.56
+ },
+ "08052": {
+  "place": "Maple Shade",
+  "st": "NJ",
+  "osrm_h": 6.06,
+  "google_eq_h": 5.27
+ },
+ "18201": {
+  "place": "Hazleton",
+  "st": "PA",
+  "osrm_h": 6.99,
+  "google_eq_h": 6.08
+ },
+ "18407": {
+  "place": "Carbondale",
+  "st": "PA",
+  "osrm_h": 8.19,
+  "google_eq_h": 7.12
+ },
+ "19125": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.97,
+  "google_eq_h": 5.19
+ },
+ "13904": {
+  "place": "Binghamton",
+  "st": "NY",
+  "osrm_h": 9.0,
+  "google_eq_h": 7.83
+ },
+ "18603": {
+  "place": "Berwick",
+  "st": "PA",
+  "osrm_h": 7.38,
+  "google_eq_h": 6.41
+ },
+ "19104": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.94,
+  "google_eq_h": 5.16
+ },
+ "19460": {
+  "place": "Phoenixville",
+  "st": "PA",
+  "osrm_h": 6.11,
+  "google_eq_h": 5.31
+ },
+ "19145": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 5.83,
+  "google_eq_h": 5.07
+ },
+ "19604": {
+  "place": "Reading",
+  "st": "PA",
+  "osrm_h": 6.24,
+  "google_eq_h": 5.42
+ },
+ "18634": {
+  "place": "Nanticoke",
+  "st": "PA",
+  "osrm_h": 7.46,
+  "google_eq_h": 6.49
+ },
+ "18640": {
+  "place": "Pittston",
+  "st": "PA",
+  "osrm_h": 7.65,
+  "google_eq_h": 6.65
+ },
+ "19135": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.14,
+  "google_eq_h": 5.34
+ },
+ "19154": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.25,
+  "google_eq_h": 5.43
+ },
+ "08060": {
+  "place": "Mount Holly",
+  "st": "NJ",
+  "osrm_h": 6.22,
+  "google_eq_h": 5.41
+ },
+ "08232": {
+  "place": "Pleasantville",
+  "st": "NJ",
+  "osrm_h": 6.72,
+  "google_eq_h": 5.84
+ },
+ "19464": {
+  "place": "Pottstown",
+  "st": "PA",
+  "osrm_h": 6.38,
+  "google_eq_h": 5.55
+ },
+ "19115": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.27,
+  "google_eq_h": 5.45
+ },
+ "19138": {
+  "place": "Philadelphia",
+  "st": "PA",
+  "osrm_h": 6.17,
+  "google_eq_h": 5.36
+ },
+ "08075": {
+  "place": "Riverside",
+  "st": "NJ",
+  "osrm_h": 6.18,
+  "google_eq_h": 5.38
+ },
+ "19013": {
+  "place": "Chester",
+  "st": "PA",
+  "osrm_h": 5.5,
+  "google_eq_h": 4.78
+ },
+ "18447": {
+  "place": "Olyphant",
+  "st": "PA",
+  "osrm_h": 7.91,
+  "google_eq_h": 6.88
+ },
+ "18705": {
+  "place": "Wilkes Barre",
+  "st": "PA",
+  "osrm_h": 7.56,
+  "google_eq_h": 6.57
+ },
+ "19007": {
+  "place": "Bristol",
+  "st": "PA",
+  "osrm_h": 6.37,
+  "google_eq_h": 5.54
+ },
+ "19018": {
+  "place": "Clifton Heights",
+  "st": "PA",
+  "osrm_h": 5.76,
+  "google_eq_h": 5.01
+ },
+ "13827": {
+  "place": "Owego",
+  "st": "NY",
+  "osrm_h": 9.14,
+  "google_eq_h": 7.95
+ },
+ "19090": {
+  "place": "Willow Grove",
+  "st": "PA",
+  "osrm_h": 6.25,
+  "google_eq_h": 5.43
+ },
+ "14845": {
+  "place": "Horseheads",
+  "st": "NY",
+  "osrm_h": 9.1,
+  "google_eq_h": 7.91
+ },
+ "18518": {
+  "place": "Old Forge",
+  "st": "PA",
+  "osrm_h": 7.77,
+  "google_eq_h": 6.75
+ },
+ "18706": {
+  "place": "Wilkes Barre",
+  "st": "PA",
+  "osrm_h": 7.38,
+  "google_eq_h": 6.42
+ },
+ "17801": {
+  "place": "Sunbury",
+  "st": "PA",
+  "osrm_h": 6.72,
+  "google_eq_h": 5.84
+ },
+ "13901": {
+  "place": "Binghamton",
+  "st": "NY",
+  "osrm_h": 9.01,
+  "google_eq_h": 7.84
+ },
+ "18643": {
+  "place": "Pittston",
+  "st": "PA",
+  "osrm_h": 7.84,
+  "google_eq_h": 6.81
+ },
+ "18644": {
+  "place": "Wyoming",
+  "st": "PA",
+  "osrm_h": 7.72,
+  "google_eq_h": 6.72
+ },
+ "18651": {
+  "place": "Plymouth",
+  "st": "PA",
+  "osrm_h": 7.56,
+  "google_eq_h": 6.58
+ },
+ "14892": {
+  "place": "Waverly",
+  "st": "NY",
+  "osrm_h": 8.71,
+  "google_eq_h": 7.58
+ },
+ "18202": {
+  "place": "Hazleton",
+  "st": "PA",
+  "osrm_h": 7.04,
+  "google_eq_h": 6.13
+ },
+ "18641": {
+  "place": "Pittston",
+  "st": "PA",
+  "osrm_h": 7.64,
+  "google_eq_h": 6.64
+ },
+ "17870": {
+  "place": "Selinsgrove",
+  "st": "PA",
+  "osrm_h": 6.62,
+  "google_eq_h": 5.76
+ },
+ "18612": {
+  "place": "Dallas",
+  "st": "PA",
+  "osrm_h": 7.82,
+  "google_eq_h": 6.8
+ },
+ "18452": {
+  "place": "Peckville",
+  "st": "PA",
+  "osrm_h": 7.95,
+  "google_eq_h": 6.92
+ },
+ "18434": {
+  "place": "Jessup",
+  "st": "PA",
+  "osrm_h": 7.96,
+  "google_eq_h": 6.92
+ },
+ "18252": {
+  "place": "Tamaqua",
+  "st": "PA",
+  "osrm_h": 6.97,
+  "google_eq_h": 6.06
+ },
+ "18411": {
+  "place": "Clarks Summit",
+  "st": "PA",
+  "osrm_h": 8.02,
+  "google_eq_h": 6.97
+ },
+ "18519": {
+  "place": "Scranton",
+  "st": "PA",
+  "osrm_h": 7.78,
+  "google_eq_h": 6.77
+ },
+ "18517": {
+  "place": "Taylor",
+  "st": "PA",
+  "osrm_h": 7.78,
+  "google_eq_h": 6.76
+ },
+ "18237": {
+  "place": "Mcadoo",
+  "st": "PA",
+  "osrm_h": 6.91,
+  "google_eq_h": 6.01
+ },
+ "18642": {
+  "place": "Duryea",
+  "st": "PA",
+  "osrm_h": 7.75,
+  "google_eq_h": 6.74
+ },
+ "18433": {
+  "place": "Jermyn",
+  "st": "PA",
+  "osrm_h": 8.15,
+  "google_eq_h": 7.09
+ },
+ "13850": {
+  "place": "Vestal",
+  "st": "NY",
+  "osrm_h": 9.24,
+  "google_eq_h": 8.03
+ },
+ "13811": {
+  "place": "Newark Valley",
+  "st": "NY",
+  "osrm_h": 9.41,
+  "google_eq_h": 8.19
+ },
+ "15221": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.34,
+  "google_eq_h": 6.38
+ },
+ "16001": {
+  "place": "Butler",
+  "st": "PA",
+  "osrm_h": 8.05,
+  "google_eq_h": 7.0
+ },
+ "21502": {
+  "place": "Cumberland",
+  "st": "MD",
+  "osrm_h": 5.35,
+  "google_eq_h": 4.65
+ },
+ "15210": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.59,
+  "google_eq_h": 6.6
+ },
+ "15203": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.51,
+  "google_eq_h": 6.53
+ },
+ "26101": {
+  "place": "Parkersburg",
+  "st": "WV",
+  "osrm_h": 8.11,
+  "google_eq_h": 7.05
+ },
+ "15216": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.59,
+  "google_eq_h": 6.6
+ },
+ "44460": {
+  "place": "Salem",
+  "st": "OH",
+  "osrm_h": 8.7,
+  "google_eq_h": 7.56
+ },
+ "15401": {
+  "place": "Uniontown",
+  "st": "PA",
+  "osrm_h": 6.54,
+  "google_eq_h": 5.69
+ },
+ "44512": {
+  "place": "Youngstown",
+  "st": "OH",
+  "osrm_h": 8.42,
+  "google_eq_h": 7.32
+ },
+ "15205": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.65,
+  "google_eq_h": 6.66
+ },
+ "15601": {
+  "place": "Greensburg",
+  "st": "PA",
+  "osrm_h": 7.04,
+  "google_eq_h": 6.12
+ },
+ "26554": {
+  "place": "Fairmont",
+  "st": "WV",
+  "osrm_h": 7.03,
+  "google_eq_h": 6.11
+ },
+ "15202": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.7,
+  "google_eq_h": 6.69
+ },
+ "25701": {
+  "place": "Huntington",
+  "st": "WV",
+  "osrm_h": 7.8,
+  "google_eq_h": 6.78
+ },
+ "15301": {
+  "place": "Washington",
+  "st": "PA",
+  "osrm_h": 7.45,
+  "google_eq_h": 6.48
+ },
+ "15701": {
+  "place": "Indiana",
+  "st": "PA",
+  "osrm_h": 7.17,
+  "google_eq_h": 6.23
+ },
+ "15211": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.54,
+  "google_eq_h": 6.56
+ },
+ "15227": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.53,
+  "google_eq_h": 6.55
+ },
+ "15224": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.51,
+  "google_eq_h": 6.53
+ },
+ "15136": {
+  "place": "Mc Kees Rocks",
+  "st": "PA",
+  "osrm_h": 7.65,
+  "google_eq_h": 6.65
+ },
+ "15212": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.48,
+  "google_eq_h": 6.5
+ },
+ "15068": {
+  "place": "New Kensington",
+  "st": "PA",
+  "osrm_h": 7.54,
+  "google_eq_h": 6.56
+ },
+ "15120": {
+  "place": "Homestead",
+  "st": "PA",
+  "osrm_h": 7.49,
+  "google_eq_h": 6.52
+ },
+ "15106": {
+  "place": "Carnegie",
+  "st": "PA",
+  "osrm_h": 7.63,
+  "google_eq_h": 6.64
+ },
+ "43952": {
+  "place": "Steubenville",
+  "st": "OH",
+  "osrm_h": 8.31,
+  "google_eq_h": 7.22
+ },
+ "26301": {
+  "place": "Clarksburg",
+  "st": "WV",
+  "osrm_h": 6.74,
+  "google_eq_h": 5.86
+ },
+ "44446": {
+  "place": "Niles",
+  "st": "OH",
+  "osrm_h": 8.78,
+  "google_eq_h": 7.64
+ },
+ "45750": {
+  "place": "Marietta",
+  "st": "OH",
+  "osrm_h": 8.35,
+  "google_eq_h": 7.26
+ },
+ "15650": {
+  "place": "Latrobe",
+  "st": "PA",
+  "osrm_h": 7.0,
+  "google_eq_h": 6.09
+ },
+ "15108": {
+  "place": "Coraopolis",
+  "st": "PA",
+  "osrm_h": 7.84,
+  "google_eq_h": 6.82
+ },
+ "15010": {
+  "place": "Beaver Falls",
+  "st": "PA",
+  "osrm_h": 8.08,
+  "google_eq_h": 7.03
+ },
+ "44484": {
+  "place": "Warren",
+  "st": "OH",
+  "osrm_h": 8.83,
+  "google_eq_h": 7.68
+ },
+ "44515": {
+  "place": "Youngstown",
+  "st": "OH",
+  "osrm_h": 8.67,
+  "google_eq_h": 7.54
+ },
+ "26003": {
+  "place": "Wheeling",
+  "st": "WV",
+  "osrm_h": 8.19,
+  "google_eq_h": 7.12
+ },
+ "15501": {
+  "place": "Somerset",
+  "st": "PA",
+  "osrm_h": 6.14,
+  "google_eq_h": 5.34
+ },
+ "15425": {
+  "place": "Connellsville",
+  "st": "PA",
+  "osrm_h": 6.84,
+  "google_eq_h": 5.95
+ },
+ "15226": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.6,
+  "google_eq_h": 6.61
+ },
+ "16125": {
+  "place": "Greenville",
+  "st": "PA",
+  "osrm_h": 8.88,
+  "google_eq_h": 7.73
+ },
+ "26505": {
+  "place": "Morgantown",
+  "st": "WV",
+  "osrm_h": 6.5,
+  "google_eq_h": 5.65
+ },
+ "15902": {
+  "place": "Johnstown",
+  "st": "PA",
+  "osrm_h": 6.4,
+  "google_eq_h": 5.56
+ },
+ "25705": {
+  "place": "Huntington",
+  "st": "WV",
+  "osrm_h": 7.67,
+  "google_eq_h": 6.67
+ },
+ "15145": {
+  "place": "Turtle Creek",
+  "st": "PA",
+  "osrm_h": 7.32,
+  "google_eq_h": 6.37
+ },
+ "16101": {
+  "place": "New Castle",
+  "st": "PA",
+  "osrm_h": 8.26,
+  "google_eq_h": 7.18
+ },
+ "44483": {
+  "place": "Warren",
+  "st": "OH",
+  "osrm_h": 8.92,
+  "google_eq_h": 7.76
+ },
+ "15644": {
+  "place": "Jeannette",
+  "st": "PA",
+  "osrm_h": 7.05,
+  "google_eq_h": 6.13
+ },
+ "15642": {
+  "place": "Irwin",
+  "st": "PA",
+  "osrm_h": 7.04,
+  "google_eq_h": 6.12
+ },
+ "16146": {
+  "place": "Sharon",
+  "st": "PA",
+  "osrm_h": 8.63,
+  "google_eq_h": 7.51
+ },
+ "15104": {
+  "place": "Braddock",
+  "st": "PA",
+  "osrm_h": 7.33,
+  "google_eq_h": 6.37
+ },
+ "15218": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.35,
+  "google_eq_h": 6.39
+ },
+ "15003": {
+  "place": "Ambridge",
+  "st": "PA",
+  "osrm_h": 7.97,
+  "google_eq_h": 6.93
+ },
+ "44444": {
+  "place": "Newton Falls",
+  "st": "OH",
+  "osrm_h": 8.82,
+  "google_eq_h": 7.67
+ },
+ "15666": {
+  "place": "Mount Pleasant",
+  "st": "PA",
+  "osrm_h": 6.86,
+  "google_eq_h": 5.97
+ },
+ "15132": {
+  "place": "Mckeesport",
+  "st": "PA",
+  "osrm_h": 7.31,
+  "google_eq_h": 6.35
+ },
+ "15022": {
+  "place": "Charleroi",
+  "st": "PA",
+  "osrm_h": 7.12,
+  "google_eq_h": 6.19
+ },
+ "15229": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.69,
+  "google_eq_h": 6.69
+ },
+ "15208": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.42,
+  "google_eq_h": 6.45
+ },
+ "15220": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.58,
+  "google_eq_h": 6.59
+ },
+ "15217": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.42,
+  "google_eq_h": 6.45
+ },
+ "15219": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.47,
+  "google_eq_h": 6.5
+ },
+ "15234": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.6,
+  "google_eq_h": 6.61
+ },
+ "15066": {
+  "place": "New Brighton",
+  "st": "PA",
+  "osrm_h": 8.06,
+  "google_eq_h": 7.01
+ },
+ "15906": {
+  "place": "Johnstown",
+  "st": "PA",
+  "osrm_h": 6.56,
+  "google_eq_h": 5.7
+ },
+ "41101": {
+  "place": "Ashland",
+  "st": "KY",
+  "osrm_h": 8.08,
+  "google_eq_h": 7.02
+ },
+ "15717": {
+  "place": "Blairsville",
+  "st": "PA",
+  "osrm_h": 7.1,
+  "google_eq_h": 6.18
+ },
+ "15904": {
+  "place": "Johnstown",
+  "st": "PA",
+  "osrm_h": 6.31,
+  "google_eq_h": 5.49
+ },
+ "26062": {
+  "place": "Weirton",
+  "st": "WV",
+  "osrm_h": 8.34,
+  "google_eq_h": 7.25
+ },
+ "25311": {
+  "place": "Charleston",
+  "st": "WV",
+  "osrm_h": 6.82,
+  "google_eq_h": 5.93
+ },
+ "25177": {
+  "place": "Saint Albans",
+  "st": "WV",
+  "osrm_h": 7.16,
+  "google_eq_h": 6.23
+ },
+ "43935": {
+  "place": "Martins Ferry",
+  "st": "OH",
+  "osrm_h": 8.16,
+  "google_eq_h": 7.1
+ },
+ "44420": {
+  "place": "Girard",
+  "st": "OH",
+  "osrm_h": 8.69,
+  "google_eq_h": 7.56
+ },
+ "15209": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.62,
+  "google_eq_h": 6.63
+ },
+ "43906": {
+  "place": "Bellaire",
+  "st": "OH",
+  "osrm_h": 8.18,
+  "google_eq_h": 7.11
+ },
+ "16127": {
+  "place": "Grove City",
+  "st": "PA",
+  "osrm_h": 8.41,
+  "google_eq_h": 7.32
+ },
+ "15201": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.6,
+  "google_eq_h": 6.61
+ },
+ "26501": {
+  "place": "Morgantown",
+  "st": "WV",
+  "osrm_h": 6.62,
+  "google_eq_h": 5.76
+ },
+ "15214": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.62,
+  "google_eq_h": 6.62
+ },
+ "15065": {
+  "place": "Natrona Heights",
+  "st": "PA",
+  "osrm_h": 7.62,
+  "google_eq_h": 6.62
+ },
+ "15905": {
+  "place": "Johnstown",
+  "st": "PA",
+  "osrm_h": 6.51,
+  "google_eq_h": 5.66
+ },
+ "45714": {
+  "place": "Belpre",
+  "st": "OH",
+  "osrm_h": 8.25,
+  "google_eq_h": 7.17
+ },
+ "15215": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.57,
+  "google_eq_h": 6.58
+ },
+ "15223": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.54,
+  "google_eq_h": 6.56
+ },
+ "15001": {
+  "place": "Aliquippa",
+  "st": "PA",
+  "osrm_h": 8.04,
+  "google_eq_h": 6.99
+ },
+ "15207": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.49,
+  "google_eq_h": 6.52
+ },
+ "15084": {
+  "place": "Tarentum",
+  "st": "PA",
+  "osrm_h": 7.6,
+  "google_eq_h": 6.61
+ },
+ "15683": {
+  "place": "Scottdale",
+  "st": "PA",
+  "osrm_h": 6.92,
+  "google_eq_h": 6.02
+ },
+ "21532": {
+  "place": "Frostburg",
+  "st": "MD",
+  "osrm_h": 5.41,
+  "google_eq_h": 4.7
+ },
+ "15147": {
+  "place": "Verona",
+  "st": "PA",
+  "osrm_h": 7.39,
+  "google_eq_h": 6.42
+ },
+ "43953": {
+  "place": "Steubenville",
+  "st": "OH",
+  "osrm_h": 8.39,
+  "google_eq_h": 7.29
+ },
+ "16201": {
+  "place": "Kittanning",
+  "st": "PA",
+  "osrm_h": 7.72,
+  "google_eq_h": 6.72
+ },
+ "15112": {
+  "place": "East Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.28,
+  "google_eq_h": 6.33
+ },
+ "15235": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.3,
+  "google_eq_h": 6.34
+ },
+ "15137": {
+  "place": "North Versailles",
+  "st": "PA",
+  "osrm_h": 7.24,
+  "google_eq_h": 6.29
+ },
+ "15317": {
+  "place": "Canonsburg",
+  "st": "PA",
+  "osrm_h": 7.63,
+  "google_eq_h": 6.63
+ },
+ "15656": {
+  "place": "Leechburg",
+  "st": "PA",
+  "osrm_h": 7.62,
+  "google_eq_h": 6.62
+ },
+ "15690": {
+  "place": "Vandergrift",
+  "st": "PA",
+  "osrm_h": 7.56,
+  "google_eq_h": 6.58
+ },
+ "15206": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.5,
+  "google_eq_h": 6.52
+ },
+ "15204": {
+  "place": "Pittsburgh",
+  "st": "PA",
+  "osrm_h": 7.61,
+  "google_eq_h": 6.62
+ },
+ "15931": {
+  "place": "Ebensburg",
+  "st": "PA",
+  "osrm_h": 6.49,
+  "google_eq_h": 5.64
+ },
+ "26508": {
+  "place": "Morgantown",
+  "st": "WV",
+  "osrm_h": 6.6,
+  "google_eq_h": 5.74
+ },
+ "44107": {
+  "place": "Lakewood",
+  "st": "OH",
+  "osrm_h": 9.89,
+  "google_eq_h": 8.6
+ },
+ "44102": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.78,
+  "google_eq_h": 8.5
+ },
+ "44109": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.71,
+  "google_eq_h": 8.44
+ },
+ "44105": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.59,
+  "google_eq_h": 8.34
+ },
+ "44111": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.8,
+  "google_eq_h": 8.53
+ },
+ "44120": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.65,
+  "google_eq_h": 8.39
+ },
+ "44646": {
+  "place": "Massillon",
+  "st": "OH",
+  "osrm_h": 9.68,
+  "google_eq_h": 8.42
+ },
+ "45324": {
+  "place": "Fairborn",
+  "st": "OH",
+  "osrm_h": 10.47,
+  "google_eq_h": 9.11
+ },
+ "44110": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.89,
+  "google_eq_h": 8.6
+ },
+ "44708": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.52,
+  "google_eq_h": 8.28
+ },
+ "44035": {
+  "place": "Elyria",
+  "st": "OH",
+  "osrm_h": 9.97,
+  "google_eq_h": 8.67
+ },
+ "44870": {
+  "place": "Sandusky",
+  "st": "OH",
+  "osrm_h": 10.59,
+  "google_eq_h": 9.21
+ },
+ "45365": {
+  "place": "Sidney",
+  "st": "OH",
+  "osrm_h": 11.28,
+  "google_eq_h": 9.81
+ },
+ "45429": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.57,
+  "google_eq_h": 9.2
+ },
+ "43606": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.6,
+  "google_eq_h": 10.09
+ },
+ "44306": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.26,
+  "google_eq_h": 8.05
+ },
+ "44663": {
+  "place": "New Philadelphia",
+  "st": "OH",
+  "osrm_h": 9.38,
+  "google_eq_h": 8.15
+ },
+ "44108": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.86,
+  "google_eq_h": 8.57
+ },
+ "44203": {
+  "place": "Barberton",
+  "st": "OH",
+  "osrm_h": 9.48,
+  "google_eq_h": 8.25
+ },
+ "43420": {
+  "place": "Fremont",
+  "st": "OH",
+  "osrm_h": 10.91,
+  "google_eq_h": 9.48
+ },
+ "43615": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.53,
+  "google_eq_h": 10.03
+ },
+ "43614": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.48,
+  "google_eq_h": 9.98
+ },
+ "44601": {
+  "place": "Alliance",
+  "st": "OH",
+  "osrm_h": 9.05,
+  "google_eq_h": 7.87
+ },
+ "44106": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.78,
+  "google_eq_h": 8.51
+ },
+ "45405": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.58,
+  "google_eq_h": 9.2
+ },
+ "44125": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.61,
+  "google_eq_h": 8.36
+ },
+ "44221": {
+  "place": "Cuyahoga Falls",
+  "st": "OH",
+  "osrm_h": 9.34,
+  "google_eq_h": 8.12
+ },
+ "45431": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.43,
+  "google_eq_h": 9.07
+ },
+ "45424": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.62,
+  "google_eq_h": 9.24
+ },
+ "45503": {
+  "place": "Springfield",
+  "st": "OH",
+  "osrm_h": 10.6,
+  "google_eq_h": 9.22
+ },
+ "45458": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.6,
+  "google_eq_h": 9.22
+ },
+ "44004": {
+  "place": "Ashtabula",
+  "st": "OH",
+  "osrm_h": 9.64,
+  "google_eq_h": 8.38
+ },
+ "44104": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.68,
+  "google_eq_h": 8.42
+ },
+ "43612": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.55,
+  "google_eq_h": 10.04
+ },
+ "43613": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.6,
+  "google_eq_h": 10.09
+ },
+ "44077": {
+  "place": "Painesville",
+  "st": "OH",
+  "osrm_h": 9.92,
+  "google_eq_h": 8.63
+ },
+ "44134": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.78,
+  "google_eq_h": 8.5
+ },
+ "44720": {
+  "place": "North Canton",
+  "st": "OH",
+  "osrm_h": 9.46,
+  "google_eq_h": 8.23
+ },
+ "45406": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.62,
+  "google_eq_h": 9.24
+ },
+ "45331": {
+  "place": "Greenville",
+  "st": "OH",
+  "osrm_h": 11.28,
+  "google_eq_h": 9.81
+ },
+ "45449": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.69,
+  "google_eq_h": 9.29
+ },
+ "44103": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.81,
+  "google_eq_h": 8.53
+ },
+ "43402": {
+  "place": "Bowling Green",
+  "st": "OH",
+  "osrm_h": 11.63,
+  "google_eq_h": 10.11
+ },
+ "45420": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.5,
+  "google_eq_h": 9.13
+ },
+ "45459": {
+  "place": "Dayton",
+  "st": "OH",
+  "osrm_h": 10.53,
+  "google_eq_h": 9.16
+ },
+ "44118": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.69,
+  "google_eq_h": 8.42
+ },
+ "44052": {
+  "place": "Lorain",
+  "st": "OH",
+  "osrm_h": 10.05,
+  "google_eq_h": 8.74
+ },
+ "44060": {
+  "place": "Mentor",
+  "st": "OH",
+  "osrm_h": 9.95,
+  "google_eq_h": 8.65
+ },
+ "44266": {
+  "place": "Ravenna",
+  "st": "OH",
+  "osrm_h": 9.03,
+  "google_eq_h": 7.85
+ },
+ "44144": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.72,
+  "google_eq_h": 8.46
+ },
+ "44709": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.45,
+  "google_eq_h": 8.22
+ },
+ "44240": {
+  "place": "Kent",
+  "st": "OH",
+  "osrm_h": 9.17,
+  "google_eq_h": 7.97
+ },
+ "44857": {
+  "place": "Norwalk",
+  "st": "OH",
+  "osrm_h": 10.55,
+  "google_eq_h": 9.18
+ },
+ "44224": {
+  "place": "Stow",
+  "st": "OH",
+  "osrm_h": 9.36,
+  "google_eq_h": 8.14
+ },
+ "44146": {
+  "place": "Bedford",
+  "st": "OH",
+  "osrm_h": 9.42,
+  "google_eq_h": 8.19
+ },
+ "44202": {
+  "place": "Aurora",
+  "st": "OH",
+  "osrm_h": 9.31,
+  "google_eq_h": 8.09
+ },
+ "44314": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.36,
+  "google_eq_h": 8.14
+ },
+ "44123": {
+  "place": "Euclid",
+  "st": "OH",
+  "osrm_h": 9.83,
+  "google_eq_h": 8.54
+ },
+ "44302": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.36,
+  "google_eq_h": 8.14
+ },
+ "44641": {
+  "place": "Louisville",
+  "st": "OH",
+  "osrm_h": 9.26,
+  "google_eq_h": 8.05
+ },
+ "43812": {
+  "place": "Coshocton",
+  "st": "OH",
+  "osrm_h": 9.71,
+  "google_eq_h": 8.44
+ },
+ "43410": {
+  "place": "Clyde",
+  "st": "OH",
+  "osrm_h": 10.92,
+  "google_eq_h": 9.5
+ },
+ "44122": {
+  "place": "Beachwood",
+  "st": "OH",
+  "osrm_h": 9.6,
+  "google_eq_h": 8.34
+ },
+ "44622": {
+  "place": "Dover",
+  "st": "OH",
+  "osrm_h": 9.48,
+  "google_eq_h": 8.24
+ },
+ "43605": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.44,
+  "google_eq_h": 9.94
+ },
+ "44119": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.85,
+  "google_eq_h": 8.57
+ },
+ "44305": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.23,
+  "google_eq_h": 8.02
+ },
+ "44223": {
+  "place": "Cuyahoga Falls",
+  "st": "OH",
+  "osrm_h": 9.43,
+  "google_eq_h": 8.2
+ },
+ "44129": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.75,
+  "google_eq_h": 8.48
+ },
+ "44312": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.29,
+  "google_eq_h": 8.08
+ },
+ "44112": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.81,
+  "google_eq_h": 8.53
+ },
+ "44667": {
+  "place": "Orrville",
+  "st": "OH",
+  "osrm_h": 9.87,
+  "google_eq_h": 8.58
+ },
+ "44703": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.45,
+  "google_eq_h": 8.21
+ },
+ "43607": {
+  "place": "Toledo",
+  "st": "OH",
+  "osrm_h": 11.57,
+  "google_eq_h": 10.06
+ },
+ "44113": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.77,
+  "google_eq_h": 8.5
+ },
+ "44706": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.61,
+  "google_eq_h": 8.36
+ },
+ "44319": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.44,
+  "google_eq_h": 8.21
+ },
+ "44041": {
+  "place": "Geneva",
+  "st": "OH",
+  "osrm_h": 9.78,
+  "google_eq_h": 8.51
+ },
+ "44657": {
+  "place": "Minerva",
+  "st": "OH",
+  "osrm_h": 9.27,
+  "google_eq_h": 8.06
+ },
+ "44614": {
+  "place": "Canal Fulton",
+  "st": "OH",
+  "osrm_h": 9.7,
+  "google_eq_h": 8.44
+ },
+ "44055": {
+  "place": "Lorain",
+  "st": "OH",
+  "osrm_h": 9.99,
+  "google_eq_h": 8.69
+ },
+ "44320": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.36,
+  "google_eq_h": 8.14
+ },
+ "44130": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.7,
+  "google_eq_h": 8.44
+ },
+ "44310": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.33,
+  "google_eq_h": 8.11
+ },
+ "44691": {
+  "place": "Wooster",
+  "st": "OH",
+  "osrm_h": 10.09,
+  "google_eq_h": 8.78
+ },
+ "44311": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.27,
+  "google_eq_h": 8.06
+ },
+ "44811": {
+  "place": "Bellevue",
+  "st": "OH",
+  "osrm_h": 10.72,
+  "google_eq_h": 9.32
+ },
+ "44278": {
+  "place": "Tallmadge",
+  "st": "OH",
+  "osrm_h": 9.19,
+  "google_eq_h": 7.99
+ },
+ "44710": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.53,
+  "google_eq_h": 8.29
+ },
+ "44094": {
+  "place": "Willoughby",
+  "st": "OH",
+  "osrm_h": 9.83,
+  "google_eq_h": 8.55
+ },
+ "44647": {
+  "place": "Massillon",
+  "st": "OH",
+  "osrm_h": 9.75,
+  "google_eq_h": 8.48
+ },
+ "44057": {
+  "place": "Madison",
+  "st": "OH",
+  "osrm_h": 9.94,
+  "google_eq_h": 8.65
+ },
+ "44683": {
+  "place": "Uhrichsville",
+  "st": "OH",
+  "osrm_h": 9.22,
+  "google_eq_h": 8.02
+ },
+ "44281": {
+  "place": "Wadsworth",
+  "st": "OH",
+  "osrm_h": 9.57,
+  "google_eq_h": 8.32
+ },
+ "44301": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.3,
+  "google_eq_h": 8.08
+ },
+ "44256": {
+  "place": "Medina",
+  "st": "OH",
+  "osrm_h": 9.76,
+  "google_eq_h": 8.48
+ },
+ "44707": {
+  "place": "Canton",
+  "st": "OH",
+  "osrm_h": 9.57,
+  "google_eq_h": 8.32
+ },
+ "44212": {
+  "place": "Brunswick",
+  "st": "OH",
+  "osrm_h": 9.77,
+  "google_eq_h": 8.5
+ },
+ "44313": {
+  "place": "Akron",
+  "st": "OH",
+  "osrm_h": 9.46,
+  "google_eq_h": 8.23
+ },
+ "44121": {
+  "place": "Cleveland",
+  "st": "OH",
+  "osrm_h": 9.71,
+  "google_eq_h": 8.44
+ }
+}
