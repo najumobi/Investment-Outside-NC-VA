@@ -14,7 +14,7 @@ The campaign has so far used CrimeGrade's ZIP-level letter (file 09 and the `cri
 - `addresses_ohio_robbery_2026-09-29.csv` — the same addresses with the Robbery screenshot each was read from; Dayton appears twice, read from two screenshots taken at different window sizes, as a check.
 - `crimegrade_robbery_ohio_2026-09-29.csv` — their Robbery results.
 - `addresses_vawv_robbery_2026-09-29.csv` — the 33 Virginia and West Virginia rows of file 14 as of 2026-09-29, with the address sent to the geocoder, the Robbery screenshot each was read from, and the row's current `crime` letter.
-- `crimegrade_robbery_vawv_2026-09-29.csv` — their Robbery results. 556 Bellwood Rd, Newport News, lies about 1 km north of its screenshot and has no reading yet.
+- `crimegrade_robbery_vawv_2026-09-29.csv` — their Robbery results. File 14 lists 556 Bellwood Rd, Newport News, under 23607, but the Census geocoder and the row's own Redfin link put it in 23601, so it was read from a 23601 screenshot.
 - `.gitignore` — keeps the map images (`maps/`) and the scripts' cache out of the repository.
 
 The map images are not committed and the scripts never download from CrimeGrade. The images are CrimeGrade's, and its terms prohibit automated scraping without a license, so each map is saved by hand.
