@@ -1,0 +1,121 @@
+# Inaugural sweep appraisal: the four regional routines, run by hand on 2026-09-28
+
+Written 2026-09-29 (cloud session) against the run folders `_sweeps/2026-09-28`, `_sweeps/2026-09-28-phila`, `_sweeps/2026-09-28-pitt` and `_sweeps/2026-09-28-ohio`, `_sweeps/weekly_tally.csv`, file 14, the "Weekly sweeps log" in `_pipeline/README - pipeline handoff (2026-09-11).md`, `_pipeline/seen_index.csv` and the 2026-09-28 code (`weekly_sweep.py`, `sweep_remote.py`, `parsers.py`, mirrored in this repository under `pipeline_changes/2026-09-28-regions/`). Every figure below traces to one of those files. The question answered is Najum's: did the four sweeps perform as memo 64 expected?
+
+## 0. The one-paragraph answer
+
+Mechanically, yes, and better than the smoke test promised: all four routines fetched 200 of 200 list pages, parsed 3,412 listings across ten states (the `NC|VA` parser fix held), applied the tract gate, the knockouts, the tier bars, the rental-tax adjustments and the jurisdiction flags exactly as memo 64 specified, detailed 158 listings, folded 76 rows into file 14 with the right region tags, filled 68 CrimeGrade letters automatically, wrote the tally with its region column and left a 790-row detail backlog that is the mechanism working as designed. Three things happened that memo 64 did not anticipate, and the desktop sessions handled all three well: firing all four "Run now" buttons in the same minute collided in the shared Composio kernel (the Ohio session fetched the Pittsburgh list), the 180-second cell limit forced the tracked and detail fetches into halves, and `prep` built facts for the whole shortlist instead of the fifty rows detailed, which the sessions trimmed by hand. Two things I should have foreseen and did not are the real findings. First, ordering the detail queue by rent-to-price spent 125 of the 150 regional detail slots on listings at 1.8% or more, exactly the band memo 63 measured as reaching the live list 0.5 times in 33 (shells, packages, mis-listed units), so the first night tested the junk before the thesis; the Philadelphia CSA rows the expansion exists for sit in next week's queue. Second, those cheap rows now flood file 14: 73 unreviewed regional rows, 12 of them Wednesday-region duplexes (Johnstown, McKees Rocks, Steubenville, Huntington and others) priced $24,900 to $80,000 and scored 37 to 109 on tract-median rents, sit above every row Najum has ever reviewed. Five small code defects (§8) are worth fixing before the Tuesday 6:43 AM routine fires; none of them stops a run, and the sessions showed they can work around every one.
+
+## 1. What memo 64 expected and what happened
+
+| Memo 64 expectation (§8 and §9) | What the 2026-09-28 runs did |
+|---|---|
+| 200 list pages per region, about 13–20 s per 40-page cell | 200 of 200 pages in every region, 0 bad pages, 100 of 100 ZIPs with both portals; the collision-era kernel needed five cells of one or two batches, the fresh sandbox took the prompt's cells |
+| Redfin parsers accept the ten sweep states | 1,188 (phila), 826 (pitt), 855 (ohio) rows parsed; PA 942, NY 182, NJ 59, DE 5 in the Tuesday region; PA 646, WV 111, MD 33, OH 33, KY 3 on Wednesday |
+| Tuesday shortlist "on the order of 500–800", detail 50 | 287 shortlisted (the smoke ZIPs were the five densest), 50 detailed; Wednesday 318 and 50; Thursday 335 and 50 |
+| "Constants needed" will list many CrimeGrade letters on first runs | 25 + 20 + 20 letters fetched and written to `constants.json` (backups kept); NC/VA needed 3 letters and one drive time, also filled; tax rates for Lynchburg, Roanoke and Wilson still on the state default because `tax_zip` covers only the 300 regional ZIPs |
+| Tax and drive pre-filled by ZIP | Every regional row resolved tax and hours by ZIP; no state-default note on any regional row |
+| Tier bars, tier costs, −0.5 score term | Tier A 0.90% (Philadelphia 5.1–5.3 h, Cumberland 4.65 h), Tier B 0.95% + $600 + 4 points (Binghamton 7.8 h, Scranton 6.8 h, Pittsburgh 6.6 h), Tier C 1.05% + $1,400 + 4 points (every Ohio row 8.1–10.1 h, and Endicott at 8.11 h, which memo 64 §2 called Tier B in prose but the 8.0 h boundary makes C); NC/VA rows carry −0.5 instead of −2 |
+| Rental-tax adjustments | PA +$375, Philadelphia +$1,400, NY +$550, WV ×2.0, OH +0.17 points all present in `taxes_assumed` |
+| Jurisdiction flags in `why` and the note | Binghamton Good Cause on the 12 Binghamton-city entrants (not on Johnson City, Elmira or Corning, correctly), Philadelphia licensing on the 4 Philadelphia entrants, Maryland right of first refusal on Cumberland; no NJ row reached the detail set |
+| Region tag in file 14 events, region column in the tally, `detail_pending` backlog | `[phila]`, `[pitt]`, `[ohio]` on 72 of the 73 regional rows (§6 explains the missing one); tally rows for all four regions; 790 rows pending (237 + 268 + 285) |
+| One routine per weekday, 60-minute cap | Each region took roughly 20 minutes from plan to report once it ran alone; the four together took from 6:09 PM to 8:57 PM ET because of the collision |
+
+The tally the runs wrote:
+
+| region | ZIPs | listings | new | price cuts | shortlist | detailed | ENTRANT | OUT (RED) | OUT | folded into 14 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| ncva | 100 | 543 | 38 | 22 | 8 | 8 | 3 | 1 | 4 | 3 |
+| phila | 100 | 1,188 | 1,188 | 0 | 287 | 50 | 27 | 11 | 12 | 27 |
+| pitt | 100 | 826 | 826 | 0 | 318 | 50 | 23 | 10 | 17 | 23 |
+| ohio | 100 | 855 | 855 | 0 | 335 | 50 | 23 | 22 | 5 | 23 |
+
+(The NC/VA report line says "price cuts 25"; 22 is right. The report's counter lumps the three price rises in with the cuts; the tally counts cuts only.)
+
+## 2. Fetch and parse: as designed, with two coverage limits made visible
+
+Both portals answered every page. Per region the parse split was: Tuesday 607 Redfin-only rows, 147 Zillow-only, 434 on both; Wednesday 286 / 148 / 392; Thursday 422 / 112 / 321; NC/VA 76 / 114 / 353. Zillow's contribution is mostly confirmation, as in NC/VA.
+
+**The Redfin first-page cap now binds.** Redfin's ZIP page shows at most 41 cards. No NC/VA ZIP reaches it; nine regional ZIPs do, and Zillow's page title says how much sits behind the cap: 19139 (41 parsed, Zillow counts 75), 19140 (41, 73), 19104 (41, 59), 13905 (40, 72), 19121 (40, 149), 44102 (41, 78), 44109 (41, 67), 44105 (41, 72), 44120 (41, 77), 44110 (41, 50), 44108 (41, 56), 44112 (40, 46). Zillow's count includes triplexes, so the gap is smaller than the raw difference, but in the densest Philadelphia and Cleveland ZIPs the sweep sees roughly half the duplex stock and sees the rest only when a listing moves onto page one. A `page-2` fetch for ZIPs that return 41 cards (about nine extra pages a week) closes most of it.
+
+**29 of the 300 regional ZIP slots returned nothing on either portal**: 8 Tuesday (14845, 17870, 18433, 18434, 18644, 19007, 19020, 19720), 5 Wednesday (44460, 44515, 15717, 15904, 26508), 16 Thursday (43410, 44041, 44094, 44129, 44202, 44212, 44278, 44614, 44622, 44657, 44667, 44683, 45424, 45431, 45458, 45459). They cost 58 of the 600 list pages. The queue files carry the next candidates by passing stock; swapping these out is a one-line edit per ZIP.
+
+## 3. Ingest and the shortlist: as designed
+
+Knockouts per region (a row can carry several):
+
+| knockout | ncva (543) | phila (1,188) | pitt (826) | ohio (855) |
+|---|---|---|---|---|
+| rent-to-price under 0.9% | 352 | 728 | 349 | 303 |
+| tract fails Gate 1 at ×1.0 | 192 | 317 | 148 | 258 |
+| above hard ceiling | 165 | 190 | 91 | 33 |
+| not a duplex (unit count) | 80 | 84 | 72 | 40 |
+| not geocoded | 56 | 39 | 36 | 8 |
+| land | 17 | 10 | 35 | 13 |
+| clean rows | 73 | 287 | 318 | 336 |
+| shortlisted | 8 | 287 | 318 | 335 |
+
+NC/VA shortlists only new, relisted and price-cut rows, so 65 clean unchanged rows stayed where they were; the regions were all new. The shortlists are what memo 63 §4 predicted for the Rust Belt: a quarter to two-fifths of everything listed passes the money gates (phila 24%, pitt 38%, ohio 39%, against NC/VA's 13%). Rents are tract-median estimates on 280 of 287, 310 of 318 and 319 of 335 shortlisted rows; stated rents are rare on the list pages. The Census geocoder failed 3–4% of regional addresses (NC/VA's 10% is the home region's new-construction "Plan" listings, a pre-existing pattern). Shortlist medians: phila $190,000 at 1.10%, pitt $139,000 at 1.30%, ohio $140,000 at 1.28%; the shortlists themselves are sound.
+
+## 4. The detail cap ordering: the first night tested the wrong end of the queue
+
+`ingest` sorts the shortlist by rent-to-price, highest first, and the workbench fetches the first 50. What that produced:
+
+| region | detail rows 1–50: rent-to-price | rows at ≥ 1.8% | areas in the 50 | entrant price median | rows 51 onward (backlog) | backlog areas | backlog price median |
+|---|---|---|---|---|---|---|---|
+| phila | 5.05% → 1.49% | 25 | Binghamton 18, Philadelphia CSA 14, Elmira 9, Scranton 9 | $110,000 | 237 at 1.48% → 0.90% | Philadelphia CSA 100 (+ NJ 11, DE 3), Scranton 51, Binghamton 51, Elmira 10, Bloomsburg 7, Pottsville 4 | $210,000 |
+| pitt | 7.73% → 2.19% | 50 | Pittsburgh CSA 26, Johnstown 14, Parkersburg 5, Cumberland 2, Huntington 1, Wheeling 1, Fairmont 1 | $59,500 | 268 at 2.15% → 0.90% | Pittsburgh CSA 203, Cumberland 14, Johnstown 13, Fairmont 12, Youngstown 9, Charleston–Huntington 8, Morgantown 4, Parkersburg 4, Wheeling 1 | $150,000 |
+| ohio | 12.49% → 2.00% | 50 | Cleveland–Akron 39, Dayton 7, Toledo 4 | $89,900 | 285 at 2.00% → 0.90% | Cleveland–Akron 245, Toledo 21, Dayton 19 | $150,000 |
+
+Memo 63 §1.2 measured, on the 698 NC/VA listings, that money-passers at 1.8% or more reached the live list 0.5 times in 33 ("shells, package sales and mis-listed units") while the under-1.8% band reached it 59.5 times in 149; the whole projection is weighted on that finding. The sweep's ordering did the opposite of what the finding implies: 125 of the 150 regional detail slots went to rows at 1.8% or more, and the photo gate then found what memo 63 said it would: 43 RED shells and 34 Gate-3 rejects (twins sold as halves, triplexes, land, packages, storefronts) among the 150, and 7 of the slots were the same listing twice (a Zillow twin the key normalisation missed: "313 Village St #315" against "313-315 Village St", "709-711 Fruit St" against "Fruit Way", "761/763 & 761R Coleman Ave", "177 Pine St #179", "313 Grove Ave #315", "300 Longfellow St", "1364 & 1366 Marcy St"). The 73 regional rows that survived to file 14 are still mostly in that band: every Wednesday entrant is at 2.19% or more, every Thursday entrant at 1.67% or more, and 12 of the 27 Tuesday entrants at 1.8% or more (the Tuesday cut-off was 1.49%).
+
+The consequence for the thesis: memo 63's case for the expansion is Tier-A Philadelphia volume at ordinary rent-to-price. Fourteen of the 50 Tuesday detail slots went to the Philadelphia CSA and four of those folded; 114 Philadelphia CSA rows (100 PA, 11 NJ, 3 DE) wait in the backlog. The Tier-B bar of 0.95% and the Tier-C bar of 1.05% were never exercised: no region produced a NEAR-MISS because nothing near the bar was detailed. Next Tuesday will be different whatever the ordering, because the phila backlog has no rows left above 1.8%: its next 50 are 1.48% down to 1.26%, Philadelphia CSA 20, Binghamton 13, Scranton 10, Elmira 4, Pottsville 2, price median $150,000. Wednesday and Thursday still carry 27 and 23 rows above 1.8% at the front of their queues, so under the current ordering their next 50 start at 2.15% and 2.00% again (price medians $99,900 and $111,000); ordering the 0.9–1.8% band first would detail 1.78% → 1.42% ($113,950 median, Pittsburgh CSA 35 of 50) and 1.78% → 1.50% ($122,000, Cleveland–Akron 42 of 50) instead. The change is one sort key in `ingest` (§8, item 6).
+
+## 5. Judgments and folds: careful grading, distorted scores
+
+The photo judgments were done to the file 08 rule and read consistently across the three sessions: RED for plywood, tarps, bare sheathing, cash-only or no-contingency sales, condemned units and unpermitted second units; OUT with the true unit count for twins sold as halves, triplexes, packages and land; YELLOW where the remarks give no scope; GREEN-verify only where updates are itemised (372 Diven Ave, 245 N Ruby St, 299 Robinson St, 509-511 Naylor Rd, 312 N 7th St, 3446 E 125th St, 3601 Memphis Ave, 9816 Manor Ave). The sessions caught the twins by hand, marked the duplicate rows OUT so each property folds once, and flagged in the condition note every row whose detail page came back as navigation text (1104 Lake St, 5700 Kingsessing Ave, 426 Washington Ave, 840 Work Dr, 2326 E 95th St) and every unusable photo (613 Walnut St carries an "AI generated content" watermark, 33 Lydia St looks AI-smoothed, 259 Sunset Dr is a 270-pixel thumbnail). Two choices deserve Najum's eye: 426 Washington Ave, Huntington, folded as ENTRANT with a score of 79.9 (second on the whole board) with no photo, no remarks and no status, "graded YELLOW purely so it reaches review"; and 840 Work Dr, Akron, folded with no remarks and already CONTINGENT. A row the pipeline cannot see should stay `detail_pending` for a re-fetch rather than take a board position.
+
+**The scores.** The underwrite arithmetic is right (321-323 Slack St, Steubenville: $27,500, tract-median rent $827 × 2, taxes $317, insurance $1,200, travel $600, management 12%, loan 75% at the constants rate, cash-on-cash 113.7%). The assumption is what fails: a $27,500 duplex does not rent at the tract median without the capital that its price signals, and 70 of the 73 regional entrants rest on tract-median rents. The board now reads, in order: twelve Wednesday rows scored 37 to 109 (Steubenville, Huntington, Johnstown ×5, McKees Rocks ×2, McKeesport, Pittsburgh, Cumberland; prices $24,900 to $80,000), then Ohio and Tuesday rows from 37 down, the first NC/VA row of the night (1611 Floyd St, Lynchburg, 14.8) at position 44, and the first row Najum has ever reviewed at position 57. Nothing was lost (the reviewed rows keep their statuses and notes), but the ranking no longer carries information. Three fixes, any one of which helps: cap the rent used for scoring at 1.8% of price (the survival finding applied where it bites), sort unreviewed rows below reviewed ones, or add a `region` column so Najum can filter the board. The tax line has the same lean where a portal bill is known: `weekly_sweep.py` takes the higher of rate × price and the portal's bill only in North Carolina, so 713 Mcmillen St models $682 against Redfin's $1,666, 4697 E 85th St $2,388 against $4,379, 643 Rockford Ave $1,120 against $4,077 and 299 Robinson St $4,454 against $6,463. Applying the NC rule everywhere is a one-token change.
+
+**Statuses.** The fold writes every row as "ACTIVE (for sale)" whatever the detail page said. Seven regional entrants were not active when detailed: 12500 Ferris Ave and 840 Work Dr (CONTINGENT on Zillow), 312 N 7th St (CONTINGENT), 509-511 Naylor Rd, 214 Barron Ave, 3601 Memphis Ave and 9816 Manor Ave (status unknown, Zillow pages). Only Martins Ferry was corrected, by the Ohio run's refresh an hour later, and that correction overwrote its event text so it is the one folded row without "UNREVIEWED" or "[pitt]" in its event.
+
+**Crime.** Every one of the 20 Ohio ZIPs detailed is CrimeGrade F, D- or D (15 of the 23 Ohio entrants are F), so the ZIP letter no longer separates Cleveland candidates from one another; the 8% vacancy rule and the −3 penalty touch nearly every Ohio row. A neighbourhood-level source is needed before review time goes into the east side.
+
+## 6. Refresh: one race, one growth problem, one stale row
+
+The NC/VA refresh worked as before: 57 rows checked, 10 changes (three price cuts, two contingents, three off market, 639 Conover Rd back to active, and the 28-30 Hillcrest Ave URL mismatch). The Tuesday run then refreshed the same 57 rows from a `tracked_urls.json` written at 6:09 PM, before the NC/VA refresh had marked 132 Kemper Rd, 503 Granville St and 117 Motley Ave off market, so it re-stamped them and their event text now reads "was: OFF MARKET (2026-09-28)" instead of the "was: ACTIVE" history (the pre-run statuses survive in `_backup_14_before_0928.csv`). The Wednesday and Thursday sessions avoided the race by re-running `plan` before `ingest`, which the rules allow. `refresh` has guards for PENDING and CONTINGENT but none for OFF MARKET, and it replaces the event field rather than appending to it; both are two-line fixes.
+
+The tracked list grows with every fold and every region refreshes all of it: 57 rows on Monday, 84 on Wednesday, 107 on Thursday, about 130 refreshable rows now (124 active plus the pending and contingent ones). At eight workers that is already past the 180-second cell, which is why the sessions fetched it in halves; by November it will be three cells. Refreshing a row at most once a week (skip any row whose status or event already carries a date in the last six days) keeps the cost flat. The Hillcrest mismatch has now been reported four times; the Redfin URL in file 14 redirects to 28 Hillcrest Ave, and the row needs its URL or its status set by hand.
+
+## 7. Operations: the collision, the kernel and the clocks
+
+- **The collision.** Najum pressed "Run now" on all four routines at 6:09 PM ET. `sweep_remote.py` keeps its state in one module-level dictionary inside one shared Composio kernel, so four sessions calling `remote_setup` overwrote one another: the Ohio session fetched and parsed the Pittsburgh ZIP list and wrote a 160-of-200-page `listings_raw.csv` into the Pittsburgh folder at 6:14 PM (kept as `listings_raw.stale-collision-1814.csv`, never ingested). The NC/VA session restarted its fetch at 6:19 PM once the others had stopped; Tuesday re-ran alone at about 6:42 PM (its log line says "about 8:30 PM", which the file times contradict), Wednesday at 7:56 PM on a recycled sandbox, Thursday at 8:34 PM. The routines are on different weekdays, so the scheduled runs cannot collide, but `remote_setup` should refuse to start while the kernel holds another region's pages, and two regions should never be run by hand at once.
+- **The HALT check.** The collision-era kernel returned no printed output, so the "if cell B prints HALT" rule could not have fired; and `remote_parse_lists` counts only pages that were fetched and failed, so the 160-of-200 file (40 pages never fetched) would have passed the 20% test. The safe check belongs in the local `ingest`: refuse to run when `fetched_ok` is under 80% of `pages` in `fetch_counts.json`.
+- **Cell time.** Memo 64 budgeted "50 detail pages ≈ 50 s". Fifty Redfin detail pages through the unlocker with retries ran past 180 seconds, as did 57 tracked pages; every regional session split them into two cells and merged the halves. The prompts should say so (batches of 25), or `remote_details` should write partial files itself.
+- **The stale-file hazard.** `wait` returns as soon as a file exists; it cannot tell a collision-era `listings_raw.csv` from a fresh one. Having `plan` move any existing `listings_raw.csv`, `fetch_counts.json`, `details.json` and `tracked.json` aside closes it.
+- **The local scheduler.** The screenshots of the Monday routine show its 6:43 AM firing on 21 September marked "Skipped" and the run at 8:43 AM; a local routine fires only when the PC is awake. The three new routines share that dependency, and a skipped Tuesday simply waits for the next Tuesday unless it is run by hand.
+- **Logging.** The three regional sessions wrote the most useful run records the campaign has: every count, every constant added, every workaround and every defect, with backups of the files they touched. Nothing in this appraisal contradicts them; §4 and §5 are the additions.
+
+## 8. Defects and their fixes, in the order they matter
+
+1. **Detail ordering by rent-to-price** (`weekly_sweep.py`, `ingest`, the `shortlist.sort` line). Sort the 0.9–1.8% band first, highest first, then the ≥ 1.8% rows; optionally a $50,000 price floor. Design change; Najum's call (§4).
+2. **Board flooding and score distortion** (`underwrite`). Cap the rent used for scoring at 1.8% of price, or sort unreviewed rows below reviewed ones, or add a `region` column to file 14. Design change (§5).
+3. **`prep` builds facts and the judgment template for every plan row** (`prep`, the `for p in plan` loop; `underwrite`, the `no judgment` note). Only rows with a fetched detail page belong in `facts.json` and the template; `underwrite` should count skipped rows in one line, not one line each. Code bug; produced 237, 268 and 285 noise lines that the sessions filtered or trimmed by hand.
+4. **Folded rows are always "ACTIVE (for sale)"** (`underwrite`, the `row = {...}` literal). Take the status from the judgment or the facts; do not fold SOLD or OFF MARKET rows; write CONTINGENT and PENDING as such; write "ACTIVE (status unverified)" for Zillow unknowns. Code bug; seven rows tonight.
+5. **`refresh` re-stamps and overwrites** (`refresh`, the OFF MARKET branch and the `r["event"] = ...` assignment). Skip any row whose status already carries today's date, guard OFF MARKET like PENDING, and append to the event so "UNREVIEWED" and the region tag survive. Code bug; three NC/VA rows and Martins Ferry.
+6. **Health check ignores unfetched pages; printed HALT can vanish** (`sweep_remote.py`, `remote_parse_lists`; `weekly_sweep.py`, `ingest`). Count `pages − fetched_ok` as failures, and have `ingest` refuse below 80%. Code bug (§7).
+7. **Shared-kernel state** (`sweep_remote.py`, `remote_setup`). Refuse when `STATE` holds another region's fetched pages; have `dbx_write` assert the run folder matches `STATE["region"]`. Code hardening (§7).
+8. **Zillow twins survive `key()`** (`parsers.py`). Fold "N St #M" and "N-M St" to one key, drop "& NR" suffixes, treat "St"/"Way" as equal when the number and name match; or match on the MLS number where both pages carry it. Seven wasted slots tonight (§4).
+9. **Detail and tracked fetches exceed one cell** (the four prompts, step 4). Fetch in batches of 25 and merge; or refresh each tracked row at most once a week (§6).
+10. **Tax line uses the portal bill only in NC** (`underwrite`, the `taxes = max(...) if st == "NC"` line). Apply the NC rule to every state (§5).
+11. **Redfin 41-card cap** (`sweep_remote.py`, `remote_setup` URL list). Add `/page-2` for ZIPs that returned 41 cards last week; about nine pages (§2).
+12. **29 zero-row ZIPs** (`sweep_zips_*.json`). Swap for the next candidates by passing stock (§2).
+13. **Cosmetics.** "price cuts N" in the report line counts price rises; the phila log line's "about 8:30 PM"; memo 64 §2 calls Endicott Tier B while the 8.0 h boundary makes 8.11 h Tier C; the 28-30 Hillcrest Ave URL in file 14.
+
+## 9. What Tuesday 6:43 AM does if nothing changes
+
+The phila routine will plan a tracked list of about 130 rows (two or three workbench cells), re-shortlist the 237 pending rows plus whatever is new or price-cut, detail the first 50 (1.48% → 1.26%, Philadelphia CSA 20, Binghamton 13, Scranton 10, price median $150,000: the first honest test of the Tier-A thesis), build a facts file and template for roughly 240 rows again, and fold its entrants tagged `[phila]`. The session will have to split the fetches, trim `facts.json` and, if any row is contingent, accept that the board will say active. Items 3, 4, 5 and 6 of §8 are about forty lines between them and remove every one of those hand steps; items 1 and 2 are Najum's design calls and can wait a week without harm to Tuesday, but they should be settled before Wednesday, whose queue still opens with 27 rows above 1.8%.
+
+## 10. Verdict
+
+The plumbing performed as designed, the parsers and the tract model did what memo 64 said they would, and the desktop sessions ran, logged and repaired three failure modes the design had not budgeted for. What did not perform as expected is my own ordering rule and my own scoring inputs at the cheap end of the queue: the first 150 regional detail slots and the top of file 14 went to the listings memo 63 says least deserve them. The expansion's thesis is untested rather than disproved; the queue that tests it starts on Tuesday.
