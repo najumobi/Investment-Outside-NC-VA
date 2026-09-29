@@ -11,7 +11,7 @@ import json, base64, os, re, time, csv, io
 from concurrent.futures import ThreadPoolExecutor
 BASE = "/linked/FAMILY/Ogo/.Investment/2026-2027 Duplex Search Campaign"
 ACC = ["brightdata_vadium-cur", "brightdata_archie-laura", "brightdata_morula-bulgy", "brightdata_scarf-shruff"]
-STATE = globals().get("STATE") if isinstance(globals().get("STATE"), dict) else {"date": None, "region": None, "zips": [], "urls": [], "pages": {}, "bad": [], "details": {}}   # 2026-09-29: keep the kernel's state across a re-exec so a second session cannot silently reset a running fetch
+STATE = globals().get("STATE") if isinstance(globals().get("STATE"), dict) else {"date": None, "region": None, "zips": [], "urls": [], "pages": {}, "bad": [], "details": {}, "touched": 0}   # 2026-09-29: keep the kernel's state across a re-exec so a second session cannot silently reset a running fetch
 
 def dbx_read(path, tries=6, wait=20):
     """Download a file from Dropbox; retries while a freshly written local file is still syncing up."""
@@ -58,14 +58,16 @@ def run_folder(date, region="ncva"):
 
 def remote_reset():
     """Forget every fetched page and detail (2026-09-29). remote_setup calls it; call it by hand only to abandon a dead run."""
-    STATE.update(date=None, region=None, zips=[], urls=[], pages={}, bad=[], details={})
+    STATE.update(date=None, region=None, zips=[], urls=[], pages={}, bad=[], details={}, touched=0)
 
 def remote_setup(date, region="ncva", limit=None, force=False):
     """Load parsers.py and the region's ZIP list from Dropbox; build the list-page URL set. region: ncva (sweep_zips.json) | phila | pitt | ohio (sweep_zips_<region>.json). limit: first N ZIPs only (smoke tests).
-    2026-09-29: refuses while the kernel holds another region's fetched pages (four 'Run now' clicks in one minute on 9/28 made the Ohio session fetch the Pittsburgh list); force=True overrides only when that run is known to be dead."""
-    held = STATE.get("region"); n_held = sum(1 for v in (STATE.get("pages") or {}).values() if v and v[0])
-    if held and held != region and n_held and not force:
-        raise RuntimeError(f"refusing remote_setup({date!r}, {region!r}): this kernel already holds {n_held} fetched pages for region {held} ({STATE.get('date')}); another region's sweep is running in the same sandbox. Wait for it to finish, or pass force=True only if you are certain it is dead.")
+    2026-09-29: refuses while the kernel holds another region's pages fetched within the last three hours (four 'Run now' clicks in one minute on 9/28 made the Ohio session fetch the Pittsburgh list); older state is a finished or dead run
+    (this sandbox persists from one weekday to the next) and is cleared; force=True overrides the refusal when that run is known to be dead."""
+    held = STATE.get("region"); n_held = sum(1 for v in (STATE.get("pages") or {}).values() if v and v[0]); age_h = (time.time() - (STATE.get("touched") or 0)) / 3600
+    if held and held != region and n_held and age_h < 3 and not force:
+        raise RuntimeError(f"refusing remote_setup({date!r}, {region!r}): this kernel holds {n_held} pages fetched for region {held} ({STATE.get('date')}) {age_h*60:.0f} minutes ago; another region's sweep is running in the same sandbox. Wait for it to finish, or pass force=True only if you are certain it is dead.")
+    if held and held != region and n_held: print(f"cleared a stale {held} run ({STATE.get('date')}, last touched {age_h:.1f} h ago) from this kernel")
     remote_reset()
     src = dbx_read(BASE + "/_pipeline/parsers.py"); os.makedirs("/mnt/files/pass2", exist_ok=True); open("/mnt/files/pass2/parsers.py", "wb").write(src); exec(src.decode("utf-8"), globals())
     zfile = "sweep_zips.json" if region == "ncva" else f"sweep_zips_{region}.json"
@@ -82,7 +84,7 @@ def remote_setup(date, region="ncva", limit=None, force=False):
 def remote_fetch_lists(part, nparts=5, workers=10):
     """Fetch one slice of the list pages (call for part = 0..nparts-1; each call stays well under the 180 s cell limit)."""
     urls = STATE["urls"]; chunk = [u for j, u in enumerate(urls) if j % nparts == part]
-    t = time.time()
+    t = time.time(); STATE["touched"] = t
     with ThreadPoolExecutor(max_workers=workers) as ex: res = list(ex.map(lambda p: fetch(p[1], p[0]), enumerate(chunk)))
     ok = 0
     for u, c, h in res:
@@ -93,7 +95,7 @@ def remote_fetch_lists(part, nparts=5, workers=10):
 
 def remote_parse_lists(retry_bad=True):
     """Parse all fetched list pages, retry bad ones once, write listings_raw.csv + fetch_counts.json to _sweeps/<date>/ on Dropbox."""
-    date = STATE["date"]; zips = [z["zip"] for z in STATE["zips"]]
+    date = STATE["date"]; zips = [z["zip"] for z in STATE["zips"]]; STATE["touched"] = time.time()
     merged, counts, bad, add_pages = make_round(zips)
     pages = [(u, c, h.get("x-brd-status-code")) for u, (c, h) in STATE["pages"].items()]
     add_pages(pages)
@@ -115,7 +117,7 @@ def remote_parse_lists(retry_bad=True):
 
 def remote_details(urls, name, workers=8):
     """Fetch detail pages (tracked rows or shortlist), parse them, write <name>.json to _sweeps/<date>/ on Dropbox."""
-    date = STATE["date"]; t = time.time()
+    date = STATE["date"]; t = time.time(); STATE["touched"] = t
     with ThreadPoolExecutor(max_workers=workers) as ex: res = list(ex.map(lambda p: fetch(p[1], p[0]), enumerate(urls)))
     out = {}
     for u, c, h in res:
@@ -132,7 +134,7 @@ def remote_details_batched(urls, name, size=25, workers=8):
     and writes <name>.json to the run folder once every URL is done. Call it once per cell until it returns 'done ...'; the return value is the progress line,
     so end the cell with the call (printed output is not always returned)."""
     store = STATE.setdefault("details", {}).setdefault(name, {})
-    todo = [u for u in urls if u not in store][:size]; t = time.time()
+    todo = [u for u in urls if u not in store][:size]; t = time.time(); STATE["touched"] = t
     if todo:
         with ThreadPoolExecutor(max_workers=workers) as ex: res = list(ex.map(lambda p: fetch(p[1], p[0]), enumerate(todo)))
         for u, c, h in res:
