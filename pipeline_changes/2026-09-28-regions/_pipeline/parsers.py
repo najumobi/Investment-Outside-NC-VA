@@ -72,8 +72,13 @@ def key(a):
     # 2026-09-28: the portals spell the same street differently (Zillow "749 Mount Airy St" vs Redfin "749 Mt Airy St" slipped through as a new listing on 9/21), so fold the common variants before matching
     s=re.sub(r'\b(mount)\b','mt',s); s=re.sub(r'\b(fort)\b','ft',s); s=re.sub(r'\b(saint)\b','st',s); s=re.sub(r'\b(terrace)\b','ter',s); s=re.sub(r'\b(parkway)\b','pkwy',s); s=re.sub(r'\b(highway)\b','hwy',s); s=re.sub(r'\b(trail)\b','trl',s); s=re.sub(r'\b(square)\b','sq',s)
     s=re.sub(r'\b(north ?east)\b','ne',s); s=re.sub(r'\b(north ?west)\b','nw',s); s=re.sub(r'\b(south ?east)\b','se',s); s=re.sub(r'\b(south ?west)\b','sw',s); s=re.sub(r'\b(north)\b','n',s); s=re.sub(r'\b(south)\b','s',s); s=re.sub(r'\b(east)\b','e',s); s=re.sub(r'\b(west)\b','w',s)
+    # 2026-09-29 (memo 65 section 4): the portals list one property under two spellings that slipped past this key seven times on 9/28. A number range or
+    # an "& 761R" companion collapses to its first number ("313-315 village st" and "313 village st #315" -> "313 village"; "1364 & 1366 marcy st" -> "1364 marcy"),
+    # "way" reads as "st" ("709-711 fruit way" vs "fruit st"), and a trailing street-type token is dropped ("300 longfellow" vs "300 longfellow st").
+    s=re.sub(r'^(\d+[a-z]?)(?:\s*[-\u2013/&]\s*\d+[a-z]?)+\b', r'\1', s); s=re.sub(r'\bway\b','st',s)
     s=re.sub(r'\bunit .*$|\bapt .*$|#.*$','',s); s=re.sub(r'[^a-z0-9 ]','',s); s=re.sub(r'\s+',' ',s).strip()
-    return re.sub(r'\b(\w+)( \1\b)+','\\1',s)   # 2026-09-28: Zillow repeats the suffix ("Main Street St", "Arthur Ave Ave") -> one token, so the Redfin row matches
+    s=re.sub(r'\b(\w+)( \1\b)+','\\1',s)   # 2026-09-28: Zillow repeats the suffix ("Main Street St", "Arthur Ave Ave") -> one token, so the Redfin row matches
+    return re.sub(r' (st|ave|rd|dr|blvd|ct|ln|pl|cir|ter|pkwy|hwy|trl|sq)$','',s) if re.match(r'\d', s) else s
 
 def grab(c, pat, n=3, w=80, flags=re.I):
     out=[]

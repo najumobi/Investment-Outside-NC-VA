@@ -3,12 +3,15 @@
 #   import base64; res,_ = run_composio_tool("DROPBOX_READ_FILE", {"path": BASE+"/_pipeline/sweep_remote.py"}, print_schema_for_tool=False)
 #   exec(base64.b64decode(res["data"]["file_content_bytes"]).decode())
 # then calls remote_setup(), remote_fetch_lists(part), remote_parse_lists(), remote_details(urls, name).
+# 2026-09-29 (memo 65): STATE survives a re-exec of this file, remote_setup refuses to start over another region's fetched pages (the 9/28
+#   collision), dbx_write only writes into the folder the kernel was set up for, the health check counts never-fetched pages and returns
+#   health["halt"], and remote_details_batched fetches 25 pages per cell (the 180-second cell limit).
 # Helpers provided by the workbench: run_composio_tool(tool_slug, arguments, account=...), upload_local_file(path).
 import json, base64, os, re, time, csv, io
 from concurrent.futures import ThreadPoolExecutor
 BASE = "/linked/FAMILY/Ogo/.Investment/2026-2027 Duplex Search Campaign"
 ACC = ["brightdata_vadium-cur", "brightdata_archie-laura", "brightdata_morula-bulgy", "brightdata_scarf-shruff"]
-STATE = {"date": None, "zips": [], "urls": [], "pages": {}, "bad": []}
+STATE = globals().get("STATE") if isinstance(globals().get("STATE"), dict) else {"date": None, "region": None, "zips": [], "urls": [], "pages": {}, "bad": [], "details": {}}   # 2026-09-29: keep the kernel's state across a re-exec so a second session cannot silently reset a running fetch
 
 def dbx_read(path, tries=6, wait=20):
     """Download a file from Dropbox; retries while a freshly written local file is still syncing up."""
@@ -24,6 +27,9 @@ def dbx_read(path, tries=6, wait=20):
     raise RuntimeError(f"dropbox read failed for {path}: {err or json.dumps(res)[:300]}")
 
 def dbx_write(path, data, mimetype="text/plain"):
+    if STATE.get("date"):   # 2026-09-29: the 9/28 collision wrote the Ohio fetch into the Pittsburgh folder
+        exp = run_folder(STATE["date"], STATE.get("region") or "ncva")
+        if not path.startswith(exp + "/"): raise RuntimeError(f"refusing to write {path}: this kernel is set up for {exp} (region {STATE.get('region')}, {STATE['date']})")
     os.makedirs("/mnt/files/out", exist_ok=True); p = "/mnt/files/out/" + os.path.basename(path)
     open(p, "wb").write(data if isinstance(data, bytes) else data.encode("utf-8"))
     staged, serr = upload_local_file(p)
@@ -50,8 +56,17 @@ def run_folder(date, region="ncva"):
     """_sweeps/<date> for the Monday NC/VA sweep; _sweeps/<date>-<region> for the Tuesday-Thursday regions (added 2026-09-28)."""
     return f"{BASE}/_sweeps/{date}" + ("" if region == "ncva" else f"-{region}")
 
-def remote_setup(date, region="ncva", limit=None):
-    """Load parsers.py and the region's ZIP list from Dropbox; build the list-page URL set. region: ncva (sweep_zips.json) | phila | pitt | ohio (sweep_zips_<region>.json). limit: first N ZIPs only (smoke tests)."""
+def remote_reset():
+    """Forget every fetched page and detail (2026-09-29). remote_setup calls it; call it by hand only to abandon a dead run."""
+    STATE.update(date=None, region=None, zips=[], urls=[], pages={}, bad=[], details={})
+
+def remote_setup(date, region="ncva", limit=None, force=False):
+    """Load parsers.py and the region's ZIP list from Dropbox; build the list-page URL set. region: ncva (sweep_zips.json) | phila | pitt | ohio (sweep_zips_<region>.json). limit: first N ZIPs only (smoke tests).
+    2026-09-29: refuses while the kernel holds another region's fetched pages (four 'Run now' clicks in one minute on 9/28 made the Ohio session fetch the Pittsburgh list); force=True overrides only when that run is known to be dead."""
+    held = STATE.get("region"); n_held = sum(1 for v in (STATE.get("pages") or {}).values() if v and v[0])
+    if held and held != region and n_held and not force:
+        raise RuntimeError(f"refusing remote_setup({date!r}, {region!r}): this kernel already holds {n_held} fetched pages for region {held} ({STATE.get('date')}); another region's sweep is running in the same sandbox. Wait for it to finish, or pass force=True only if you are certain it is dead.")
+    remote_reset()
     src = dbx_read(BASE + "/_pipeline/parsers.py"); os.makedirs("/mnt/files/pass2", exist_ok=True); open("/mnt/files/pass2/parsers.py", "wb").write(src); exec(src.decode("utf-8"), globals())
     zfile = "sweep_zips.json" if region == "ncva" else f"sweep_zips_{region}.json"
     zips = json.loads(dbx_read(BASE + "/_pipeline/" + zfile).decode("utf-8"))
@@ -60,7 +75,7 @@ def remote_setup(date, region="ncva", limit=None):
     for z in zips:
         urls.append(z["redfin"])
         if z.get("zillow"): urls.append(z["zillow"])
-    STATE.update(date=date, region=region, zips=zips, urls=urls, pages={}, bad=[])
+    STATE.update(date=date, region=region, zips=zips, urls=urls, pages={}, bad=[], details={})
     print(f"setup ok: region {region}, {len(zips)} ZIPs, {len(urls)} list pages; parsers: make_round={'make_round' in globals()} parse_detail={'parse_detail' in globals()}")
     return len(urls)
 
@@ -89,13 +104,14 @@ def remote_parse_lists(retry_bad=True):
     rows = sorted(merged.values(), key=lambda r: (r["page_zip"], r["address"]))
     buf = io.StringIO(); w = csv.DictWriter(buf, fieldnames=fields + ["zip", "zlabel"], extrasaction="ignore"); w.writeheader()
     for r in rows: w.writerow({**{k: r.get(k, "") for k in fields}, "zip": r.get("zip", r.get("page_zip", "")), "zlabel": r.get("zlabel", "")})
-    health = {"date": date, "zips": len(zips), "pages": len(STATE["urls"]), "fetched_ok": sum(1 for v in STATE["pages"].values() if v[0]), "bad": [(u, str(b)[:80], n) for u, b, n in bad], "counts": counts, "rows": len(rows)}
+    never = [u for u in STATE["urls"] if u not in STATE["pages"]]   # 2026-09-29: pages a part never fetched were invisible to the health check (the 9/28 collision file had 40 of them and would have passed)
+    health = {"date": date, "zips": len(zips), "pages": len(STATE["urls"]), "fetched_ok": sum(1 for v in STATE["pages"].values() if v[0]), "never_fetched": len(never), "bad": [(u, str(b)[:80], n) for u, b, n in bad], "counts": counts, "rows": len(rows)}
     rf = run_folder(date, STATE.get("region", "ncva")); health["region"] = STATE.get("region", "ncva")
     p1 = dbx_write(f"{rf}/listings_raw.csv", buf.getvalue(), "text/csv"); p2 = dbx_write(f"{rf}/fetch_counts.json", json.dumps(health, indent=1), "application/json")
-    bad_share = len(bad) / max(1, len(STATE["urls"]))
-    print(f"rows {len(rows)} | bad pages {len(bad)} ({bad_share:.0%}) | wrote {p1} and {p2}")
-    if bad_share > 0.2: print("HALT: more than 20% of list pages failed; do not treat this as a real sweep")
-    return health
+    bad_share = (len(bad) + len(never)) / max(1, len(STATE["urls"])); health["halt"] = bad_share >= 0.2   # a fifth or more: one skipped part of five is exactly a fifth
+    print(f"rows {len(rows)} | bad pages {len(bad)} | never fetched {len(never)} | {bad_share:.0%} of {len(STATE['urls'])} pages failed or unfetched | wrote {p1} and {p2}")
+    if health["halt"]: print("HALT: 20% or more of the list pages failed or were never fetched; do not treat this as a real sweep (ingest refuses such a fetch too)")
+    return health   # end the cell with `health` so the dict comes back even when printed output does not
 
 def remote_details(urls, name, workers=8):
     """Fetch detail pages (tracked rows or shortlist), parse them, write <name>.json to _sweeps/<date>/ on Dropbox."""
@@ -110,3 +126,24 @@ def remote_details(urls, name, workers=8):
     print(f"{name}: {sum(1 for d in out.values() if d.get('ok'))}/{len(urls)} pages ok in {round(time.time()-t,1)} s -> {p}")
     for u, d in out.items(): print(f"  {d.get('status','?'):10s} ${d.get('price') or 0:>8,} dom {d.get('dom')} | {d.get('page_address') or u[:70]}" + (" | REDIRECTED" if d.get("redirected_to") else ""))
     return out
+
+def remote_details_batched(urls, name, size=25, workers=8):
+    """Resumable remote_details for the 180-second cell limit (2026-09-29): each call fetches the next `size` URLs of `name` not yet done, keeps them in the kernel,
+    and writes <name>.json to the run folder once every URL is done. Call it once per cell until it returns 'done ...'; the return value is the progress line,
+    so end the cell with the call (printed output is not always returned)."""
+    store = STATE.setdefault("details", {}).setdefault(name, {})
+    todo = [u for u in urls if u not in store][:size]; t = time.time()
+    if todo:
+        with ThreadPoolExecutor(max_workers=workers) as ex: res = list(ex.map(lambda p: fetch(p[1], p[0]), enumerate(todo)))
+        for u, c, h in res:
+            d = parse_detail(u, c, h) if "redfin.com" in u else parse_zillow_detail(u, c, h)
+            d["excerpt"] = (d.get("remarks") or flat(c)[:300]) if c else ""
+            store[u] = d
+    done = sum(1 for u in urls if u in store)
+    if done < len(urls):
+        msg = f"{name}: {done}/{len(urls)} pages fetched ({len(todo)} this cell in {round(time.time()-t,1)} s); call remote_details_batched again for the next {min(size, len(urls)-done)}"
+        print(msg); return msg
+    out = {u: store[u] for u in urls}
+    p = dbx_write(f"{run_folder(STATE['date'], STATE.get('region', 'ncva'))}/{name}.json", json.dumps(out, indent=1), "application/json")
+    msg = f"done: {name}: {sum(1 for d in out.values() if d.get('ok'))}/{len(urls)} pages ok -> {p}"
+    print(msg); return msg
