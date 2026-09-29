@@ -1,4 +1,5 @@
 # weekly_sweep.py - local orchestrator for the weekly duplex re-sweep (written 2026-09-14).
+# 2026-09-29 (evening): file 14's novice cell is written by novice_cell() in the grammar of memo 66 (grade: C-rating and basis; reason; unseen; flood driver; date).
 # Stages, in order (the desktop task runs them; sweep_remote.py does the fetching in the Composio sandbox):
 #   plan       -> creates _sweeps/<date>/, writes tracked_urls.json (file 14 rows to refresh) and prints what the remote must fetch
 #   ingest     -> needs listings_raw.csv + fetch_counts.json (uploaded by the remote): seen-index diff, geocode, tract gates, knockouts, shortlist, detail_plan.json
@@ -45,6 +46,50 @@ def akey(a):
 def note(line):
     with open(RUN + "report_parts.txt", "a", encoding="utf-8") as f: f.write(line.rstrip() + "\n")
     print(line)
+
+# 2026-09-29: the novice cell of a folded file 14 row, in the grammar of memo 66 (restate_novice_0929.py carries the same three functions)
+def clause_split(text):
+    """Split at semicolons that are not inside parentheses or quotes."""
+    out, cur, depth = [], "", 0
+    for ch in text:
+        if ch == "(": depth += 1
+        elif ch == ")": depth = max(0, depth - 1)
+        if ch == ";" and depth == 0: out.append(cur.strip()); cur = ""
+        else: cur += ch
+    if cur.strip(): out.append(cur.strip())
+    return out
+
+def trim(text, n):
+    """Cut at a clause or word boundary under n characters, never inside a parenthesis."""
+    if len(text) <= n: return text
+    cut = text[:n]
+    for sep in (", ", " but ", " and ", " "):
+        i = cut.rfind(sep)
+        if i > n // 2:
+            cand = text[:i]
+            if cand.count("(") == cand.count(")"): return cand.rstrip(",") + " ..."
+    while cut.count("(") > cut.count(")"): cut = cut[:cut.rfind("(")].rstrip()
+    return cut.rstrip(",") + " ..."
+
+def novice_cell(grade, c, cond, flood, mmdd):
+    """The novice designation for a folded row: grade, C-rating and its basis, the judgment's first clause, the flood driver, the date."""
+    c = (c or "").strip()
+    cphrase = "no usable photo" if c.lower() in ("", "n/a", "none") else f"{c.replace('-', ' to ')} on the one listing photo"
+    text = re.sub(r"^\[[^\]]*\]\s*", "", (cond or "").strip())                   # drop the jurisdiction flag prefix
+    text = re.sub(r"^(GREEN-verify|GREEN|YELLOW|RED|UNVERIFIED)\s*[:,]?\s*", "", text, flags=re.I)
+    clauses = clause_split(text)                                                     # the judgment line is "why this grade; then the rest"
+    if len(clauses) > 1 and re.fullmatch(r"(Redfin )?flood factor \d+", clauses[0]): clauses = clauses[1:]   # a bare flood clause is carried by the suffix
+    reason = clauses[0] if clauses else ""
+    if len(clauses) > 1 and (len(reason) < 40 or (grade == "GREEN-verify" and re.search(r"verif|confirm|receipt|invoice|permit|scope|dates", clauses[1]) and len(reason) + len(clauses[1]) < 210)):
+        reason += "; " + clauses[1]                                                  # a short first clause, or the verify demand a GREEN-verify states
+    reason = re.sub(r"^C\d(?:-C\d)?\s+(?:but\s+)?(?=built|with|construction)", "", reason)   # "C3 but built 1904 ..." repeats the C-rating
+    reason = trim(reason.rstrip("."), 200)
+    while reason.count("(") > reason.count(")"): reason = reason[:reason.rfind("(")].rstrip(" ,;") + " ..."   # a judgment line cut at the note's 300-character cap
+    try: fl = int(str(flood).split(" ")[0])
+    except Exception: fl = None
+    ftxt = f"; flood factor {fl}, itself a YELLOW driver" if fl is not None and fl >= 5 and grade != "RED" and "flood factor" not in reason else ""
+    return f"{grade}: {cphrase}" + (f"; {reason}" if reason else "") + ftxt + f" ({mmdd})"
+# end of the novice-cell helpers
 
 if stage == "wait":
     target = RUN + args[1]; t = time.time()
@@ -174,7 +219,7 @@ if stage == "prep":
                     req = urllib.request.Request(photo, headers={"User-Agent": "Mozilla/5.0", "Referer": "https://www.redfin.com/"}); open(local, "wb").write(urllib.request.urlopen(req, timeout=60).read())
             except Exception as ex: local = f"(photo download failed: {ex})"
         facts[street] = {"address": p["address"], "price": s.get("price"), "built": d.get("built"), "dom": d.get("dom"), "status": d.get("status"), "history": d.get("history", ""), "flood": d.get("flood"), "tax_annual": d.get("tax_annual"), "mls": d.get("mls", ""), "listed_by": d.get("listed_by", ""), "zoning_line": (d.get("zoning_line") or "")[:120], "unit_rent_text": d.get("unit_rent_text", ""), "remarks": (d.get("remarks") or d.get("excerpt") or "")[:900], "tract_tier": s.get("tract_tier"), "tract_median_rent": s.get("tract_median_rent"), "rent_to_price_pct": s.get("rent_to_price_pct"), "beds": s.get("beds"), "sqft": s.get("sqft"), "photo_url": photo, "photo_local": local, "url": p["url"]}
-        tmpl[street] = {"grade": "GREEN|GREEN-verify|YELLOW|RED|OUT", "c": "C1..C6 from the front photo", "units": 2, "units_txt": "one line: what the building is per remarks and photos", "rents": None, "cond": "one line: why this grade; RED items per file 08", "pnote": "one line photo note", "flood": d.get("flood"), "built": d.get("built"), "dom": d.get("dom"), "status": d.get("status"), "last_sold": ""}
+        tmpl[street] = {"grade": "GREEN|GREEN-verify|YELLOW|RED|OUT", "c": "C1..C6 from the front photo", "units": 2, "units_txt": "one line: what the building is per remarks and photos", "rents": None, "cond": "one line: why this grade (its first clause becomes the file 14 novice cell); RED items per file 08", "pnote": "one line photo note", "flood": d.get("flood"), "built": d.get("built"), "dom": d.get("dom"), "status": d.get("status"), "last_sold": ""}
     js(RUN + "facts.json", facts); js(RUN + "judgments_template.json", tmpl)
     note(f"## Detail pages: {len(facts)} of {len(plan)} shortlisted rows have a fetched page this run; {len(plan) - len(facts)} stay detail_pending for the next run")
     # clear the detail backlog flag for every shortlisted row whose detail page came back; the rest stay pending for next week
@@ -265,7 +310,7 @@ if stage == "underwrite":
         st14 = fold_status(o)
         if st14 is None: note(f"  not folded, the page shows {o['status_' + DATE]}: {o['address']} ({o['verdict']} {o['score']})"); continue
         k = key(o["address"]); r = by_key.get(k)
-        row = {IFIELD: "", "address": o["address"], "price": o["price"], "status": st14, "event": f"{same_day} {o['verdict']} UNREVIEWED" + ("" if REGION == "ncva" else f" [{REGION}]"), "score": o["score"], "coc_6.75": o["coc_6.75_full_expense_pct"], "dscr": o["dscr_6.75"], "novice": o["novice_grade"] + " / photo " + o["photo_c_rating"] + ("; flood factor %s" % o["flood_factor"] if o["flood_factor"] != "" else ""), "crime": (o["crime_zip"] or "").split(" ")[0], "drive_wb": o["drive_h_williamsburg"], "drive_ec": "", "flood": o["flood_factor"], "historic": "", "why": o["why"], "note": (o["condition_note"] or "")[:300], "url": o["url"]}
+        row = {IFIELD: "", "address": o["address"], "price": o["price"], "status": st14, "event": f"{same_day} {o['verdict']} UNREVIEWED" + ("" if REGION == "ncva" else f" [{REGION}]"), "score": o["score"], "coc_6.75": o["coc_6.75_full_expense_pct"], "dscr": o["dscr_6.75"], "novice": novice_cell(o["novice_grade"], o["photo_c_rating"], o["condition_note"], o["flood_factor"], f"{int(DATE[5:7])}/{int(DATE[8:10])}"), "crime": (o["crime_zip"] or "").split(" ")[0], "drive_wb": o["drive_h_williamsburg"], "drive_ec": "", "flood": o["flood_factor"], "historic": "", "why": o["why"], "note": (o["condition_note"] or "")[:300], "url": o["url"]}
         if r is None:
             wnum += 1; row[IFIELD] = f"w{wnum}"; n_new += 1; rows14.append(row); by_key[k] = row
         elif r["event"].startswith(same_day) and "UNREVIEWED" in r["event"] and (REGION == "ncva" or f"[{REGION}]" in r["event"]):
