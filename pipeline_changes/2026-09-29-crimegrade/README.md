@@ -13,6 +13,8 @@ The campaign has so far used CrimeGrade's ZIP-level letter (file 09 and the `cri
 - `crimegrade_overall_ohio_2026-09-29.csv` — their Overall Crime results, as written by the committed scripts.
 - `addresses_ohio_robbery_2026-09-29.csv` — the same addresses with the Robbery screenshot each was read from; Dayton appears twice, read from two screenshots taken at different window sizes, as a check.
 - `crimegrade_robbery_ohio_2026-09-29.csv` — their Robbery results.
+- `addresses_vawv_robbery_2026-09-29.csv` — the 33 Virginia and West Virginia rows of file 14 as of 2026-09-29, with the address sent to the geocoder, the Robbery screenshot each was read from, and the row's current `crime` letter.
+- `crimegrade_robbery_vawv_2026-09-29.csv` — their Robbery results. 556 Bellwood Rd, Newport News, lies about 1 km north of its screenshot and has no reading yet.
 - `.gitignore` — keeps the map images (`maps/`) and the scripts' cache out of the repository.
 
 The map images are not committed and the scripts never download from CrimeGrade. The images are CrimeGrade's, and its terms prohibit automated scraping without a license, so each map is saved by hand.
@@ -50,6 +52,7 @@ The first run on a map takes one to two minutes, mostly the street download and 
 - Screenshots and saved maps give the same grades. Screenshots of the interactive map for Cleveland 44104, Dayton 45405 and Akron 44320, and of the Canton 44710 ZIP-page map, gave F, F, D-, F and D for Sophia Ave, Manor Ave, Pointview Ave, Work Dr and Ingram Ave SW, as the saved maps did, with legend positions within 0.002.
 - The five houses on a dividing street (Garfield Heights, W 90th St, W Sylvania Ave and both Starr Ave addresses) each have an OpenStreetMap house point in the block group the Census geocoder assigned.
 - Robbery: the 19 Robbery screenshots aligned with street-match scores between 0.51 and 0.77. The Dayton map, screenshotted twice at different window sizes, read D at 0.799 both times. Block-group outlines on the Martins Ferry, Toledo 43605 and 43612 and Canton Robbery maps follow the colour edges, and the six Robbery side-of-street checks each confirm the geocoder's side.
+- Robbery, Virginia and West Virginia: the 21 screenshots aligned with scores between 0.46 and 0.79. Block-group outlines on the Roanoke 24012, Parkersburg 26101, Suffolk 23434, Petersburg 23805 and Blackstone 23824 maps follow the colour edges. Four side-of-street checks confirm the geocoder's side; 515 Albemarle Ave SE has no OpenStreetMap house point, and the block group across its street is also in the C family.
 
 ## Caveats
 
