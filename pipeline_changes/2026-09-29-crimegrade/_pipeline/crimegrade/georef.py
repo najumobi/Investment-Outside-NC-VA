@@ -75,19 +75,50 @@ def find_legend(A):
     return best
 
 
-def ui_exclusions(A):
-    """Rectangles (x0, y0, x1, y1) holding page furniture rather than map: the colour legend (the full-width bar with
-    its letters, or the small 'Crime Risk' box and the colour-blind toggle beside it), the zoom buttons and the
-    full-screen and info buttons. Map pixels inside them are ignored when matching streets and reading colours."""
+def map_bounds(A):
+    """Edges of the map inside a screenshot that also caught browser or page furniture (an address bar across the
+    top, a page margin at a side): the first and last rows and columns where map colours fill most of the line."""
     H, W, _ = A.shape
-    rects = [(0, 0, 70, 110), (W - 70, 0, W, 70), (W - 60, H - 60, W, H)]
+    sat = (A.max(axis=2).astype(int) - A.min(axis=2)) > 50
+
+    def first(frac, limit):
+        for i in range(limit):
+            if frac[i:i + 5].min() > 0.35:
+                return i
+        return 0
+
+    top = first(sat.mean(axis=1), int(H * 0.2))
+    cols = sat[top:].mean(axis=0)
+    left = first(cols, int(W * 0.2))
+    right = W - first(cols[::-1], int(W * 0.2))
+    return top, left, right
+
+
+def ui_exclusions(A):
+    """Rectangles (x0, y0, x1, y1) holding page furniture rather than map: anything outside the map's edges (a browser
+    address bar, a page margin), the colour legend (the full-width bar with its letters, or the small 'Crime Risk' box
+    and the colour-blind toggle beside it), the zoom buttons, and the full-screen and info buttons. Map pixels inside
+    them are ignored when matching streets and reading colours."""
+    H, W, _ = A.shape
+    top, left, right = map_bounds(A)
+    rects = []
+    if top > 0:
+        rects.append((0, 0, W, top + 2))
+    if left > 0:
+        rects.append((0, 0, left + 2, H))
+    if right < W:
+        rects.append((right - 2, 0, W, H))
+    rects += [(left, top, left + 75, top + 105), (right - 75, top, right, top + 75)]
     leg = find_legend(A)
+    bottom = H
     if leg:
         y, x0, x1 = leg
-        if x1 - x0 >= 0.6 * W:
+        if x1 - x0 >= 0.6 * (right - left):
             rects.append((0, max(0, y - 30), W, H))
+            bottom = y
         else:
             rects.append((max(0, x0 - 30), max(0, y - 60), min(W, x1 + 200), min(H, y + 60)))
+    rects.append((right - 65, max(0, bottom - 75), right, bottom))
     return rects
 
 

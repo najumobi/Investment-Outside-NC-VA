@@ -1,6 +1,6 @@
-# 2026-09-29: CrimeGrade Overall Crime grade at a street address
+# 2026-09-29: CrimeGrade grades at a street address
 
-The campaign has so far used CrimeGrade's ZIP-level letter (file 09 and the `crime` column of file 14). This folder adds a way to read the Overall Crime grade at the address itself, from CrimeGrade's own map, and records the first 25 Ohio addresses read with it. File 14 is untouched.
+The campaign has so far used CrimeGrade's ZIP-level letter (file 09 and the `crime` column of file 14). This folder adds a way to read a CrimeGrade grade at the address itself, from CrimeGrade's own map, and records the first 25 Ohio addresses read with it, for Overall Crime and for Robbery. File 14 is untouched.
 
 ## Files
 
@@ -10,7 +10,9 @@ The campaign has so far used CrimeGrade's ZIP-level letter (file 09 and the `cri
 - `_pipeline/crimegrade/ramp.json` — the legend's colour ramp, sampled pixel by pixel from a ZIP-page screenshot.
 - `_pipeline/crimegrade/requirements.txt` — numpy and Pillow.
 - `addresses_ohio_2026-09-29.csv` — the 25 Ohio addresses graded on 2026-09-29 and the map image each was read from.
-- `crimegrade_overall_ohio_2026-09-29.csv` — their results, as written by the committed scripts.
+- `crimegrade_overall_ohio_2026-09-29.csv` — their Overall Crime results, as written by the committed scripts.
+- `addresses_ohio_robbery_2026-09-29.csv` — the same addresses with the Robbery screenshot each was read from; Dayton appears twice, read from two screenshots taken at different window sizes, as a check.
+- `crimegrade_robbery_ohio_2026-09-29.csv` — their Robbery results.
 - `.gitignore` — keeps the map images (`maps/`) and the scripts' cache out of the repository.
 
 The map images are not committed and the scripts never download from CrimeGrade. The images are CrimeGrade's, and its terms prohibit automated scraping without a license, so each map is saved by hand.
@@ -18,7 +20,7 @@ The map images are not committed and the scripts never download from CrimeGrade.
 ## How to run
 
 1. Python 3 with numpy and Pillow (`pip install -r _pipeline/crimegrade/requirements.txt`), and internet access to `geocoding.geo.census.gov` and `tigerweb.geo.census.gov`; `--check-side` also uses `nominatim.openstreetmap.org`.
-2. For each ZIP, open `https://crimegrade.org/safest-places-in-<ZIP>/`, right-click the map and save the image into `maps/`, for example `maps/44104.png`. A screenshot of that map, or of the interactive map, also works as long as it shows the streets around the address; the legend, the buttons and the "Click the map to explore" band are ignored automatically.
+2. For each ZIP, open `https://crimegrade.org/safest-places-in-<ZIP>/`, right-click the map and save the image into `maps/`, for example `maps/44104.png`. A screenshot of that map, or of the interactive map, also works as long as it shows the streets around the address. The legend, the map buttons, the "Click the map to explore" band, a browser address bar and page margins are ignored automatically. For a single crime, open the ZIP page with that crime in the address, for example `https://crimegrade.org/safest-places-in-44104/?crime=robbery`, and screenshot the map; it uses the same A+ to F legend, so the scripts read it unchanged.
 3. List the addresses in a CSV with columns `id,address,image`, the image path relative to the CSV. `addresses_ohio_2026-09-29.csv` is an example.
 4. Run `python3 _pipeline/crimegrade/grade_addresses.py addresses.csv results.csv --check-side`.
 
@@ -47,9 +49,11 @@ The first run on a map takes one to two minutes, mostly the street download and 
 - Block-group outlines drawn on the Canton, Cleveland 44120, 44106 and 44102 and Toledo 43605 maps follow the streets and the colour edges.
 - Screenshots and saved maps give the same grades. Screenshots of the interactive map for Cleveland 44104, Dayton 45405 and Akron 44320, and of the Canton 44710 ZIP-page map, gave F, F, D-, F and D for Sophia Ave, Manor Ave, Pointview Ave, Work Dr and Ingram Ave SW, as the saved maps did, with legend positions within 0.002.
 - The five houses on a dividing street (Garfield Heights, W 90th St, W Sylvania Ave and both Starr Ave addresses) each have an OpenStreetMap house point in the block group the Census geocoder assigned.
+- Robbery: the 19 Robbery screenshots aligned with street-match scores between 0.51 and 0.77. The Dayton map, screenshotted twice at different window sizes, read D at 0.799 both times. Block-group outlines on the Martins Ferry, Toledo 43605 and 43612 and Canton Robbery maps follow the colour edges, and the six Robbery side-of-street checks each confirm the geocoder's side.
 
 ## Caveats
 
-- **Plus and minus are inferred.** The legend prints only A+, B, C, D and F. Anchoring each printed letter where the legend prints it, instead of using equal bands, changes four of the 25 Ohio results, each within the D family: Garfield Heights and W Sylvania Ave become D, and both Starr Ave addresses become D-. Martins Ferry sits on the C-/D+ line.
+- **Plus and minus are inferred.** The legend prints only A+, B, C, D and F. Anchoring each printed letter where the legend prints it, instead of using equal bands, changes four of the 25 Overall results: Garfield Heights and W Sylvania Ave become D, and both Starr Ave addresses become D-. It changes three Robbery results: Ingram Ave SW becomes D-, Garfield Heights D and Martins Ferry B. No letter family changes. Martins Ferry's Overall grade sits on the C-/D+ line.
 - **Different scales.** CrimeGrade ranks each geographic level separately, so an address's block-group grade and its ZIP's letter are not on the same scale.
+- **Robbery rests on few incidents.** Robbery is rare, about 1.6 a year per 1,000 residents in 44104, so a block group of about 1,450 people records only a few robberies a year and its Robbery grade leans on CrimeGrade's model more than the Overall grade does.
 - **Modelled data.** CrimeGrade fills police-reporting gaps with a model and lags official data by 6 to 12 months. A block group averages about 1,450 residents, so a grade describes the surrounding blocks, not the house.
