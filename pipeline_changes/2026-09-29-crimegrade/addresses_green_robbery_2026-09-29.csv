@@ -1,0 +1,16 @@
+id,address,image,file14_address,file14_crime,status
+g01,"639 Conover Rd, Durham, NC 27703",maps/robbery_green/27703.png,"639 Conover Rd, Durham, NC 27703",D-,ACTIVE (for sale)
+g02,"306 Troy Ave NE, Roanoke, VA 24012",maps/robbery/24012.png,"306 & 308 Troy Ave NE, Roanoke, VA 24012",F,PENDING (2026-09-21)
+g03,"918 Star St, Rocky Mount, NC 27804",maps/robbery_green/27804.png,"918 Star St, Rocky Mount, NC 27804",D-,WITHDRAWN 9/23 (sale) + rental pulled 9/21; OFF MARKET 9/25
+g04,"3446 E 125th St, Cleveland, OH 44120",maps/robbery_green/44120.png,"3446 E 125th St, Cleveland, OH 44120",D-,ACTIVE (for sale)
+g05,"509 Naylor Rd, Johnstown, PA 15906",maps/robbery_green/15906.png,"509-511 Naylor Rd, Johnstown, PA 15906",B-,ACTIVE (status unverified)
+g06,"299 Robinson St, Binghamton, NY 13904",maps/robbery_green/13904.png,"299 Robinson St, Binghamton, NY 13904",D+,ACTIVE (for sale)
+g07,"312 N 7th St, Martins Ferry, OH 43935",maps/robbery_green/43935.png,"312 N 7th St, Martins Ferry, OH 43935",D,CONTINGENT (2026-09-28)
+g08,"372 Diven Ave, Elmira, NY 14901",maps/robbery_green/14901.png,"372 Diven Ave, Elmira, NY 14901",D,ACTIVE (for sale)
+g09,"9816 Manor Ave, Cleveland, OH 44104",maps/robbery_green/44104.png,"9816 Manor Ave, Cleveland, OH 44104",F,ACTIVE (status unverified)
+g10,"245 N Ruby St, Philadelphia, PA 19139",maps/robbery_green/19139.png,"245 N Ruby St, Philadelphia, PA 19139",D+,ACTIVE (for sale)
+g11,"4902 Kershaw St, Philadelphia, PA 19131",maps/robbery_green/19131.png,,,"not in file 14 (Movoto listing, MLS PAPH2666490)"
+g12,"3601 Memphis Ave, Cleveland, OH 44109",maps/robbery_green/44109.png,"3601 Memphis Ave, Cleveland, OH 44109",F,ACTIVE (status unverified)
+g13,"1934 Oakland St, Petersburg, VA 23805",maps/robbery/23805.png,"1934 Oakland St, Petersburg, VA 23805",D,ACTIVE (for sale)
+g14,"814 Varsity Dr, Fayetteville, NC 28304",maps/robbery_green/28304.png,"814 Varsity Dr Unit A-B, Fayetteville, NC 28304",D-,ACTIVE (for sale)
+g15,"1021 Penmar Ave SE, Roanoke, VA 24013",maps/robbery/24013.png,"1021 Penmar Ave SE, Roanoke, VA 24013",F,ACTIVE (for sale)
