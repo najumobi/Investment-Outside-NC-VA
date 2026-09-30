@@ -24,7 +24,8 @@
 #   underwrite --rescore re-scores the rows a run folded at their current list price: score, cash-on-cash, coverage, why and the verdict word
 #   of the event only (price, status, novice and note are kept, so a row whose verdict becomes OUT stays on the list for Najum's review; no new rows; the tally is untouched).
 # 2026-09-30 (memo 69): crime is read at block-group level from model/crime_bg.json (six CrimeGrade tabs, hand screenshots) instead of the ZIP letter;
-#   ingest knocks out Robbery F + Burglary or Vandalism F and sorts Robbery-F rows behind the rest of the detail queue; underwrite scores the Robbery
+#   ingest knocks out a row by memo 69 section 4.4 (regional: Robbery F on the block and across the street; NC/VA: Robbery F with Burglary or Vandalism F)
+#   and sorts Robbery-F rows behind the rest of the detail queue; underwrite scores the Robbery
 #   position (crime_penalty), applies the 8% vacancy at Robbery F, writes the six readings into file 14's crime column and lists "crime maps needed".
 import csv, json, io, re, os, sys, uuid, time, datetime, urllib.request, glob
 CAMP = "C:/Users/najum/Dropbox/linked/FAMILY/Ogo/.Investment/2026-2027 Duplex Search Campaign/"
@@ -68,17 +69,50 @@ CB_FN = MODEL + "crime_bg.json"; _CB = {}
 def crime_table():
     if not _CB and os.path.exists(CB_FN): _CB.update(jl(CB_FN).get("bg", {}))
     return _CB
+import math
 BGC_FN = MODEL + "geo_cache_bg.json"; _BG = {}
-def block_group_for(address):
-    """12-digit 2020 block group of an address: the batch geocoder's block from ingest (geo_cache_bg.json), else one call to the one-line geocoder, cached."""
+def _geo(address):
+    """{"bg", "lat", "lon"} of an address: the batch geocoder's result from ingest (geo_cache_bg.json), else one call to the one-line geocoder, cached.
+    A value cached as a bare block group (the first patch) is upgraded; a failed call is not cached, so the next run tries again."""
     if not _BG and os.path.exists(BGC_FN): _BG.update(jl(BGC_FN))
-    if address in _BG: return _BG[address]
+    v = _BG.get(address)
+    if isinstance(v, dict) and (v.get("lat") is not None or not v.get("bg")): return v
+    a = re.sub(r"\s+(Unit|Apt|#|Lot)\b[^,]*", "", address, flags=re.I); a = re.sub(r"^(\d+)\s*[-&/]\s*\d+\S*\s", r"\1 ", a.strip())
     try:
-        q = urllib.parse.urlencode({"address": address, "benchmark": "Public_AR_Current", "vintage": "Current_Current", "format": "json"})
+        q = urllib.parse.urlencode({"address": a, "benchmark": "Public_AR_Current", "vintage": "Current_Current", "format": "json"})
         with urllib.request.urlopen(urllib.request.Request("https://geocoding.geo.census.gov/geocoder/geographies/onelineaddress?" + q, headers={"User-Agent": "Mozilla/5.0"}), timeout=60) as resp: d = json.load(resp)
-        m = d["result"]["addressMatches"]; bg = m[0]["geographies"]["2020 Census Blocks"][0]["GEOID"][:12] if m else ""
-    except Exception: bg = ""
-    _BG[address] = bg; js(BGC_FN, _BG); return bg
+        m = d["result"]["addressMatches"]
+        v = {"bg": m[0]["geographies"]["2020 Census Blocks"][0]["GEOID"][:12], "lat": m[0]["coordinates"]["y"], "lon": m[0]["coordinates"]["x"]} if m else ({"bg": v} if isinstance(v, str) and v else {"bg": ""})
+    except Exception:
+        return {"bg": v} if isinstance(v, str) else (v or {"bg": ""})
+    _BG[address] = v; js(BGC_FN, _BG); return v
+def block_group_for(address): return _geo(address).get("bg", "")
+AX_FN = MODEL + "crime_across_cache.json"; _AX = {}
+def across_street(address, radius_m=15):
+    """[[GEOID, metres], ...] of the other 2020 block groups whose boundary lies within radius_m of the address point (the block group across
+    the street), from one TIGERweb query, cached; [] when no boundary is that close; None when it cannot be checked."""
+    if not _AX and os.path.exists(AX_FN): _AX.update(jl(AX_FN))
+    if address in _AX: return _AX[address]
+    g = _geo(address)
+    if g.get("lat") is None or not g.get("bg"): return None
+    lat, lon = g["lat"], g["lon"]; kx = 111320 * math.cos(math.radians(lat)); ky = 110540; e = 0.0015
+    try:
+        q = urllib.parse.urlencode({"geometry": f"{lon - e},{lat - e},{lon + e},{lat + e}", "geometryType": "esriGeometryEnvelope", "inSR": "4326", "spatialRel": "esriSpatialRelIntersects", "outFields": "GEOID", "returnGeometry": "true", "outSR": "4326", "f": "geojson"})
+        with urllib.request.urlopen(urllib.request.Request("https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Tracts_Blocks/MapServer/11/query?" + q, headers={"User-Agent": "Mozilla/5.0"}), timeout=60) as resp: fc = json.load(resp)
+    except Exception: return None
+    if "features" not in fc: return None
+    def seg(px, py, ax, ay, bx, by):
+        dx, dy = bx - ax, by - ay; t = max(0.0, min(1.0, ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy))) if (dx or dy) else 0.0
+        return math.hypot(px - ax - t * dx, py - ay - t * dy)
+    out = []
+    for ft in fc["features"]:
+        gid = (ft.get("properties") or {}).get("GEOID"); geom = ft.get("geometry") or {}
+        if not gid or gid == g["bg"] or not geom: continue
+        polys = [geom["coordinates"]] if geom.get("type") == "Polygon" else geom.get("coordinates", [])
+        best = min((seg(0.0, 0.0, (x1 - lon) * kx, (y1 - lat) * ky, (x2 - lon) * kx, (y2 - lat) * ky)
+                    for poly in polys for ring in poly for (x1, y1), (x2, y2) in zip(ring, ring[1:])), default=1e9)
+        if best <= radius_m: out.append([gid, round(best)])
+    _AX[address] = out; js(AX_FN, _AX); return out
 def crime_read(address):
     """The legend positions (0 = A+ .. 1 = F) of the address's block group on each tab, plus its GEOID, or None when no map covers it."""
     bg = block_group_for(address); rec = crime_table().get(bg) if bg else None
@@ -92,7 +126,17 @@ def crime_cell(cr, mmdd):
     flags = [f"{k} {cgrade(cr[k])}" for k in ("M", "D") if k in cr]
     return " / ".join(parts) + ("; " + ", ".join(flags) if flags else "") + f" ({mmdd})"
 def crime_penalty(cr): return round(max(0.0, 3 * (cr["R"] - 0.6) / 0.4), 1) if cr else 0   # 0 at C+ and better, about 1 at D+, 2 at D-, 2.6 in the middle of F; replaces the letter's 3/2/1/0.5
-def crime_knockout(cr): return bool(cr) and cr["R"] >= 12 / 13 and (cr.get("B", 0) >= 12 / 13 or cr.get("V", 0) >= 12 / 13)   # memo 69 section 4.4: Robbery F with Burglary or Vandalism F (the second tab stands in for the across-the-street check)
+def crime_knockout(cr, address):
+    """memo 69 section 4.4. Regional sweeps: Robbery F and the block group across the street also F. NC/VA: Robbery F and Burglary or Vandalism F.
+    A street that cannot be checked, or a block group across it with no map, does not knock the row out."""
+    if not cr or cr["R"] < 12 / 13: return False
+    if REGION == "ncva": return cr.get("B", 0) >= 12 / 13 or cr.get("V", 0) >= 12 / 13
+    ax = across_street(address)
+    if ax is None: return False
+    return all((crime_table().get(gid) or {}).get("R", 0) >= 12 / 13 for gid, _ in ax)
+def crime_ko_text(cr):
+    if REGION == "ncva": return f"crime: Robbery {cgrade(cr['R'])} with Burglary {cgrade(cr.get('B', 0))}, Vandalism {cgrade(cr.get('V', 0))}"
+    return f"crime: Robbery {cgrade(cr['R'])} on this block and across the street"
 MMDD = f"{int(DATE[5:7])}/{int(DATE[8:10])}"
 def akey(a):
     m = re.search(r"(\d{5})\s*$", a.strip()); return key(a) + "|" + (m.group(1) if m else "")
@@ -211,7 +255,10 @@ if stage == "ingest":
             for rec in csv.reader(io.StringIO(out)):
                 if len(rec) >= 12 and rec[2] == "Match":
                     cache[raw[int(rec[0])]["address"]] = rec[8] + rec[9] + rec[10]
-                    if len(rec) >= 12 and rec[11]: bgc[raw[int(rec[0])]["address"]] = rec[8] + rec[9] + rec[10] + rec[11][:1]
+                    if len(rec) >= 12 and rec[11]:
+                        try: lon_, lat_ = (float(x) for x in rec[5].split(","))
+                        except Exception: lon_ = lat_ = None
+                        bgc[raw[int(rec[0])]["address"]] = {"bg": rec[8] + rec[9] + rec[10] + rec[11][:1], "lat": lat_, "lon": lon_}
             js(cache_fn, cache); js(BGC_FN, bgc); _BG.update(bgc)
         except Exception as ex: note(f"geocoder failed: {ex}")
     S10 = jl(PIPE + RC["tract_scores_x1.0"]); S125 = jl(PIPE + RC["tract_scores_x1.25"]); md = jl(PIPE + RC["map_data"])["rows"]
@@ -237,7 +284,7 @@ if stage == "ingest":
         could = (rec["delta"] in ("new", "relisted") or rec["delta"].startswith("price cut") or idx.get(k, {}).get("detail_pending") == "yes") and not ko and p and p <= C["practical_ceiling"]
         cr = crime_read(r["address"]) if could else None
         rec["block_group"] = cr["bg"] if cr else ""; rec["crime_R"] = round(cr["R"], 3) if cr else ""; rec["crime_cell"] = crime_cell(cr, MMDD) if cr else (f"maps needed {k.split(chr(124))[1]}" if could else "")
-        if cr and crime_knockout(cr): ko.append(f"crime: Robbery {cgrade(cr['R'])}, Burglary {cgrade(cr.get('B', 0))}, Vandalism {cgrade(cr.get('V', 0))}")
+        if cr and crime_knockout(cr, r["address"]): ko.append(crime_ko_text(cr))
         rec["knockouts"] = "; ".join(ko)
         fresh = rec["delta"] in ("new", "relisted") or rec["delta"].startswith("price cut")
         pending = idx.get(k, {}).get("detail_pending") == "yes"   # shortlisted on an earlier run, detail page never fetched
@@ -340,7 +387,7 @@ if stage == "underwrite":
             noi = rent * 12 * (1 - vac - 0.10 - (0.08 + TC["mgmt_extra"][tier]) - 0.05) - taxes - ins - TC["travel_usd"][tier]; ads = pmt(0.75 * price, C["rate"]); coc = (noi - ads) / (0.3125 * price) * 100; dscr = noi / ads; r2p = round(rent * 100 / price, 4)
         if grade == "RED": verdict = "OUT (RED)"
         elif grade == "OUT" or not rent or units != 2: verdict = "OUT"
-        elif crime_knockout(cr): verdict = "OUT (crime)"   # 2026-09-30
+        elif crime_knockout(cr, f["address"]): verdict = "OUT (crime)"   # 2026-09-30 (memo 69 section 4.4)
         elif r2p is not None and r2p < bar: verdict = "NEAR-MISS"
         elif coc is not None and coc < 0: verdict = "OUT (negative cash flow)"
         else: verdict = "ENTRANT"
