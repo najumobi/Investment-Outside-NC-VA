@@ -77,7 +77,7 @@ def fit_zip(args):
         if os.path.exists(fp): out[v]=json.load(open(fp)); continue
         t=time.time()
         try:
-            fit=georeference(ex,ref[0],ref[1],CACHE)
+            fit=georeference(ex,ref[0],ref[1],CACHE,zmin=11.5)   # rural ZIP pages sit below the 12.3 default (Reidsville 27320 at 11.985)
         except Exception as e:
             print('FIT FAIL',z,v,e,flush=True); continue
         fit['ref']=ref; fit['exemplar']=views[v][0]; fit['seconds']=round(time.time()-t)
