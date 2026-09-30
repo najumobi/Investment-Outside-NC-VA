@@ -1,0 +1,39 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Theft_pos,Vehicle Theft_pos,Drug-Related Crime_pos,Arson_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Theft_grade,Vehicle Theft_grade,Drug-Related Crime_grade,Arson_grade,Murder_grade
+g04,"3446 E 125th St, Cleveland, OH 44120",photo list,44105,0.983,0.961,0.991,0.961,,,0.961,,0.992,F,F,F,F,,,F,,F
+g09,"9816 Manor Ave, Cleveland, OH 44104",photo list,44105,0.954,0.991,0.983,0.934,,,0.934,,0.991,F,F,F,F,,,F,,F
+f001,"321 Slack St, Steubenville, OH 43952",file 14,43952,0.934,0.858,0.895,0.814,,,0.340,,0.935,F,D-,D-,D,,,B,,F
+f003,"313 Village St, Johnstown, PA 15902",file 14,15902,0.780,0.799,0.953,0.340,,,0.658,,0.737,D,D,F,B,,,C-,,D+
+f004,"106 Messenger St, Johnstown, PA 15902",file 14,15902,0.837,0.895,0.954,0.694,,,0.568,,0.711,D,D-,F,D+,,,C,,D+
+f005,"227 Munson Ave, Mc Kees Rocks, PA 15136",file 14,15136,0.889,0.934,0.935,0.954,,,0.934,,0.913,D-,F,F,F,,,F,,D-
+f006,"713 Mcmillen St, Johnstown, PA 15902",file 14,15902,0.737,0.895,0.858,0.597,,,0.395,,0.799,D+,D-,D-,C,,,B-,,D
+f007,"822 Lamont St, Mc Kees Rocks, PA 15136",file 14,15136,0.821,0.858,0.934,0.954,,,0.611,,0.889,D,D-,F,F,,,C,,D-
+f008,"1500 Grandview Ave, McKeesport, PA 15132",file 14,15132,0.934,0.985,0.983,0.858,,,0.837,,0.961,F,F,F,D-,,,D,,F
+f009,"509 Transverse Ave, Pittsburgh, PA 15210",file 14,15210,0.858,0.821,0.985,0.837,,,0.895,,0.895,D-,D,F,D,,,D-,,D-
+f012,"604 Highland Ave, Johnstown, PA 15902",file 14,15902,0.780,0.799,0.953,0.340,,,0.658,,0.737,D,D,F,B,,,C-,,D+
+f013,"1992 Starr Ave, Toledo, OH 43605",file 14,43605,0.934,0.737,0.846,0.889,,,0.711,,0.837,F,D+,D,D-,,,D+,,D
+f014,"1996 Starr Ave, Toledo, OH 43605",file 14,43605,0.934,0.737,0.846,0.889,,,0.711,,0.837,F,D+,D,D-,,,D+,,D
+f016,"708 Lookout Ave, Charleroi, PA 15022",file 14,15022,0.658,0.780,0.737,0.310,,,0.388,,0.764,C-,D,D+,B,,,B-,,D+
+f018,"422 E Division St, New Castle, PA 16101",file 14,16101,0.844,0.756,0.858,0.694,,,0.504,,0.799,D,D+,D-,D+,,,C+,,D
+f020,"934 Ridge St, Mc Kees Rocks, PA 15136",file 14,15136,0.837,0.895,0.895,0.889,,,0.644,,0.895,D,D-,D-,D-,,,C-,,D-
+f021,"811 10th St, Mc Kees Rocks, PA 15136",file 14,15136,0.837,0.895,0.895,0.889,,,0.644,,0.895,D,D-,D-,D-,,,C-,,D-
+f022,"731 Lincoln Ave, Charleroi, PA 15022",file 14,15022,0.658,0.780,0.737,0.310,,,0.388,,0.764,C-,D,D+,B,,,B-,,D+
+f024,"11910 Chesterfield Ave, Cleveland, OH 44108",file 14,44103,0.985,0.992,0.991,0.985,,,0.991,,0.992,F,F,F,F,,,F,,F
+f025,"1115 Lincoln Ave, Toledo, OH 43607",file 14,43605,0.954,0.934,0.991,0.934,,,0.889,,0.934,F,F,F,F,,,D-,,F
+f027,"654 W Sylvania Ave, Toledo, OH 43612",file 14,43612,0.858,0.568,,,,,,,,D-,C,,,,,,,
+f030,"1214 E Washington St, New Castle, PA 16101",file 14,16101,0.799,0.799,0.934,0.568,,,0.299,,0.837,D,D,F,C,,,B+,,D
+f032,"1433 Kenmore Blvd, Akron, OH 44314",file 14,44314,0.895,0.780,0.934,0.799,,,0.799,,0.872,D-,D,F,D,,,D,,D-
+f036,"3248 W 90th St, Cleveland, OH 44102",file 14,44102,0.895,0.799,0.895,0.658,,,0.858,,0.889,D-,D,D-,C-,,,D-,,D-
+f037,"206 Ingram Ave SW, Canton, OH 44710",file 14,44710,0.846,0.611,0.895,0.934,,,0.821,,0.821,D,C,D-,F,,,D,,D
+f043,"73 Pointview Ave, Dayton, OH 45405",file 14,45405,0.799,0.768,0.866,0.961,,,0.794,,0.954,D,D+,D-,F,,,D,,F
+f046,"1247 E 84th St, Cleveland, OH 44103",file 14,44103,0.991,0.991,0.985,0.954,,,0.954,,0.991,F,F,F,F,,,F,,F
+f047,"14002 Idarose Ave, Cleveland, OH 44110",file 14,44108,0.954,0.961,0.934,0.934,,,0.985,,0.992,F,F,F,F,,,F,,F
+f048,"9110 Jeffries Ave, Cleveland, OH 44105",file 14,44105,0.935,0.821,0.895,0.821,,,0.799,,0.961,F,D,D-,D,,,D,,F
+f051,"13305 Ferris Ave, Cleveland, OH 44105",file 14,44105,0.991,0.895,0.991,0.961,,,0.934,,0.991,F,D-,F,F,,,F,,F
+f053,"2326 E 95th St, Cleveland, OH 44106",file 14,44106,0.985,0.985,0.954,0.954,,,0.991,,0.991,F,F,F,F,,,F,,F
+f056,"4697 E 85th St, Garfield Heights, OH 44125",file 14,44105,0.711,0.597,0.846,0.597,,,0.846,,0.872,D+,C,D,C,,,D,,D-
+f058,"1019 Mark Ave, Scranton, PA 18510",file 14,18510,0.543,0.658,0.934,0.658,,,0.814,,0.445,C,C-,F,C-,,,D,,B-
+f062,"1013 John Ave, Scranton, PA 18510",file 14,18510,0.543,0.658,0.934,0.658,,,0.814,,0.445,C,C-,F,C-,,,D,,B-
+f066,"12501 Dove Ave, Cleveland, OH 44105",file 14,44105,0.934,0.895,0.961,0.799,,,0.858,,0.991,F,D-,F,D,,,D-,,F
+f083,"16523 Kipling Ave, Cleveland, OH 44110",file 14,44108,0.934,0.991,0.985,0.991,,,0.934,,0.991,F,F,F,F,,,F,,F
+f124,"12500 Ferris Ave, Cleveland, OH 44105",file 14,44105,0.934,0.934,0.935,0.837,,,0.895,,0.991,F,F,F,D,,,D-,,F
+f125,"840 Work Dr, Akron, OH 44320",file 14,44320,0.961,0.934,0.954,0.934,,,0.895,,0.954,F,F,F,F,,,D-,,F
