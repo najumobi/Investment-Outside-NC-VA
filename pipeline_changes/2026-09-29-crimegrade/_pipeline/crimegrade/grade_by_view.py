@@ -38,7 +38,7 @@ def addresses():
     for fn in ['addresses_ohio_robbery_2026-09-29.csv','addresses_vawv_robbery_2026-09-29.csv','addresses_green_robbery_2026-09-29.csv']:
         for r in csv.DictReader(open(os.path.join(ROOT,fn),encoding='utf-8-sig')):
             if r.get('file14_address'): cleaned[r['file14_address'].strip()]=r['address'].strip()
-    f14=os.path.join(ROOT,'..','2026-09-29','14 Live status and ranking of the 42 tracked candidates (2026-09-11).csv')
+    f14=os.environ.get('FILE14') or os.path.join(ROOT,'..','2026-09-29','14 Live status and ranking of the 42 tracked candidates (2026-09-11).csv')   # FILE14 points at a newer copy of file 14
     have={r['address'] for r in rows.values()}
     n=0
     for i,r in enumerate(csv.DictReader(open(f14,encoding='utf-8-sig'))):
