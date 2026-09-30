@@ -410,7 +410,7 @@ if stage == "underwrite":
     if no_j: note(f"  {len(no_j)} facts rows without a judgment were skipped (first: {no_j[0]})")
     out.sort(key=lambda o: (ORDER[o["verdict"]], -(o["score"] if o["score"] != "" else -999)))
     if out: wr(RUN + "results.csv", out)
-    rows14 = rd(F14); f14fields = list(rows14[0].keys()); IFIELD = f14fields[0]   # the header starts with a BOM, so the first field reads as "ï»¿i", not "i"; writing the row under "i" silently dropped it (rows folded on 9/21 had a blank i)
+    rows14 = rd(F14); f14fields = list(rows14[0].keys()); IFIELD = f14fields[0]   # the header starts with a BOM, so the first field reads as "﻿i", not "i"; writing the row under "i" silently dropped it (rows folded on 9/21 had a blank i)
     by_key = {}   # street-level match: portals disagree on ZIPs, unit suffixes and spellings (parsers.key folds Mount/Mt, North/N etc. since 2026-09-28)
     for r in rows14: by_key.setdefault(key(r["address"]), r)
     wnum = max([int(m.group(1)) for r in rows14 for m in [re.match(r"^w(\d+)$", (r[IFIELD] or "").strip())] if m] + [0])
@@ -504,4 +504,3 @@ if stage == "report":
     open(RUN + "report.md", "w", encoding="utf-8").write(parts + f"\n\nFiles: {RUN}\n"); print(parts)
 
 if stage == "help": print(__doc__ or open(__file__, encoding="utf-8").read().split("import csv")[0])
-
