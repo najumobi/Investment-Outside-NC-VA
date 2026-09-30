@@ -54,10 +54,19 @@ def addresses():
     return rows
 
 def nominatim_zip(z):
+    """ZIP centroid from Nominatim, cached in the pipeline cache; retried with backoff on 429 (one request per second is the service's limit)."""
+    cp=os.path.join(CACHE,'zipref_%s.json'%z)
+    if os.path.exists(cp): return tuple(json.load(open(cp)))
     q=urllib.parse.urlencode({'postalcode':z,'country':'US','format':'json'})
-    req=urllib.request.Request('https://nominatim.openstreetmap.org/search?'+q,headers={'User-Agent':'crimegrade-pipeline/1.0'})
-    j=json.loads(urllib.request.urlopen(req,timeout=30).read())
-    return float(j[0]['lat']),float(j[0]['lon'])
+    req=urllib.request.Request('https://nominatim.openstreetmap.org/search?'+q,headers={'User-Agent':'crimegrade-pipeline/1.0 (najumobi@gmail.com)'})
+    for i in range(6):
+        try:
+            j=json.loads(urllib.request.urlopen(req,timeout=30).read()); ref=(float(j[0]['lat']),float(j[0]['lon']))
+            json.dump(ref,open(cp,'w')); time.sleep(1.5); return ref
+        except urllib.error.HTTPError as e:
+            if e.code==429: time.sleep(8*(i+1)); continue
+            raise
+    raise RuntimeError('nominatim kept returning 429 for '+z)
 
 def fit_zip(args):
     z,vlist,ref=args
