@@ -68,9 +68,10 @@ def find_legend(A):
                 continue
             hues = [_hue(tuple(int(v) for v in np.median(A[y, max(x0, int(x0 + t * (x1 - x0)) - 2):int(x0 + t * (x1 - x0)) + 3], axis=0)))
                     for t in np.linspace(0.02, 0.98, 20)]
-            falling = sum(1 for a, b in zip(hues, hues[1:]) if b < a - 0.001)
-            rising = sum(1 for a, b in zip(hues, hues[1:]) if b > a + 0.01)
-            if hues[0] > 0.2 and hues[-1] < 0.05 and falling >= 12 and rising == 0:
+            falling = sum(1 for a, b in zip(hues, hues[1:]) if b < a - 0.01)
+            rising = sum(1 for a, b in zip(hues, hues[1:]) if b > a + 0.001)
+            if (hues[0] > 0.2 and hues[-1] < 0.05 and falling >= 12 and rising == 0) or \
+               (hues[0] < 0.05 and hues[-1] > 0.2 and rising >= 12 and falling == 0):   # 2026-09-30: the ZIP-page legend runs F (red) to A+ (green)
                 best = (y, int(x0), int(x1))
     return best
 
@@ -87,7 +88,7 @@ def map_bounds(A):
                 return i
         return 0
 
-    top = first(sat.mean(axis=1), int(H * 0.2))
+    top = first(sat.mean(axis=1), int(H * 0.35))   # 2026-09-30: a 909x673 page screenshot starts its map at row 138, past the old 20% limit
     cols = sat[top:].mean(axis=0)
     left = first(cols, int(W * 0.2))
     right = W - first(cols[::-1], int(W * 0.2))

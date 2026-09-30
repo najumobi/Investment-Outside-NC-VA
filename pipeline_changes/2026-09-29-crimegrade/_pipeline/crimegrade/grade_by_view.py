@@ -11,7 +11,7 @@ from multiprocessing import Pool
 PIPE=os.path.dirname(os.path.abspath(__file__)); ROOT=os.path.dirname(os.path.dirname(PIPE)); CACHE=os.path.join(PIPE,'cache')
 sys.path.insert(0,PIPE)
 import numpy as np
-from georef import georeference, load_rgb, map_bounds
+from georef import georeference, load_rgb, map_bounds, ui_exclusions
 from colour_read import read_address, merc_y, block_groups_near
 from grade_addresses import census_geocode
 S=os.path.abspath(sys.argv[1]); IMG=os.path.join(S,'x')
@@ -123,6 +123,7 @@ def main():
         fit=fits[v]; z=view_zip[v]
         for f in sorted(views[v]):
             A=load_rgb(os.path.join(IMG,f)); H,W,_=A.shape
+            fit=dict(fit,exclusions=ui_exclusions(A))   # 2026-09-30: exclusions from the image itself (the legend, the header), not the ones stored at fit time
             top,left,right=map_bounds(A); bottom=H-48
             s,tx,ty=fit['s'],fit['tx'],fit['ty']; proj=lambda lo,la:(s*lo+tx,-s*merc_y(la)+ty)
             for r in rows.values():
