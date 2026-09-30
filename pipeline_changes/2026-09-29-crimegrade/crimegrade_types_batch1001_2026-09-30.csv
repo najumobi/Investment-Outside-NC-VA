@@ -1,65 +1,83 @@
-id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Theft_pos,Vehicle Theft_pos,Drug-Related Crime_pos,Arson_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Theft_grade,Vehicle Theft_grade,Drug-Related Crime_grade,Arson_grade,Murder_grade
-g02,"306 Troy Ave NE, Roanoke, VA 24012",photo list,24017,0.661,0.895,0.961,0.858,,,0.837,,0.794,C-,D-,F,D-,,,D,,D
-g03,"918 Star St, Rocky Mount, NC 27804",photo list,27801,0.935,0.985,0.934,0.799,,,0.028,,0.961,F,F,F,D,,,A+,,F
-g10,"245 N Ruby St, Philadelphia, PA 19139",photo list,19143,0.895,0.935,0.889,0.934,,,0.961,,0.983,D-,F,D-,F,,,F,,F
-g13,"1934 Oakland St, Petersburg, VA 23805",photo list,23803,0.543,0.794,0.774,0.895,,,0.336,,0.934,C,D,D,D-,,,B,,F
-g14,"814 Varsity Dr, Fayetteville, NC 28301",photo list,28303,0.844,0.954,0.934,0.895,,,0.711,,0.983,D,F,F,D-,,,D+,,F
-g15,"1021 Penmar Ave SE, Roanoke, VA 24013",photo list,24016,0.889,0.872,0.954,0.991,,,0.504,,0.814,D-,D-,F,F,,,C+,,D
-f002,"426 Washington Ave, Huntington, WV 25701",file 14,25701,0.866,0.991,0.954,0.934,,,0.799,,0.991,D-,F,F,F,,,D,,F
-f010,"530 Woodside Ave, Cumberland, MD 21502",file 14,21502,0.694,0.774,0.895,0.794,,,0.846,,0.611,D+,D,D-,D,,,D,,C
-f017,"806 Lynn St, Parkersburg, WV 26101",file 14,26101,0.520,0.934,0.866,0.961,,,0.846,,0.895,C+,F,D-,F,,,D,,D-
-f023,"750 Quincy St, Parkersburg, WV 26101",file 14,26101,0.991,0.992,0.992,0.992,,,0.992,,0.934,F,F,F,F,,,F,,F
-f026,"1300 Latrobe St, Parkersburg, WV 26101",file 14,26101,0.278,0.846,0.711,0.954,,,0.711,,0.445,B+,D,D+,F,,,D+,,B-
-f027,"654 W Sylvania Ave, Toledo, OH 43612",file 14,43612,0.858,0.568,0.895,0.756,,,0.756,,0.799,D-,C,D-,D+,,,D+,,D
-f040,"1611 Floyd St, Lynchburg, VA 24501",file 14,24501,0.934,0.985,0.991,0.934,,,0.751,,0.991,F,F,F,F,,,D+,,F
-f044,"5700 Kingsessing Ave, Philadelphia, PA 19143",file 14,19143,0.895,0.895,0.520,0.934,,,0.954,,0.954,D-,D-,C+,F,,,F,,F
-f045,"5830 N 12th St, Philadelphia, PA 19141",file 14,19141,0.895,0.855,0.568,0.889,,,0.858,,0.846,D-,D-,C,D-,,,D-,,D
-f050,"5306 Webster St, Philadelphia, PA 19143",file 14,19143,0.961,0.889,0.794,0.837,,,0.768,,0.934,F,D-,D,D,,,D+,,F
-f052,"118 S Poplar St, Winston Salem, NC 27101",file 14,27104,0.866,0.961,0.985,0.934,,,0.858,,0.889,D-,F,F,F,,,D-,,D-
-f054,"1114 Lafayette Blvd NW, Roanoke, VA 24017",file 14,24017,0.597,0.895,0.889,0.991,,,0.469,,0.568,C,D-,D-,F,,,C+,,C
-f056,"4697 E 85th St, Garfield Heights, OH 44125",file 14,44125,,,,,,,0.846,,,,,,,,,D,,
-f057,"1006 Faison St E, Wilson, NC 27893",file 14,27893,0.961,0.985,0.821,0.934,,,0.814,,0.737,F,F,D,F,,,D,,D+
-f060,"223 Spruce St, Suffolk, VA 23434",file 14,23434,0.961,0.983,0.858,0.954,,,0.694,,0.991,F,F,D-,F,,,D+,,F
-f064,"3704 Mariner Ave, Portsmouth, VA 23703",file 14,23707,0.774,0.661,0.543,0.568,,,0.837,,0.794,D,C-,C,C,,,D,,D
-f065,"515 N Daughtry St, Rocky Mount, NC 27801",file 14,27801,0.985,0.895,0.991,0.837,,,0.520,,0.991,F,D-,F,D,,,C+,,F
-f072,"202 Lee St NE, Wilson, NC 27893",file 14,27893,0.751,0.835,0.543,0.395,,,0.504,,0.858,D+,D,C,B-,,,C+,,D-
-f074,"163 Choate St, Portsmouth, VA 23707",file 14,23707,0.794,0.895,0.872,0.895,,,0.467,,0.889,D,D-,D-,D-,,,C+,,D-
-f077,"104 Day St, Suffolk, VA 23434",file 14,23434,0.445,0.737,0.418,0.504,,,0.181,,0.737,B-,D+,B-,C+,,,A-,,D+
-f078,"207 Tunstall Ave, Blackstone, VA 23824",file 14,23824,0.737,0.895,0.737,0.866,,,0.568,,0.934,D+,D-,D+,D-,,,C,,F
-f080,"325 Ranch Farm Rd, Raleigh, NC 27603",file 14,27603,0.568,0.611,0.597,0.445,,,0.568,,0.597,C,C,C,B-,,,C,,C
-f081,"413 Gilmer Cir, Reidsville, NC 27320",file 14,27320,0.913,0.889,0.935,0.985,,,0.799,,0.895,D-,D-,F,F,,,D,,D-
-f082,"610 S 2nd St, Pinetops, NC 27864",file 14,27864,0.658,0.362,0.768,0.774,,,0.385,,0.954,C-,B,D+,D,,,B-,,F
-f085,"4 12 1/2 St SW, Roanoke, VA 24016",file 14,24017,0.866,0.934,0.992,0.991,,,0.768,,0.889,D-,F,F,F,,,D+,,D-
-f087,"407 Industrial Ave, Danville, VA 24541",file 14,24541,0.598,0.934,0.611,0.954,,,0.934,,0.934,C,F,C,F,,,F,,F
-f089,"215 Saint Andrew St, Petersburg, VA 23803",file 14,23803,0.844,0.934,0.895,0.961,,,0.799,,0.961,D,F,D-,F,,,D,,F
-f095,"7 Barney Pl, Portsmouth, VA 23702",file 14,23702,0.866,0.895,0.934,0.835,,,0.611,,0.858,D-,D-,F,D,,,C,,D-
-f096,"133 Hugh Caldwell Rd, Charlotte, NC 28214",file 14,28214,0.737,0.799,0.737,0.694,,,0.991,,0.858,D+,D,D+,D+,,,F,,D-
-f097,"2326 Elm Ave, Portsmouth, VA 23704",file 14,23707,0.954,0.991,0.991,0.934,,,0.794,,0.991,F,F,F,F,,,D,,F
-f098,"2102 Rogers Dr, Fayetteville, NC 28303",file 14,28303,0.961,0.991,0.991,0.991,,,0.985,,0.961,F,F,F,F,,,F,,F
-f100,"749 Mt Airy St, Petersburg, VA 23803",file 14,23803,0.889,0.954,0.985,0.954,,,0.598,,0.991,D-,F,F,F,,,C,,F
-f101,"605 Washington St, Laurinburg, NC 28352",file 14,28352,0.837,0.751,0.751,0.686,,,0.111,,0.934,D,D+,D+,C-,,,A,,F
-f102,"301 S High St, Franklin, VA 23851",file 14,23851,0.934,0.991,0.991,0.934,,,0.858,,0.991,F,F,F,F,,,D-,,F
-f105,"1121 35th St, Newport News, VA 23607",file 14,23607,0.991,0.991,0.991,0.934,,,0.799,,0.991,F,F,F,F,,,D,,F
-f106,"334 Rhew St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,,,0.985,,0.954,F,F,F,F,,,F,,F
-f108,"417 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,,,0.985,,0.954,F,F,F,F,,,F,,F
-f109,"421 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,,,0.985,,0.954,F,F,F,F,,,F,,F
-f110,"425 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,,,0.985,,0.954,F,F,F,F,,,F,,F
-f111,"1702 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,,,0.060,,0.866,C,C,C-,D,,,A+,,D-
-f112,"1706 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,,,0.060,,0.866,C,C,C-,D,,,A+,,D-
-f113,"1707 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,,,0.060,,0.866,C,C,C-,D,,,A+,,D-
-f114,"1703 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,,,0.060,,0.866,C,C,C-,D,,,A+,,D-
-f115,"741 Tamarack Dr, Fayetteville, NC 28311",file 14,28303,0.388,0.611,0.780,0.780,,,0.395,,0.895,B-,C,D,D,,,B-,,D-
-f116,"716 31st St, Newport News, VA 23607",file 14,23607,0.991,0.991,0.934,0.935,,,0.445,,0.934,F,F,F,F,,,B-,,F
-f117,"307 S Jacob St, Cherryville, NC 28021",file 14,28021,0.417,0.181,0.170,0.105,,,0.482,,0.237,B-,A-,A-,A,,,C+,,B+
-f118,"1708 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,,,0.060,,0.866,C,C,C-,D,,,A+,,D-
-f120,"307 N Church St, Clayton, NC 27520",file 14,27520,0.170,0.611,0.240,0.598,,,0.694,,0.273,A-,C,B+,C,,,D+,,B+
-f121,"2614 Pecan Dr, Fayetteville, NC 28303",file 14,28303,0.597,0.858,0.780,0.895,,,0.644,,0.895,C,D-,D,D-,,,C-,,D-
-f126,"27 Carver Cir, Portsmouth, VA 23701",file 14,23707,0.794,0.895,0.872,0.895,,,0.467,,0.889,D,D-,D-,D-,,,C+,,D-
-f127,"132 Kemper Rd, Danville, VA 24541",file 14,24541,0.934,0.935,0.794,0.934,,,0.858,,0.991,F,F,D,F,,,D-,,F
-f128,"503 Granville St, Oxford, NC 27565",file 14,27565,0.799,0.954,0.934,0.935,,,0.934,,0.794,D,F,F,F,,,F,,D
-f129,"117 Motley Ave, Danville, VA 24540",file 14,24541,0.658,0.889,0.751,0.694,,,0.597,,0.889,C-,D-,D+,D+,,,C,,D-
-f130,"224 S Jefferson St, Petersburg, VA 23803",file 14,23803,0.844,0.934,0.895,0.961,,,0.799,,0.961,D,F,D-,F,,,D,,F
-f131,"739 S Rosemont Rd, Virginia Beach, VA 23452",file 14,23452,0.299,0.362,0.385,0.737,,,0.821,,0.954,B+,B,B-,D+,,,D,,F
-f133,"125 The Blvd, Eden, NC 27288",file 14,27288,0.598,0.814,0.482,0.644,,,0.597,,0.764,C,D,C+,C-,,,C,,D+
-f135,"429 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,,,0.985,,0.954,F,F,F,F,,,F,,F
-f136,"306 Auburndale St, Winston Salem, NC 27104",file 14,27104,0.520,0.504,0.520,0.737,,,0.837,,0.299,C+,C+,C+,D+,,,D,,B+
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+g02,"306 Troy Ave NE, Roanoke, VA 24012",photo list,24012,0.661,0.895,0.961,0.858,0.837,0.794,C-,D-,F,D-,D,D
+g03,"918 Star St, Rocky Mount, NC 27804",photo list,27804,0.935,0.985,0.934,0.799,0.028,0.961,F,F,F,D,A+,F
+g10,"245 N Ruby St, Philadelphia, PA 19139",photo list,19139,0.895,0.935,0.889,0.934,0.961,0.983,D-,F,D-,F,F,F
+g13,"1934 Oakland St, Petersburg, VA 23805",photo list,23805,0.543,0.794,0.774,0.895,0.336,0.934,C,D,D,D-,B,F
+g14,"814 Varsity Dr, Fayetteville, NC 28301",photo list,28301,0.844,0.954,0.934,0.895,0.711,0.983,D,F,F,D-,D+,F
+g15,"1021 Penmar Ave SE, Roanoke, VA 24013",photo list,24013,0.889,0.872,0.954,0.991,0.504,0.814,D-,D-,F,F,C+,D
+f001,"426 Washington Ave, Huntington, WV 25701",file 14,25701,0.866,0.991,0.954,0.934,0.799,0.991,D-,F,F,F,D,F
+f007,"704 Baker St, Cumberland, MD 21502",file 14,21502,0.780,0.799,0.934,0.895,0.858,0.694,D,D,F,D-,D-,D+
+f010,"530 Woodside Ave, Cumberland, MD 21502",file 14,21502,0.694,0.774,0.895,0.794,0.846,0.611,D+,D,D-,D,D,C
+f011,"806 Lynn St, Parkersburg, WV 26101",file 14,26101,0.520,0.934,0.866,0.961,0.846,0.895,C+,F,D-,F,D,D-
+f018,"750 Quincy St, Parkersburg, WV 26101",file 14,26101,0.991,0.992,0.992,0.992,0.992,0.934,F,F,F,F,F,F
+f024,"118 S Poplar St, Winston Salem, NC 27101",file 14,27101,0.866,0.961,0.985,0.934,0.858,0.889,D-,F,F,F,D-,D-
+f027,"1114 Lafayette Blvd NW, Roanoke, VA 24017",file 14,24017,0.597,0.895,0.889,0.991,0.469,0.568,C,D-,D-,F,C+,C
+f031,"1300 Latrobe St, Parkersburg, WV 26101",file 14,26101,0.278,0.846,0.711,0.954,0.711,0.445,B+,D,D+,F,D+,B-
+f032,"5830 N 12th St, Philadelphia, PA 19141",file 14,19141,0.895,0.855,0.568,0.889,0.858,0.846,D-,D-,C,D-,D-,D
+f037,"223 Spruce St, Suffolk, VA 23434",file 14,23434,0.961,0.983,0.858,0.954,0.694,0.991,F,F,D-,F,D+,F
+f039,"1611 Floyd St, Lynchburg, VA 24501",file 14,24501,0.934,0.985,0.991,0.934,0.751,0.991,F,F,F,F,D+,F
+f042,"3704 Mariner Ave, Portsmouth, VA 23703",file 14,23703,0.774,0.661,0.543,0.568,0.837,0.794,D,C-,C,C,D,D
+f044,"5700 Kingsessing Ave, Philadelphia, PA 19143",file 14,19143,0.895,0.895,0.520,0.934,0.954,0.954,D-,D-,C+,F,F,F
+f045,"654 W Sylvania Ave, Toledo, OH 43612",file 14,43612,0.858,0.568,0.895,0.756,0.756,0.799,D-,C,D-,D+,D+,D
+f046,"515 N Daughtry St, Rocky Mount, NC 27801",file 14,27801,0.985,0.895,0.991,0.837,0.520,0.991,F,D-,F,D,C+,F
+f049,"613 S 52nd St, Philadelphia, PA 19143",file 14,19143,0.934,0.821,0.954,0.913,0.934,0.961,F,D,F,D-,F,F
+f050,"5306 Webster St, Philadelphia, PA 19143",file 14,19143,0.961,0.889,0.794,0.837,0.768,0.934,F,D-,D,D,D+,F
+f057,"202 Lee St NE, Wilson, NC 27893",file 14,27893,0.751,0.835,0.543,0.395,0.504,0.858,D+,D,C,B-,C+,D-
+f061,"163 Choate St, Portsmouth, VA 23707",file 14,23707,0.794,0.895,0.872,0.895,0.467,0.889,D,D-,D-,D-,C+,D-
+f066,"4753 Rorer St, Philadelphia, PA 19120",file 14,19120,0.846,0.756,0.310,0.644,0.934,0.889,D,D+,B,C-,F,D-
+f071,"104 Day St, Suffolk, VA 23434",file 14,23434,0.445,0.737,0.418,0.504,0.181,0.737,B-,D+,B-,C+,A-,D+
+f072,"207 Tunstall Ave, Blackstone, VA 23824",file 14,23824,0.737,0.895,0.737,0.866,0.568,0.934,D+,D-,D+,D-,C,F
+f073,"200 E Albanus St, Philadelphia, PA 19120",file 14,19120,0.756,0.658,0.321,0.756,0.858,0.895,D+,C-,B,D+,D-,D-
+f080,"4236 Aldine St, Philadelphia, PA 19136",file 14,19136,0.543,0.658,0.267,0.756,0.934,0.846,C,C-,B+,D+,F,D
+f083,"325 Ranch Farm Rd, Raleigh, NC 27603",file 14,27603,0.568,0.611,0.597,0.445,0.568,0.597,C,C,C,B-,C,C
+f086,"14A 14B Oak St, Jenkins Township, PA 18640",file 14,18640,0.181,0.417,0.206,0.625,0.611,0.336,A-,B-,A-,C-,C,B
+f087,"413 Gilmer Cir, Reidsville, NC 27320",file 14,27320,0.913,0.889,0.935,0.985,0.799,0.895,D-,D-,F,F,D,D-
+f088,"610 S 2nd St, Pinetops, NC 27864",file 14,27864,0.658,0.362,0.768,0.774,0.385,0.954,C-,B,D+,D,B-,F
+f094,"407 Industrial Ave, Danville, VA 24541",file 14,24541,0.598,0.934,0.611,0.954,0.934,0.934,C,F,C,F,F,F
+f098,"319 E Essex Ave, Lansdowne, PA 19050",file 14,19050,0.846,0.895,0.694,0.895,0.598,0.821,D,D-,D+,D-,C,D
+f103,"1967 Georgian Rd, Philadelphia, PA 19138",file 14,19138,0.913,0.858,0.388,0.934,0.954,0.934,D-,D-,B-,F,F,F
+f104,"2423 W Norris St, Philadelphia, PA 19121",file 14,19121,0.889,0.895,0.821,0.780,0.889,0.991,D-,D-,D,D,D-,F
+f105,"14 E Railroad St, Plymouth, PA 18651",file 14,18651,0.598,0.895,0.954,0.821,0.523,0.566,C,D-,F,D,C+,C
+f106,"7 Barney Pl, Portsmouth, VA 23702",file 14,23702,0.866,0.895,0.934,0.835,0.611,0.858,D-,D-,F,D,C,D-
+f110,"2014 E Clearfield St, Philadelphia, PA 19134",file 14,19134,0.991,0.954,0.780,0.799,0.934,0.934,F,F,D,D,F,F
+f111,"7317 E Walnut Ln, Philadelphia, PA 19138",file 14,19138,0.395,0.644,0.004,0.737,0.799,0.837,B-,C-,A+,D+,D,D
+f114,"315 E Essex Ave, Lansdowne, PA 19050",file 14,19050,0.846,0.895,0.694,0.895,0.598,0.821,D,D-,D+,D-,C,D
+f117,"14 Rear Railroad St, Plymouth, PA 18651",file 14,18651,0.598,0.895,0.954,0.821,0.523,0.566,C,D-,F,D,C+,C
+f124,"133 Hugh Caldwell Rd, Charlotte, NC 28214",file 14,28214,0.737,0.799,0.737,0.694,0.991,0.858,D+,D,D+,D+,F,D-
+f125,"2326 Elm Ave, Portsmouth, VA 23704",file 14,23704,0.954,0.991,0.991,0.934,0.794,0.991,F,F,F,F,D,F
+f127,"2102 Rogers Dr, Fayetteville, NC 28303",file 14,28303,0.961,0.991,0.991,0.991,0.985,0.961,F,F,F,F,F,F
+f135,"129 131 Summit St, Edwardsville, PA 18704",file 14,18704,0.543,0.737,0.780,0.913,0.821,0.417,C,D+,D,D-,D,B-
+f136,"129 Summit St, Edwardsville, PA 18704",file 14,18704,0.543,0.737,0.780,0.913,0.821,0.417,C,D+,D,D-,D,B-
+f140,"749 Mt Airy St, Petersburg, VA 23803",file 14,23803,0.889,0.954,0.985,0.954,0.598,0.991,D-,F,F,F,C,F
+f146,"605 Washington St, Laurinburg, NC 28352",file 14,28352,0.837,0.751,0.751,0.686,0.111,0.934,D,D+,D+,C-,A,F
+f148,"301 S High St, Franklin, VA 23851",file 14,23851,0.934,0.991,0.991,0.934,0.858,0.991,F,F,F,F,D-,F
+f151,"741 Tamarack Dr, Fayetteville, NC 28311",file 14,28311,0.388,0.611,0.780,0.780,0.395,0.895,B-,C,D,D,B-,D-
+f156,"1121 35th St, Newport News, VA 23607",file 14,23607,0.991,0.991,0.991,0.934,0.799,0.991,F,F,F,F,D,F
+f158,"334 Rhew St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,0.985,0.954,F,F,F,F,F,F
+f161,"417 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,0.985,0.954,F,F,F,F,F,F
+f162,"421 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,0.985,0.954,F,F,F,F,F,F
+f163,"425 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,0.985,0.954,F,F,F,F,F,F
+f164,"1702 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,0.060,0.866,C,C,C-,D,A+,D-
+f165,"1706 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,0.060,0.866,C,C,C-,D,A+,D-
+f166,"1707 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,0.060,0.866,C,C,C-,D,A+,D-
+f167,"1703 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,0.060,0.866,C,C,C-,D,A+,D-
+f172,"716 31st St, Newport News, VA 23607",file 14,23607,0.991,0.991,0.934,0.935,0.445,0.934,F,F,F,F,B-,F
+f173,"307 S Jacob St, Cherryville, NC 28021",file 14,28021,0.417,0.181,0.170,0.105,0.482,0.237,B-,A-,A-,A,C+,B+
+f174,"1708 Birchwood Dr SE, Wilson, NC 27893",file 14,27893,0.543,0.598,0.644,0.774,0.060,0.866,C,C,C-,D,A+,D-
+f176,"3862 N 6th St, Philadelphia, PA 19140",file 14,19140,0.858,0.737,0.467,0.751,0.954,0.934,D-,D+,C+,D+,F,F
+f178,"1006 Faison St E, Wilson, NC 27893",file 14,27893,0.961,0.985,0.821,0.934,0.814,0.737,F,F,D,F,D,D+
+f179,"4 12 1/2 St SW, Roanoke, VA 24016",file 14,24016,0.866,0.934,0.992,0.991,0.768,0.889,D-,F,F,F,D+,D-
+f183,"307 N Church St, Clayton, NC 27520",file 14,27520,0.170,0.611,0.240,0.598,0.694,0.273,A-,C,B+,C,D+,B+
+f184,"4697 E 85th St, Garfield Heights, OH 44125",file 14,44125,,,,,0.846,,,,,,D,
+f186,"2614 Pecan Dr, Fayetteville, NC 28303",file 14,28303,0.597,0.858,0.780,0.895,0.644,0.895,C,D-,D,D-,C-,D-
+f190,"27 Carver Cir, Portsmouth, VA 23701",file 14,23701,0.794,0.895,0.872,0.895,0.467,0.889,D,D-,D-,D-,C+,D-
+f192,"508 Summers St, Parkersburg, WV 26101",file 14,26101,0.206,0.934,0.568,0.934,0.780,0.846,A-,F,C,F,D,D
+f193,"132 Kemper Rd, Danville, VA 24541",file 14,24541,0.934,0.935,0.794,0.934,0.858,0.991,F,F,D,F,D-,F
+f196,"503 Granville St, Oxford, NC 27565",file 14,27565,0.799,0.954,0.934,0.935,0.934,0.794,D,F,F,F,F,D
+f197,"117 Motley Ave, Danville, VA 24540",file 14,24540,0.658,0.889,0.751,0.694,0.597,0.889,C-,D-,D+,D+,C,D-
+f198,"215 Saint Andrew St, Petersburg, VA 23803",file 14,23803,0.844,0.934,0.895,0.961,0.799,0.961,D,F,D-,F,D,F
+f199,"224 S Jefferson St, Petersburg, VA 23803",file 14,23803,0.844,0.934,0.895,0.961,0.799,0.961,D,F,D-,F,D,F
+f200,"739 S Rosemont Rd, Virginia Beach, VA 23452",file 14,23452,0.299,0.362,0.385,0.737,0.821,0.954,B+,B,B-,D+,D,F
+f202,"125 The Blvd, Eden, NC 27288",file 14,27288,0.598,0.814,0.482,0.644,0.597,0.764,C,D,C+,C-,C,D+
+f205,"429 Squirrel St, Fayetteville, NC 28303",file 14,28303,0.934,0.961,0.991,0.991,0.985,0.954,F,F,F,F,F,F
+f206,"306 Auburndale St, Winston Salem, NC 27104",file 14,27104,0.520,0.504,0.520,0.737,0.837,0.299,C+,C+,C+,D+,D,B+

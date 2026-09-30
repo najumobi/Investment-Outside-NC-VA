@@ -78,13 +78,13 @@ maps/types_batch510/43607_murder.png,Screen Shot 09-30-26 at 05.05 AM 001.PNG,43
 maps/types_batch510/43607_robbery.png,Screen Shot 09-30-26 at 05.04 AM 006.PNG,43607,Robbery,29,,read
 maps/types_batch510/43607_vandalism.png,Screen Shot 09-30-26 at 05.05 AM.PNG,43607,Vandalism,29,,read
 maps/types_batch510/43612_assault.png,Screen Shot 09-30-26 at 05.03 AM 002.PNG,43612,Assault,27,,read
-maps/types_batch510/43612_assault_2.png,Screen Shot 09-30-26 at 05.04 AM 001.PNG,43612,Assault,28,,dropped: map rotated about 10 degrees; re-shoot north-up
-maps/types_batch510/43612_burglary.png,Screen Shot 09-30-26 at 05.04 AM 005.PNG,43612,Burglary,28,,dropped: map rotated about 10 degrees; re-shoot north-up
-maps/types_batch510/43612_drug.png,Screen Shot 09-30-26 at 05.04 AM 002.PNG,43612,Drug-Related Crime,28,,dropped: map rotated about 10 degrees; re-shoot north-up
-maps/types_batch510/43612_murder.png,Screen Shot 09-30-26 at 05.04 AM 004.PNG,43612,Murder,28,,dropped: map rotated about 10 degrees; re-shoot north-up
+maps/types_batch510/43612_assault_2.png,Screen Shot 09-30-26 at 05.04 AM 001.PNG,43612,Assault,28,,dropped: fit failed (0.21); pending
+maps/types_batch510/43612_burglary.png,Screen Shot 09-30-26 at 05.04 AM 005.PNG,43612,Burglary,28,,dropped: fit failed (0.21); pending
+maps/types_batch510/43612_drug.png,Screen Shot 09-30-26 at 05.04 AM 002.PNG,43612,Drug-Related Crime,28,,dropped: fit failed (0.21); pending
+maps/types_batch510/43612_murder.png,Screen Shot 09-30-26 at 05.04 AM 004.PNG,43612,Murder,28,,dropped: fit failed (0.21); pending
 maps/types_batch510/43612_robbery.png,Screen Shot 09-30-26 at 05.03 AM 001.PNG,43612,Robbery,27,,read
-maps/types_batch510/43612_robbery_2.png,Screen Shot 09-30-26 at 05.04 AM.PNG,43612,Robbery,28,,dropped: map rotated about 10 degrees; re-shoot north-up
-maps/types_batch510/43612_vandalism.png,Screen Shot 09-30-26 at 05.04 AM 003.PNG,43612,Vandalism,28,,dropped: map rotated about 10 degrees; re-shoot north-up
+maps/types_batch510/43612_robbery_2.png,Screen Shot 09-30-26 at 05.04 AM.PNG,43612,Robbery,28,,dropped: fit failed (0.21); pending
+maps/types_batch510/43612_vandalism.png,Screen Shot 09-30-26 at 05.04 AM 003.PNG,43612,Vandalism,28,,dropped: fit failed (0.21); pending
 maps/types_batch510/43952_assault.png,Screen Shot 09-30-26 at 05.02 AM 003.PNG,43952,Assault,26,,read
 maps/types_batch510/43952_burglary.png,Screen Shot 09-30-26 at 05.03 AM.PNG,43952,Burglary,26,,read
 maps/types_batch510/43952_drug.png,Screen Shot 09-30-26 at 05.02 AM 004.PNG,43952,Drug-Related Crime,26,,read
@@ -129,7 +129,7 @@ maps/types_batch510/44110_robbery.png,Screen Shot 09-30-26 at 04.57 AM 003.PNG,4
 maps/types_batch510/44110_vandalism.png,Screen Shot 09-30-26 at 04.57 AM 006.PNG,44110,Vandalism,20,,read
 maps/types_batch510/44125_assault.png,Screen Shot 09-30-26 at 04.56 AM 004.PNG,44125,Assault,18,,read
 maps/types_batch510/44125_burglary.png,Screen Shot 09-30-26 at 04.57 AM 002.PNG,44125,Burglary,18,,read
-maps/types_batch510/44125_drug.png,Screen Shot 09-30-26 at 04.56 AM 005.PNG,44125,Drug-Related Crime,19,,"dropped: More dropdown open over the map, off the page zoom"
+maps/types_batch510/44125_drug.png,Screen Shot 09-30-26 at 04.56 AM 005.PNG,44125,Drug-Related Crime,19,,dropped: 
 maps/types_batch510/44125_murder.png,Screen Shot 09-30-26 at 04.57 AM 001.PNG,44125,Murder,18,,read
 maps/types_batch510/44125_robbery.png,Screen Shot 09-30-26 at 04.56 AM 003.PNG,44125,Robbery,18,,read
 maps/types_batch510/44125_vandalism.png,Screen Shot 09-30-26 at 04.57 AM.PNG,44125,Vandalism,18,,read
