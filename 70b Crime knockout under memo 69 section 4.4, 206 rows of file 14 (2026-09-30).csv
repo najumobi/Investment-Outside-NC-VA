@@ -1,0 +1,207 @@
+address,status,region,knockout,reason,robbery,burglary,vandalism,murder,drug,across_street_block_groups,score,novice
+"10001 Sophia Ave, Cleveland, OH 44104",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.99 F,0.99 F,0.99 F,F,F,,1.6,YELLOW
+"1006 Faison St E, Wilson, NC 27893",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.96 F,0.82 D,0.93 F,D+,D,,-12.6,YELLOW
+"108 S Pine St, Rocky Mount, NC 27804",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.94 F,0.93 F,0.80 D,F,A+,371270104002 at 6 m (Robbery F),-9.9,YELLOW
+"1115 Lincoln Ave, Toledo, OH 43607",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.95 F,0.99 F,0.93 F,F,D-,,0.0,YELLOW
+"1121 35th St, Newport News, VA 23607",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.99 F,0.99 F,0.93 F,F,D,,-9.3,YELLOW
+"11910 Chesterfield Ave, Cleveland, OH 44108",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.98 F,0.99 F,0.98 F,F,F,,9.3,YELLOW
+"1247 E 84th St, Cleveland, OH 44103",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.99 F,0.98 F,0.95 F,F,F,,3.3,YELLOW
+"13305 Ferris Ave, Cleveland, OH 44105",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.99 F,0.99 F,0.96 F,F,F,,-9.2,YELLOW
+"134 N 53rd St, Philadelphia, PA 19139",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.95 F,0.66 C-,0.87 D-,F,F,,-2.2,YELLOW
+"14002 Idarose Ave, Cleveland, OH 44110",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.95 F,0.93 F,0.93 F,F,F,,-2.1,YELLOW
+"1611 Floyd St, Lynchburg, VA 24501",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.93 F,F,D+,,5.6,YELLOW
+"16523 Kipling Ave, Cleveland, OH 44110",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.93 F,0.98 F,0.99 F,F,F,,-0.2,YELLOW
+"2014 E Clearfield St, Philadelphia, PA 19134",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.99 F,0.78 D,0.80 D,F,F,,-6.3,YELLOW
+"2102 Rogers Dr, Fayetteville, NC 28303",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.96 F,0.99 F,0.99 F,F,F,,-6.2,YELLOW
+"223 Spruce St, Suffolk, VA 23434",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.96 F,0.86 D-,0.95 F,F,D+,,5.3,not graded
+"2326 E 95th St, Cleveland, OH 44106",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.98 F,0.95 F,0.95 F,F,F,,-13.5,YELLOW
+"2326 Elm Ave, Portsmouth, VA 23704",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.95 F,0.99 F,0.93 F,F,D,517402120002 at 11 m (Robbery F),-6.0,YELLOW
+"301 S High St, Franklin, VA 23851",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.93 F,F,D-,,-9.7,YELLOW
+"321-323 Slack St, Steubenville, OH 43952",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.93 F,0.90 D-,0.81 D,F,B,,50.7,YELLOW
+"334 Rhew St, Fayetteville, NC 28303",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.99 F,F,F,,-9.0,YELLOW
+"3446 E 125th St, Cleveland, OH 44120",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.98 F,0.99 F,0.96 F,F,F,,1.2,GREEN-verify
+"3601 Memphis Ave, Cleveland, OH 44109",ACTIVE (status unverified),regional,OUT,Robbery F; no other block group within 15 m,0.95 F,0.93 F,0.80 D,D,D,,6.1,GREEN-verify
+"40 Robinson St, Binghamton, NY 13901",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.93 F,0.95 F,0.54 C,F,C+,,-8.9,YELLOW
+"417 Squirrel St, Fayetteville, NC 28303",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.99 F,F,F,,-9.3,YELLOW
+"421 Squirrel St, Fayetteville, NC 28303",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.99 F,F,F,,-9.3,YELLOW
+"425 Squirrel St, Fayetteville, NC 28303",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.99 F,F,F,,-9.4,YELLOW
+"4902 Kershaw St, Philadelphia, PA 19131",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.98 F,0.99 F,0.99 F,F,F,,9.9,GREEN-verify
+"5137 Harlan St, Philadelphia, PA 19131",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.98 F,0.99 F,0.99 F,F,F,,-3.4,YELLOW
+"515-517 N Daughtry St, Rocky Mount, NC 27801","ACTIVE (9/25: 100 days, $119,900, 0 cuts)",ncva,OUT,Robbery F with Burglary or Vandalism F,0.98 F,0.99 F,0.84 D,F,C+,,6.1,YELLOW
+"5306 Webster St, Philadelphia, PA 19143",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.96 F,0.79 D,0.84 D,F,D+,,2.0,YELLOW
+"67 S Washington St, Binghamton, NY 13903",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.93 F,0.96 F,0.57 C,F,C+,,-10.7,YELLOW
+"716 31st St, Newport News, VA 23607",ACTIVE (for sale),ncva,OUT,Robbery F with Burglary or Vandalism F,0.99 F,0.93 F,0.94 F,F,B-,,-10.5,YELLOW
+"9110 Jeffries Ave, Cleveland, OH 44105",ACTIVE (for sale),regional,OUT,Robbery F; no other block group within 15 m,0.94 F,0.90 D-,0.82 D,F,D,,-0.9,YELLOW
+"9816 Manor Ave, Cleveland, OH 44104",ACTIVE (status unverified),regional,OUT,Robbery F on this block and across the street,0.95 F,0.98 F,0.93 F,F,F,390351202002 at 6 m (Robbery F),-2.0,GREEN-verify
+"12500 Ferris Ave, Cleveland, OH 44105",CONTINGENT (2026-09-28),regional,OUT,Robbery F; no other block group within 15 m,0.93 F,0.94 F,0.84 D,F,D-,,1.4,YELLOW
+"132 Kemper Rd Unit A & B, Danville, VA 24541",OFF MARKET (2026-09-28),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.79 D,0.93 F,F,D-,,-0.2,YELLOW
+"429 Squirrel St, Fayetteville, NC 28303",OFF MARKET (2026-09-21),ncva,OUT,Robbery F with Burglary or Vandalism F,0.93 F,0.99 F,0.99 F,F,F,,-9.0,YELLOW
+"840 Work Dr, Akron, OH 44320",CONTINGENT (2026-09-28),regional,OUT,Robbery F; no other block group within 15 m,0.96 F,0.95 F,0.93 F,F,D-,,1.6,YELLOW
+"918 Star St, Rocky Mount, NC 27804",WITHDRAWN 9/23 (sale) + rental pulled 9/21; OFF MARKET 9/25,ncva,OUT,Robbery F with Burglary or Vandalism F,0.94 F,0.93 F,0.80 D,F,A+,,-9.7,GREEN-verify
+"1013 Grant Ct, Dickson City, PA 18519",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.77 D,0.66 C-,C+,F,,-7.5,YELLOW
+"1013 John Ave, Scranton, PA 18510",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.93 F,0.66 C-,B-,D,,3.2,YELLOW
+"1019 Mark Ave, Scranton, PA 18510",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.93 F,0.66 C-,B-,D,,4.1,YELLOW
+"1021 Penmar Ave SE, Roanoke, VA 24013",ACTIVE (for sale),ncva,stays,Robbery not F,0.89 D-,0.95 F,0.99 F,D,C+,517700027004 at 6 m (Robbery D-),-8.7,GREEN-verify
+"104 Day Street St, Suffolk, VA 23434",ACTIVE (for sale),ncva,stays,Robbery not F,0.45 B-,0.42 B-,0.50 C+,D+,A-,,1.8,YELLOW
+"106-108 Messenger St, Johnstown, PA 15902",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.95 F,0.69 D+,D+,C,,10.8,YELLOW
+"107 Maryland Ave, Pittsburgh, PA 15209",ACTIVE (for sale),regional,stays,Robbery not F,0.89 D-,0.95 F,0.95 F,D-,F,,-2.7,GREEN-verify
+"1104 Lake St, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.86 D-,0.90 D-,0.54 C,D-,B-,,8.1,YELLOW
+"1114 Lafayette Blvd NW, Roanoke, VA 24017",ACTIVE (for sale),ncva,stays,Robbery not F,0.60 C,0.89 D-,0.99 F,C,C+,517700024003 at 6 m (Robbery D+),13.0,YELLOW
+"114-114 1/2 I St, Johnstown, PA 15906",ACTIVE (status unverified),regional,stays,Robbery not F,0.86 D-,0.94 F,0.81 D,D,B,,-7.6,YELLOW
+"117 Helen St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.36 B,0.93 F,0.43 B-,F,C+,,-6.6,YELLOW
+"117 W 11th Ave, Tarentum, PA 15084",ACTIVE (for sale),regional,stays,Robbery not F,0.57 C,0.80 D,0.32 B,D+,D,,-0.1,GREEN-verify
+"118 & 120 S Poplar St, Winston Salem, NC 27101",ACTIVE (for sale),ncva,stays,Robbery not F,0.87 D-,0.98 F,0.93 F,D-,D-,,11.5,RED
+"12.5 Franklin St St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.79 D,0.93 F,0.52 C+,D+,B-,,-5.8,YELLOW
+"1214 E Washington St, New Castle, PA 16101",ACTIVE (for sale),regional,stays,Robbery not F,0.80 D,0.93 F,0.57 C,D,B+,420730008001 at 6 m (Robbery C+),1.7,YELLOW
+"12501 Dove Ave, Cleveland, OH 44105",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.96 F,0.80 D,F,D-,390351211002 at 6 m (Robbery D-),-14.5,YELLOW
+"126 & 128 Troy Ave NE, Roanoke, VA 24012",ACTIVE (for sale),ncva,stays,Robbery not F,0.66 C-,0.96 F,0.86 D-,D,D,,-0.9,YELLOW
+"127 Burbank Ave, Johnson City, NY 13790",ACTIVE (for sale),regional,stays,Robbery not F,0.52 C+,0.95 F,0.43 B-,D-,B,,-7.7,YELLOW
+"129 131 Summit St, Edwardsville, PA 18704",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.78 D,0.91 D-,B-,D,,-7.2,YELLOW
+"129 Summit St, Edwardsville, PA 18704",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.78 D,0.91 D-,B-,D,,-7.2,YELLOW
+"13 Holland St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.96 F,0.50 C+,F,C+,,-9.3,YELLOW
+"1300 Latrobe St, Parkersburg, WV 26101",ACTIVE (for sale),regional,stays,Robbery not F,0.28 B+,0.71 D+,0.95 F,B-,D+,541070007013 at 7 m (Robbery C+),8.7,YELLOW
+"133 Hugh Caldwell Rd, Charlotte, NC 28214",ACTIVE (for sale),ncva,stays,Robbery not F,0.74 D+,0.74 D+,0.69 D+,D-,F,,-6.8,YELLOW
+"139-141 Front St, North Huntingdon, PA 15642",ACTIVE (for sale),regional,stays,Robbery not F,0.27 B+,0.32 B,0.01 A+,A+,A,,3.5,YELLOW
+"14 E Railroad St, Plymouth, PA 18651",ACTIVE (for sale),regional,stays,Robbery not F,0.60 C,0.95 F,0.82 D,C,C+,420792137001 at 6 m (Robbery D),-4.2,YELLOW
+"1433 Kenmore Blvd, Akron, OH 44314",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.93 F,0.80 D,D-,D,,-1.0,YELLOW
+"14A 14B Oak St, Jenkins Township, PA 18640",ACTIVE (for sale),regional,stays,Robbery not F,0.18 A-,0.21 A-,0.62 C-,B,C,,-0.6,YELLOW
+"1500 Grandview Ave, McKeesport, PA 15132",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.98 F,0.86 D-,F,D,420035513001 at 6 m (Robbery D-),15.3,YELLOW
+"163 Choate St, Portsmouth, VA 23707",ACTIVE (for sale),ncva,stays,Robbery not F,0.79 D,0.87 D-,0.90 D-,D-,C+,,4.5,YELLOW
+"1634-1636 Main St, Bloomsburg, PA 17815",ACTIVE (for sale),regional,stays,Robbery not F,0.42 B-,0.77 D,0.71 D+,C-,D,,7.1,YELLOW
+"17 Way St, Binghamton, NY 13901",ACTIVE (for sale),regional,stays,Robbery not F,0.87 D-,0.93 F,0.52 C+,D+,C+,,-8.8,YELLOW
+"1702 Birchwood Dr SE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.64 C-,0.77 D,D-,A+,371950008021 at 12 m (Robbery C),-8.1,YELLOW
+"1703 Birchwood Dr SE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.64 C-,0.77 D,D-,A+,371950008021 at 8 m (Robbery C),-8.1,YELLOW
+"1706 Birchwood Dr SE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.64 C-,0.77 D,D-,A+,,-8.1,YELLOW
+"1707 Birchwood Dr SE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.64 C-,0.77 D,D-,A+,,-8.1,YELLOW
+"1708 Birchwood Dr SE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.64 C-,0.77 D,D-,A+,,-9.1,YELLOW
+"1735 Laketon Rd, Pittsburgh, PA 15221",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.90 D-,0.96 F,D-,D,,1.7,YELLOW
+"1739 Kimball Ave, Arnold, PA 15068",ACTIVE (for sale),regional,stays,Robbery not F,0.39 B-,0.60 C,0.57 C,D+,A-,,-7.5,YELLOW
+"189 Sherman Ave, Vandergrift, PA 15690",ACTIVE (for sale),regional,stays,Robbery not F,0.71 D+,0.86 D-,0.28 B+,D+,C,,-7.8,YELLOW
+"1909 Woodmont Ave, Arnold, PA 15068",ACTIVE (for sale),regional,stays,Robbery not F,0.27 B+,0.52 C+,0.66 C-,D+,B+,421298003001 at 6 m (Robbery B-),-12.5,YELLOW
+"1934 Oakland St, Petersburg, VA 23805",ACTIVE (for sale),ncva,stays,Robbery not F,0.54 C,0.77 D,0.90 D-,F,B,,4.0,GREEN-verify
+"1967 Georgian Rd, Philadelphia, PA 19138",ACTIVE (for sale),regional,stays,Robbery not F,0.91 D-,0.39 B-,0.93 F,F,F,,-6.3,YELLOW
+"1992 Starr Ave, Toledo, OH 43605",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.85 D,0.89 D-,D,D+,390950047023 at 6 m (Robbery F); 390950050001 at 15 m (Robbery D),10.0,YELLOW
+"1996 Starr Ave, Toledo, OH 43605",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.85 D,0.89 D-,D,D+,390950047023 at 6 m (Robbery F); 390950050001 at 9 m (Robbery D),7.4,YELLOW
+"200 E Albanus St, Philadelphia, PA 19120",ACTIVE (for sale),regional,stays,Robbery not F,0.76 D+,0.32 B,0.76 D+,D-,D-,421010290003 at 9 m (Robbery F),-0.2,YELLOW
+"202 Lee St NE, Wilson, NC 27893",ACTIVE (for sale),ncva,stays,Robbery not F,0.75 D+,0.54 C,0.40 B-,D-,C+,,4.3,YELLOW
+"206 Ingram Ave SW, Canton, OH 44710",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.90 D-,0.93 F,D,D,,-0.7,YELLOW
+"207 Tunstall Ave, Blackstone, VA 23824",ACTIVE (for sale),ncva,stays,Robbery not F,0.74 D+,0.74 D+,0.87 D-,F,C,,2.3,YELLOW
+"213 Rockwood Ave, Pittsburgh, PA 15221",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.93 F,0.93 F,D-,D+,,-7.0,YELLOW
+"214 Barron Ave, Johnstown, PA 15906",ACTIVE (status unverified),regional,stays,Robbery not F,0.86 D-,0.94 F,0.81 D,D,B,,0.7,YELLOW
+"220 Mercer St, Butler, PA 16001",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.89 D-,0.74 D+,A,D+,,-7.0,YELLOW
+"226 Crete Ave, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.74 D+,0.91 D-,0.52 C+,D,B-,,-0.1,YELLOW
+"227 Munson Ave, Mc Kees Rocks, PA 15136",ACTIVE (for sale),regional,stays,Robbery not F,0.89 D-,0.94 F,0.95 F,D-,F,,28.4,YELLOW
+"2311 Nickey Ave, Fayetteville, NC 28301",ACTIVE (for sale),ncva,stays,Robbery not F,0.84 D,0.93 F,0.90 D-,F,D+,,-19.5,YELLOW
+"2316 Edgar St, Fayetteville, NC 28301",ACTIVE (for sale),ncva,stays,Robbery not F,0.84 D,0.93 F,0.90 D-,F,D+,,-11.6,YELLOW
+"234 E Mauch Chunk St, Tamaqua, PA 18252",ACTIVE (for sale),regional,stays,Robbery not F,0.24 B+,0.18 A-,0.62 C-,,A-,,-12.4,YELLOW
+"234 Mauch Chunk St, Tamaqua, PA 18252",ACTIVE (for sale),regional,stays,Robbery not F,0.24 B+,0.18 A-,0.62 C-,,A-,,-6.1,YELLOW
+"2423 W Norris St, Philadelphia, PA 19121",ACTIVE (for sale),regional,stays,Robbery not F,0.89 D-,0.82 D,0.78 D,F,D-,421010152002 at 6 m (Robbery F),-6.2,YELLOW
+"245 N Ruby St, Philadelphia, PA 19139",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.89 D-,0.93 F,F,F,,6.0,GREEN-verify
+"258 E Warrington Ave, Pittsburgh, PA 15210",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.98 F,0.93 F,F,D-,420031915001 at 6 m (Robbery D-),-7.2,YELLOW
+"259 Sunset Dr, Corning, NY 14830",ACTIVE (for sale),regional,stays,Robbery not F,0.35 B,0.82 D,0.47 C+,B-,D+,,-3.8,YELLOW
+"2614 Pecan Dr, Fayetteville, NC 28303",ACTIVE (for sale),ncva,stays,Robbery not F,0.60 C,0.78 D,0.90 D-,D-,C-,,-10.7,YELLOW
+"276 Harry L Dr Dr, Johnson City, NY 13790",ACTIVE (for sale),regional,stays,Robbery not F,0.27 B+,0.90 D-,0.50 C+,D+,B,,32.3,YELLOW
+"28 Glenwood Ave, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.96 F,0.50 C+,F,C+,360070002003 at 6 m (Robbery C+),-12.0,YELLOW
+"297 E 2nd St, Corning, NY 14830",ACTIVE (for sale),regional,stays,Robbery not F,0.09 A,0.07 A+,0.15 A,B+,B+,,-9.3,YELLOW
+"299 Robinson St, Binghamton, NY 13904",ACTIVE (for sale),regional,stays,Robbery not F,0.06 A+,0.87 D-,0.32 B,D,B+,360070007002 at 6 m (Robbery D-),-7.0,GREEN-verify
+"302 Columbia St, Fairmont, WV 26554",ACTIVE (for sale),regional,stays,Robbery not F,0.76 D+,0.77 D,0.96 F,F,C-,,-10.9,YELLOW
+"306 W Center St, Elmira, NY 14901",ACTIVE (status unverified),regional,stays,Robbery not F,0.16 A-,0.85 D,0.18 A-,C,A+,,-4.8,YELLOW
+"307 N Church St, Clayton, NC 27520","ACTIVE (for sale by owner; NEAR-MISS, PARK, Z-RISK 9/26; G5 and G6 fail at every supported rent)",ncva,stays,Robbery not F,0.17 A-,0.24 B+,0.60 C,B+,D+,,-13.0,YELLOW
+"307 S Jacob St, Cherryville, NC 28021",ACTIVE (CLOSE 9/25),ncva,stays,Robbery not F,0.42 B-,0.17 A-,0.10 A,B+,C+,,-11.1,YELLOW
+"31 Crandall St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.98 F,0.54 C,F,D,,-6.0,YELLOW
+"310 Broadway Ave, Mc Kees Rocks, PA 15136",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.81 D,0.96 F,D-,D,,0.0,YELLOW
+"310 Harrison Ave, Jeannette, PA 15644",ACTIVE (for sale),regional,stays,Robbery not F,0.57 C,0.79 D,0.48 C+,D+,A+,421298025001 at 6 m (Robbery C+),-8.5,YELLOW
+"310 Linden St, Vandergrift, PA 15690",ACTIVE (status unverified),regional,stays,Robbery not F,0.32 B,0.27 B+,0.75 D+,D+,B,,-4.4,YELLOW
+"313-315 Village St, Johnstown, PA 15902",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.95 F,0.34 B,D+,C-,420210005001 at 6 m (Robbery C-),29.2,YELLOW
+"315 E Essex Ave, Lansdowne, PA 19050",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.69 D+,0.90 D-,D,C,,-6.5,YELLOW
+"316 Longfellow St, Vandergrift, PA 15690",ACTIVE (for sale),regional,stays,Robbery not F,0.32 B,0.27 B+,0.75 D+,D+,B,421298014001 at 6 m (Robbery B-),0.9,YELLOW
+"319 E Essex Ave, Lansdowne, PA 19050",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.69 D+,0.90 D-,D,C,,-4.6,YELLOW
+"324-326 Diven Ave, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.96 F,0.50 C+,D+,D+,,6.3,YELLOW
+"3248 W 90th St, Cleveland, OH 44102",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.90 D-,0.66 C-,D-,D-,390351024022 at 6 m (Robbery F),5.5,YELLOW
+"325 Ranch Farm Rd Unit A - B, Raleigh, NC 27603",ACTIVE (for sale),ncva,stays,Robbery not F,0.57 C,0.60 C,0.45 B-,C,C,,0.6,RED pending
+"33 Lydia St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.64 C-,0.93 F,0.47 C+,D-,B-,,-7.7,YELLOW
+"34 Pearne St, Binghamton, NY 13901",ACTIVE (for sale),regional,stays,Robbery not F,0.66 C-,0.93 F,0.47 C+,D,C+,,-11.1,YELLOW
+"341 31st St, Ashland, KY 41101",ACTIVE (for sale),regional,stays,Robbery not F,0.79 D,0.74 D+,0.66 C-,D+,D+,,2.3,YELLOW
+"360 Diven Ave, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.96 F,0.50 C+,D+,D+,,6.8,YELLOW
+"3704 Mariner Ave, Portsmouth, VA 23703",ACTIVE (for sale),ncva,stays,Robbery not F,0.77 D,0.54 C,0.57 C,D,D,,5.2,not graded
+"372 Diven Ave, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.96 F,0.50 C+,D+,D+,,9.6,GREEN-verify
+"3862 N 6th St, Philadelphia, PA 19140",ACTIVE (for sale),regional,stays,Robbery not F,0.86 D-,0.47 C+,0.75 D+,F,F,421010198004 at 6 m (Robbery D+),-12.2,YELLOW
+"4 12 1/2 St SW, Roanoke, VA 24016",ACTIVE (for sale),ncva,stays,Robbery not F,0.87 D-,0.99 F,0.99 F,D-,D+,,-11.0,YELLOW
+"407 Industrial Ave, Danville, VA 24541",ACTIVE (for sale),ncva,stays,Robbery not F,0.60 C,0.61 C,0.95 F,F,F,,-0.9,YELLOW
+"4102 Richland Ave NW, Roanoke, VA 24012",ACTIVE (for sale),ncva,stays,Robbery not F,0.24 B+,0.66 C-,0.64 C-,C-,B,,4.4,YELLOW
+"413-415 Gilmer Cir, Reidsville, NC 27320","ACTIVE (for sale; ENTRANT-HOLD 9/25; G6 fails at the ask, passes at or under 140,800 at 6.75 / 134,500 at 7.40)",ncva,stays,Robbery not F,0.91 D-,0.94 F,0.98 F,D-,D,,-2.9,YELLOW
+"422 E Division St, New Castle, PA 16101",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.86 D-,0.69 D+,D,C+,,13.0,YELLOW
+"4236 Aldine St, Philadelphia, PA 19136",ACTIVE (for sale),regional,stays,Robbery not F,0.54 C,0.27 B+,0.76 D+,D,F,421010330003 at 6 m (Robbery no map),-0.3,YELLOW
+"426 Washington Ave, Huntington, WV 25701",ACTIVE (for sale),regional,stays,Robbery not F,0.87 D-,0.95 F,0.93 F,F,D,,55.9,YELLOW
+"430 Loder St, Waverly, NY 14892",ACTIVE (for sale),regional,stays,Robbery not F,0.16 A-,0.79 D,0.45 B-,C-,D+,,-7.3,YELLOW
+"438 Watson St, Sharon, PA 16146",ACTIVE (for sale),regional,stays,Robbery not F,0.87 D-,0.93 F,0.82 D,D,C+,,-11.5,YELLOW
+"450 Jefferson Ave, Washington, PA 15301",ACTIVE (for sale),regional,stays,Robbery not F,0.69 D+,0.54 C,0.64 C-,D+,D-,,-6.5,YELLOW
+"4697 E 85th St, Garfield Heights, OH 44125",ACTIVE (for sale),regional,stays,Robbery not F,0.71 D+,0.85 D,0.60 C,D-,D,390351541001 at 6 m (Robbery D),-13.2,YELLOW
+"47 Lydia St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.64 C-,0.93 F,0.47 C+,D-,B-,,10.5,YELLOW
+"4753 Rorer St, Philadelphia, PA 19120",ACTIVE (for sale),regional,stays,Robbery not F,0.85 D,0.31 B,0.64 C-,D-,F,,0.1,YELLOW
+"5 Julian St, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.50 C+,0.95 F,0.52 C+,D-,B-,360070002002 at 6 m (Robbery D),-10.3,YELLOW
+"509 Transverse Ave, Pittsburgh, PA 15210",ACTIVE (for sale),regional,stays,Robbery not F,0.86 D-,0.98 F,0.84 D,D-,D-,,23.6,YELLOW
+"509-511 Naylor Rd, Johnstown, PA 15906",ACTIVE (status unverified),regional,stays,Robbery not F,0.12 A,0.04 A+,0.20 A-,D+,A,,9.7,GREEN-verify
+"519-521 1st St, Charleroi, PA 15022",ACTIVE (for sale),regional,stays,Robbery not F,0.74 D+,0.66 C-,0.41 B-,D+,B+,,-8.7,YELLOW
+"53 Carrick Ave, Pittsburgh, PA 15210",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.94 F,0.95 F,D,D,,-2.1,YELLOW
+"530/532 Woodside Ave, Cumberland, MD 21502",ACTIVE (for sale),regional,stays,Robbery not F,0.69 D+,0.90 D-,0.79 D,C,D,,25.4,YELLOW
+"540 W Chestnut St, Washington, PA 15301",ACTIVE (for sale),regional,stays,Robbery not F,0.71 D+,0.84 D,0.77 D,D,F,,-1.2,YELLOW
+"5700 Kingsessing Ave, Philadelphia, PA 19143",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.52 C+,0.93 F,F,F,421010071011 at 6 m (Robbery F); 421010070004 at 6 m (Robbery no map),4.1,YELLOW
+"5830 N 12th St, Philadelphia, PA 19141",ACTIVE (for sale),regional,stays,Robbery not F,0.90 D-,0.57 C,0.89 D-,D,D-,,6.7,YELLOW
+"601 4th St, Charleroi, PA 15022",ACTIVE (for sale),regional,stays,Robbery not F,0.66 C-,0.90 D-,0.39 B-,D,A-,,6.0,YELLOW
+"604 Centennial St, New Castle, PA 16101",ACTIVE (for sale),regional,stays,Robbery not F,0.62 C-,0.81 D,0.54 C,D,B-,,-10.5,YELLOW
+"604-606 Highland Ave, Johnstown, PA 15902",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.95 F,0.34 B,D+,C-,,12.4,YELLOW
+"605 Washington St, Laurinburg, NC 28352",ACTIVE (for sale),ncva,stays,Robbery not F,0.84 D,0.75 D+,0.69 C-,F,A,371650102002 at 12 m (Robbery F),-7.9,YELLOW
+"61 Lake Ave Ave #2, Binghamton, NY 13905",ACTIVE (for sale),regional,stays,Robbery not F,0.50 C+,0.95 F,0.52 C+,D-,B-,,-10.6,YELLOW
+"610 /612 S 2nd St, Pinetops, NC 27864",ACTIVE (for sale) - PARK behind a written Town zoning determination (9/25),ncva,stays,Robbery not F,0.66 C-,0.77 D+,0.77 D,F,B-,,0.9,YELLOW
+"613 S 52nd St, Philadelphia, PA 19143",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.93 F,0.95 F,0.91 D-,F,F,421010080004 at 6 m (Robbery D-),2.3,YELLOW
+"613 Walnut St, Elmira, NY 14901",ACTIVE (for sale),regional,stays,Robbery not F,0.36 B,0.86 D-,0.28 B+,C+,A+,360150006002 at 6 m (Robbery C-),16.4,YELLOW
+"639 Conover Rd, Durham, NC 27703",ACTIVE (for sale),ncva,stays,Robbery not F,0.50 C+,0.69 D+,0.52 C+,B+,B-,,-0.9,GREEN
+"650 Ardmore Blvd, Pittsburgh, PA 15221",ACTIVE (for sale),regional,stays,Robbery not F,0.76 D+,0.87 D-,0.90 D-,D,C+,420035615002 at 5 m (Robbery D-); 420035647001 at 6 m (Robbery F),-0.3,YELLOW
+"654 W Sylvania Ave, Toledo, OH 43612",ACTIVE (for sale),regional,stays,Robbery not F,0.86 D-,0.90 D-,0.76 D+,D,D+,390950004001 at 6 m (Robbery F),6.4,YELLOW
+"7 Barney Pl, Portsmouth, VA 23702",ACTIVE (for sale),ncva,stays,Robbery not F,0.87 D-,0.93 F,0.83 D,D-,C,517402124002 at 14 m (Robbery F),-3.2,RED
+"704 Baker St, Cumberland, MD 21502",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.93 F,0.90 D-,D+,D-,,27.7,YELLOW
+"708 Lookout Ave, Charleroi, PA 15022",ACTIVE (for sale),regional,stays,Robbery not F,0.66 C-,0.74 D+,0.31 B,D+,B-,,9.6,YELLOW
+"713 Mcmillen St, Johnstown, PA 15902",ACTIVE (for sale),regional,stays,Robbery not F,0.74 D+,0.86 D-,0.60 C,D,B-,,32.0,YELLOW
+"73 Pointview Ave, Dayton, OH 45405",ACTIVE (for sale),regional,stays,Robbery not F,0.80 D,0.87 D-,0.96 F,F,D,,0.2,YELLOW
+"731 Lincoln Ave, Charleroi, PA 15022",ACTIVE (for sale),regional,stays,Robbery not F,0.66 C-,0.74 D+,0.31 B,D+,B-,421257832002 at 6 m (Robbery F),7.4,YELLOW
+"7317 E Walnut Ln, Philadelphia, PA 19138",ACTIVE (for sale),regional,stays,Robbery not F,0.40 B-,0.00 A+,0.74 D+,D,D,421010263022 at 6 m (Robbery F),-4.4,YELLOW
+"741-745 Tamarack Dr, Fayetteville, NC 28311","ACTIVE (for sale by owner, FSBO.com)",ncva,stays,Robbery not F,0.39 B-,0.78 D,0.78 D,D-,B-,,-7.5,YELLOW
+"749 Mt Airy St, Petersburg, VA 23803",ACTIVE (for sale),ncva,stays,Robbery not F,0.89 D-,0.98 F,0.95 F,F,C,,-7.6,YELLOW
+"750 Quincy St, Parkersburg, WV 26101",ACTIVE (for sale),regional,stays,Robbery F but the block group across the street is not F,0.99 F,0.99 F,0.99 F,F,F,541070007012 at 6 m (Robbery B-),9.5,YELLOW
+"788 S Irvine Ave, Sharon, PA 16146",ACTIVE (for sale),regional,stays,Robbery not F,0.78 D,0.86 D-,0.76 D+,D,A-,,-0.1,YELLOW
+"806 Lynn St, Parkersburg, WV 26101",ACTIVE (for sale),regional,stays,Robbery not F,0.52 C+,0.87 D-,0.96 F,D-,D,,21.8,YELLOW
+"811 10th St, Mc Kees Rocks, PA 15136",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.90 D-,0.89 D-,D-,C-,,9.7,YELLOW
+"814 Varsity Dr Unit A-B, Fayetteville, NC 28301",ACTIVE (for sale),ncva,stays,Robbery not F,0.84 D,0.93 F,0.90 D-,F,D+,,-6.9,GREEN-verify
+"822 Lamont St, Mc Kees Rocks, PA 15136",ACTIVE (for sale),regional,stays,Robbery not F,0.82 D,0.93 F,0.95 F,D-,C,,26.3,YELLOW
+"84 Bigelow St, Binghamton, NY 13904",ACTIVE (for sale),regional,stays,Robbery not F,0.47 C+,0.90 D-,0.17 A-,C-,B+,,-11.3,YELLOW
+"886 N Sharpsville Ave, Sharon, PA 16146",ACTIVE (for sale),regional,stays,Robbery not F,0.42 B-,0.30 B+,0.45 B-,C-,A+,420850332001 at 6 m (Robbery F),-6.8,YELLOW
+"90 Gaylord St, Binghamton, NY 13904",ACTIVE (for sale),regional,stays,Robbery not F,0.47 C+,0.90 D-,0.17 A-,C-,B+,,7.5,YELLOW
+"934 Ridge St, Mc Kees Rocks, PA 15136",ACTIVE (for sale),regional,stays,Robbery not F,0.84 D,0.90 D-,0.89 D-,D-,C-,,9.9,YELLOW
+"117 Motley Ave, Danville, VA 24540",OFF MARKET (2026-09-28),ncva,stays,Robbery not F,0.66 C-,0.75 D+,0.69 D+,D-,C,,-1.7,YELLOW
+"125 The Blvd, Eden, NC 27288","PENDING / CONTINGENT (Sep 16, 2026)",ncva,stays,Robbery not F,0.60 C,0.48 C+,0.64 C-,D+,C,,-6.0,YELLOW
+"215 Saint Andrew St, Petersburg, VA 23803",OFF MARKET (2026-09-30),ncva,stays,Robbery not F,0.84 D,0.90 D-,0.96 F,F,D,,-2.1,YELLOW
+"224 S Jefferson St, Petersburg, VA 23803","PENDING (Sep 10, 2026)",ncva,stays,Robbery not F,0.84 D,0.90 D-,0.96 F,F,D,,-4.5,YELLOW
+"27 Carver Cir, Portsmouth, VA 23701",CONTINGENT (2026-09-28),ncva,stays,Robbery not F,0.79 D,0.87 D-,0.90 D-,D-,C+,,7.0,YELLOW
+"28-30 Hillcrest Ave NE, Roanoke, VA 24012",OFF MARKET (2026-09-29),ncva,stays,Robbery not F,0.71 D+,0.93 F,0.99 F,D+,D-,,-7.0,YELLOW
+"306 & 308 Troy Ave NE, Roanoke, VA 24012",PENDING (2026-09-18),ncva,stays,Robbery not F,0.66 C-,0.96 F,0.86 D-,D,D,,-2.9,GREEN-verify
+"306 Auburndale St, Winston Salem, NC 27104","OUT (9/25: Gate 3 answered No to SFR + ADU; documented roll fails G5/G6; still listed ACTIVE at 225,000)",ncva,stays,Robbery not F,0.52 C+,0.52 C+,0.74 D+,B+,D,,-9.4,YELLOW
+"312 N 7th St, Martins Ferry, OH 43935",CONTINGENT (2026-09-28),regional,stays,Robbery not F,0.27 B+,0.66 C-,0.69 D+,C-,B+,,31.2,GREEN-verify
+"503 Granville St, Oxford, NC 27565",OFF MARKET (2026-09-28),ncva,stays,Robbery not F,0.80 D,0.93 F,0.94 F,D,F,,-1.5,YELLOW
+"508 Summers St, Parkersburg, WV 26101",CONTINGENT (2026-09-30),regional,stays,Robbery not F,0.21 A-,0.57 C,0.93 F,D,D,541070009021 at 14 m (Robbery B),2.2,YELLOW
+"515 Albemarle Ave SE, Roanoke, VA 24013",OFF MARKET (2026-09-29),ncva,stays,Robbery not F,0.66 C-,0.96 F,0.99 F,D,C+,517700027001 at 6 m (Robbery C),3.1,YELLOW
+"739 S Rosemont Rd, Virginia Beach, VA 23452",CONTINGENT (2026-09-28),ncva,stays,Robbery not F,0.30 B+,0.39 B-,0.74 D+,F,D,,-5.0,YELLOW
+"116 Lafayette Ave, Niles, OH 44446",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip C- retired 9/30; block maps needed,,,,,,,-5.6,YELLOW
+"14 14 Rear Railroad St, Plymouth, PA 18651",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip B- retired 9/30; block maps needed,,,,,,,-5.2,YELLOW
+"1600 Mcclure St, Homestead, PA 15120",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip C- retired 9/30; block maps needed,,,,,,,-6.4,YELLOW
+"1818 Mary St, Pittsburgh, PA 15203",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip D+ retired 9/30; block maps needed,,,,,,,-5.4,YELLOW
+"208 Scarborough St Unit A AND B, Spring Lake, NC 28390","ACTIVE (for sale) - PARK, fails G5 at the building's own $795 rent (9/25)",ncva,not evaluable,no block-level reading: zip D+ retired 9/30; off the 28390 page map to the south (pan and re-shoot),,,,,,,-2.0,YELLOW
+"3427 Clearfield St, Pittsburgh, PA 15204",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip C- retired 9/30; block maps needed,,,,,,,5.3,YELLOW
+"3536-3538 Orchard St, Weirton, WV 26062",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip B retired 9/30; block maps needed,,,,,,,13.1,YELLOW
+"408 15th St, New Brighton, PA 15066",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip B retired 9/30; block maps needed,,,,,,,-6.8,YELLOW
+"408-410 Pump Hill Pl, Mount Pleasant, PA 15666",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip A retired 9/30; off the 15666 page map to the north (pan and re-shoot),,,,,,,2.1,YELLOW
+"556 Bellwood Rd Unit A, Newport News, VA 23601",ACTIVE (for sale),ncva,not evaluable,no block-level reading: zip F retired 9/30; off the 23601 page map to the south (pan and re-shoot),,,,,,,3.8,YELLOW
+"603 33rd St, Parkersburg, WV 26101",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip C- retired 9/30; off the 26101 page map to the north (pan and re-shoot),,,,,,,-4.3,YELLOW
+"6198 State Route 17c, Endicott, NY 13760",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip C+ retired 9/30; off the 13760 page map to the west (pan and re-shoot),,,,,,,-9.3,YELLOW
+"803 6th St, New Brighton, PA 15066",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip B retired 9/30; block maps needed,,,,,,,-6.7,YELLOW
+"949 W Pike St, Clarksburg, WV 26301",ACTIVE (for sale),regional,not evaluable,no block-level reading: zip B- retired 9/30; block maps needed,,,,,,,-4.5,YELLOW
