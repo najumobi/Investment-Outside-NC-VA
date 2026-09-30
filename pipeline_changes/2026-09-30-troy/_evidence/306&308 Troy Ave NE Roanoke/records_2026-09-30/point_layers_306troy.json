@@ -1,0 +1,326 @@
+{
+ "Public/Trakit_20221221/6 Parcels": [
+  {
+   "TAXID": "3180117",
+   "LRSN": 27013,
+   "LocAddr": "306 TROY AVE NE",
+   "ADDRNBR": "306",
+   "ADDRSTREET": "TROY",
+   "ADDRQUAD": "NE",
+   "ADDRSUFFIX": "AVE",
+   "OWNER": "[masked]",
+   "OWNERADDR1": "[masked]",
+   "MAILCITY": "GOODVIEW",
+   "MAILSTATE": "VA",
+   "LEGALACRES": "      0.1616",
+   "ZONEDESC": "RM-1",
+   "LEGALDESC": "LOT 217 B                 FLEMING COURT",
+   "LANDVAL1": 36600,
+   "LANDVAL2": 36600,
+   "TOTALVAL1": 199900,
+   "TOTALVAL2": 192100,
+   "SALEDATE1": 1544659200000,
+   "SALEDATE2": 300326400000,
+   "SALEAMT1": 0,
+   "SALEAMT2": 3000,
+   "GRANTOR1": "[masked]",
+   "Grantor2": "[masked]",
+   "DOCNUM1": "180011508",
+   "DOC2NUM": "CONV000000",
+   "SQFT": "7040",
+   "ACRES": 0.1616,
+   "TOPODESC1": "Level",
+   "PUBLIC_CEN": "4",
+   "CITY": "ROANOKE",
+   "STATE": "VA",
+   "PERVIOUS_AREA": "4748.91758842463",
+   "SUM_Shape_Area": 2295.474906926048,
+   "NEIGHBORHOODNUM": 15,
+   "MAINZIPCODE": "24095",
+   "PROPERTYDESC": "Multi-Family Duplex",
+   "ASSESSMENTDATE1": "01/01/2026",
+   "ASSESSMENTDATE2": "01/01/2025",
+   "CHANGEDESC1": "1",
+   "CHANGEDESC2": "1",
+   "DWELLINGVAL1": 163300,
+   "DWELLINGVAL2": 155500
+  }
+ ],
+ "Public/Trakit_20221221/7 HUC 6": [
+  {
+   "INTID": 633.0,
+   "VAHU5": "RU-D",
+   "VAHU6": "RU13",
+   "META_ID": "VA01",
+   "OID_": 989,
+   "VAHU6_1": "RU13",
+   "NAME": "TINKER CREEK",
+   "FROM_": "CARVIN CREEK",
+   "INEX_F": "EX",
+   "TO_": "ROANOKE RIVER",
+   "INEX_T": "EX",
+   "HUC6": "RU13"
+  }
+ ],
+ "Public/Trakit_20221221/10 Sub Watersheds": [
+  {
+   "Watershed": "Tinker Creek"
+  }
+ ],
+ "Public/Trakit_20221221/13 Development Inspection Zones": [
+  {
+   "ZONE": 1,
+   "INSPECTOR": "[masked]"
+  }
+ ],
+ "Public/Trakit_20221221/15 Zoning": [
+  {
+   "CONDITIONAL": 0,
+   "ZONING": 11,
+   "ZONING_DESCRIPTION": "RM-1: Res Mixed Density"
+  }
+ ],
+ "Public/Trakit_20221221/18 Building Inspection Zones": [
+  {
+   "Fire": "[masked]",
+   "RightofWay": "[masked]",
+   "Development": "[masked]",
+   "NDD": "[masked]",
+   "Historic": "[masked]",
+   "Building": "[masked]",
+   "Electric": "[masked]",
+   "Plumbing": "[masked]",
+   "Mechanical": "[masked]",
+   "Tent": "[masked]",
+   "Manufactured": "[masked]",
+   "Res_Building": "[masked]",
+   "Res_Electric": "[masked]",
+   "Res_Plumbing": "[masked]",
+   "Res_Mechanical": "[masked]",
+   "Res_Manufactured": "[masked]",
+   "Zone": "NE"
+  }
+ ],
+ "Public/Trakit_20221221/19 Code_Enforcement_Zones": [
+  {
+   "E_ZONE": 3,
+   "INSPECTOR": "[masked]"
+  }
+ ],
+ "Public/Trakit_20221221/20 Census Tracts": [
+  {
+   "TRACT_LABEL": "4",
+   "GEOID10": "51770000400",
+   "POP_TOTAL": 4761,
+   "POP_WHITE": 3703,
+   "POP_BLACK": 482,
+   "POP_ASIAN": 212,
+   "POP_OTHER": 229,
+   "POP_AMER_INDIAN": 22,
+   "POP_HAWAII_PACIFIC": 2,
+   "STATE": "51",
+   "COUNTY": "770",
+   "TRACT": "000400"
+  }
+ ],
+ "Public/Trakit_20221221/21 Census Block Groups": [
+  {
+   "GEOID10": "517700004001",
+   "POP_TOTAL": 1556,
+   "POP_WHITE": 1225,
+   "POP_BLACK": 145,
+   "POP_ASIAN": 78,
+   "POP_OTHER": 54,
+   "POP_AMER_INDIAN": 1,
+   "POP_HAWAII_PACIFIC": 0,
+   "STATE": "51",
+   "COUNTY": "770",
+   "TRACT": "000400",
+   "BLKGROUP": "1",
+   "NAME_": "Block Group 1",
+   "TRACT_LABEL": "4"
+  }
+ ],
+ "Public/Zoning/0 Zoning": [
+  {
+   "CONDITIONAL": 0,
+   "ZONING": 11,
+   "ZONING_DESCRIPTION": "RM-1: Res Mixed Density"
+  }
+ ],
+ "Public/Preliminary_Flood_Hazard_Areas/1 Preliminary FEMA Flood Hazard Areas 2025": [
+  {
+   "DFIRM_ID": "51161C",
+   "VERSION_ID": "2.8.5.6",
+   "FLD_AR_ID": "3543000",
+   "STUDY_TYP": "NP",
+   "FLD_ZONE": "X",
+   "ZONE_SUBTY": "AREA OF MINIMAL FLOOD HAZARD",
+   "SFHA_TF": "F",
+   "STATIC_BFE": -9999.0,
+   "DEPTH": -9999.0,
+   "VELOCITY": -9999.0,
+   "BFE_REVERT": -9999.0,
+   "DEP_REVERT": -9999.0,
+   "DUAL_ZONE": "F",
+   "SOURCE_CIT": "STUDY1",
+   "Zone_SubZ": "X AREA OF MINIMAL FLOOD HAZARD",
+   "Index_": 5
+  }
+ ],
+ "Public/Neighborhoods_Planning/0 Neighborhoods Planning": [
+  {
+   "ID": 120,
+   "NEIGHBORHO": "Preston Park",
+   "PLAN_STATU": "Complete",
+   "PLANNING_A": "Williamson Road Area",
+   "NH_CITY": "ROANOKE",
+   "NH_ST": "VA",
+   "NH_NAME": "WILLIAMSON ROAD AREA",
+   "HYPERLINK": "http://www.roanokeva.gov/WebMgmt/ywbase61b.nsf/DocName/$williamson"
+  }
+ ],
+ "Public/Character_Districts/0 Character Districts": [
+  {
+   "CHARACTER_": "Suburb",
+   "RuleID": 5
+  }
+ ],
+ "Public/Code_Enforcement/0 Code_Enforcement_Zones": [
+  {
+   "E_ZONE": 3,
+   "INSPECTOR": "[masked]"
+  }
+ ],
+ "Public/Trash_Collection/0 Trash Collection Zones": [
+  {
+   "PERIMETER": 214199.469,
+   "CITYBOUNDA": 2,
+   "CITYBOUN_1": 1,
+   "FID_": 1,
+   "TRASH_DAY": "TUESDAY"
+  }
+ ],
+ "Public/Recycling_Zones/0 Recycling Zones": [
+  {
+   "PU_DAY": "TUE",
+   "BR4_ZONE": "3",
+   "BR4_Zone_Combined": "TUE 3",
+   "WEEK": "B"
+  }
+ ],
+ "Public/Schools_Elementary/1 Elementary School Zones": [
+  {
+   "AT_ACRES": 2506.86685251,
+   "PERIMETER": 59170.12796664,
+   "SCHOOL": "MONTEREY ELEMENTARY SCHOOL",
+   "CODE": 20,
+   "HYPERLINK": "http://monterey.rcps.info/",
+   "LABEL": "Monterey"
+  }
+ ],
+ "Public/Civil_Process_Zones/0 Civil Process Zones": [
+  {
+   "NAME": "NE"
+  }
+ ],
+ "Public/Census/1 Census Block Groups": [
+  {
+   "GEOID10": "517700004001",
+   "POP_TOTAL": 1556,
+   "POP_WHITE": 1225,
+   "POP_BLACK": 145,
+   "POP_ASIAN": 78,
+   "POP_OTHER": 54,
+   "POP_AMER_INDIAN": 1,
+   "POP_HAWAII_PACIFIC": 0,
+   "STATE": "51",
+   "COUNTY": "770",
+   "TRACT": "000400",
+   "BLKGROUP": "1",
+   "NAME_": "Block Group 1",
+   "TRACT_LABEL": "4"
+  }
+ ],
+ "Public/Annexations/0 Annexations": [
+  {
+   "ANNEX_DATE": 1949
+  }
+ ],
+ "Public/Snow_Zones/0 Snow Subzones": [
+  {
+   "SNOW_ZONE": "4N",
+   "MAPBK_TXT": "21",
+   "SUBZONE": "4B"
+  }
+ ],
+ "Public/Snow_Zones/1 Snow Zones": [
+  {
+   "SNOW_ZONE": "4N",
+   "MAPBK_TXT": "NORTHEAST",
+   "MAPBK_PGNUM": 6,
+   "MAPBK_ROTATE": 0,
+   "MAPBK_SCALE": 14500
+  }
+ ],
+ "Public/Quadrants_Working/0 Quadrants_Working": [
+  {
+   "PERIMETER": 114737.487,
+   "COLOR": 170,
+   "TEXT": "NE",
+   "TRASH_DAY": "TUESDAY"
+  }
+ ],
+ "Public/Zip_Codes/0 Zip Codes": [
+  {
+   "ZIP": "24012",
+   "PO_NAME": "Roanoke",
+   "STATE": "VA",
+   "POP2000": 25964,
+   "POP2010": 20584
+  }
+ ],
+ "Real_Estate/Parcels_Duplexes/0 Parcels Duplexes": [
+  {
+   "NEIGHBORHO": 15,
+   "LOCADDR": "306 TROY AVE NE",
+   "MAINZIPCOD": "24095",
+   "PROPERTYDE": "Multi-Family Duplex",
+   "ASSESSMENT": "01/01/2026",
+   "ASSESSME_1": "01/01/2025",
+   "CHANGEDESC": "1",
+   "CHANGEDE_1": "1",
+   "DWELLINGVA": 163300,
+   "DWELLING_1": 155500,
+   "GRANTOR2": "[masked]",
+   "ACRES": 0.1616,
+   "TAXID": "3180117",
+   "GISOBJID": 3180117,
+   "LRSN": 27013,
+   "ADDRNBR": "306",
+   "ADDRSTREET": "TROY",
+   "ADDRQUAD": "NE",
+   "ADDRSUFFIX": "AVE",
+   "OWNER": "[masked]",
+   "OWNERADDR1": "[masked]",
+   "MAILCITY": "GOODVIEW",
+   "MAILSTATE": "VA",
+   "LEGALACRES": "      0.1616",
+   "ZONEDESC": "RM-1",
+   "LEGALDESC": "LOT 217 B                 FLEMING COURT",
+   "LANDVAL1": 36600,
+   "LANDVAL2": 36600,
+   "TOTALVAL1": 199900,
+   "TOTALVAL2": 192100,
+   "SALEDATE1": 1544659200000,
+   "SALEDATE2": 300326400000,
+   "SALEAMT1": 0,
+   "SALEAMT2": 3000,
+   "GRANTOR1": "[masked]",
+   "DOCNUM1": "180011508",
+   "DOC2NUM": "CONV000000",
+   "SQFT": "7040",
+   "TOPODESC1": "Level"
+  }
+ ]
+}

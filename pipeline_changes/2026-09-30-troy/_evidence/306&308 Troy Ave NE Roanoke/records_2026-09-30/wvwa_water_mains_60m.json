@@ -1,0 +1,176 @@
+{
+ "displayFieldName": "MATERIAL",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "INSTALLDATE": "Install Date",
+  "DIAMETER": "Diameter",
+  "MATERIAL": "Material",
+  "JOINTTYPE": "Joint Type",
+  "PIPECLASS": "Pipe Class",
+  "COMMENTS": "Comments",
+  "LININGTYPE": "Lining Type",
+  "HGL": "HGL",
+  "DATEGPSED": "DATEGPSED",
+  "INFONETID": "INFONETID",
+  "USNODEID": "USNODEID",
+  "DSNODEID": "DSNODEID",
+  "GlobalID": "GlobalID",
+  "OPERATIONAL_STATUS": "OPERATIONAL_STATUS",
+  "MAINTDATE": "MAINTDATE",
+  "TYPE": "TYPE",
+  "Shape_Length": "Shape_Length"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "INSTALLDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "Install Date",
+   "length": 8
+  },
+  {
+   "name": "DIAMETER",
+   "type": "esriFieldTypeDouble",
+   "alias": "Diameter"
+  },
+  {
+   "name": "MATERIAL",
+   "type": "esriFieldTypeString",
+   "alias": "Material",
+   "length": 20
+  },
+  {
+   "name": "JOINTTYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Joint Type",
+   "length": 20
+  },
+  {
+   "name": "PIPECLASS",
+   "type": "esriFieldTypeString",
+   "alias": "Pipe Class",
+   "length": 20
+  },
+  {
+   "name": "COMMENTS",
+   "type": "esriFieldTypeString",
+   "alias": "Comments",
+   "length": 2147483647
+  },
+  {
+   "name": "LININGTYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Lining Type",
+   "length": 20
+  },
+  {
+   "name": "HGL",
+   "type": "esriFieldTypeString",
+   "alias": "HGL",
+   "length": 20
+  },
+  {
+   "name": "DATEGPSED",
+   "type": "esriFieldTypeDate",
+   "alias": "DATEGPSED",
+   "length": 8
+  },
+  {
+   "name": "INFONETID",
+   "type": "esriFieldTypeString",
+   "alias": "INFONETID",
+   "length": 150
+  },
+  {
+   "name": "USNODEID",
+   "type": "esriFieldTypeString",
+   "alias": "USNODEID",
+   "length": 150
+  },
+  {
+   "name": "DSNODEID",
+   "type": "esriFieldTypeString",
+   "alias": "DSNODEID",
+   "length": 150
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "length": 38
+  },
+  {
+   "name": "OPERATIONAL_STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "OPERATIONAL_STATUS",
+   "length": 20
+  },
+  {
+   "name": "MAINTDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "MAINTDATE",
+   "length": 8
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "length": 50
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1612,
+    "INSTALLDATE": -220838400000,
+    "DIAMETER": 8,
+    "MATERIAL": "CI",
+    "JOINTTYPE": null,
+    "PIPECLASS": null,
+    "COMMENTS": null,
+    "LININGTYPE": null,
+    "HGL": "1263",
+    "DATEGPSED": null,
+    "INFONETID": "PIPE-001890",
+    "USNODEID": "VALVE-001603",
+    "DSNODEID": "VALVE-001709",
+    "GlobalID": "{AB0E7F86-DBD4-41EC-94EC-A0A101774F0F}",
+    "OPERATIONAL_STATUS": "INUSE",
+    "MAINTDATE": -220838400000,
+    "TYPE": "DIST",
+    "Shape_Length": 1103.7362580696795
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7686,
+    "INSTALLDATE": -452649600000,
+    "DIAMETER": 6,
+    "MATERIAL": "CI",
+    "JOINTTYPE": null,
+    "PIPECLASS": null,
+    "COMMENTS": null,
+    "LININGTYPE": null,
+    "HGL": "1263",
+    "DATEGPSED": null,
+    "INFONETID": "PIPE-009708",
+    "USNODEID": "FIT-008548",
+    "DSNODEID": "VALVE-006644",
+    "GlobalID": "{3C9AA7FA-AD13-4F19-A5B0-2C78AD46E470}",
+    "OPERATIONAL_STATUS": "INUSE",
+    "MAINTDATE": -473299200000,
+    "TYPE": "DIST",
+    "Shape_Length": 544.756536054208
+   }
+  }
+ ]
+}

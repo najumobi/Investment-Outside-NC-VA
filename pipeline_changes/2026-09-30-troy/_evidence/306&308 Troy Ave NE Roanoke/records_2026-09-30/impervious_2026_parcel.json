@@ -1,0 +1,224 @@
+{
+ "displayFieldName": "TYPE",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "TYPE": "TYPE",
+  "SURFACE": "SURFACE",
+  "STATUS": "STATUS",
+  "SOURCE": "SOURCE",
+  "BldgID": "BldgID",
+  "GlobalID": "GlobalID",
+  "TaxID": "TaxID",
+  "created_user": "created_user",
+  "created_date": "created_date",
+  "last_edited_user": "last_edited_user",
+  "last_edited_date": "last_edited_date",
+  "IMPERV_AREA": "IMPERV_AREA",
+  "Shape_Length": "Shape_Length",
+  "Shape_Area": "Shape_Area"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "length": 50
+  },
+  {
+   "name": "SURFACE",
+   "type": "esriFieldTypeString",
+   "alias": "SURFACE",
+   "length": 50
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "length": 50
+  },
+  {
+   "name": "SOURCE",
+   "type": "esriFieldTypeString",
+   "alias": "SOURCE",
+   "length": 50
+  },
+  {
+   "name": "BldgID",
+   "type": "esriFieldTypeString",
+   "alias": "BldgID",
+   "length": 15
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "length": 38
+  },
+  {
+   "name": "TaxID",
+   "type": "esriFieldTypeString",
+   "alias": "TaxID",
+   "length": 10
+  },
+  {
+   "name": "created_user",
+   "type": "esriFieldTypeString",
+   "alias": "created_user",
+   "length": 255
+  },
+  {
+   "name": "created_date",
+   "type": "esriFieldTypeDate",
+   "alias": "created_date",
+   "length": 8
+  },
+  {
+   "name": "last_edited_user",
+   "type": "esriFieldTypeString",
+   "alias": "last_edited_user",
+   "length": 255
+  },
+  {
+   "name": "last_edited_date",
+   "type": "esriFieldTypeDate",
+   "alias": "last_edited_date",
+   "length": 8
+  },
+  {
+   "name": "IMPERV_AREA",
+   "type": "esriFieldTypeDouble",
+   "alias": "IMPERV_AREA"
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length"
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Area"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 136039,
+    "TYPE": "Residential",
+    "SURFACE": "Building",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": "3180117R01",
+    "GlobalID": "{B334BAE6-B564-4EFB-A062-8A9089A40813}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 1074.3672670833646,
+    "Shape_Length": 131.99213953185716,
+    "Shape_Area": 1074.3672670833646
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 136040,
+    "TYPE": "Residential",
+    "SURFACE": "Deck/Patio",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": null,
+    "GlobalID": "{D26CB7BD-E7EE-4058-A478-8E2C92CA9C2E}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 165.27074728718088,
+    "Shape_Length": 51.482262438921445,
+    "Shape_Area": 165.27074728718088
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 136041,
+    "TYPE": "Residential",
+    "SURFACE": "Deck/Patio",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": null,
+    "GlobalID": "{75771D13-6FC0-4387-9622-D9A9E9F8BBE9}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 149.16327027045548,
+    "Shape_Length": 48.89139971211232,
+    "Shape_Area": 149.16327027045548
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 136042,
+    "TYPE": "Residential",
+    "SURFACE": "Unknown",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": null,
+    "GlobalID": "{6F2DEF10-F96E-4E9B-8D72-6FAAE4690DCA}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 35.15496013265793,
+    "Shape_Length": 23.717635081152117,
+    "Shape_Area": 35.15496013265793
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 136043,
+    "TYPE": "Residential",
+    "SURFACE": "Driveway",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": null,
+    "GlobalID": "{7970D94B-1B8C-42E5-94C5-6A47195202B8}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 525.467698536951,
+    "Shape_Length": 132.28648219796244,
+    "Shape_Area": 525.467698536951
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 136044,
+    "TYPE": "Residential",
+    "SURFACE": "Driveway",
+    "STATUS": "Complete",
+    "SOURCE": "2011 VBMP",
+    "BldgID": null,
+    "GlobalID": "{6A65E191-C590-47D5-AB6E-DDF34BD20370}",
+    "TaxID": null,
+    "created_user": null,
+    "created_date": null,
+    "last_edited_user": null,
+    "last_edited_date": null,
+    "IMPERV_AREA": 346.05199016297337,
+    "Shape_Length": 110.37331638984647,
+    "Shape_Area": 346.05199016297337
+   }
+  }
+ ]
+}
