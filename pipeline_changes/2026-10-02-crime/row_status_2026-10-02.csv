@@ -226,8 +226,8 @@ detail queue,"179 Sly Ave, Corning, NY 14830",14830,read,,,361019624001,,,read
 detail queue,"411 Welles St #2, Elmira, NY 14901",14901,read,,,360150004003,,,read
 detail queue,"425-427 Fairmount Ave, Sunbury, PA 17801",17801,page not shot,,,420970820003,,,page not shot
 detail queue,"345 East 4th St, Bloomsburg, PA 17815",17815,read,,,420370511012,,,"on map, block group not in table"
-detail queue,"327 E Mine St, Hazleton, PA 18201",18201,page not shot,,,420792172001,,,page not shot
-detail queue,"414 E Mine St, Hazleton, PA 18201",18201,page not shot,,,420792172001,,,page not shot
+detail queue,"327 E Mine St, Hazleton, PA 18201",18201,read,,,420792172001,,,page not shot
+detail queue,"414 E Mine St, Hazleton, PA 18201",18201,read,,,420792172001,,,page not shot
 detail queue,"123 S Bromley Ave, Scranton, PA 18504",18504,read,,,420691020002,,,read
 detail queue,"1273 Snyder Ave, Scranton, PA 18504",18504,read,,,420691125006,,,read
 detail queue,"1413 Bulwer St, Scranton, PA 18504",18504,read,,,420691017001,,,read
@@ -247,16 +247,16 @@ detail queue,"4735 Loring St, Philadelphia, PA 19136",19136,read,,,421010330004,
 detail queue,"6532 Limekiln Pike, Philadelphia, PA 19138",19138,read,,,421010267003,,,read
 detail queue,"1112 S Rodney St, Wilmington, DE 19805",19805,page not shot,,,100030125001,,,page not shot
 detail queue,"19 Corbin Ct, Wilmington, DE 19805",19805,page not shot,,,100030024002,,,page not shot
-detail queue,"2208 Duss Ave, Ambridge, PA 15003",15003,page not shot,,,420076040001,,,page not shot
-detail queue,"848 Duss Ave, Ambridge, PA 15003",15003,page not shot,,,420076040002,,,page not shot
+detail queue,"2208 Duss Ave, Ambridge, PA 15003",15003,read,,,420076040001,,,page not shot
+detail queue,"848 Duss Ave, Ambridge, PA 15003",15003,read,,,420076040002,,,page not shot
 detail queue,"2024 7th Ave, Beaver Falls, PA 15010",15010,page not shot,,,420076013001,,,page not shot
 detail queue,"400 5th St, Charleroi, PA 15022",15022,read,,,421257832002,,,read
 detail queue,"611 6th St, New Brighton, PA 15066",15066,page not shot,,,420076014001,,,page not shot
 detail queue,"144 Ridge Ave, New Kensington, PA 15068",15068,read,,,421298006002,,,read
 detail queue,"216 Ridge Ave, New Kensington, PA 15068",15068,read,,,421298006002,,,read
 detail queue,"1117 Highland St, Tarentum, PA 15084",15084,read,,,420034035002,,,read
-detail queue,"1438-1440 Grandview Ave, Braddock, PA 15104",15104,page not shot,,,420035120001,,,page not shot
-detail queue,"1515 Terrace St, Braddock, PA 15104",15104,page not shot,,,420035120001,,,page not shot
+detail queue,"1438-1440 Grandview Ave, Braddock, PA 15104",15104,read,,,420035120001,,,page not shot
+detail queue,"1515 Terrace St, Braddock, PA 15104",15104,read,,,420035120001,,,page not shot
 detail queue,"1213-1215 Washington Ave, Carnegie, PA 15106",15106,page not shot,,,420034706001,,,page not shot
 detail queue,"443 Carothers Ave, Carnegie, PA 15106",15106,page not shot,,,420034706002,,,page not shot
 detail queue,"110 Main St, Coraopolis, PA 15108",15108,page not shot,,,420034508001,,,page not shot
@@ -270,8 +270,8 @@ detail queue,"502 Broadway Ave, Mc Kees Rocks, PA 15136",15136,read,,,4200346390
 detail queue,"708 Broadway Ave, Mckees Rocks, PA 15136",15136,read,,,420034626004,,,read
 detail queue,"753 Chartiers Ave, Mckees Rocks, PA 15136",15136,read,,,420034644003,,,read
 detail queue,"825 Benwood Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034626002,,,read
-detail queue,"5614 Verona Rd, Verona, PA 15147",15147,page not shot,,,420035238002,,,page not shot
-detail queue,"6150 Saltsburg Rd, Verona, PA 15147",15147,page not shot,,,420035235012,,,page not shot
+detail queue,"5614 Verona Rd, Verona, PA 15147",15147,read,,,420035238002,,,page not shot
+detail queue,"6150 Saltsburg Rd, Verona, PA 15147",15147,read,,,420035235012,,,page not shot
 detail queue,"117 Cleveland Ave, Pittsburgh, PA 15202",15202,read,,,420034324003,,,read
 detail queue,"197-199 E Bellevue Ave, Pittsburgh, PA 15202",15202,read,,,420034296002,,,read
 detail queue,"617 Florence Ave, Pittsburgh, PA 15202",15202,read,,,420034324002,,,page not shot
@@ -289,10 +289,10 @@ detail queue,"133-135 Bausman St, Pittsburgh, PA 15210",15210,read,,,42003300100
 detail queue,"140 Bausman St, Pittsburgh, PA 15210",15210,read,,,420033001002,,,read
 detail queue,"1511 St Patrick St, Pittsburgh, PA 15210",15210,read,,,420031706002,,,read
 detail queue,"2332 Eccles St, Pittsburgh, PA 15210",15210,read,,,420031608001,,,read
-detail queue,"1604 Hatteras St, Pittsburgh, PA 15212",15212,page not shot,,,420032413002,,,page not shot
-detail queue,"1809 Rialto St, Pittsburgh, PA 15212",15212,page not shot,,,420032413002,,,page not shot
-detail queue,"2023 Lowrie St, Pittsburgh, PA 15212",15212,page not shot,,,420032413001,,,page not shot
-detail queue,"2123 Lautner St, Pittsburgh, PA 15212",15212,page not shot,,,420032413001,,,page not shot
+detail queue,"1604 Hatteras St, Pittsburgh, PA 15212",15212,read,,,420032413002,,,page not shot
+detail queue,"1809 Rialto St, Pittsburgh, PA 15212",15212,read,,,420032413002,,,page not shot
+detail queue,"2023 Lowrie St, Pittsburgh, PA 15212",15212,read,,,420032413001,,,page not shot
+detail queue,"2123 Lautner St, Pittsburgh, PA 15212",15212,read,,,420032413001,,,page not shot
 detail queue,"3441 Fleming Ave, Pittsburgh, PA 15212",15212,read,,,420032703002,,,page not shot
 detail queue,"3654 Perrysville Ave, Pittsburgh, PA 15214",15214,read,,,420032607001,,,read
 detail queue,"206 Clay St, Pittsburgh, PA 15215",15215,read,,,420034240003,,,read
@@ -417,7 +417,7 @@ passed the money gates before,"515 Albemarle Ave SE, Roanoke, VA 24013",24013,re
 passed the money gates before,"707 Bullitt Ave SE, Roanoke, VA 24013",24013,read,,,517700027001,,,
 passed the money gates before,"1622 Patterson Ave SW, Roanoke, VA 24016",24016,read,,,517700010001,,,
 passed the money gates before,"11730 Essex Rd, Coeburn, VA 24230",24230,page not shot,,,511959315003,,,
-passed the money gates before,"816 Elizabeth St, Burlington, NC 27217",27217,page not shot,,,370010204003,,,
+passed the money gates before,"816 Elizabeth St, Burlington, NC 27217",27217,"read, tabs missing",,,370010204003,,D,
 passed the money gates before,"1919-1921 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
 passed the money gates before,"2101-2103 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
 passed the money gates before,"2900 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810128033,,,
@@ -447,11 +447,11 @@ passed the money gates before,"7 Bostwick Pl, Hornell, NY 14843",14843,page not 
 passed the money gates before,"1319 Lake Street St, Elmira, NY 14901",14901,read,,,360150001002,,,
 passed the money gates before,"366 Diven Ave, Elmira, NY 14901",14901,read,,,360150001002,,,
 passed the money gates before,"420 Standish St, Elmira, NY 14901",14901,read,,,360150001003,,,
-passed the money gates before,"208 E Noble St, Hazleton, PA 18201",18201,page not shot,,,420792172003,,,
+passed the money gates before,"208 E Noble St, Hazleton, PA 18201",18201,read,,,420792172003,,,
 passed the money gates before,"86-86 1/2 Belmont St, Carbondale, PA 18407",18407,page not shot,,,420691108003,,,
-passed the money gates before,"115 Phillip St, Nanticoke, PA 18634",18634,page not shot,,,420792143002,,,
-passed the money gates before,"132 Espy St, Nanticoke, PA 18634",18634,page not shot,,,420792143002,,,
-passed the money gates before,"40 Coal St, Nanticoke, PA 18634",18634,page not shot,,,420792141001,,,
+passed the money gates before,"115 Phillip St, Nanticoke, PA 18634",18634,read,,,420792143002,,,
+passed the money gates before,"132 Espy St, Nanticoke, PA 18634",18634,read,,,420792143002,,,
+passed the money gates before,"40 Coal St, Nanticoke, PA 18634",18634,read,,,420792141001,,,
 passed the money gates before,"1021-1023 W Main St, Plymouth, PA 18651",18651,read,,,420792139001,,,
 passed the money gates before,"485 - 487 2nd St, Plymouth, PA 18651",18651,read,,,420792138001,,,
 passed the money gates before,"437 Schuyler Ave, Kingston, PA 18704",18704,read,,,420792127003,,,
@@ -473,7 +473,7 @@ passed the money gates before,"5731 N 12th St, Philadelphia, PA 19141",19141,rea
 passed the money gates before,"40 W Wyneva St, Philadelphia, PA 19144",19144,read,,,421010244002,,,
 passed the money gates before,"551 N 63rd St, Philadelphia, PA 19151",19151,read,,,421010101005,,,
 passed the money gates before,"5905 Haverford Ave, Philadelphia, PA 19151",19151,read,,,421010095003,,,
-passed the money gates before,"627 Olive Ln, Ambridge, PA 15003",15003,page not shot,,,420076041003,,,
+passed the money gates before,"627 Olive Ln, Ambridge, PA 15003",15003,read,,,420076041003,,,
 passed the money gates before,"639 Washington Ave, Charleroi, PA 15022",15022,read,,,421257832002,,,
 passed the money gates before,"211 E 7th Ave, Tarentum, PA 15084",15084,read,,,420034035003,,,
 passed the money gates before,"720 Center St, Tarentum, PA 15084",15084,read,,,420034035005,,,
@@ -484,7 +484,7 @@ passed the money gates before,"1517 Hulton Rd, Verona, PA 15147",15147,page not 
 passed the money gates before,"215 Anthony St, Pittsburgh, PA 15210",15210,read,,,420034810002,,,
 passed the money gates before,"430 Brownsville Rd, Pittsburgh, PA 15210",15210,read,,,420033001003,,,
 passed the money gates before,"102 N Main St, Pittsburgh, PA 15215",15215,read,,,420034240003,,,
-passed the money gates before,"519 Francis St, Pittsburgh, PA 15219",15219,page not shot,,,420030501002,,,
+passed the money gates before,"519 Francis St, Pittsburgh, PA 15219",15219,read,,,420030501002,,,
 passed the money gates before,"95 Hilda St, Pittsburgh, PA 15235",15235,read,,,420035231004,,,
 passed the money gates before,"460 Jefferson Ave, Washington, PA 15301",15301,read,,,421257545001,,,
 passed the money gates before,"224 S 5th St, Jeannette, PA 15644",15644,read,,,421298028001,,,

@@ -65,3 +65,18 @@ Scores, verdicts and knockouts are unchanged. The run report's "Crime maps neede
 | Status of every board, queue and money-passing row | | `pipeline_changes/2026-10-02-crime/row_status_2026-10-02.csv` |
 
 `grade_by_view.py` no longer sends Najum's email address in its request header to OpenStreetMap's geocoder.
+
+## 7. The 8:20 AM batch of 2026-10-02
+
+Najum's first batch against the list covered 49 ZIP pages from the fourth group: 15 in NC/VA, 19 in the Pittsburgh region and 15 in the Philadelphia region. After it, 138 of the 400 sweep ZIPs are complete. The board is unchanged, because its 14 unread rows are all in group-1 ZIPs, which this batch did not cover.
+
+Twelve detail-queue rows became readable through neighbouring pages: two in Hazleton, two in Ambridge, two in Braddock, two in Verona and four on Pittsburgh's North Side. None of them meets the knockout. Seven other money-passing listings became readable too.
+
+71a is regenerated:
+
+- Group 1 is unchanged.
+- A new group 1b lists the three pages this batch left incomplete: 19111 needs Robbery, Vandalism, Murder and Drug; 24401 needs Vandalism; 27215 needs Drug.
+- Group 2 falls to 29 ZIPs, group 3 to 11 and group 4 to 103.
+- 74 ZIPs are now covered through other pages.
+
+The batch was taken in a wider window, and six of its shots have no street layer. How both were handled is in `pipeline_changes/2026-09-29-crimegrade/README.md`.
