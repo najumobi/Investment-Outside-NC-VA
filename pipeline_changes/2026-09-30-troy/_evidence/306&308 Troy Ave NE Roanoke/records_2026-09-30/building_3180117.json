@@ -1,0 +1,329 @@
+{
+ "displayFieldName": "BldgID",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "Asbestos": "Asbestos",
+  "Shape_Length": "Shape_Length",
+  "Shape_Area": "Shape_Area",
+  "BldgID": "BldgID",
+  "YRBUILT_NUM": "YRBUILT_NUM",
+  "PIN": "PIN",
+  "BldgID_1": "BldgID",
+  "PropExt": "PropExt",
+  "LRSNum": "LRSNum",
+  "ImprType": "ImprType",
+  "UseCode": "UseCode",
+  "UseDesc": "UseDesc",
+  "BldgType": "BldgType",
+  "Stories": "Stories",
+  "YrBuilt": "YrBuilt",
+  "FinSize": "FinSize",
+  "Foundat": "Foundat",
+  "ConstFr": "ConstFr",
+  "ExtDesc1": "ExtDesc1",
+  "CondDesc": "CondDesc",
+  "NumRms": "NumRms",
+  "NumBdRms": "NumBdRms",
+  "Num2Baths": "Num2Baths",
+  "Num3Baths": "Num3Baths",
+  "Num4Baths": "Num4Baths",
+  "Num5Baths": "Num5Baths",
+  "HeatType": "HeatType",
+  "HeatDesc": "HeatDesc",
+  "CentrlAC": "CentrlAC",
+  "Attic": "Attic",
+  "AtticFin": "AtticFin",
+  "BsmtArea": "BsmtArea",
+  "BsmtFin": "BsmtFin",
+  "AttGarSF": "AttGarSF",
+  "DetGarSF": "DetGarSF",
+  "AttCpSF": "AttCpSF",
+  "EnclPSF": "EnclPSF",
+  "OpenPSF": "OpenPSF",
+  "DeckSF": "DeckSF"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "Asbestos",
+   "type": "esriFieldTypeString",
+   "alias": "Asbestos",
+   "length": 50
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length"
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Area"
+  },
+  {
+   "name": "BldgID",
+   "type": "esriFieldTypeString",
+   "alias": "BldgID",
+   "length": 15
+  },
+  {
+   "name": "YRBUILT_NUM",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "YRBUILT_NUM"
+  },
+  {
+   "name": "PIN",
+   "type": "esriFieldTypeString",
+   "alias": "PIN",
+   "length": 26
+  },
+  {
+   "name": "BldgID_1",
+   "type": "esriFieldTypeString",
+   "alias": "BldgID",
+   "length": 29
+  },
+  {
+   "name": "PropExt",
+   "type": "esriFieldTypeString",
+   "alias": "PropExt",
+   "length": 3
+  },
+  {
+   "name": "LRSNum",
+   "type": "esriFieldTypeString",
+   "alias": "LRSNum",
+   "length": 10
+  },
+  {
+   "name": "ImprType",
+   "type": "esriFieldTypeString",
+   "alias": "ImprType",
+   "length": 10
+  },
+  {
+   "name": "UseCode",
+   "type": "esriFieldTypeString",
+   "alias": "UseCode",
+   "length": 8
+  },
+  {
+   "name": "UseDesc",
+   "type": "esriFieldTypeString",
+   "alias": "UseDesc",
+   "length": 30
+  },
+  {
+   "name": "BldgType",
+   "type": "esriFieldTypeString",
+   "alias": "BldgType",
+   "length": 35
+  },
+  {
+   "name": "Stories",
+   "type": "esriFieldTypeString",
+   "alias": "Stories",
+   "length": 5
+  },
+  {
+   "name": "YrBuilt",
+   "type": "esriFieldTypeString",
+   "alias": "YrBuilt",
+   "length": 4
+  },
+  {
+   "name": "FinSize",
+   "type": "esriFieldTypeString",
+   "alias": "FinSize",
+   "length": 8
+  },
+  {
+   "name": "Foundat",
+   "type": "esriFieldTypeString",
+   "alias": "Foundat",
+   "length": 36
+  },
+  {
+   "name": "ConstFr",
+   "type": "esriFieldTypeString",
+   "alias": "ConstFr",
+   "length": 30
+  },
+  {
+   "name": "ExtDesc1",
+   "type": "esriFieldTypeString",
+   "alias": "ExtDesc1",
+   "length": 30
+  },
+  {
+   "name": "CondDesc",
+   "type": "esriFieldTypeString",
+   "alias": "CondDesc",
+   "length": 30
+  },
+  {
+   "name": "NumRms",
+   "type": "esriFieldTypeString",
+   "alias": "NumRms",
+   "length": 4
+  },
+  {
+   "name": "NumBdRms",
+   "type": "esriFieldTypeString",
+   "alias": "NumBdRms",
+   "length": 4
+  },
+  {
+   "name": "Num2Baths",
+   "type": "esriFieldTypeString",
+   "alias": "Num2Baths",
+   "length": 4
+  },
+  {
+   "name": "Num3Baths",
+   "type": "esriFieldTypeString",
+   "alias": "Num3Baths",
+   "length": 4
+  },
+  {
+   "name": "Num4Baths",
+   "type": "esriFieldTypeString",
+   "alias": "Num4Baths",
+   "length": 4
+  },
+  {
+   "name": "Num5Baths",
+   "type": "esriFieldTypeString",
+   "alias": "Num5Baths",
+   "length": 4
+  },
+  {
+   "name": "HeatType",
+   "type": "esriFieldTypeString",
+   "alias": "HeatType",
+   "length": 3
+  },
+  {
+   "name": "HeatDesc",
+   "type": "esriFieldTypeString",
+   "alias": "HeatDesc",
+   "length": 25
+  },
+  {
+   "name": "CentrlAC",
+   "type": "esriFieldTypeString",
+   "alias": "CentrlAC",
+   "length": 1
+  },
+  {
+   "name": "Attic",
+   "type": "esriFieldTypeString",
+   "alias": "Attic",
+   "length": 10
+  },
+  {
+   "name": "AtticFin",
+   "type": "esriFieldTypeString",
+   "alias": "AtticFin",
+   "length": 6
+  },
+  {
+   "name": "BsmtArea",
+   "type": "esriFieldTypeString",
+   "alias": "BsmtArea",
+   "length": 6
+  },
+  {
+   "name": "BsmtFin",
+   "type": "esriFieldTypeString",
+   "alias": "BsmtFin",
+   "length": 6
+  },
+  {
+   "name": "AttGarSF",
+   "type": "esriFieldTypeString",
+   "alias": "AttGarSF",
+   "length": 6
+  },
+  {
+   "name": "DetGarSF",
+   "type": "esriFieldTypeString",
+   "alias": "DetGarSF",
+   "length": 6
+  },
+  {
+   "name": "AttCpSF",
+   "type": "esriFieldTypeString",
+   "alias": "AttCpSF",
+   "length": 6
+  },
+  {
+   "name": "EnclPSF",
+   "type": "esriFieldTypeString",
+   "alias": "EnclPSF",
+   "length": 6
+  },
+  {
+   "name": "OpenPSF",
+   "type": "esriFieldTypeString",
+   "alias": "OpenPSF",
+   "length": 6
+  },
+  {
+   "name": "DeckSF",
+   "type": "esriFieldTypeString",
+   "alias": "DeckSF",
+   "length": 6
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 22201,
+    "Asbestos": "false",
+    "Shape_Length": 131.99213956164115,
+    "Shape_Area": 1074.3672676357478,
+    "BldgID": "3180117R01",
+    "YRBUILT_NUM": 1984,
+    "PIN": "3180117",
+    "BldgID_1": "3180117R01",
+    "PropExt": "R01",
+    "LRSNum": "27013",
+    "ImprType": "DWELLING",
+    "UseCode": "2",
+    "UseDesc": "Duplex",
+    "BldgType": "21 Older 2 Story",
+    "Stories": "2.0",
+    "YrBuilt": "1984",
+    "FinSize": "1848",
+    "Foundat": "None",
+    "ConstFr": "Wood frame",
+    "ExtDesc1": "Brick veneer",
+    "CondDesc": "normal for age",
+    "NumRms": "4",
+    "NumBdRms": "4",
+    "Num2Baths": "0",
+    "Num3Baths": "2",
+    "Num4Baths": "0",
+    "Num5Baths": "0",
+    "HeatType": "3",
+    "HeatDesc": "Heat pump",
+    "CentrlAC": "Y",
+    "Attic": "None",
+    "AtticFin": "0",
+    "BsmtArea": "0",
+    "BsmtFin": "0",
+    "AttGarSF": "",
+    "DetGarSF": "",
+    "AttCpSF": "",
+    "EnclPSF": "0",
+    "OpenPSF": "0",
+    "DeckSF": "0"
+   }
+  }
+ ]
+}

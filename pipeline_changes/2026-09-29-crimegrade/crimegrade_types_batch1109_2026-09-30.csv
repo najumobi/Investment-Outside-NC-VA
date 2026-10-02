@@ -1,0 +1,21 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+f053,"1735 Laketon Rd, Pittsburgh, PA 15221",file 14,15221,0.895,0.934,0.895,0.961,0.780,0.889,D-,F,D-,F,D,D-
+f054,"341 31st St, Ashland, KY 41101",file 14,41101,0.794,0.197,0.737,0.661,0.751,0.711,D,A-,D+,C-,D+,D+
+f056,"139 Front St, North Huntingdon, PA 15642",file 14,15642,0.273,0.128,0.321,0.014,0.143,0.014,B+,A,B,A+,A,A+
+f070,"788 S Irvine Ave, Sharon, PA 16146",file 14,16146,0.780,0.796,0.858,0.756,0.185,0.830,D,D,D-,D+,A-,D
+f074,"316 Longfellow St, Vandergrift, PA 15690",file 14,15690,0.316,0.794,0.273,0.751,0.321,0.751,B,D,B+,D+,B,D+
+f075,"650 Ardmore Blvd, Pittsburgh, PA 15221",file 14,15221,0.756,0.889,0.872,0.895,0.504,0.799,D+,D-,D-,D-,C+,D
+f082,"540 W Chestnut St, Washington, PA 15301",file 14,15301,0.711,0.568,0.837,0.774,0.934,0.799,D+,C,D,D,F,D
+f084,"107 Maryland Ave, Pittsburgh, PA 15209",file 14,15209,0.889,0.934,0.954,0.953,0.985,0.866,D-,F,F,F,F,D-
+f085,"117 W 11th Ave, Tarentum, PA 15084",file 14,15084,0.568,0.794,0.799,0.321,0.799,0.756,C,D,D,B,D,D+
+f109,"310 Linden St, Vandergrift, PA 15690",file 14,15690,0.316,0.794,0.273,0.751,0.321,0.751,B,D,B+,D+,B,D+
+f115,"213 Rockwood Ave, Pittsburgh, PA 15221",file 14,15221,0.895,0.985,0.934,0.934,0.737,0.895,D-,F,F,F,D+,D-
+f116,"220 Mercer St, Butler, PA 16001",file 14,16001,0.844,0.467,0.889,0.737,0.737,0.143,D,C+,D-,D+,D+,A
+f121,"450 Jefferson Ave, Washington, PA 15301",file 14,15301,0.694,0.566,0.543,0.644,0.866,0.711,D+,C,C,C-,D-,D+
+f130,"886 N Sharpsville Ave, Sharon, PA 16146",file 14,16146,0.417,0.469,0.299,0.449,0.004,0.658,B-,C+,B+,B-,A+,C-
+f133,"189 Sherman Ave, Vandergrift, PA 15690",file 14,15690,0.711,0.185,0.858,0.285,0.568,0.737,D+,A-,D-,B+,C,D+
+f141,"1739 Kimball Ave, Arnold, PA 15068",file 14,15068,0.388,0.711,0.598,0.568,0.206,0.711,B-,D+,C,C,A-,D+
+f149,"310 Harrison Ave, Jeannette, PA 15644",file 14,15644,0.566,0.644,0.794,0.482,0.028,0.694,C,C-,D,C+,A+,D+
+f157,"438 Watson St, Sharon, PA 16146",file 14,16146,0.866,0.934,0.934,0.821,0.520,0.790,D-,F,F,D,C+,D
+f160,"302 Columbia St, Fairmont, WV 26554",file 14,26554,0.756,0.467,0.774,0.961,0.658,0.992,D+,C+,D,F,C-,F
+f181,"1909 Woodmont Ave, Arnold, PA 15068",file 14,15068,0.267,0.858,0.523,0.661,0.237,0.737,B+,D-,C+,C-,B+,D+

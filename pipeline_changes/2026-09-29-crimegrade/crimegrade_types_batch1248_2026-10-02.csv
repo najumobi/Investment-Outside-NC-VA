@@ -1,0 +1,2 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,0.362,0.835,0.737,0.794,0.934,0.895,B,D,D+,D,F,D-

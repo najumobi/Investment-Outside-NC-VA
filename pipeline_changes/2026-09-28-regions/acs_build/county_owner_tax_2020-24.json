@@ -1,0 +1,2642 @@
+{
+ "42001": {
+  "name": "Adams County, Pennsylvania",
+  "T": 3561.0,
+  "V": 268500.0,
+  "rate": 0.01326
+ },
+ "42003": {
+  "name": "Allegheny County, Pennsylvania",
+  "T": 3451.0,
+  "V": 227600.0,
+  "rate": 0.01516
+ },
+ "42005": {
+  "name": "Armstrong County, Pennsylvania",
+  "T": 2161.0,
+  "V": 157300.0,
+  "rate": 0.01374
+ },
+ "42007": {
+  "name": "Beaver County, Pennsylvania",
+  "T": 2704.0,
+  "V": 190900.0,
+  "rate": 0.01416
+ },
+ "42009": {
+  "name": "Bedford County, Pennsylvania",
+  "T": 1444.0,
+  "V": 179000.0,
+  "rate": 0.00807
+ },
+ "42011": {
+  "name": "Berks County, Pennsylvania",
+  "T": 4239.0,
+  "V": 257300.0,
+  "rate": 0.01647
+ },
+ "42013": {
+  "name": "Blair County, Pennsylvania",
+  "T": 1724.0,
+  "V": 161100.0,
+  "rate": 0.0107
+ },
+ "42015": {
+  "name": "Bradford County, Pennsylvania",
+  "T": 2044.0,
+  "V": 187500.0,
+  "rate": 0.0109
+ },
+ "42017": {
+  "name": "Bucks County, Pennsylvania",
+  "T": 5826.0,
+  "V": 445700.0,
+  "rate": 0.01307
+ },
+ "42019": {
+  "name": "Butler County, Pennsylvania",
+  "T": 2970.0,
+  "V": 294200.0,
+  "rate": 0.0101
+ },
+ "42021": {
+  "name": "Cambria County, Pennsylvania",
+  "T": 1492.0,
+  "V": 121000.0,
+  "rate": 0.01233
+ },
+ "42023": {
+  "name": "Cameron County, Pennsylvania",
+  "T": 1414.0,
+  "V": 88900.0,
+  "rate": 0.01591
+ },
+ "42025": {
+  "name": "Carbon County, Pennsylvania",
+  "T": 3088.0,
+  "V": 211400.0,
+  "rate": 0.01461
+ },
+ "42027": {
+  "name": "Centre County, Pennsylvania",
+  "T": 3386.0,
+  "V": 323500.0,
+  "rate": 0.01047
+ },
+ "42029": {
+  "name": "Chester County, Pennsylvania",
+  "T": 6308.0,
+  "V": 485600.0,
+  "rate": 0.01299
+ },
+ "42031": {
+  "name": "Clarion County, Pennsylvania",
+  "T": 1503.0,
+  "V": 155700.0,
+  "rate": 0.00965
+ },
+ "42033": {
+  "name": "Clearfield County, Pennsylvania",
+  "T": 1500.0,
+  "V": 137000.0,
+  "rate": 0.01095
+ },
+ "42035": {
+  "name": "Clinton County, Pennsylvania",
+  "T": 2046.0,
+  "V": 175900.0,
+  "rate": 0.01163
+ },
+ "42037": {
+  "name": "Columbia County, Pennsylvania",
+  "T": 2286.0,
+  "V": 206200.0,
+  "rate": 0.01109
+ },
+ "42039": {
+  "name": "Crawford County, Pennsylvania",
+  "T": 2064.0,
+  "V": 153200.0,
+  "rate": 0.01347
+ },
+ "42041": {
+  "name": "Cumberland County, Pennsylvania",
+  "T": 3254.0,
+  "V": 277600.0,
+  "rate": 0.01172
+ },
+ "42043": {
+  "name": "Dauphin County, Pennsylvania",
+  "T": 3198.0,
+  "V": 236400.0,
+  "rate": 0.01353
+ },
+ "42045": {
+  "name": "Delaware County, Pennsylvania",
+  "T": 6124.0,
+  "V": 332200.0,
+  "rate": 0.01843
+ },
+ "42047": {
+  "name": "Elk County, Pennsylvania",
+  "T": 1697.0,
+  "V": 133600.0,
+  "rate": 0.0127
+ },
+ "42049": {
+  "name": "Erie County, Pennsylvania",
+  "T": 2830.0,
+  "V": 177000.0,
+  "rate": 0.01599
+ },
+ "42051": {
+  "name": "Fayette County, Pennsylvania",
+  "T": 1607.0,
+  "V": 143200.0,
+  "rate": 0.01122
+ },
+ "42053": {
+  "name": "Forest County, Pennsylvania",
+  "T": 1145.0,
+  "V": 115300.0,
+  "rate": 0.00993
+ },
+ "42055": {
+  "name": "Franklin County, Pennsylvania",
+  "T": 2740.0,
+  "V": 249800.0,
+  "rate": 0.01097
+ },
+ "42057": {
+  "name": "Fulton County, Pennsylvania",
+  "T": 2120.0,
+  "V": 208500.0,
+  "rate": 0.01017
+ },
+ "42059": {
+  "name": "Greene County, Pennsylvania",
+  "T": 1960.0,
+  "V": 153900.0,
+  "rate": 0.01274
+ },
+ "42061": {
+  "name": "Huntingdon County, Pennsylvania",
+  "T": 1718.0,
+  "V": 183200.0,
+  "rate": 0.00938
+ },
+ "42063": {
+  "name": "Indiana County, Pennsylvania",
+  "T": 2297.0,
+  "V": 152800.0,
+  "rate": 0.01503
+ },
+ "42065": {
+  "name": "Jefferson County, Pennsylvania",
+  "T": 1402.0,
+  "V": 139700.0,
+  "rate": 0.01004
+ },
+ "42067": {
+  "name": "Juniata County, Pennsylvania",
+  "T": 2147.0,
+  "V": 217000.0,
+  "rate": 0.00989
+ },
+ "42069": {
+  "name": "Lackawanna County, Pennsylvania",
+  "T": 3012.0,
+  "V": 201800.0,
+  "rate": 0.01493
+ },
+ "42071": {
+  "name": "Lancaster County, Pennsylvania",
+  "T": 3975.0,
+  "V": 301100.0,
+  "rate": 0.0132
+ },
+ "42073": {
+  "name": "Lawrence County, Pennsylvania",
+  "T": 1967.0,
+  "V": 147200.0,
+  "rate": 0.01336
+ },
+ "42075": {
+  "name": "Lebanon County, Pennsylvania",
+  "T": 3310.0,
+  "V": 242000.0,
+  "rate": 0.01368
+ },
+ "42077": {
+  "name": "Lehigh County, Pennsylvania",
+  "T": 4651.0,
+  "V": 300400.0,
+  "rate": 0.01548
+ },
+ "42079": {
+  "name": "Luzerne County, Pennsylvania",
+  "T": 2530.0,
+  "V": 174100.0,
+  "rate": 0.01453
+ },
+ "42081": {
+  "name": "Lycoming County, Pennsylvania",
+  "T": 2649.0,
+  "V": 202200.0,
+  "rate": 0.0131
+ },
+ "42083": {
+  "name": "McKean County, Pennsylvania",
+  "T": 1660.0,
+  "V": 104500.0,
+  "rate": 0.01589
+ },
+ "42085": {
+  "name": "Mercer County, Pennsylvania",
+  "T": 1936.0,
+  "V": 164000.0,
+  "rate": 0.0118
+ },
+ "42087": {
+  "name": "Mifflin County, Pennsylvania",
+  "T": 2266.0,
+  "V": 156700.0,
+  "rate": 0.01446
+ },
+ "42089": {
+  "name": "Monroe County, Pennsylvania",
+  "T": 4447.0,
+  "V": 267600.0,
+  "rate": 0.01662
+ },
+ "42091": {
+  "name": "Montgomery County, Pennsylvania",
+  "T": 5875.0,
+  "V": 436700.0,
+  "rate": 0.01345
+ },
+ "42093": {
+  "name": "Montour County, Pennsylvania",
+  "T": 2507.0,
+  "V": 248100.0,
+  "rate": 0.0101
+ },
+ "42095": {
+  "name": "Northampton County, Pennsylvania",
+  "T": 4700.0,
+  "V": 308600.0,
+  "rate": 0.01523
+ },
+ "42097": {
+  "name": "Northumberland County, Pennsylvania",
+  "T": 1794.0,
+  "V": 162400.0,
+  "rate": 0.01105
+ },
+ "42099": {
+  "name": "Perry County, Pennsylvania",
+  "T": 2859.0,
+  "V": 236400.0,
+  "rate": 0.01209
+ },
+ "42101": {
+  "name": "Philadelphia County, Pennsylvania",
+  "T": 2003.0,
+  "V": 243100.0,
+  "rate": 0.00824
+ },
+ "42103": {
+  "name": "Pike County, Pennsylvania",
+  "T": 3542.0,
+  "V": 272600.0,
+  "rate": 0.01299
+ },
+ "42105": {
+  "name": "Potter County, Pennsylvania",
+  "T": 1857.0,
+  "V": 153100.0,
+  "rate": 0.01213
+ },
+ "42107": {
+  "name": "Schuylkill County, Pennsylvania",
+  "T": 2140.0,
+  "V": 153000.0,
+  "rate": 0.01399
+ },
+ "42109": {
+  "name": "Snyder County, Pennsylvania",
+  "T": 2388.0,
+  "V": 215300.0,
+  "rate": 0.01109
+ },
+ "42111": {
+  "name": "Somerset County, Pennsylvania",
+  "T": 1477.0,
+  "V": 150600.0,
+  "rate": 0.00981
+ },
+ "42113": {
+  "name": "Sullivan County, Pennsylvania",
+  "T": 2015.0,
+  "V": 197100.0,
+  "rate": 0.01022
+ },
+ "42115": {
+  "name": "Susquehanna County, Pennsylvania",
+  "T": 2365.0,
+  "V": 216400.0,
+  "rate": 0.01093
+ },
+ "42117": {
+  "name": "Tioga County, Pennsylvania",
+  "T": 2078.0,
+  "V": 181100.0,
+  "rate": 0.01147
+ },
+ "42119": {
+  "name": "Union County, Pennsylvania",
+  "T": 2744.0,
+  "V": 240100.0,
+  "rate": 0.01143
+ },
+ "42121": {
+  "name": "Venango County, Pennsylvania",
+  "T": 1520.0,
+  "V": 119800.0,
+  "rate": 0.01269
+ },
+ "42123": {
+  "name": "Warren County, Pennsylvania",
+  "T": 1687.0,
+  "V": 127500.0,
+  "rate": 0.01323
+ },
+ "42125": {
+  "name": "Washington County, Pennsylvania",
+  "T": 2485.0,
+  "V": 228500.0,
+  "rate": 0.01088
+ },
+ "42127": {
+  "name": "Wayne County, Pennsylvania",
+  "T": 3039.0,
+  "V": 242100.0,
+  "rate": 0.01255
+ },
+ "42129": {
+  "name": "Westmoreland County, Pennsylvania",
+  "T": 2501.0,
+  "V": 203500.0,
+  "rate": 0.01229
+ },
+ "42131": {
+  "name": "Wyoming County, Pennsylvania",
+  "T": 2817.0,
+  "V": 215400.0,
+  "rate": 0.01308
+ },
+ "42133": {
+  "name": "York County, Pennsylvania",
+  "T": 4006.0,
+  "V": 248600.0,
+  "rate": 0.01611
+ },
+ "39001": {
+  "name": "Adams County, Ohio",
+  "T": 1356.0,
+  "V": 164200.0,
+  "rate": 0.00826
+ },
+ "39003": {
+  "name": "Allen County, Ohio",
+  "T": 1847.0,
+  "V": 165300.0,
+  "rate": 0.01117
+ },
+ "39005": {
+  "name": "Ashland County, Ohio",
+  "T": 1858.0,
+  "V": 186800.0,
+  "rate": 0.00995
+ },
+ "39007": {
+  "name": "Ashtabula County, Ohio",
+  "T": 1928.0,
+  "V": 159500.0,
+  "rate": 0.01209
+ },
+ "39009": {
+  "name": "Athens County, Ohio",
+  "T": 2167.0,
+  "V": 185000.0,
+  "rate": 0.01171
+ },
+ "39011": {
+  "name": "Auglaize County, Ohio",
+  "T": 1828.0,
+  "V": 189800.0,
+  "rate": 0.00963
+ },
+ "39013": {
+  "name": "Belmont County, Ohio",
+  "T": 1469.0,
+  "V": 154900.0,
+  "rate": 0.00948
+ },
+ "39015": {
+  "name": "Brown County, Ohio",
+  "T": 1600.0,
+  "V": 196200.0,
+  "rate": 0.00815
+ },
+ "39017": {
+  "name": "Butler County, Ohio",
+  "T": 3141.0,
+  "V": 258500.0,
+  "rate": 0.01215
+ },
+ "39019": {
+  "name": "Carroll County, Ohio",
+  "T": 1725.0,
+  "V": 183100.0,
+  "rate": 0.00942
+ },
+ "39021": {
+  "name": "Champaign County, Ohio",
+  "T": 2084.0,
+  "V": 204000.0,
+  "rate": 0.01022
+ },
+ "39023": {
+  "name": "Clark County, Ohio",
+  "T": 2019.0,
+  "V": 169900.0,
+  "rate": 0.01188
+ },
+ "39025": {
+  "name": "Clermont County, Ohio",
+  "T": 3333.0,
+  "V": 266200.0,
+  "rate": 0.01252
+ },
+ "39027": {
+  "name": "Clinton County, Ohio",
+  "T": 1962.0,
+  "V": 211900.0,
+  "rate": 0.00926
+ },
+ "39029": {
+  "name": "Columbiana County, Ohio",
+  "T": 1527.0,
+  "V": 151600.0,
+  "rate": 0.01007
+ },
+ "39031": {
+  "name": "Coshocton County, Ohio",
+  "T": 1473.0,
+  "V": 155500.0,
+  "rate": 0.00947
+ },
+ "39033": {
+  "name": "Crawford County, Ohio",
+  "T": 1622.0,
+  "V": 136700.0,
+  "rate": 0.01187
+ },
+ "39035": {
+  "name": "Cuyahoga County, Ohio",
+  "T": 3910.0,
+  "V": 195400.0,
+  "rate": 0.02001
+ },
+ "39037": {
+  "name": "Darke County, Ohio",
+  "T": 1584.0,
+  "V": 173200.0,
+  "rate": 0.00915
+ },
+ "39039": {
+  "name": "Defiance County, Ohio",
+  "T": 1750.0,
+  "V": 163200.0,
+  "rate": 0.01072
+ },
+ "39041": {
+  "name": "Delaware County, Ohio",
+  "T": 7132.0,
+  "V": 445500.0,
+  "rate": 0.01601
+ },
+ "39043": {
+  "name": "Erie County, Ohio",
+  "T": 2428.0,
+  "V": 199700.0,
+  "rate": 0.01216
+ },
+ "39045": {
+  "name": "Fairfield County, Ohio",
+  "T": 3289.0,
+  "V": 298800.0,
+  "rate": 0.01101
+ },
+ "39047": {
+  "name": "Fayette County, Ohio",
+  "T": 1601.0,
+  "V": 170700.0,
+  "rate": 0.00938
+ },
+ "39049": {
+  "name": "Franklin County, Ohio",
+  "T": 4244.0,
+  "V": 288400.0,
+  "rate": 0.01472
+ },
+ "39051": {
+  "name": "Fulton County, Ohio",
+  "T": 2444.0,
+  "V": 191000.0,
+  "rate": 0.0128
+ },
+ "39053": {
+  "name": "Gallia County, Ohio",
+  "T": 1418.0,
+  "V": 155600.0,
+  "rate": 0.00911
+ },
+ "39055": {
+  "name": "Geauga County, Ohio",
+  "T": 4564.0,
+  "V": 331100.0,
+  "rate": 0.01378
+ },
+ "39057": {
+  "name": "Greene County, Ohio",
+  "T": 4071.0,
+  "V": 252200.0,
+  "rate": 0.01614
+ },
+ "39059": {
+  "name": "Guernsey County, Ohio",
+  "T": 1593.0,
+  "V": 157700.0,
+  "rate": 0.0101
+ },
+ "39061": {
+  "name": "Hamilton County, Ohio",
+  "T": 3652.0,
+  "V": 241900.0,
+  "rate": 0.0151
+ },
+ "39063": {
+  "name": "Hancock County, Ohio",
+  "T": 2046.0,
+  "V": 204700.0,
+  "rate": 0.01
+ },
+ "39065": {
+  "name": "Hardin County, Ohio",
+  "T": 1590.0,
+  "V": 151200.0,
+  "rate": 0.01052
+ },
+ "39067": {
+  "name": "Harrison County, Ohio",
+  "T": 1279.0,
+  "V": 121500.0,
+  "rate": 0.01053
+ },
+ "39069": {
+  "name": "Henry County, Ohio",
+  "T": 1970.0,
+  "V": 168600.0,
+  "rate": 0.01168
+ },
+ "39071": {
+  "name": "Highland County, Ohio",
+  "T": 1533.0,
+  "V": 168900.0,
+  "rate": 0.00908
+ },
+ "39073": {
+  "name": "Hocking County, Ohio",
+  "T": 1852.0,
+  "V": 186400.0,
+  "rate": 0.00994
+ },
+ "39075": {
+  "name": "Holmes County, Ohio",
+  "T": 2888.0,
+  "V": 267700.0,
+  "rate": 0.01079
+ },
+ "39077": {
+  "name": "Huron County, Ohio",
+  "T": 1751.0,
+  "V": 166000.0,
+  "rate": 0.01055
+ },
+ "39079": {
+  "name": "Jackson County, Ohio",
+  "T": 1363.0,
+  "V": 150700.0,
+  "rate": 0.00904
+ },
+ "39081": {
+  "name": "Jefferson County, Ohio",
+  "T": 1257.0,
+  "V": 127800.0,
+  "rate": 0.00984
+ },
+ "39083": {
+  "name": "Knox County, Ohio",
+  "T": 2564.0,
+  "V": 239400.0,
+  "rate": 0.01071
+ },
+ "39085": {
+  "name": "Lake County, Ohio",
+  "T": 3475.0,
+  "V": 214100.0,
+  "rate": 0.01623
+ },
+ "39087": {
+  "name": "Lawrence County, Ohio",
+  "T": 1215.0,
+  "V": 144000.0,
+  "rate": 0.00844
+ },
+ "39089": {
+  "name": "Licking County, Ohio",
+  "T": 3364.0,
+  "V": 275200.0,
+  "rate": 0.01222
+ },
+ "39091": {
+  "name": "Logan County, Ohio",
+  "T": 2042.0,
+  "V": 203200.0,
+  "rate": 0.01005
+ },
+ "39093": {
+  "name": "Lorain County, Ohio",
+  "T": 3055.0,
+  "V": 223200.0,
+  "rate": 0.01369
+ },
+ "39095": {
+  "name": "Lucas County, Ohio",
+  "T": 2773.0,
+  "V": 163900.0,
+  "rate": 0.01692
+ },
+ "39097": {
+  "name": "Madison County, Ohio",
+  "T": 2541.0,
+  "V": 250100.0,
+  "rate": 0.01016
+ },
+ "39099": {
+  "name": "Mahoning County, Ohio",
+  "T": 2015.0,
+  "V": 154700.0,
+  "rate": 0.01303
+ },
+ "39101": {
+  "name": "Marion County, Ohio",
+  "T": 1489.0,
+  "V": 156800.0,
+  "rate": 0.0095
+ },
+ "39103": {
+  "name": "Medina County, Ohio",
+  "T": 3560.0,
+  "V": 287000.0,
+  "rate": 0.0124
+ },
+ "39105": {
+  "name": "Meigs County, Ohio",
+  "T": 1238.0,
+  "V": 119300.0,
+  "rate": 0.01038
+ },
+ "39107": {
+  "name": "Mercer County, Ohio",
+  "T": 2325.0,
+  "V": 210600.0,
+  "rate": 0.01104
+ },
+ "39109": {
+  "name": "Miami County, Ohio",
+  "T": 2254.0,
+  "V": 229100.0,
+  "rate": 0.00984
+ },
+ "39111": {
+  "name": "Monroe County, Ohio",
+  "T": 1176.0,
+  "V": 142700.0,
+  "rate": 0.00824
+ },
+ "39113": {
+  "name": "Montgomery County, Ohio",
+  "T": 3127.0,
+  "V": 180900.0,
+  "rate": 0.01729
+ },
+ "39115": {
+  "name": "Morgan County, Ohio",
+  "T": 1268.0,
+  "V": 150900.0,
+  "rate": 0.0084
+ },
+ "39117": {
+  "name": "Morrow County, Ohio",
+  "T": 2359.0,
+  "V": 222300.0,
+  "rate": 0.01061
+ },
+ "39119": {
+  "name": "Muskingum County, Ohio",
+  "T": 1649.0,
+  "V": 182200.0,
+  "rate": 0.00905
+ },
+ "39121": {
+  "name": "Noble County, Ohio",
+  "T": 1180.0,
+  "V": 163600.0,
+  "rate": 0.00721
+ },
+ "39123": {
+  "name": "Ottawa County, Ohio",
+  "T": 2378.0,
+  "V": 219900.0,
+  "rate": 0.01081
+ },
+ "39125": {
+  "name": "Paulding County, Ohio",
+  "T": 1450.0,
+  "V": 140800.0,
+  "rate": 0.0103
+ },
+ "39127": {
+  "name": "Perry County, Ohio",
+  "T": 1813.0,
+  "V": 191100.0,
+  "rate": 0.00949
+ },
+ "39129": {
+  "name": "Pickaway County, Ohio",
+  "T": 2566.0,
+  "V": 256800.0,
+  "rate": 0.00999
+ },
+ "39131": {
+  "name": "Pike County, Ohio",
+  "T": 1355.0,
+  "V": 163800.0,
+  "rate": 0.00827
+ },
+ "39133": {
+  "name": "Portage County, Ohio",
+  "T": 2877.0,
+  "V": 227000.0,
+  "rate": 0.01267
+ },
+ "39135": {
+  "name": "Preble County, Ohio",
+  "T": 1883.0,
+  "V": 180900.0,
+  "rate": 0.01041
+ },
+ "39137": {
+  "name": "Putnam County, Ohio",
+  "T": 1943.0,
+  "V": 201100.0,
+  "rate": 0.00966
+ },
+ "39139": {
+  "name": "Richland County, Ohio",
+  "T": 2061.0,
+  "V": 164800.0,
+  "rate": 0.01251
+ },
+ "39141": {
+  "name": "Ross County, Ohio",
+  "T": 1708.0,
+  "V": 171500.0,
+  "rate": 0.00996
+ },
+ "39143": {
+  "name": "Sandusky County, Ohio",
+  "T": 1659.0,
+  "V": 160700.0,
+  "rate": 0.01032
+ },
+ "39145": {
+  "name": "Scioto County, Ohio",
+  "T": 1459.0,
+  "V": 137900.0,
+  "rate": 0.01058
+ },
+ "39147": {
+  "name": "Seneca County, Ohio",
+  "T": 1599.0,
+  "V": 154700.0,
+  "rate": 0.01034
+ },
+ "39149": {
+  "name": "Shelby County, Ohio",
+  "T": 1981.0,
+  "V": 208100.0,
+  "rate": 0.00952
+ },
+ "39151": {
+  "name": "Stark County, Ohio",
+  "T": 2402.0,
+  "V": 186400.0,
+  "rate": 0.01289
+ },
+ "39153": {
+  "name": "Summit County, Ohio",
+  "T": 3195.0,
+  "V": 208700.0,
+  "rate": 0.01531
+ },
+ "39155": {
+  "name": "Trumbull County, Ohio",
+  "T": 1856.0,
+  "V": 141800.0,
+  "rate": 0.01309
+ },
+ "39157": {
+  "name": "Tuscarawas County, Ohio",
+  "T": 1962.0,
+  "V": 185400.0,
+  "rate": 0.01058
+ },
+ "39159": {
+  "name": "Union County, Ohio",
+  "T": 3947.0,
+  "V": 344900.0,
+  "rate": 0.01144
+ },
+ "39161": {
+  "name": "Van Wert County, Ohio",
+  "T": 1387.0,
+  "V": 152000.0,
+  "rate": 0.00912
+ },
+ "39163": {
+  "name": "Vinton County, Ohio",
+  "T": 1469.0,
+  "V": 150000.0,
+  "rate": 0.00979
+ },
+ "39165": {
+  "name": "Warren County, Ohio",
+  "T": 4199.0,
+  "V": 349400.0,
+  "rate": 0.01202
+ },
+ "39167": {
+  "name": "Washington County, Ohio",
+  "T": 1732.0,
+  "V": 185600.0,
+  "rate": 0.00933
+ },
+ "39169": {
+  "name": "Wayne County, Ohio",
+  "T": 2602.0,
+  "V": 222100.0,
+  "rate": 0.01172
+ },
+ "39171": {
+  "name": "Williams County, Ohio",
+  "T": 1577.0,
+  "V": 150000.0,
+  "rate": 0.01051
+ },
+ "39173": {
+  "name": "Wood County, Ohio",
+  "T": 3059.0,
+  "V": 227600.0,
+  "rate": 0.01344
+ },
+ "39175": {
+  "name": "Wyandot County, Ohio",
+  "T": 1410.0,
+  "V": 163400.0,
+  "rate": 0.00863
+ },
+ "34001": {
+  "name": "Atlantic County, New Jersey",
+  "T": 6776.0,
+  "V": 295000.0,
+  "rate": 0.02297
+ },
+ "34003": {
+  "name": "Bergen County, New Jersey",
+  "T": 10001.0,
+  "V": 623000.0,
+  "rate": 0.01605
+ },
+ "34005": {
+  "name": "Burlington County, New Jersey",
+  "T": 7983.0,
+  "V": 354000.0,
+  "rate": 0.02255
+ },
+ "34007": {
+  "name": "Camden County, New Jersey",
+  "T": 8134.0,
+  "V": 287100.0,
+  "rate": 0.02833
+ },
+ "34009": {
+  "name": "Cape May County, New Jersey",
+  "T": 5306.0,
+  "V": 434600.0,
+  "rate": 0.01221
+ },
+ "34011": {
+  "name": "Cumberland County, New Jersey",
+  "T": 5052.0,
+  "V": 221400.0,
+  "rate": 0.02282
+ },
+ "34013": {
+  "name": "Essex County, New Jersey",
+  "T": 10001.0,
+  "V": 524100.0,
+  "rate": 0.01908
+ },
+ "34015": {
+  "name": "Gloucester County, New Jersey",
+  "T": 8055.0,
+  "V": 310400.0,
+  "rate": 0.02595
+ },
+ "34017": {
+  "name": "Hudson County, New Jersey",
+  "T": 9555.0,
+  "V": 539700.0,
+  "rate": 0.0177
+ },
+ "34019": {
+  "name": "Hunterdon County, New Jersey",
+  "T": 10001.0,
+  "V": 517200.0,
+  "rate": 0.01934
+ },
+ "34021": {
+  "name": "Mercer County, New Jersey",
+  "T": 8909.0,
+  "V": 377700.0,
+  "rate": 0.02359
+ },
+ "34023": {
+  "name": "Middlesex County, New Jersey",
+  "T": 9712.0,
+  "V": 462900.0,
+  "rate": 0.02098
+ },
+ "34025": {
+  "name": "Monmouth County, New Jersey",
+  "T": 10001.0,
+  "V": 606100.0,
+  "rate": 0.0165
+ },
+ "34027": {
+  "name": "Morris County, New Jersey",
+  "T": 10001.0,
+  "V": 582500.0,
+  "rate": 0.01717
+ },
+ "34029": {
+  "name": "Ocean County, New Jersey",
+  "T": 6562.0,
+  "V": 398400.0,
+  "rate": 0.01647
+ },
+ "34031": {
+  "name": "Passaic County, New Jersey",
+  "T": 10001.0,
+  "V": 459500.0,
+  "rate": 0.02176
+ },
+ "34033": {
+  "name": "Salem County, New Jersey",
+  "T": 7018.0,
+  "V": 239500.0,
+  "rate": 0.0293
+ },
+ "34035": {
+  "name": "Somerset County, New Jersey",
+  "T": 10001.0,
+  "V": 552100.0,
+  "rate": 0.01811
+ },
+ "34037": {
+  "name": "Sussex County, New Jersey",
+  "T": 8568.0,
+  "V": 369400.0,
+  "rate": 0.02319
+ },
+ "34039": {
+  "name": "Union County, New Jersey",
+  "T": 10001.0,
+  "V": 529200.0,
+  "rate": 0.0189
+ },
+ "34041": {
+  "name": "Warren County, New Jersey",
+  "T": 8119.0,
+  "V": 346500.0,
+  "rate": 0.02343
+ },
+ "10001": {
+  "name": "Kent County, Delaware",
+  "T": 1363.0,
+  "V": 316600.0,
+  "rate": 0.00431
+ },
+ "10003": {
+  "name": "New Castle County, Delaware",
+  "T": 2499.0,
+  "V": 352200.0,
+  "rate": 0.0071
+ },
+ "10005": {
+  "name": "Sussex County, Delaware",
+  "T": 1222.0,
+  "V": 382600.0,
+  "rate": 0.00319
+ },
+ "24001": {
+  "name": "Allegany County, Maryland",
+  "T": 1636.0,
+  "V": 154900.0,
+  "rate": 0.01056
+ },
+ "24003": {
+  "name": "Anne Arundel County, Maryland",
+  "T": 3957.0,
+  "V": 467900.0,
+  "rate": 0.00846
+ },
+ "24005": {
+  "name": "Baltimore County, Maryland",
+  "T": 3736.0,
+  "V": 349300.0,
+  "rate": 0.0107
+ },
+ "24009": {
+  "name": "Calvert County, Maryland",
+  "T": 3885.0,
+  "V": 460200.0,
+  "rate": 0.00844
+ },
+ "24011": {
+  "name": "Caroline County, Maryland",
+  "T": 2619.0,
+  "V": 290100.0,
+  "rate": 0.00903
+ },
+ "24013": {
+  "name": "Carroll County, Maryland",
+  "T": 3934.0,
+  "V": 434000.0,
+  "rate": 0.00906
+ },
+ "24015": {
+  "name": "Cecil County, Maryland",
+  "T": 3068.0,
+  "V": 343400.0,
+  "rate": 0.00893
+ },
+ "24017": {
+  "name": "Charles County, Maryland",
+  "T": 4339.0,
+  "V": 428500.0,
+  "rate": 0.01013
+ },
+ "24019": {
+  "name": "Dorchester County, Maryland",
+  "T": 2456.0,
+  "V": 262400.0,
+  "rate": 0.00936
+ },
+ "24021": {
+  "name": "Frederick County, Maryland",
+  "T": 4584.0,
+  "V": 464600.0,
+  "rate": 0.00987
+ },
+ "24023": {
+  "name": "Garrett County, Maryland",
+  "T": 1836.0,
+  "V": 235300.0,
+  "rate": 0.0078
+ },
+ "24025": {
+  "name": "Harford County, Maryland",
+  "T": 3448.0,
+  "V": 386400.0,
+  "rate": 0.00892
+ },
+ "24027": {
+  "name": "Howard County, Maryland",
+  "T": 6987.0,
+  "V": 597900.0,
+  "rate": 0.01169
+ },
+ "24029": {
+  "name": "Kent County, Maryland",
+  "T": 3025.0,
+  "V": 330900.0,
+  "rate": 0.00914
+ },
+ "24031": {
+  "name": "Montgomery County, Maryland",
+  "T": 5539.0,
+  "V": 640300.0,
+  "rate": 0.00865
+ },
+ "24033": {
+  "name": "Prince George's County, Maryland",
+  "T": 4771.0,
+  "V": 426000.0,
+  "rate": 0.0112
+ },
+ "24035": {
+  "name": "Queen Anne's County, Maryland",
+  "T": 3623.0,
+  "V": 462700.0,
+  "rate": 0.00783
+ },
+ "24037": {
+  "name": "St. Mary's County, Maryland",
+  "T": 3424.0,
+  "V": 407600.0,
+  "rate": 0.0084
+ },
+ "24039": {
+  "name": "Somerset County, Maryland",
+  "T": 1591.0,
+  "V": 173200.0,
+  "rate": 0.00919
+ },
+ "24041": {
+  "name": "Talbot County, Maryland",
+  "T": 2647.0,
+  "V": 409700.0,
+  "rate": 0.00646
+ },
+ "24043": {
+  "name": "Washington County, Maryland",
+  "T": 2481.0,
+  "V": 296100.0,
+  "rate": 0.00838
+ },
+ "24045": {
+  "name": "Wicomico County, Maryland",
+  "T": 2171.0,
+  "V": 254700.0,
+  "rate": 0.00852
+ },
+ "24047": {
+  "name": "Worcester County, Maryland",
+  "T": 2738.0,
+  "V": 374700.0,
+  "rate": 0.00731
+ },
+ "24510": {
+  "name": "Baltimore city, Maryland",
+  "T": 3354.0,
+  "V": 229600.0,
+  "rate": 0.01461
+ },
+ "54001": {
+  "name": "Barbour County, West Virginia",
+  "T": 562.0,
+  "V": 131900.0,
+  "rate": 0.00426
+ },
+ "54003": {
+  "name": "Berkeley County, West Virginia",
+  "T": 1398.0,
+  "V": 266300.0,
+  "rate": 0.00525
+ },
+ "54005": {
+  "name": "Boone County, West Virginia",
+  "T": 620.0,
+  "V": 93100.0,
+  "rate": 0.00666
+ },
+ "54007": {
+  "name": "Braxton County, West Virginia",
+  "T": 535.0,
+  "V": 117900.0,
+  "rate": 0.00454
+ },
+ "54009": {
+  "name": "Brooke County, West Virginia",
+  "T": 746.0,
+  "V": 141500.0,
+  "rate": 0.00527
+ },
+ "54011": {
+  "name": "Cabell County, West Virginia",
+  "T": 992.0,
+  "V": 164400.0,
+  "rate": 0.00603
+ },
+ "54013": {
+  "name": "Calhoun County, West Virginia",
+  "T": 426.0,
+  "V": 100500.0,
+  "rate": 0.00424
+ },
+ "54015": {
+  "name": "Clay County, West Virginia",
+  "T": 377.0,
+  "V": 109100.0,
+  "rate": 0.00346
+ },
+ "54017": {
+  "name": "Doddridge County, West Virginia",
+  "T": 808.0,
+  "V": 160800.0,
+  "rate": 0.00502
+ },
+ "54019": {
+  "name": "Fayette County, West Virginia",
+  "T": 676.0,
+  "V": 105800.0,
+  "rate": 0.00639
+ },
+ "54021": {
+  "name": "Gilmer County, West Virginia",
+  "T": 410.0,
+  "V": 83800.0,
+  "rate": 0.00489
+ },
+ "54023": {
+  "name": "Grant County, West Virginia",
+  "T": 540.0,
+  "V": 175100.0,
+  "rate": 0.00308
+ },
+ "54025": {
+  "name": "Greenbrier County, West Virginia",
+  "T": 663.0,
+  "V": 149000.0,
+  "rate": 0.00445
+ },
+ "54027": {
+  "name": "Hampshire County, West Virginia",
+  "T": 836.0,
+  "V": 219200.0,
+  "rate": 0.00381
+ },
+ "54029": {
+  "name": "Hancock County, West Virginia",
+  "T": 826.0,
+  "V": 130800.0,
+  "rate": 0.00631
+ },
+ "54031": {
+  "name": "Hardy County, West Virginia",
+  "T": 575.0,
+  "V": 166300.0,
+  "rate": 0.00346
+ },
+ "54033": {
+  "name": "Harrison County, West Virginia",
+  "T": 908.0,
+  "V": 166200.0,
+  "rate": 0.00546
+ },
+ "54035": {
+  "name": "Jackson County, West Virginia",
+  "T": 834.0,
+  "V": 157200.0,
+  "rate": 0.00531
+ },
+ "54037": {
+  "name": "Jefferson County, West Virginia",
+  "T": 1857.0,
+  "V": 350800.0,
+  "rate": 0.00529
+ },
+ "54039": {
+  "name": "Kanawha County, West Virginia",
+  "T": 964.0,
+  "V": 147300.0,
+  "rate": 0.00654
+ },
+ "54041": {
+  "name": "Lewis County, West Virginia",
+  "T": 692.0,
+  "V": 151800.0,
+  "rate": 0.00456
+ },
+ "54043": {
+  "name": "Lincoln County, West Virginia",
+  "T": 538.0,
+  "V": 105300.0,
+  "rate": 0.00511
+ },
+ "54045": {
+  "name": "Logan County, West Virginia",
+  "T": 576.0,
+  "V": 103400.0,
+  "rate": 0.00557
+ },
+ "54047": {
+  "name": "McDowell County, West Virginia",
+  "T": 337.0,
+  "V": 50000.0,
+  "rate": 0.00674
+ },
+ "54049": {
+  "name": "Marion County, West Virginia",
+  "T": 978.0,
+  "V": 166700.0,
+  "rate": 0.00587
+ },
+ "54051": {
+  "name": "Marshall County, West Virginia",
+  "T": 680.0,
+  "V": 149800.0,
+  "rate": 0.00454
+ },
+ "54053": {
+  "name": "Mason County, West Virginia",
+  "T": 706.0,
+  "V": 120300.0,
+  "rate": 0.00587
+ },
+ "54055": {
+  "name": "Mercer County, West Virginia",
+  "T": 656.0,
+  "V": 121700.0,
+  "rate": 0.00539
+ },
+ "54057": {
+  "name": "Mineral County, West Virginia",
+  "T": 818.0,
+  "V": 180400.0,
+  "rate": 0.00453
+ },
+ "54059": {
+  "name": "Mingo County, West Virginia",
+  "T": 423.0,
+  "V": 90500.0,
+  "rate": 0.00467
+ },
+ "54061": {
+  "name": "Monongalia County, West Virginia",
+  "T": 1248.0,
+  "V": 267700.0,
+  "rate": 0.00466
+ },
+ "54063": {
+  "name": "Monroe County, West Virginia",
+  "T": 725.0,
+  "V": 156300.0,
+  "rate": 0.00464
+ },
+ "54065": {
+  "name": "Morgan County, West Virginia",
+  "T": 1125.0,
+  "V": 240600.0,
+  "rate": 0.00468
+ },
+ "54067": {
+  "name": "Nicholas County, West Virginia",
+  "T": 554.0,
+  "V": 121600.0,
+  "rate": 0.00456
+ },
+ "54069": {
+  "name": "Ohio County, West Virginia",
+  "T": 999.0,
+  "V": 166000.0,
+  "rate": 0.00602
+ },
+ "54071": {
+  "name": "Pendleton County, West Virginia",
+  "T": 633.0,
+  "V": 183800.0,
+  "rate": 0.00344
+ },
+ "54073": {
+  "name": "Pleasants County, West Virginia",
+  "T": 819.0,
+  "V": 151000.0,
+  "rate": 0.00542
+ },
+ "54075": {
+  "name": "Pocahontas County, West Virginia",
+  "T": 462.0,
+  "V": 152400.0,
+  "rate": 0.00303
+ },
+ "54077": {
+  "name": "Preston County, West Virginia",
+  "T": 793.0,
+  "V": 162800.0,
+  "rate": 0.00487
+ },
+ "54079": {
+  "name": "Putnam County, West Virginia",
+  "T": 1311.0,
+  "V": 223300.0,
+  "rate": 0.00587
+ },
+ "54081": {
+  "name": "Raleigh County, West Virginia",
+  "T": 754.0,
+  "V": 150900.0,
+  "rate": 0.005
+ },
+ "54083": {
+  "name": "Randolph County, West Virginia",
+  "T": 559.0,
+  "V": 144800.0,
+  "rate": 0.00386
+ },
+ "54085": {
+  "name": "Ritchie County, West Virginia",
+  "T": 763.0,
+  "V": 115900.0,
+  "rate": 0.00658
+ },
+ "54087": {
+  "name": "Roane County, West Virginia",
+  "T": 537.0,
+  "V": 122100.0,
+  "rate": 0.0044
+ },
+ "54089": {
+  "name": "Summers County, West Virginia",
+  "T": 439.0,
+  "V": 140100.0,
+  "rate": 0.00313
+ },
+ "54091": {
+  "name": "Taylor County, West Virginia",
+  "T": 797.0,
+  "V": 148800.0,
+  "rate": 0.00536
+ },
+ "54093": {
+  "name": "Tucker County, West Virginia",
+  "T": 575.0,
+  "V": 154800.0,
+  "rate": 0.00371
+ },
+ "54095": {
+  "name": "Tyler County, West Virginia",
+  "T": 689.0,
+  "V": 121300.0,
+  "rate": 0.00568
+ },
+ "54097": {
+  "name": "Upshur County, West Virginia",
+  "T": 717.0,
+  "V": 170800.0,
+  "rate": 0.0042
+ },
+ "54099": {
+  "name": "Wayne County, West Virginia",
+  "T": 594.0,
+  "V": 127100.0,
+  "rate": 0.00467
+ },
+ "54101": {
+  "name": "Webster County, West Virginia",
+  "T": 303.0,
+  "V": 76100.0,
+  "rate": 0.00398
+ },
+ "54103": {
+  "name": "Wetzel County, West Virginia",
+  "T": 721.0,
+  "V": 107900.0,
+  "rate": 0.00668
+ },
+ "54105": {
+  "name": "Wirt County, West Virginia",
+  "T": 597.0,
+  "V": 115800.0,
+  "rate": 0.00516
+ },
+ "54107": {
+  "name": "Wood County, West Virginia",
+  "T": 941.0,
+  "V": 158500.0,
+  "rate": 0.00594
+ },
+ "54109": {
+  "name": "Wyoming County, West Virginia",
+  "T": 369.0,
+  "V": 82900.0,
+  "rate": 0.00445
+ },
+ "36001": {
+  "name": "Albany County, New York",
+  "T": 5200.0,
+  "V": 294600.0,
+  "rate": 0.01765
+ },
+ "36003": {
+  "name": "Allegany County, New York",
+  "T": 2968.0,
+  "V": 101700.0,
+  "rate": 0.02918
+ },
+ "36005": {
+  "name": "Bronx County, New York",
+  "T": 5447.0,
+  "V": 529500.0,
+  "rate": 0.01029
+ },
+ "36007": {
+  "name": "Broome County, New York",
+  "T": 3902.0,
+  "V": 154900.0,
+  "rate": 0.02519
+ },
+ "36009": {
+  "name": "Cattaraugus County, New York",
+  "T": 2991.0,
+  "V": 113100.0,
+  "rate": 0.02645
+ },
+ "36011": {
+  "name": "Cayuga County, New York",
+  "T": 3740.0,
+  "V": 171000.0,
+  "rate": 0.02187
+ },
+ "36013": {
+  "name": "Chautauqua County, New York",
+  "T": 2901.0,
+  "V": 127900.0,
+  "rate": 0.02268
+ },
+ "36015": {
+  "name": "Chemung County, New York",
+  "T": 3451.0,
+  "V": 141100.0,
+  "rate": 0.02446
+ },
+ "36017": {
+  "name": "Chenango County, New York",
+  "T": 3120.0,
+  "V": 137900.0,
+  "rate": 0.02263
+ },
+ "36019": {
+  "name": "Clinton County, New York",
+  "T": 3606.0,
+  "V": 180600.0,
+  "rate": 0.01997
+ },
+ "36021": {
+  "name": "Columbia County, New York",
+  "T": 4852.0,
+  "V": 347100.0,
+  "rate": 0.01398
+ },
+ "36023": {
+  "name": "Cortland County, New York",
+  "T": 4149.0,
+  "V": 162100.0,
+  "rate": 0.0256
+ },
+ "36025": {
+  "name": "Delaware County, New York",
+  "T": 3145.0,
+  "V": 183100.0,
+  "rate": 0.01718
+ },
+ "36027": {
+  "name": "Dutchess County, New York",
+  "T": 7562.0,
+  "V": 400600.0,
+  "rate": 0.01888
+ },
+ "36029": {
+  "name": "Erie County, New York",
+  "T": 4622.0,
+  "V": 233800.0,
+  "rate": 0.01977
+ },
+ "36031": {
+  "name": "Essex County, New York",
+  "T": 3119.0,
+  "V": 211900.0,
+  "rate": 0.01472
+ },
+ "36033": {
+  "name": "Franklin County, New York",
+  "T": 2440.0,
+  "V": 145400.0,
+  "rate": 0.01678
+ },
+ "36035": {
+  "name": "Fulton County, New York",
+  "T": 3364.0,
+  "V": 163100.0,
+  "rate": 0.02063
+ },
+ "36037": {
+  "name": "Genesee County, New York",
+  "T": 4113.0,
+  "V": 170500.0,
+  "rate": 0.02412
+ },
+ "36039": {
+  "name": "Greene County, New York",
+  "T": 4056.0,
+  "V": 271600.0,
+  "rate": 0.01493
+ },
+ "36041": {
+  "name": "Hamilton County, New York",
+  "T": 2597.0,
+  "V": 260200.0,
+  "rate": 0.00998
+ },
+ "36043": {
+  "name": "Herkimer County, New York",
+  "T": 3107.0,
+  "V": 147700.0,
+  "rate": 0.02104
+ },
+ "36045": {
+  "name": "Jefferson County, New York",
+  "T": 2899.0,
+  "V": 188200.0,
+  "rate": 0.0154
+ },
+ "36047": {
+  "name": "Kings County, New York",
+  "T": 6382.0,
+  "V": 905000.0,
+  "rate": 0.00705
+ },
+ "36049": {
+  "name": "Lewis County, New York",
+  "T": 2688.0,
+  "V": 166100.0,
+  "rate": 0.01618
+ },
+ "36051": {
+  "name": "Livingston County, New York",
+  "T": 4286.0,
+  "V": 174600.0,
+  "rate": 0.02455
+ },
+ "36053": {
+  "name": "Madison County, New York",
+  "T": 4181.0,
+  "V": 184600.0,
+  "rate": 0.02265
+ },
+ "36055": {
+  "name": "Monroe County, New York",
+  "T": 5616.0,
+  "V": 213700.0,
+  "rate": 0.02628
+ },
+ "36057": {
+  "name": "Montgomery County, New York",
+  "T": 3872.0,
+  "V": 157500.0,
+  "rate": 0.02458
+ },
+ "36059": {
+  "name": "Nassau County, New York",
+  "T": 10001.0,
+  "V": 684700.0,
+  "rate": 0.01461
+ },
+ "36061": {
+  "name": "New York County, New York",
+  "T": 10001.0,
+  "V": 1090500.0,
+  "rate": 0.00917
+ },
+ "36063": {
+  "name": "Niagara County, New York",
+  "T": 4155.0,
+  "V": 189800.0,
+  "rate": 0.02189
+ },
+ "36065": {
+  "name": "Oneida County, New York",
+  "T": 3690.0,
+  "V": 182600.0,
+  "rate": 0.02021
+ },
+ "36067": {
+  "name": "Onondaga County, New York",
+  "T": 4880.0,
+  "V": 200200.0,
+  "rate": 0.02438
+ },
+ "36069": {
+  "name": "Ontario County, New York",
+  "T": 4565.0,
+  "V": 222900.0,
+  "rate": 0.02048
+ },
+ "36071": {
+  "name": "Orange County, New York",
+  "T": 8494.0,
+  "V": 387900.0,
+  "rate": 0.0219
+ },
+ "36073": {
+  "name": "Orleans County, New York",
+  "T": 3823.0,
+  "V": 140800.0,
+  "rate": 0.02715
+ },
+ "36075": {
+  "name": "Oswego County, New York",
+  "T": 3646.0,
+  "V": 151700.0,
+  "rate": 0.02403
+ },
+ "36077": {
+  "name": "Otsego County, New York",
+  "T": 3041.0,
+  "V": 179100.0,
+  "rate": 0.01698
+ },
+ "36079": {
+  "name": "Putnam County, New York",
+  "T": 10001.0,
+  "V": 471300.0,
+  "rate": 0.02122
+ },
+ "36081": {
+  "name": "Queens County, New York",
+  "T": 6297.0,
+  "V": 723800.0,
+  "rate": 0.0087
+ },
+ "36083": {
+  "name": "Rensselaer County, New York",
+  "T": 5301.0,
+  "V": 258400.0,
+  "rate": 0.02051
+ },
+ "36085": {
+  "name": "Richmond County, New York",
+  "T": 6247.0,
+  "V": 675500.0,
+  "rate": 0.00925
+ },
+ "36087": {
+  "name": "Rockland County, New York",
+  "T": 10001.0,
+  "V": 596900.0,
+  "rate": 0.01675
+ },
+ "36089": {
+  "name": "St. Lawrence County, New York",
+  "T": 2844.0,
+  "V": 121900.0,
+  "rate": 0.02333
+ },
+ "36091": {
+  "name": "Saratoga County, New York",
+  "T": 4875.0,
+  "V": 348600.0,
+  "rate": 0.01398
+ },
+ "36093": {
+  "name": "Schenectady County, New York",
+  "T": 5568.0,
+  "V": 235700.0,
+  "rate": 0.02362
+ },
+ "36095": {
+  "name": "Schoharie County, New York",
+  "T": 3914.0,
+  "V": 192500.0,
+  "rate": 0.02033
+ },
+ "36097": {
+  "name": "Schuyler County, New York",
+  "T": 3390.0,
+  "V": 171800.0,
+  "rate": 0.01973
+ },
+ "36099": {
+  "name": "Seneca County, New York",
+  "T": 3403.0,
+  "V": 155400.0,
+  "rate": 0.0219
+ },
+ "36101": {
+  "name": "Steuben County, New York",
+  "T": 3386.0,
+  "V": 137900.0,
+  "rate": 0.02455
+ },
+ "36103": {
+  "name": "Suffolk County, New York",
+  "T": 10001.0,
+  "V": 578400.0,
+  "rate": 0.01729
+ },
+ "36105": {
+  "name": "Sullivan County, New York",
+  "T": 4969.0,
+  "V": 249000.0,
+  "rate": 0.01996
+ },
+ "36107": {
+  "name": "Tioga County, New York",
+  "T": 3751.0,
+  "V": 160800.0,
+  "rate": 0.02333
+ },
+ "36109": {
+  "name": "Tompkins County, New York",
+  "T": 6515.0,
+  "V": 290900.0,
+  "rate": 0.0224
+ },
+ "36111": {
+  "name": "Ulster County, New York",
+  "T": 6238.0,
+  "V": 352500.0,
+  "rate": 0.0177
+ },
+ "36113": {
+  "name": "Warren County, New York",
+  "T": 3936.0,
+  "V": 267400.0,
+  "rate": 0.01472
+ },
+ "36115": {
+  "name": "Washington County, New York",
+  "T": 3946.0,
+  "V": 196200.0,
+  "rate": 0.02011
+ },
+ "36117": {
+  "name": "Wayne County, New York",
+  "T": 4250.0,
+  "V": 170000.0,
+  "rate": 0.025
+ },
+ "36119": {
+  "name": "Westchester County, New York",
+  "T": 10001.0,
+  "V": 663200.0,
+  "rate": 0.01508
+ },
+ "36121": {
+  "name": "Wyoming County, New York",
+  "T": 3650.0,
+  "V": 162300.0,
+  "rate": 0.02249
+ },
+ "36123": {
+  "name": "Yates County, New York",
+  "T": 3477.0,
+  "V": 184700.0,
+  "rate": 0.01883
+ },
+ "21001": {
+  "name": "Adair County, Kentucky",
+  "T": 971.0,
+  "V": 150800.0,
+  "rate": 0.00644
+ },
+ "21003": {
+  "name": "Allen County, Kentucky",
+  "T": 1046.0,
+  "V": 192300.0,
+  "rate": 0.00544
+ },
+ "21005": {
+  "name": "Anderson County, Kentucky",
+  "T": 1697.0,
+  "V": 225100.0,
+  "rate": 0.00754
+ },
+ "21007": {
+  "name": "Ballard County, Kentucky",
+  "T": 1065.0,
+  "V": 145800.0,
+  "rate": 0.0073
+ },
+ "21009": {
+  "name": "Barren County, Kentucky",
+  "T": 1212.0,
+  "V": 178000.0,
+  "rate": 0.00681
+ },
+ "21011": {
+  "name": "Bath County, Kentucky",
+  "T": 850.0,
+  "V": 129800.0,
+  "rate": 0.00655
+ },
+ "21013": {
+  "name": "Bell County, Kentucky",
+  "T": 723.0,
+  "V": 89000.0,
+  "rate": 0.00812
+ },
+ "21015": {
+  "name": "Boone County, Kentucky",
+  "T": 2372.0,
+  "V": 277300.0,
+  "rate": 0.00855
+ },
+ "21017": {
+  "name": "Bourbon County, Kentucky",
+  "T": 1627.0,
+  "V": 229300.0,
+  "rate": 0.0071
+ },
+ "21019": {
+  "name": "Boyd County, Kentucky",
+  "T": 1156.0,
+  "V": 130700.0,
+  "rate": 0.00884
+ },
+ "21021": {
+  "name": "Boyle County, Kentucky",
+  "T": 1731.0,
+  "V": 209900.0,
+  "rate": 0.00825
+ },
+ "21023": {
+  "name": "Bracken County, Kentucky",
+  "T": 1149.0,
+  "V": 125000.0,
+  "rate": 0.00919
+ },
+ "21025": {
+  "name": "Breathitt County, Kentucky",
+  "T": 510.0,
+  "V": 70300.0,
+  "rate": 0.00725
+ },
+ "21027": {
+  "name": "Breckinridge County, Kentucky",
+  "T": 916.0,
+  "V": 156700.0,
+  "rate": 0.00585
+ },
+ "21029": {
+  "name": "Bullitt County, Kentucky",
+  "T": 2050.0,
+  "V": 247200.0,
+  "rate": 0.00829
+ },
+ "21031": {
+  "name": "Butler County, Kentucky",
+  "T": 645.0,
+  "V": 111100.0,
+  "rate": 0.00581
+ },
+ "21033": {
+  "name": "Caldwell County, Kentucky",
+  "T": 643.0,
+  "V": 118500.0,
+  "rate": 0.00543
+ },
+ "21035": {
+  "name": "Calloway County, Kentucky",
+  "T": 1195.0,
+  "V": 183200.0,
+  "rate": 0.00652
+ },
+ "21037": {
+  "name": "Campbell County, Kentucky",
+  "T": 2556.0,
+  "V": 252000.0,
+  "rate": 0.01014
+ },
+ "21039": {
+  "name": "Carlisle County, Kentucky",
+  "T": 945.0,
+  "V": 120400.0,
+  "rate": 0.00785
+ },
+ "21041": {
+  "name": "Carroll County, Kentucky",
+  "T": 1070.0,
+  "V": 140900.0,
+  "rate": 0.00759
+ },
+ "21043": {
+  "name": "Carter County, Kentucky",
+  "T": 649.0,
+  "V": 132800.0,
+  "rate": 0.00489
+ },
+ "21045": {
+  "name": "Casey County, Kentucky",
+  "T": 812.0,
+  "V": 136300.0,
+  "rate": 0.00596
+ },
+ "21047": {
+  "name": "Christian County, Kentucky",
+  "T": 1126.0,
+  "V": 173600.0,
+  "rate": 0.00649
+ },
+ "21049": {
+  "name": "Clark County, Kentucky",
+  "T": 1451.0,
+  "V": 205800.0,
+  "rate": 0.00705
+ },
+ "21051": {
+  "name": "Clay County, Kentucky",
+  "T": 634.0,
+  "V": 90700.0,
+  "rate": 0.00699
+ },
+ "21053": {
+  "name": "Clinton County, Kentucky",
+  "T": 637.0,
+  "V": 122200.0,
+  "rate": 0.00521
+ },
+ "21055": {
+  "name": "Crittenden County, Kentucky",
+  "T": 731.0,
+  "V": 127300.0,
+  "rate": 0.00574
+ },
+ "21057": {
+  "name": "Cumberland County, Kentucky",
+  "T": 760.0,
+  "V": 141100.0,
+  "rate": 0.00539
+ },
+ "21059": {
+  "name": "Daviess County, Kentucky",
+  "T": 1675.0,
+  "V": 199900.0,
+  "rate": 0.00838
+ },
+ "21061": {
+  "name": "Edmonson County, Kentucky",
+  "T": 881.0,
+  "V": 160300.0,
+  "rate": 0.0055
+ },
+ "21063": {
+  "name": "Elliott County, Kentucky",
+  "T": 755.0,
+  "V": 123500.0,
+  "rate": 0.00611
+ },
+ "21065": {
+  "name": "Estill County, Kentucky",
+  "T": 799.0,
+  "V": 119500.0,
+  "rate": 0.00669
+ },
+ "21067": {
+  "name": "Fayette County, Kentucky",
+  "T": 2542.0,
+  "V": 293500.0,
+  "rate": 0.00866
+ },
+ "21069": {
+  "name": "Fleming County, Kentucky",
+  "T": 866.0,
+  "V": 134700.0,
+  "rate": 0.00643
+ },
+ "21071": {
+  "name": "Floyd County, Kentucky",
+  "T": 748.0,
+  "V": 98700.0,
+  "rate": 0.00758
+ },
+ "21073": {
+  "name": "Franklin County, Kentucky",
+  "T": 1716.0,
+  "V": 216600.0,
+  "rate": 0.00792
+ },
+ "21075": {
+  "name": "Fulton County, Kentucky",
+  "T": 634.0,
+  "V": 79100.0,
+  "rate": 0.00802
+ },
+ "21077": {
+  "name": "Gallatin County, Kentucky",
+  "T": 1476.0,
+  "V": 178200.0,
+  "rate": 0.00828
+ },
+ "21079": {
+  "name": "Garrard County, Kentucky",
+  "T": 1422.0,
+  "V": 204900.0,
+  "rate": 0.00694
+ },
+ "21081": {
+  "name": "Grant County, Kentucky",
+  "T": 1432.0,
+  "V": 209500.0,
+  "rate": 0.00684
+ },
+ "21083": {
+  "name": "Graves County, Kentucky",
+  "T": 970.0,
+  "V": 147800.0,
+  "rate": 0.00656
+ },
+ "21085": {
+  "name": "Grayson County, Kentucky",
+  "T": 930.0,
+  "V": 164600.0,
+  "rate": 0.00565
+ },
+ "21087": {
+  "name": "Green County, Kentucky",
+  "T": 817.0,
+  "V": 125000.0,
+  "rate": 0.00654
+ },
+ "21089": {
+  "name": "Greenup County, Kentucky",
+  "T": 1171.0,
+  "V": 134000.0,
+  "rate": 0.00874
+ },
+ "21091": {
+  "name": "Hancock County, Kentucky",
+  "T": 930.0,
+  "V": 141200.0,
+  "rate": 0.00659
+ },
+ "21093": {
+  "name": "Hardin County, Kentucky",
+  "T": 1480.0,
+  "V": 225800.0,
+  "rate": 0.00655
+ },
+ "21095": {
+  "name": "Harlan County, Kentucky",
+  "T": 732.0,
+  "V": 73700.0,
+  "rate": 0.00993
+ },
+ "21097": {
+  "name": "Harrison County, Kentucky",
+  "T": 1328.0,
+  "V": 202100.0,
+  "rate": 0.00657
+ },
+ "21099": {
+  "name": "Hart County, Kentucky",
+  "T": 965.0,
+  "V": 146000.0,
+  "rate": 0.00661
+ },
+ "21101": {
+  "name": "Henderson County, Kentucky",
+  "T": 1548.0,
+  "V": 171900.0,
+  "rate": 0.00901
+ },
+ "21103": {
+  "name": "Henry County, Kentucky",
+  "T": 1611.0,
+  "V": 197900.0,
+  "rate": 0.00814
+ },
+ "21105": {
+  "name": "Hickman County, Kentucky",
+  "T": 779.0,
+  "V": 115700.0,
+  "rate": 0.00673
+ },
+ "21107": {
+  "name": "Hopkins County, Kentucky",
+  "T": 1104.0,
+  "V": 142800.0,
+  "rate": 0.00773
+ },
+ "21109": {
+  "name": "Jackson County, Kentucky",
+  "T": 687.0,
+  "V": 111500.0,
+  "rate": 0.00616
+ },
+ "21111": {
+  "name": "Jefferson County, Kentucky",
+  "T": 2136.0,
+  "V": 248400.0,
+  "rate": 0.0086
+ },
+ "21113": {
+  "name": "Jessamine County, Kentucky",
+  "T": 1960.0,
+  "V": 268100.0,
+  "rate": 0.00731
+ },
+ "21115": {
+  "name": "Johnson County, Kentucky",
+  "T": 792.0,
+  "V": 120200.0,
+  "rate": 0.00659
+ },
+ "21117": {
+  "name": "Kenton County, Kentucky",
+  "T": 2395.0,
+  "V": 244400.0,
+  "rate": 0.0098
+ },
+ "21119": {
+  "name": "Knott County, Kentucky",
+  "T": 571.0,
+  "V": 77000.0,
+  "rate": 0.00742
+ },
+ "21121": {
+  "name": "Knox County, Kentucky",
+  "T": 779.0,
+  "V": 118700.0,
+  "rate": 0.00656
+ },
+ "21123": {
+  "name": "Larue County, Kentucky",
+  "T": 1104.0,
+  "V": 183500.0,
+  "rate": 0.00602
+ },
+ "21125": {
+  "name": "Laurel County, Kentucky",
+  "T": 906.0,
+  "V": 159500.0,
+  "rate": 0.00568
+ },
+ "21127": {
+  "name": "Lawrence County, Kentucky",
+  "T": 793.0,
+  "V": 111700.0,
+  "rate": 0.0071
+ },
+ "21129": {
+  "name": "Lee County, Kentucky",
+  "T": 705.0,
+  "V": 83900.0,
+  "rate": 0.0084
+ },
+ "21131": {
+  "name": "Leslie County, Kentucky",
+  "T": 563.0,
+  "V": 69000.0,
+  "rate": 0.00816
+ },
+ "21133": {
+  "name": "Letcher County, Kentucky",
+  "T": 648.0,
+  "V": 67400.0,
+  "rate": 0.00961
+ },
+ "21135": {
+  "name": "Lewis County, Kentucky",
+  "T": 617.0,
+  "V": 96000.0,
+  "rate": 0.00643
+ },
+ "21137": {
+  "name": "Lincoln County, Kentucky",
+  "T": 1066.0,
+  "V": 147300.0,
+  "rate": 0.00724
+ },
+ "21139": {
+  "name": "Livingston County, Kentucky",
+  "T": 770.0,
+  "V": 125600.0,
+  "rate": 0.00613
+ },
+ "21141": {
+  "name": "Logan County, Kentucky",
+  "T": 1010.0,
+  "V": 164900.0,
+  "rate": 0.00612
+ },
+ "21143": {
+  "name": "Lyon County, Kentucky",
+  "T": 1196.0,
+  "V": 189500.0,
+  "rate": 0.00631
+ },
+ "21145": {
+  "name": "McCracken County, Kentucky",
+  "T": 1410.0,
+  "V": 188100.0,
+  "rate": 0.0075
+ },
+ "21147": {
+  "name": "McCreary County, Kentucky",
+  "T": 554.0,
+  "V": 85300.0,
+  "rate": 0.00649
+ },
+ "21149": {
+  "name": "McLean County, Kentucky",
+  "T": 954.0,
+  "V": 148500.0,
+  "rate": 0.00642
+ },
+ "21151": {
+  "name": "Madison County, Kentucky",
+  "T": 1698.0,
+  "V": 232000.0,
+  "rate": 0.00732
+ },
+ "21153": {
+  "name": "Magoffin County, Kentucky",
+  "T": 694.0,
+  "V": 89000.0,
+  "rate": 0.0078
+ },
+ "21155": {
+  "name": "Marion County, Kentucky",
+  "T": 1157.0,
+  "V": 168100.0,
+  "rate": 0.00688
+ },
+ "21157": {
+  "name": "Marshall County, Kentucky",
+  "T": 1252.0,
+  "V": 173800.0,
+  "rate": 0.0072
+ },
+ "21159": {
+  "name": "Martin County, Kentucky",
+  "T": 716.0,
+  "V": 86900.0,
+  "rate": 0.00824
+ },
+ "21161": {
+  "name": "Mason County, Kentucky",
+  "T": 1055.0,
+  "V": 161500.0,
+  "rate": 0.00653
+ },
+ "21163": {
+  "name": "Meade County, Kentucky",
+  "T": 1408.0,
+  "V": 207900.0,
+  "rate": 0.00677
+ },
+ "21165": {
+  "name": "Menifee County, Kentucky",
+  "T": 644.0,
+  "V": 125800.0,
+  "rate": 0.00512
+ },
+ "21167": {
+  "name": "Mercer County, Kentucky",
+  "T": 1672.0,
+  "V": 202300.0,
+  "rate": 0.00826
+ },
+ "21169": {
+  "name": "Metcalfe County, Kentucky",
+  "T": 743.0,
+  "V": 110200.0,
+  "rate": 0.00674
+ },
+ "21171": {
+  "name": "Monroe County, Kentucky",
+  "T": 891.0,
+  "V": 115900.0,
+  "rate": 0.00769
+ },
+ "21173": {
+  "name": "Montgomery County, Kentucky",
+  "T": 1265.0,
+  "V": 172200.0,
+  "rate": 0.00735
+ },
+ "21175": {
+  "name": "Morgan County, Kentucky",
+  "T": 780.0,
+  "V": 118200.0,
+  "rate": 0.0066
+ },
+ "21177": {
+  "name": "Muhlenberg County, Kentucky",
+  "T": 790.0,
+  "V": 127400.0,
+  "rate": 0.0062
+ },
+ "21179": {
+  "name": "Nelson County, Kentucky",
+  "T": 1891.0,
+  "V": 238000.0,
+  "rate": 0.00795
+ },
+ "21181": {
+  "name": "Nicholas County, Kentucky",
+  "T": 729.0,
+  "V": 123000.0,
+  "rate": 0.00593
+ },
+ "21183": {
+  "name": "Ohio County, Kentucky",
+  "T": 753.0,
+  "V": 121400.0,
+  "rate": 0.0062
+ },
+ "21185": {
+  "name": "Oldham County, Kentucky",
+  "T": 3519.0,
+  "V": 393100.0,
+  "rate": 0.00895
+ },
+ "21187": {
+  "name": "Owen County, Kentucky",
+  "T": 1220.0,
+  "V": 168700.0,
+  "rate": 0.00723
+ },
+ "21189": {
+  "name": "Owsley County, Kentucky",
+  "T": 570.0,
+  "V": 80100.0,
+  "rate": 0.00712
+ },
+ "21191": {
+  "name": "Pendleton County, Kentucky",
+  "T": 1275.0,
+  "V": 159800.0,
+  "rate": 0.00798
+ },
+ "21193": {
+  "name": "Perry County, Kentucky",
+  "T": 643.0,
+  "V": 91800.0,
+  "rate": 0.007
+ },
+ "21195": {
+  "name": "Pike County, Kentucky",
+  "T": 772.0,
+  "V": 112000.0,
+  "rate": 0.00689
+ },
+ "21197": {
+  "name": "Powell County, Kentucky",
+  "T": 875.0,
+  "V": 141100.0,
+  "rate": 0.0062
+ },
+ "21199": {
+  "name": "Pulaski County, Kentucky",
+  "T": 1057.0,
+  "V": 166900.0,
+  "rate": 0.00633
+ },
+ "21201": {
+  "name": "Robertson County, Kentucky",
+  "T": 893.0,
+  "V": 165100.0,
+  "rate": 0.00541
+ },
+ "21203": {
+  "name": "Rockcastle County, Kentucky",
+  "T": 596.0,
+  "V": 123600.0,
+  "rate": 0.00482
+ },
+ "21205": {
+  "name": "Rowan County, Kentucky",
+  "T": 885.0,
+  "V": 161800.0,
+  "rate": 0.00547
+ },
+ "21207": {
+  "name": "Russell County, Kentucky",
+  "T": 929.0,
+  "V": 163200.0,
+  "rate": 0.00569
+ },
+ "21209": {
+  "name": "Scott County, Kentucky",
+  "T": 1908.0,
+  "V": 288500.0,
+  "rate": 0.00661
+ },
+ "21211": {
+  "name": "Shelby County, Kentucky",
+  "T": 2339.0,
+  "V": 304800.0,
+  "rate": 0.00767
+ },
+ "21213": {
+  "name": "Simpson County, Kentucky",
+  "T": 1371.0,
+  "V": 229400.0,
+  "rate": 0.00598
+ },
+ "21215": {
+  "name": "Spencer County, Kentucky",
+  "T": 2188.0,
+  "V": 330000.0,
+  "rate": 0.00663
+ },
+ "21217": {
+  "name": "Taylor County, Kentucky",
+  "T": 1202.0,
+  "V": 174200.0,
+  "rate": 0.0069
+ },
+ "21219": {
+  "name": "Todd County, Kentucky",
+  "T": 909.0,
+  "V": 166700.0,
+  "rate": 0.00545
+ },
+ "21221": {
+  "name": "Trigg County, Kentucky",
+  "T": 1162.0,
+  "V": 207700.0,
+  "rate": 0.00559
+ },
+ "21223": {
+  "name": "Trimble County, Kentucky",
+  "T": 1139.0,
+  "V": 172000.0,
+  "rate": 0.00662
+ },
+ "21225": {
+  "name": "Union County, Kentucky",
+  "T": 927.0,
+  "V": 104500.0,
+  "rate": 0.00887
+ },
+ "21227": {
+  "name": "Warren County, Kentucky",
+  "T": 1668.0,
+  "V": 258000.0,
+  "rate": 0.00647
+ },
+ "21229": {
+  "name": "Washington County, Kentucky",
+  "T": 1174.0,
+  "V": 179200.0,
+  "rate": 0.00655
+ },
+ "21231": {
+  "name": "Wayne County, Kentucky",
+  "T": 758.0,
+  "V": 135700.0,
+  "rate": 0.00559
+ },
+ "21233": {
+  "name": "Webster County, Kentucky",
+  "T": 993.0,
+  "V": 112900.0,
+  "rate": 0.0088
+ },
+ "21235": {
+  "name": "Whitley County, Kentucky",
+  "T": 849.0,
+  "V": 131800.0,
+  "rate": 0.00644
+ },
+ "21237": {
+  "name": "Wolfe County, Kentucky",
+  "T": 414.0,
+  "V": 75800.0,
+  "rate": 0.00546
+ },
+ "21239": {
+  "name": "Woodford County, Kentucky",
+  "T": 2108.0,
+  "V": 299700.0,
+  "rate": 0.00703
+ }
+}

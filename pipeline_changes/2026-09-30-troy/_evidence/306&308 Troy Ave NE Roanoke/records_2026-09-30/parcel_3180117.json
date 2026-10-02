@@ -1,0 +1,393 @@
+{
+ "displayFieldName": "ASSOCNAME",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "TAXID": "TAXID",
+  "GISOBJID": "GISOBJID",
+  "LRSN": "LRSN",
+  "LOCADDR": "LOCADDR",
+  "ADDRNBR": "ADDRNBR",
+  "ADDRSTREET": "ADDRSTREET",
+  "ADDRQUAD": "ADDRQUAD",
+  "ADDRSUFFIX": "ADDRSUFFIX",
+  "OWNER": "[masked]",
+  "OWNERADDR1": "[masked]",
+  "MAILCITY": "MAILCITY",
+  "MAILSTATE": "MAILSTATE",
+  "LEGALACRES": "LEGALACRES",
+  "ZONEDESC": "ZONEDESC",
+  "LEGALDESC": "LEGALDESC",
+  "LANDVAL1": "LANDVAL1",
+  "LANDVAL2": "LANDVAL2",
+  "TOTALVAL1": "TOTALVAL1",
+  "TOTALVAL2": "TOTALVAL2",
+  "SALEDATE1": "SALEDATE1",
+  "SALEDATE2": "SALEDATE2",
+  "SALEAMT1": "SALEAMT1",
+  "SALEAMT2": "SALEAMT2",
+  "GRANTOR1": "[masked]",
+  "GRANTOR2": "[masked]",
+  "DOCNUM1": "DOCNUM1",
+  "DOC2NUM": "Doc2Num",
+  "SQFT": "SqFt",
+  "ACRES": "ACRES",
+  "TOPODESC1": "TOPODESC1",
+  "ASSOCNAME": "ASSOCNAME",
+  "OWNER2": "[masked]",
+  "Shape.STArea()": "Shape.STArea()",
+  "Shape.STLength()": "Shape.STLength()",
+  "NEIGHBORHO": "NEIGHBORHOODNUM",
+  "MAINZIPCOD": "MAINZIPCODE",
+  "PROPERTYDE": "PROPERTYDESC",
+  "ASSESSMENT": "ASSESSMENTDATE1",
+  "ASSESSME_1": "ASSESSMENTDATE2",
+  "CHANGEDESC": "CHANGEDESC1",
+  "CHANGEDE_1": "CHANGEDESC2",
+  "DWELLINGVA": "DWELLINGVAL1",
+  "DWELLING_1": "DWELLINGVAL2",
+  "LOCZIP": "LocZIP"
+ },
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "TAXID",
+   "type": "esriFieldTypeString",
+   "alias": "TAXID",
+   "length": 8
+  },
+  {
+   "name": "GISOBJID",
+   "type": "esriFieldTypeInteger",
+   "alias": "GISOBJID"
+  },
+  {
+   "name": "LRSN",
+   "type": "esriFieldTypeInteger",
+   "alias": "LRSN"
+  },
+  {
+   "name": "LOCADDR",
+   "type": "esriFieldTypeString",
+   "alias": "LOCADDR",
+   "length": 64
+  },
+  {
+   "name": "ADDRNBR",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRNBR",
+   "length": 12
+  },
+  {
+   "name": "ADDRSTREET",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRSTREET",
+   "length": 30
+  },
+  {
+   "name": "ADDRQUAD",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRQUAD",
+   "length": 2
+  },
+  {
+   "name": "ADDRSUFFIX",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRSUFFIX",
+   "length": 4
+  },
+  {
+   "name": "OWNER",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER",
+   "length": 64
+  },
+  {
+   "name": "OWNERADDR1",
+   "type": "esriFieldTypeString",
+   "alias": "OWNERADDR1",
+   "length": 64
+  },
+  {
+   "name": "MAILCITY",
+   "type": "esriFieldTypeString",
+   "alias": "MAILCITY",
+   "length": 64
+  },
+  {
+   "name": "MAILSTATE",
+   "type": "esriFieldTypeString",
+   "alias": "MAILSTATE",
+   "length": 4
+  },
+  {
+   "name": "LEGALACRES",
+   "type": "esriFieldTypeString",
+   "alias": "LEGALACRES",
+   "length": 12
+  },
+  {
+   "name": "ZONEDESC",
+   "type": "esriFieldTypeString",
+   "alias": "ZONEDESC",
+   "length": 30
+  },
+  {
+   "name": "LEGALDESC",
+   "type": "esriFieldTypeString",
+   "alias": "LEGALDESC",
+   "length": 80
+  },
+  {
+   "name": "LANDVAL1",
+   "type": "esriFieldTypeInteger",
+   "alias": "LANDVAL1"
+  },
+  {
+   "name": "LANDVAL2",
+   "type": "esriFieldTypeInteger",
+   "alias": "LANDVAL2"
+  },
+  {
+   "name": "TOTALVAL1",
+   "type": "esriFieldTypeInteger",
+   "alias": "TOTALVAL1"
+  },
+  {
+   "name": "TOTALVAL2",
+   "type": "esriFieldTypeInteger",
+   "alias": "TOTALVAL2"
+  },
+  {
+   "name": "SALEDATE1",
+   "type": "esriFieldTypeDate",
+   "alias": "SALEDATE1",
+   "length": 8
+  },
+  {
+   "name": "SALEDATE2",
+   "type": "esriFieldTypeDate",
+   "alias": "SALEDATE2",
+   "length": 8
+  },
+  {
+   "name": "SALEAMT1",
+   "type": "esriFieldTypeInteger",
+   "alias": "SALEAMT1"
+  },
+  {
+   "name": "SALEAMT2",
+   "type": "esriFieldTypeInteger",
+   "alias": "SALEAMT2"
+  },
+  {
+   "name": "GRANTOR1",
+   "type": "esriFieldTypeString",
+   "alias": "Grantor1",
+   "length": 256
+  },
+  {
+   "name": "GRANTOR2",
+   "type": "esriFieldTypeString",
+   "alias": "Grantor2",
+   "length": 256
+  },
+  {
+   "name": "DOCNUM1",
+   "type": "esriFieldTypeString",
+   "alias": "DOCNUM1",
+   "length": 10
+  },
+  {
+   "name": "DOC2NUM",
+   "type": "esriFieldTypeString",
+   "alias": "Doc2Num",
+   "length": 10
+  },
+  {
+   "name": "SQFT",
+   "type": "esriFieldTypeString",
+   "alias": "SqFt",
+   "length": 12
+  },
+  {
+   "name": "ACRES",
+   "type": "esriFieldTypeDouble",
+   "alias": "ACRES"
+  },
+  {
+   "name": "TOPODESC1",
+   "type": "esriFieldTypeString",
+   "alias": "TOPODESC1",
+   "length": 20
+  },
+  {
+   "name": "ASSOCNAME",
+   "type": "esriFieldTypeString",
+   "alias": "ASSOCNAME",
+   "length": 36
+  },
+  {
+   "name": "OWNER2",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER2",
+   "length": 64
+  },
+  {
+   "name": "Shape.STArea()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STArea()"
+  },
+  {
+   "name": "Shape.STLength()",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape.STLength()"
+  },
+  {
+   "name": "NEIGHBORHO",
+   "type": "esriFieldTypeInteger",
+   "alias": "NEIGHBORHOODNUM"
+  },
+  {
+   "name": "MAINZIPCOD",
+   "type": "esriFieldTypeString",
+   "alias": "MAINZIPCODE",
+   "length": 16
+  },
+  {
+   "name": "PROPERTYDE",
+   "type": "esriFieldTypeString",
+   "alias": "PROPERTYDESC",
+   "length": 40
+  },
+  {
+   "name": "ASSESSMENT",
+   "type": "esriFieldTypeString",
+   "alias": "ASSESSMENTDATE1",
+   "length": 10
+  },
+  {
+   "name": "ASSESSME_1",
+   "type": "esriFieldTypeString",
+   "alias": "ASSESSMENTDATE2",
+   "length": 10
+  },
+  {
+   "name": "CHANGEDESC",
+   "type": "esriFieldTypeString",
+   "alias": "CHANGEDESC1",
+   "length": 2
+  },
+  {
+   "name": "CHANGEDE_1",
+   "type": "esriFieldTypeString",
+   "alias": "CHANGEDESC2",
+   "length": 2
+  },
+  {
+   "name": "DWELLINGVA",
+   "type": "esriFieldTypeInteger",
+   "alias": "DWELLINGVAL1"
+  },
+  {
+   "name": "DWELLING_1",
+   "type": "esriFieldTypeInteger",
+   "alias": "DWELLINGVAL2"
+  },
+  {
+   "name": "LOCZIP",
+   "type": "esriFieldTypeString",
+   "alias": "LocZIP",
+   "length": 15
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 19213858,
+    "TAXID": "3180117",
+    "GISOBJID": 3180117,
+    "LRSN": 27013,
+    "LOCADDR": "306 TROY AVE NE",
+    "ADDRNBR": "306",
+    "ADDRSTREET": "TROY",
+    "ADDRQUAD": "NE",
+    "ADDRSUFFIX": "AVE",
+    "OWNER": "[masked]",
+    "OWNERADDR1": "[masked]",
+    "MAILCITY": "GOODVIEW",
+    "MAILSTATE": "VA",
+    "LEGALACRES": "      0.1616",
+    "ZONEDESC": "RM-1",
+    "LEGALDESC": "LOT 217 B                 FLEMING COURT",
+    "LANDVAL1": 36600,
+    "LANDVAL2": 36600,
+    "TOTALVAL1": 199900,
+    "TOTALVAL2": 192100,
+    "SALEDATE1": 1544659200000,
+    "SALEDATE2": 300326400000,
+    "SALEAMT1": 0,
+    "SALEAMT2": 3000,
+    "GRANTOR1": "[masked]",
+    "GRANTOR2": "[masked]",
+    "DOCNUM1": "180011508",
+    "DOC2NUM": "CONV000000",
+    "SQFT": "7040",
+    "ACRES": 0.1616,
+    "TOPODESC1": "Level",
+    "ASSOCNAME": "",
+    "OWNER2": "",
+    "Shape.STArea()": 7044.392494586142,
+    "Shape.STLength()": 338.09692289433127,
+    "NEIGHBORHO": 15,
+    "MAINZIPCOD": "24095",
+    "PROPERTYDE": "Multi-Family Duplex",
+    "ASSESSMENT": "01/01/2026",
+    "ASSESSME_1": "01/01/2025",
+    "CHANGEDESC": "1",
+    "CHANGEDE_1": "1",
+    "DWELLINGVA": 163300,
+    "DWELLING_1": 155500,
+    "LOCZIP": null
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -79.93791806551724,
+       37.31174694709759
+      ],
+      [
+       -79.937781482839,
+       37.311739208533666
+      ],
+      [
+       -79.9377625465224,
+       37.31149830167681
+      ],
+      [
+       -79.93802317488874,
+       37.31148632693421
+      ],
+      [
+       -79.93804422424465,
+       37.31175409589972
+      ],
+      [
+       -79.93791806551724,
+       37.31174694709759
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

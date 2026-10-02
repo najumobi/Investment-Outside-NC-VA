@@ -1,0 +1,782 @@
+{
+ "displayFieldName": "STR_NAME",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "ADDR_ID": "ADDR_ID",
+  "STR_NUM": "STR_NUM",
+  "STR_NAME": "STR_NAME",
+  "SFX_TYPE": "SFX_TYPE",
+  "SFX_DIR": "SFX_DIR",
+  "STR_UNIT": "STR_UNIT",
+  "FULL_NAME": "FULL_NAME",
+  "STATUS": "STATUS",
+  "TAX_ID": "TAX_ID",
+  "MAP_BOOK": "MAP_BOOK",
+  "PAGE_NUM": "PAGE_NUM",
+  "VERIFIED": "VERIFIED",
+  "CITY": "CITY",
+  "STATE": "STATE",
+  "ZIP": "ZIP",
+  "UNIT_TYPE": "UNIT_TYPE",
+  "UNIT_NUM": "UNIT_NUM",
+  "STREET_NAME_ID": "STREET_NAME_ID",
+  "ADDRESS_ID": "ADDRESS_ID",
+  "BUILDING_ID": "BUILDING_ID",
+  "ADDPTGEO_ID": "ADDPTGEO_ID",
+  "MFIPS": "MFIPS",
+  "GEOMETRY_EDIT_TYPE": "GEOMETRY_EDIT_TYPE",
+  "GEOMETRY_EFFECTIVE_DATE": "GEOMETRY_EFFECTIVE_DATE",
+  "GEOMETRY_EDIT_DATE": "GEOMETRY_EDIT_DATE",
+  "LOCATION_TYPE": "LOCATION_TYPE",
+  "ADDRESS": "ADDRESS",
+  "ADDRESS_SUFFIX": "ADDRESS_SUFFIX",
+  "SUB_ADDRESS_UNIT": "SUB_ADDRESS_UNIT",
+  "SUB_ADDRESS_TYPE": "SUB_ADDRESS_TYPE",
+  "LANDMARK_NAME": "LANDMARK_NAME",
+  "STREET_PREMODIFIER": "STREET_PREMODIFIER",
+  "STREET_PREFIX_DIRECTION": "STREET_PREFIX_DIRECTION",
+  "STREET_POSTMODIFIER": "STREET_POSTMODIFIER",
+  "STREET_NAME_SOURCE": "STREET_NAME_SOURCE",
+  "STREET_NAME_EDIT_DATE": "STREET_NAME_EDIT_DATE",
+  "ROUTE_IDENTIFIER": "ROUTE_IDENTIFIER",
+  "POST_OFFICE": "POST_OFFICE",
+  "SEC_STREET_PREFIX": "SEC_STREET_PREFIX",
+  "SEC_STREET_NAME": "SEC_STREET_NAME",
+  "SEC_STREET_SUF": "SEC_STREET_SUF",
+  "SEC_STREET_DIR": "SEC_STREET_DIR",
+  "SEC_STREET_MOD": "SEC_STREET_MOD",
+  "SEC_STREET_FULL": "SEC_STREET_FULL",
+  "COUNTY": "COUNTY",
+  "UNINCORP_JURISDICTION": "UNINCORP_JURISDICTION",
+  "NEIGHBORHOOD": "NEIGHBORHOOD",
+  "US_NAT_GRID": "US_NAT_GRID",
+  "PSAP": "PSAP",
+  "LAT": "LAT",
+  "LONG": "LONG",
+  "CAPTURE_METHOD": "CAPTURE_METHOD",
+  "ADDITIONAL_LOCATION": "ADDITIONAL_LOCATION",
+  "ESN": "ESN",
+  "DATE_INTAKE": "DATE_INTAKE",
+  "Site_NGUID": "Site_NGUID",
+  "AddCode": "AddCode",
+  "AddDataURI": "AddDataURI",
+  "LSt_PreDir": "LSt_PreDir",
+  "LSt_Name": "LSt_Name",
+  "LSt_Type": "LSt_Type",
+  "LStPosDir": "LStPosDir",
+  "MUNICIPALITY": "MUNICIPALITY",
+  "EDIT_STR_NAME": "EDIT_STR_NAME",
+  "INST_NUM": "INST_NUM",
+  "DATE_CREATED": "DATE_CREATED",
+  "DATE_RETIRED": "DATE_RETIRED",
+  "LAST_UPDATED": "LAST_UPDATED",
+  "UPDATED_BY": "UPDATED_BY",
+  "COMMENTS": "COMMENTS",
+  "ADDRID_TXT": "ADDRID_TXT",
+  "LRSN": "LRSN",
+  "OWNER": "[masked]",
+  "OWNERADDR1": "[masked]",
+  "MAILCITY": "MAILCITY",
+  "MAILSTATE": "MAILSTATE",
+  "LEGALACRES": "LEGALACRES",
+  "ASSOCNAME": "ASSOCNAME",
+  "Owner2": "[masked]",
+  "Condo": "Condo",
+  "DiscrpAgID": "DiscrpAgID",
+  "Country": "Country",
+  "MAINZIPCODE": "MAINZIPCODE",
+  "PROPERTYDESC": "PROPERTYDESC"
+ },
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "ADDR_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "ADDR_ID"
+  },
+  {
+   "name": "STR_NUM",
+   "type": "esriFieldTypeDouble",
+   "alias": "STR_NUM"
+  },
+  {
+   "name": "STR_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "STR_NAME",
+   "length": 50
+  },
+  {
+   "name": "SFX_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "SFX_TYPE",
+   "length": 50
+  },
+  {
+   "name": "SFX_DIR",
+   "type": "esriFieldTypeString",
+   "alias": "SFX_DIR",
+   "length": 50
+  },
+  {
+   "name": "STR_UNIT",
+   "type": "esriFieldTypeString",
+   "alias": "STR_UNIT",
+   "length": 50
+  },
+  {
+   "name": "FULL_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "FULL_NAME",
+   "length": 250
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "length": 50
+  },
+  {
+   "name": "TAX_ID",
+   "type": "esriFieldTypeString",
+   "alias": "TAX_ID",
+   "length": 50
+  },
+  {
+   "name": "MAP_BOOK",
+   "type": "esriFieldTypeDouble",
+   "alias": "MAP_BOOK"
+  },
+  {
+   "name": "PAGE_NUM",
+   "type": "esriFieldTypeDouble",
+   "alias": "PAGE_NUM"
+  },
+  {
+   "name": "VERIFIED",
+   "type": "esriFieldTypeString",
+   "alias": "VERIFIED",
+   "length": 50
+  },
+  {
+   "name": "CITY",
+   "type": "esriFieldTypeString",
+   "alias": "CITY",
+   "length": 50
+  },
+  {
+   "name": "STATE",
+   "type": "esriFieldTypeString",
+   "alias": "STATE",
+   "length": 50
+  },
+  {
+   "name": "ZIP",
+   "type": "esriFieldTypeString",
+   "alias": "ZIP",
+   "length": 50
+  },
+  {
+   "name": "UNIT_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "UNIT_TYPE",
+   "length": 50
+  },
+  {
+   "name": "UNIT_NUM",
+   "type": "esriFieldTypeString",
+   "alias": "UNIT_NUM",
+   "length": 50
+  },
+  {
+   "name": "STREET_NAME_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "STREET_NAME_ID"
+  },
+  {
+   "name": "ADDRESS_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "ADDRESS_ID"
+  },
+  {
+   "name": "BUILDING_ID",
+   "type": "esriFieldTypeString",
+   "alias": "BUILDING_ID",
+   "length": 15
+  },
+  {
+   "name": "ADDPTGEO_ID",
+   "type": "esriFieldTypeDouble",
+   "alias": "ADDPTGEO_ID"
+  },
+  {
+   "name": "MFIPS",
+   "type": "esriFieldTypeString",
+   "alias": "MFIPS",
+   "length": 7
+  },
+  {
+   "name": "GEOMETRY_EDIT_TYPE",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "GEOMETRY_EDIT_TYPE"
+  },
+  {
+   "name": "GEOMETRY_EFFECTIVE_DATE",
+   "type": "esriFieldTypeDate",
+   "alias": "GEOMETRY_EFFECTIVE_DATE",
+   "length": 8
+  },
+  {
+   "name": "GEOMETRY_EDIT_DATE",
+   "type": "esriFieldTypeDate",
+   "alias": "GEOMETRY_EDIT_DATE",
+   "length": 8
+  },
+  {
+   "name": "LOCATION_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "LOCATION_TYPE",
+   "length": 9
+  },
+  {
+   "name": "ADDRESS",
+   "type": "esriFieldTypeInteger",
+   "alias": "ADDRESS"
+  },
+  {
+   "name": "ADDRESS_SUFFIX",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRESS_SUFFIX",
+   "length": 11
+  },
+  {
+   "name": "SUB_ADDRESS_UNIT",
+   "type": "esriFieldTypeString",
+   "alias": "SUB_ADDRESS_UNIT",
+   "length": 10
+  },
+  {
+   "name": "SUB_ADDRESS_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "SUB_ADDRESS_TYPE",
+   "length": 10
+  },
+  {
+   "name": "LANDMARK_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "LANDMARK_NAME",
+   "length": 60
+  },
+  {
+   "name": "STREET_PREMODIFIER",
+   "type": "esriFieldTypeString",
+   "alias": "STREET_PREMODIFIER",
+   "length": 10
+  },
+  {
+   "name": "STREET_PREFIX_DIRECTION",
+   "type": "esriFieldTypeString",
+   "alias": "STREET_PREFIX_DIRECTION",
+   "length": 2
+  },
+  {
+   "name": "STREET_POSTMODIFIER",
+   "type": "esriFieldTypeString",
+   "alias": "STREET_POSTMODIFIER",
+   "length": 10
+  },
+  {
+   "name": "STREET_NAME_SOURCE",
+   "type": "esriFieldTypeString",
+   "alias": "STREET_NAME_SOURCE",
+   "length": 4
+  },
+  {
+   "name": "STREET_NAME_EDIT_DATE",
+   "type": "esriFieldTypeDate",
+   "alias": "STREET_NAME_EDIT_DATE",
+   "length": 8
+  },
+  {
+   "name": "ROUTE_IDENTIFIER",
+   "type": "esriFieldTypeString",
+   "alias": "ROUTE_IDENTIFIER",
+   "length": 20
+  },
+  {
+   "name": "POST_OFFICE",
+   "type": "esriFieldTypeString",
+   "alias": "POST_OFFICE",
+   "length": 40
+  },
+  {
+   "name": "SEC_STREET_PREFIX",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_PREFIX",
+   "length": 2
+  },
+  {
+   "name": "SEC_STREET_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_NAME",
+   "length": 75
+  },
+  {
+   "name": "SEC_STREET_SUF",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_SUF",
+   "length": 4
+  },
+  {
+   "name": "SEC_STREET_DIR",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_DIR",
+   "length": 2
+  },
+  {
+   "name": "SEC_STREET_MOD",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_MOD",
+   "length": 10
+  },
+  {
+   "name": "SEC_STREET_FULL",
+   "type": "esriFieldTypeString",
+   "alias": "SEC_STREET_FULL",
+   "length": 100
+  },
+  {
+   "name": "COUNTY",
+   "type": "esriFieldTypeString",
+   "alias": "COUNTY",
+   "length": 60
+  },
+  {
+   "name": "UNINCORP_JURISDICTION",
+   "type": "esriFieldTypeString",
+   "alias": "UNINCORP_JURISDICTION",
+   "length": 40
+  },
+  {
+   "name": "NEIGHBORHOOD",
+   "type": "esriFieldTypeString",
+   "alias": "NEIGHBORHOOD",
+   "length": 40
+  },
+  {
+   "name": "US_NAT_GRID",
+   "type": "esriFieldTypeString",
+   "alias": "US_NAT_GRID",
+   "length": 20
+  },
+  {
+   "name": "PSAP",
+   "type": "esriFieldTypeString",
+   "alias": "PSAP",
+   "length": 4
+  },
+  {
+   "name": "LAT",
+   "type": "esriFieldTypeDouble",
+   "alias": "LAT"
+  },
+  {
+   "name": "LONG",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONG"
+  },
+  {
+   "name": "CAPTURE_METHOD",
+   "type": "esriFieldTypeString",
+   "alias": "CAPTURE_METHOD",
+   "length": 30
+  },
+  {
+   "name": "ADDITIONAL_LOCATION",
+   "type": "esriFieldTypeString",
+   "alias": "ADDITIONAL_LOCATION",
+   "length": 40
+  },
+  {
+   "name": "ESN",
+   "type": "esriFieldTypeString",
+   "alias": "ESN",
+   "length": 5
+  },
+  {
+   "name": "DATE_INTAKE",
+   "type": "esriFieldTypeDate",
+   "alias": "DATE_INTAKE",
+   "length": 8
+  },
+  {
+   "name": "Site_NGUID",
+   "type": "esriFieldTypeString",
+   "alias": "Site_NGUID",
+   "length": 100
+  },
+  {
+   "name": "AddCode",
+   "type": "esriFieldTypeString",
+   "alias": "AddCode",
+   "length": 6
+  },
+  {
+   "name": "AddDataURI",
+   "type": "esriFieldTypeString",
+   "alias": "AddDataURI",
+   "length": 254
+  },
+  {
+   "name": "LSt_PreDir",
+   "type": "esriFieldTypeString",
+   "alias": "LSt_PreDir",
+   "length": 2
+  },
+  {
+   "name": "LSt_Name",
+   "type": "esriFieldTypeString",
+   "alias": "LSt_Name",
+   "length": 75
+  },
+  {
+   "name": "LSt_Type",
+   "type": "esriFieldTypeString",
+   "alias": "LSt_Type",
+   "length": 5
+  },
+  {
+   "name": "LStPosDir",
+   "type": "esriFieldTypeString",
+   "alias": "LStPosDir",
+   "length": 2
+  },
+  {
+   "name": "MUNICIPALITY",
+   "type": "esriFieldTypeString",
+   "alias": "MUNICIPALITY",
+   "length": 100
+  },
+  {
+   "name": "EDIT_STR_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "EDIT_STR_NAME",
+   "length": 100
+  },
+  {
+   "name": "INST_NUM",
+   "type": "esriFieldTypeString",
+   "alias": "INST_NUM",
+   "length": 50
+  },
+  {
+   "name": "DATE_CREATED",
+   "type": "esriFieldTypeDate",
+   "alias": "DATE_CREATED",
+   "length": 8
+  },
+  {
+   "name": "DATE_RETIRED",
+   "type": "esriFieldTypeDate",
+   "alias": "DATE_RETIRED",
+   "length": 8
+  },
+  {
+   "name": "LAST_UPDATED",
+   "type": "esriFieldTypeDate",
+   "alias": "LAST_UPDATED",
+   "length": 8
+  },
+  {
+   "name": "UPDATED_BY",
+   "type": "esriFieldTypeString",
+   "alias": "UPDATED_BY",
+   "length": 50
+  },
+  {
+   "name": "COMMENTS",
+   "type": "esriFieldTypeString",
+   "alias": "COMMENTS",
+   "length": 250
+  },
+  {
+   "name": "ADDRID_TXT",
+   "type": "esriFieldTypeString",
+   "alias": "ADDRID_TXT",
+   "length": 255
+  },
+  {
+   "name": "LRSN",
+   "type": "esriFieldTypeInteger",
+   "alias": "LRSN"
+  },
+  {
+   "name": "OWNER",
+   "type": "esriFieldTypeString",
+   "alias": "OWNER",
+   "length": 64
+  },
+  {
+   "name": "OWNERADDR1",
+   "type": "esriFieldTypeString",
+   "alias": "OWNERADDR1",
+   "length": 64
+  },
+  {
+   "name": "MAILCITY",
+   "type": "esriFieldTypeString",
+   "alias": "MAILCITY",
+   "length": 64
+  },
+  {
+   "name": "MAILSTATE",
+   "type": "esriFieldTypeString",
+   "alias": "MAILSTATE",
+   "length": 4
+  },
+  {
+   "name": "LEGALACRES",
+   "type": "esriFieldTypeString",
+   "alias": "LEGALACRES",
+   "length": 12
+  },
+  {
+   "name": "ASSOCNAME",
+   "type": "esriFieldTypeString",
+   "alias": "ASSOCNAME",
+   "length": 36
+  },
+  {
+   "name": "Owner2",
+   "type": "esriFieldTypeString",
+   "alias": "Owner2",
+   "length": 64
+  },
+  {
+   "name": "Condo",
+   "type": "esriFieldTypeString",
+   "alias": "Condo",
+   "length": 10
+  },
+  {
+   "name": "DiscrpAgID",
+   "type": "esriFieldTypeString",
+   "alias": "DiscrpAgID",
+   "length": 75
+  },
+  {
+   "name": "Country",
+   "type": "esriFieldTypeString",
+   "alias": "Country",
+   "length": 2
+  },
+  {
+   "name": "MAINZIPCODE",
+   "type": "esriFieldTypeString",
+   "alias": "MAINZIPCODE",
+   "length": 16
+  },
+  {
+   "name": "PROPERTYDESC",
+   "type": "esriFieldTypeString",
+   "alias": "PROPERTYDESC",
+   "length": 40
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 42152,
+    "ADDR_ID": 43574,
+    "STR_NUM": 306,
+    "STR_NAME": "TROY",
+    "SFX_TYPE": "AVE",
+    "SFX_DIR": "NE",
+    "STR_UNIT": " ",
+    "FULL_NAME": "306 TROY AVE NE",
+    "STATUS": "ACTIVE",
+    "TAX_ID": "3180117",
+    "MAP_BOOK": 1,
+    "PAGE_NUM": 0,
+    "VERIFIED": "Field Verified",
+    "CITY": "ROANOKE",
+    "STATE": "VA",
+    "ZIP": "24012",
+    "UNIT_TYPE": " ",
+    "UNIT_NUM": " ",
+    "STREET_NAME_ID": null,
+    "ADDRESS_ID": null,
+    "BUILDING_ID": null,
+    "ADDPTGEO_ID": null,
+    "MFIPS": null,
+    "GEOMETRY_EDIT_TYPE": null,
+    "GEOMETRY_EFFECTIVE_DATE": null,
+    "GEOMETRY_EDIT_DATE": null,
+    "LOCATION_TYPE": null,
+    "ADDRESS": null,
+    "ADDRESS_SUFFIX": null,
+    "SUB_ADDRESS_UNIT": null,
+    "SUB_ADDRESS_TYPE": null,
+    "LANDMARK_NAME": null,
+    "STREET_PREMODIFIER": null,
+    "STREET_PREFIX_DIRECTION": null,
+    "STREET_POSTMODIFIER": null,
+    "STREET_NAME_SOURCE": null,
+    "STREET_NAME_EDIT_DATE": null,
+    "ROUTE_IDENTIFIER": null,
+    "POST_OFFICE": null,
+    "SEC_STREET_PREFIX": null,
+    "SEC_STREET_NAME": null,
+    "SEC_STREET_SUF": null,
+    "SEC_STREET_DIR": null,
+    "SEC_STREET_MOD": null,
+    "SEC_STREET_FULL": null,
+    "COUNTY": null,
+    "UNINCORP_JURISDICTION": null,
+    "NEIGHBORHOOD": null,
+    "US_NAT_GRID": null,
+    "PSAP": "7192",
+    "LAT": 11064747.79386811,
+    "LONG": 3640187.27873243,
+    "CAPTURE_METHOD": null,
+    "ADDITIONAL_LOCATION": null,
+    "ESN": "4",
+    "DATE_INTAKE": null,
+    "Site_NGUID": "SSAP43574@roanokeva.gov",
+    "AddCode": null,
+    "AddDataURI": null,
+    "LSt_PreDir": null,
+    "LSt_Name": null,
+    "LSt_Type": null,
+    "LStPosDir": null,
+    "MUNICIPALITY": null,
+    "EDIT_STR_NAME": null,
+    "INST_NUM": null,
+    "DATE_CREATED": null,
+    "DATE_RETIRED": null,
+    "LAST_UPDATED": null,
+    "UPDATED_BY": null,
+    "COMMENTS": null,
+    "ADDRID_TXT": "43574",
+    "LRSN": 27013,
+    "OWNER": "[masked]",
+    "OWNERADDR1": "[masked]",
+    "MAILCITY": "GOODVIEW",
+    "MAILSTATE": "VA",
+    "LEGALACRES": "      0.1616",
+    "ASSOCNAME": "",
+    "Owner2": "",
+    "Condo": "false",
+    "DiscrpAgID": "roanokeva.gov",
+    "Country": "US",
+    "MAINZIPCODE": "24095",
+    "PROPERTYDESC": "Multi-Family Duplex"
+   },
+   "geometry": {
+    "x": -79.93795062422139,
+    "y": 37.311587768729716
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 42153,
+    "ADDR_ID": 43575,
+    "STR_NUM": 308,
+    "STR_NAME": "TROY",
+    "SFX_TYPE": "AVE",
+    "SFX_DIR": "NE",
+    "STR_UNIT": " ",
+    "FULL_NAME": "308 TROY AVE NE",
+    "STATUS": "ACTIVE",
+    "TAX_ID": "3180117",
+    "MAP_BOOK": 1,
+    "PAGE_NUM": 0,
+    "VERIFIED": "Field Verified",
+    "CITY": "ROANOKE",
+    "STATE": "VA",
+    "ZIP": "24012",
+    "UNIT_TYPE": " ",
+    "UNIT_NUM": " ",
+    "STREET_NAME_ID": null,
+    "ADDRESS_ID": null,
+    "BUILDING_ID": null,
+    "ADDPTGEO_ID": null,
+    "MFIPS": null,
+    "GEOMETRY_EDIT_TYPE": null,
+    "GEOMETRY_EFFECTIVE_DATE": null,
+    "GEOMETRY_EDIT_DATE": null,
+    "LOCATION_TYPE": null,
+    "ADDRESS": null,
+    "ADDRESS_SUFFIX": null,
+    "SUB_ADDRESS_UNIT": null,
+    "SUB_ADDRESS_TYPE": null,
+    "LANDMARK_NAME": null,
+    "STREET_PREMODIFIER": null,
+    "STREET_PREFIX_DIRECTION": null,
+    "STREET_POSTMODIFIER": null,
+    "STREET_NAME_SOURCE": null,
+    "STREET_NAME_EDIT_DATE": null,
+    "ROUTE_IDENTIFIER": null,
+    "POST_OFFICE": null,
+    "SEC_STREET_PREFIX": null,
+    "SEC_STREET_NAME": null,
+    "SEC_STREET_SUF": null,
+    "SEC_STREET_DIR": null,
+    "SEC_STREET_MOD": null,
+    "SEC_STREET_FULL": null,
+    "COUNTY": null,
+    "UNINCORP_JURISDICTION": null,
+    "NEIGHBORHOOD": null,
+    "US_NAT_GRID": null,
+    "PSAP": "7192",
+    "LAT": 11064774.34958927,
+    "LONG": 3640190.10812311,
+    "CAPTURE_METHOD": null,
+    "ADDITIONAL_LOCATION": null,
+    "ESN": "4",
+    "DATE_INTAKE": null,
+    "Site_NGUID": "SSAP43575@roanokeva.gov",
+    "AddCode": null,
+    "AddDataURI": null,
+    "LSt_PreDir": null,
+    "LSt_Name": null,
+    "LSt_Type": null,
+    "LStPosDir": null,
+    "MUNICIPALITY": null,
+    "EDIT_STR_NAME": null,
+    "INST_NUM": null,
+    "DATE_CREATED": null,
+    "DATE_RETIRED": null,
+    "LAST_UPDATED": null,
+    "UPDATED_BY": null,
+    "COMMENTS": null,
+    "ADDRID_TXT": "43575",
+    "LRSN": 27013,
+    "OWNER": "[masked]",
+    "OWNERADDR1": "[masked]",
+    "MAILCITY": "GOODVIEW",
+    "MAILSTATE": "VA",
+    "LEGALACRES": "      0.1616",
+    "ASSOCNAME": "",
+    "Owner2": "",
+    "Condo": "false",
+    "DiscrpAgID": "roanokeva.gov",
+    "Country": "US",
+    "MAINZIPCODE": "24095",
+    "PROPERTYDESC": "Multi-Family Duplex"
+   },
+   "geometry": {
+    "x": -79.93785946995482,
+    "y": 37.31159664965087
+   }
+  }
+ ]
+}

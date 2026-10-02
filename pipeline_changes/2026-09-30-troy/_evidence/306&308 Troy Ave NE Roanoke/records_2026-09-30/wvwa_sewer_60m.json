@@ -1,0 +1,274 @@
+{
+ "displayFieldName": "MATERIAL",
+ "fieldAliases": {
+  "OBJECTID": "OBJECTID",
+  "DIAMETER": "Diameter",
+  "MATERIAL": "Material",
+  "PIPECLASS": "Pipe Class",
+  "INSTALLDATE": "Install Date",
+  "SLOPE": "Slope",
+  "UPSTREAMINVERT": "Upstream Invert",
+  "DOWNSTREAMINVERT": "Downstream Invert",
+  "JOINTTYPE": "Joint Type",
+  "LININGTYPE": "Lining Type",
+  "COMMENTS": "Comments",
+  "MANUFACTURER": "Manufacturer",
+  "USNODEID": "USNODEID",
+  "DSNODEID": "DSNODEID",
+  "LINKSUFFIX": "LINKSUFFIX",
+  "Shape_Length": "Shape_Length",
+  "GlobalID": "GlobalID",
+  "YEAR_RENEWED": "Year Renewed",
+  "MAINTDATE": "MAINTDATE",
+  "STATUS": "STATUS",
+  "TYPE": "TYPE"
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "DIAMETER",
+   "type": "esriFieldTypeInteger",
+   "alias": "Diameter"
+  },
+  {
+   "name": "MATERIAL",
+   "type": "esriFieldTypeString",
+   "alias": "Material",
+   "length": 20
+  },
+  {
+   "name": "PIPECLASS",
+   "type": "esriFieldTypeString",
+   "alias": "Pipe Class",
+   "length": 20
+  },
+  {
+   "name": "INSTALLDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "Install Date",
+   "length": 8
+  },
+  {
+   "name": "SLOPE",
+   "type": "esriFieldTypeDouble",
+   "alias": "Slope"
+  },
+  {
+   "name": "UPSTREAMINVERT",
+   "type": "esriFieldTypeDouble",
+   "alias": "Upstream Invert"
+  },
+  {
+   "name": "DOWNSTREAMINVERT",
+   "type": "esriFieldTypeDouble",
+   "alias": "Downstream Invert"
+  },
+  {
+   "name": "JOINTTYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Joint Type",
+   "length": 20
+  },
+  {
+   "name": "LININGTYPE",
+   "type": "esriFieldTypeString",
+   "alias": "Lining Type",
+   "length": 20
+  },
+  {
+   "name": "COMMENTS",
+   "type": "esriFieldTypeString",
+   "alias": "Comments",
+   "length": 2147483647
+  },
+  {
+   "name": "MANUFACTURER",
+   "type": "esriFieldTypeString",
+   "alias": "Manufacturer",
+   "length": 150
+  },
+  {
+   "name": "USNODEID",
+   "type": "esriFieldTypeString",
+   "alias": "USNODEID",
+   "length": 150
+  },
+  {
+   "name": "DSNODEID",
+   "type": "esriFieldTypeString",
+   "alias": "DSNODEID",
+   "length": 150
+  },
+  {
+   "name": "LINKSUFFIX",
+   "type": "esriFieldTypeInteger",
+   "alias": "LINKSUFFIX"
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "Shape_Length"
+  },
+  {
+   "name": "GlobalID",
+   "type": "esriFieldTypeGlobalID",
+   "alias": "GlobalID",
+   "length": 38
+  },
+  {
+   "name": "YEAR_RENEWED",
+   "type": "esriFieldTypeDate",
+   "alias": "Year Renewed",
+   "length": 8
+  },
+  {
+   "name": "MAINTDATE",
+   "type": "esriFieldTypeDate",
+   "alias": "MAINTDATE",
+   "length": 8
+  },
+  {
+   "name": "STATUS",
+   "type": "esriFieldTypeString",
+   "alias": "STATUS",
+   "length": 20
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "length": 50
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 7410,
+    "DIAMETER": 8,
+    "MATERIAL": "PVC",
+    "PIPECLASS": null,
+    "INSTALLDATE": -641692800000,
+    "SLOPE": 0.48,
+    "UPSTREAMINVERT": 1058.87,
+    "DOWNSTREAMINVERT": 1057.18,
+    "JOINTTYPE": null,
+    "LININGTYPE": null,
+    "COMMENTS": null,
+    "MANUFACTURER": null,
+    "USNODEID": "05A-3581.0",
+    "DSNODEID": "05A-3579.0",
+    "LINKSUFFIX": 1,
+    "Shape_Length": 350.1339519409605,
+    "GlobalID": "{7FFD9C44-D449-45B5-BE51-5FBA799C05B3}",
+    "YEAR_RENEWED": null,
+    "MAINTDATE": -641692800000,
+    "STATUS": "INUSE",
+    "TYPE": "COLLECTOR"
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7411,
+    "DIAMETER": 8,
+    "MATERIAL": "VCP",
+    "PIPECLASS": null,
+    "INSTALLDATE": -641692800000,
+    "SLOPE": 1.52,
+    "UPSTREAMINVERT": 1063.64,
+    "DOWNSTREAMINVERT": 1060.48,
+    "JOINTTYPE": null,
+    "LININGTYPE": null,
+    "COMMENTS": "Line drops outside downstream MH at 7.9'",
+    "MANUFACTURER": null,
+    "USNODEID": "05A-3582.0",
+    "DSNODEID": "05A-3581.0",
+    "LINKSUFFIX": 1,
+    "Shape_Length": 208.28059906620626,
+    "GlobalID": "{8BA0927A-551E-4B4E-A7A9-5FADF2921542}",
+    "YEAR_RENEWED": null,
+    "MAINTDATE": -641692800000,
+    "STATUS": "INUSE",
+    "TYPE": "COLLECTOR"
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7412,
+    "DIAMETER": 8,
+    "MATERIAL": "VCP",
+    "PIPECLASS": null,
+    "INSTALLDATE": -641692800000,
+    "SLOPE": 1.35,
+    "UPSTREAMINVERT": 1063.61,
+    "DOWNSTREAMINVERT": 1059.1,
+    "JOINTTYPE": null,
+    "LININGTYPE": null,
+    "COMMENTS": null,
+    "MANUFACTURER": null,
+    "USNODEID": "05A-3583.0",
+    "DSNODEID": "05A-3581.0",
+    "LINKSUFFIX": 1,
+    "Shape_Length": 333.92140626396974,
+    "GlobalID": "{25BB7CAD-1FEE-4303-81E7-88AB64D71924}",
+    "YEAR_RENEWED": null,
+    "MAINTDATE": -641692800000,
+    "STATUS": "INUSE",
+    "TYPE": "COLLECTOR"
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7416,
+    "DIAMETER": 8,
+    "MATERIAL": "VCP",
+    "PIPECLASS": null,
+    "INSTALLDATE": -946684800000,
+    "SLOPE": 0.9,
+    "UPSTREAMINVERT": 1060.53,
+    "DOWNSTREAMINVERT": 1057.73,
+    "JOINTTYPE": null,
+    "LININGTYPE": null,
+    "COMMENTS": null,
+    "MANUFACTURER": null,
+    "USNODEID": "05A-3587.0",
+    "DSNODEID": "05A-3586.0",
+    "LINKSUFFIX": 1,
+    "Shape_Length": 310.70763140920144,
+    "GlobalID": "{161B2723-C627-4306-8DB9-7F28C90E595B}",
+    "YEAR_RENEWED": null,
+    "MAINTDATE": -946684800000,
+    "STATUS": "INUSE",
+    "TYPE": "COLLECTOR"
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 7417,
+    "DIAMETER": 8,
+    "MATERIAL": "VCP",
+    "PIPECLASS": null,
+    "INSTALLDATE": -946684800000,
+    "SLOPE": 1.29,
+    "UPSTREAMINVERT": 1065.78,
+    "DOWNSTREAMINVERT": 1060.58,
+    "JOINTTYPE": null,
+    "LININGTYPE": null,
+    "COMMENTS": null,
+    "MANUFACTURER": null,
+    "USNODEID": "05A-3588.0",
+    "DSNODEID": "05A-3587.0",
+    "LINKSUFFIX": 1,
+    "Shape_Length": 403.700175930546,
+    "GlobalID": "{ABAC2FB7-6B81-4878-A574-37F28A9D75C5}",
+    "YEAR_RENEWED": null,
+    "MAINTDATE": -946684800000,
+    "STATUS": "INUSE",
+    "TYPE": "COLLECTOR"
+   }
+  }
+ ]
+}
