@@ -1,0 +1,7 @@
+id,address,source,zip_page,view,type,image,zoom,fit_score,block_group,grade,position,position_iqr,at_address_position,pixels,edge_distance_m,neighbours,bg_inside,note
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,57,Assault,maps/types_batch1248/26062_assault.png,12.985,0.645,540290213002,D,0.835,0.835-0.835,0.835,4430,258,,1.0,
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,57,Drug-Related Crime,maps/types_batch1248/26062_drug.png,12.985,0.645,540290213002,F,0.934,0.934-0.934,0.934,4456,258,,1.0,
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,58,Burglary,maps/types_batch1248/26062_burglary.png,12.985,0.54,540290213002,D+,0.737,0.737-0.737,0.737,4438,258,,1.0,
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,58,Murder,maps/types_batch1248/26062_murder.png,12.985,0.54,540290213002,D-,0.895,0.895-0.895,0.895,4445,258,,1.0,
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,63,Vandalism,maps/types_batch1248/26062_vandalism.png,12.985,0.644,540290213002,D,0.794,0.794-0.794,0.794,4415,258,,1.0,
+f014,"3536 Orchard St, Weirton, WV 26062",file 14,26062,63,Robbery,maps/types_batch1248/26062_robbery.png,12.985,0.644,540290213002,B,0.362,0.362-0.362,0.362,4435,258,,1.0,

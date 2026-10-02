@@ -142,5 +142,23 @@
   "B": 0.598,
   "V": 0.111,
   "robbery_F": false
+ },
+ {
+  "address": "896 Huber St, Akron, OH 44306",
+  "old": {
+   "crime": "maps needed 44306",
+   "score": "-5.3",
+   "why": "YELLOW -4; crime unread (maps needed); drive 8.05h tier C -0.5; DSCR 1.07 -2"
+  },
+  "new": {
+   "crime": "R .61 C / A .78 D / B .93 F / V .87 D-; M D-, D D (10/2)",
+   "score": "-5.4",
+   "why": "YELLOW -4; crime R .61 C -0.1; drive 8.05h tier C -0.5; DSCR 1.07 -2"
+  },
+  "bg": "391535035003",
+  "R": 0.611,
+  "B": 0.934,
+  "V": 0.866,
+  "robbery_F": false
  }
 ]

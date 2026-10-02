@@ -114,7 +114,7 @@ board (active file-14 row),"319 E Essex Ave, Lansdowne, PA 19050",19050,read,,,4
 board (active file-14 row),"18518 Newell Rd, Shaker Heights, OH 44122",44122,read,,,390351836061,,,read
 board (active file-14 row),"306 W Center St, Elmira, NY 14901",14901,read,,,360150002002,,,read
 board (active file-14 row),"14 14 Rear Railroad St, Plymouth, PA 18651",18651,read,,,420792136002,,,read
-board (active file-14 row),"896 Huber St, Akron, OH 44306",44306,page not shot,,,391535035003,,,page not shot
+board (active file-14 row),"896 Huber St, Akron, OH 44306",44306,read,,,391535035003,,,page not shot
 board (active file-14 row),"1808 Stewart Blvd #1810, Fairborn, OH 45324",45324,page not shot,,,390572007002,,,page not shot
 board (active file-14 row),"1818 Mary St, Pittsburgh, PA 15203",15203,read,,,420031702004,,,read
 board (active file-14 row),"116 Lafayette Ave, Niles, OH 44446",44446,page not shot,,,391559327023,,,page not shot
@@ -352,10 +352,10 @@ detail queue,"127 Forest St, Steubenville, OH 43953",43953,read,,,390810012003,,
 detail queue,"232-236 Dearborn St, Girard, OH 44420",44420,page not shot,,,391559339002,,,page not shot
 detail queue,"952 N Highland Ave, Girard, OH 44420",44420,page not shot,,,391559323004,,,page not shot
 detail queue,"117 Gilbert Ave, Niles, OH 44446",44446,page not shot,,,391559326003,,,page not shot
-detail queue,"1103 High St NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
-detail queue,"1113 High St NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
-detail queue,"1132 Woodland Ave NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
-detail queue,"626 Woodbine Ave SE, Warren, OH 44483",44483,page not shot,,,391559204002,,,page not shot
+detail queue,"1103 High St NE, Warren, OH 44483",44483,read,,,391559203004,,,page not shot
+detail queue,"1113 High St NE, Warren, OH 44483",44483,read,,,391559203004,,,page not shot
+detail queue,"1132 Woodland Ave NE, Warren, OH 44483",44483,read,,,391559203004,,,page not shot
+detail queue,"626 Woodbine Ave SE, Warren, OH 44483",44483,read,,,391559204002,,,page not shot
 detail queue,"104 W Spring St, Marietta, OH 45750",45750,page not shot,,,391670210003,,,page not shot
 detail queue,"1022 Liberty St, Toledo, OH 43605",43605,read,,,390950053001,,,read
 detail queue,"1401 Liberty St, Toledo, OH 43605",43605,read,,,390950053001,,,read
@@ -369,7 +369,7 @@ detail queue,"180 Cleveland St, Elyria, OH 44035",44035,page not shot,,,39093070
 detail queue,"2514 Reid Ave, Lorain, OH 44052",44052,page not shot,,,390930233001,,,page not shot
 detail queue,"2331 Homewood Dr, Lorain, OH 44055",44055,page not shot,,,390930975001,,,page not shot
 detail queue,"3177 Elyria Ave, Lorain, OH 44055",44055,page not shot,,,390930232003,,,page not shot
-detail queue,"58 Adelaide Ave, Painesville, OH 44077",44077,page not shot,,,390852062001,,,page not shot
+detail queue,"58 Adelaide Ave, Painesville, OH 44077",44077,read,,,390852062001,,,page not shot
 detail queue,"3457 E 105th St, Cleveland, OH 44104",44104,read,,,390351205001,,,read
 detail queue,"10906 Nelson Ave, Cleveland, OH 44105",44105,read,,,390351275013,,,read
 detail queue,"11118 Glenboro Dr, Cleveland, OH 44105",44105,read,,,390351275012,,,read
@@ -396,7 +396,7 @@ detail queue,"6090 Manchester Rd, Akron, OH 44319",44319,page not shot,,,3915353
 detail queue,"395 Madison Ave, Akron, OH 44320",44320,read,,,391535065003,,,read
 detail queue,"1847 Lincoln Way E, Massillon, OH 44646",44646,page not shot,,,391517150002,,,page not shot
 detail queue,"1435 Stark Ave SW, Canton, OH 44706",44706,read,,,391517025004,,,read
-detail queue,"1818 Cleveland Ave NW, Canton, OH 44709",44709,page not shot,,,391517006002,,,page not shot
+detail queue,"1818 Cleveland Ave NW, Canton, OH 44709",44709,read,,,391517006002,,,page not shot
 detail queue,"3029 7th St SW, Canton, OH 44710",44710,read,,,391517013001,,,read
 detail queue,"10 Walnut St, Norwalk, OH 44857",44857,page not shot,,,390779156004,,,page not shot
 detail queue,"5010 Campbell St, Sandusky, OH 44870",44870,page not shot,,,390430416002,,,page not shot
@@ -409,7 +409,7 @@ detail queue,"1354 5th Ave, Arnold, PA 15068",15068,read,,,421298002001,,,read
 detail queue,"210 Southmont Blvd, Johnstown, PA 15905",15905,read,,,420210007001,,,read
 detail queue,"1905 Covert St, Parkersburg, WV 26101",26101,read,,,541070005001,,,read
 detail queue,"3525 Avalon Rd, Shaker Heights, OH 44120",44120,read,,,390351836041,,,read
-detail queue,"1500 28th St NW, Canton, OH 44709",44709,page not shot,,,391517007023,,,page not shot
+detail queue,"1500 28th St NW, Canton, OH 44709",44709,read,,,391517007023,,,page not shot
 passed the money gates before,"136 Marshall St, Petersburg, VA 23803",23803,read,,,517308113002,,,
 passed the money gates before,"2132 Hill St, Petersburg, VA 23803",23803,read,,,517308103001,,,
 passed the money gates before,"502 Dale Ave SE, Roanoke, VA 24013",24013,read,,,517700026001,,,
@@ -417,7 +417,7 @@ passed the money gates before,"515 Albemarle Ave SE, Roanoke, VA 24013",24013,re
 passed the money gates before,"707 Bullitt Ave SE, Roanoke, VA 24013",24013,read,,,517700027001,,,
 passed the money gates before,"1622 Patterson Ave SW, Roanoke, VA 24016",24016,read,,,517700010001,,,
 passed the money gates before,"11730 Essex Rd, Coeburn, VA 24230",24230,page not shot,,,511959315003,,,
-passed the money gates before,"816 Elizabeth St, Burlington, NC 27217",27217,"read, tabs missing",,,370010204003,,D,
+passed the money gates before,"816 Elizabeth St, Burlington, NC 27217",27217,read,,,370010204003,,,
 passed the money gates before,"1919-1921 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
 passed the money gates before,"2101-2103 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
 passed the money gates before,"2900 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810128033,,,
@@ -426,7 +426,7 @@ passed the money gates before,"4912 Watlington Rd, Greensboro, NC 27405",27405,p
 passed the money gates before,"311 Arch St, Henderson, NC 27536",27536,page not shot,,,371819607004,,,
 passed the money gates before,"410 Latham Street, Greenville, NC 27834",27834,page not shot,,,371470007014,,,
 passed the money gates before,"207 Bruton St W, Wilson, NC 27893",27893,read,,,371950001004,,,
-passed the money gates before,"930 S Miller St, Gastonia, NC 28052",28052,page not shot,,,370710332032,,,
+passed the money gates before,"930 S Miller St, Gastonia, NC 28052",28052,read,,,370710332032,,,
 passed the money gates before,"213 Colonial Dr, Fayetteville, NC 28301",28301,read,,,370510012005,,,
 passed the money gates before,"219 Colonial Dr, Fayetteville, NC 28301",28301,read,,,370510012005,,,
 passed the money gates before,"2602 Sedgefield Dr, Fayetteville, NC 28306",28306,read,,,370510019012,,,
@@ -617,7 +617,7 @@ passed the money gates before,"973 W Exchange St, Akron, OH 44302",44302,read,,,
 passed the money gates before,"1288 Pondview Ave, Akron, OH 44305",44305,page not shot,,,391535026001,,,
 passed the money gates before,"1933 Preston Ave, Akron, OH 44305",44305,page not shot,,,391535028001,,,
 passed the money gates before,"1939 Preston Ave, Akron, OH 44305",44305,page not shot,,,391535028001,,,
-passed the money gates before,"972 Hunt St, Akron, OH 44306",44306,page not shot,,,391535033002,,,
+passed the money gates before,"972 Hunt St, Akron, OH 44306",44306,read,,,391535033002,,,
 passed the money gates before,"1332-1334 Alphada Ave, Akron, OH 44310",44310,page not shot,,,391535021023,,,
 passed the money gates before,"499 Brown St, Akron, OH 44311",44311,read,,,391535041001,,,
 passed the money gates before,"504 Gage St, Akron, OH 44311",44311,read,,,391535041001,,,

@@ -80,3 +80,18 @@ Twelve detail-queue rows became readable through neighbouring pages: two in Hazl
 - 74 ZIPs are now covered through other pages.
 
 The batch was taken in a wider window, and six of its shots have no street layer. How both were handled is in `pipeline_changes/2026-09-29-crimegrade/README.md`.
+
+## 8. The 12:46 and 12:48 PM batches of 2026-10-02
+
+The two afternoon batches covered 103 more ZIP pages from the fourth group, finished 19111, 24401 and 27215, and completed 27704 between them. After them, 229 of the 400 sweep ZIPs are complete and the table holds 10,635 block groups.
+
+One board row gained a reading: 896 Huber St, Akron, reads through the neighbouring Akron pages. Its Robbery is C (.61), it does not meet the knockout, and its score moves from -5.3 to -5.4 on the penalty swap. The board was sorted again with the sweep's key, which moves the row up from among the unread rows. Seven detail-queue rows became readable (four in Warren, two in Canton, one in Painesville), and none of them meets the knockout.
+
+71a is regenerated:
+
+- Group 1 has 11 ZIPs, since 44306 left it.
+- Group 1b lists nine pages that came in short of tabs.
+- Group 2 has 26 ZIPs, group 3 has 10 and group 4 has 16.
+- 30 ZIPs have no listings, and 69 are covered through other pages.
+
+None of the group 1, 2 or 3 ZIPs has been shot yet; they are the ones the board and the weekly runs depend on.

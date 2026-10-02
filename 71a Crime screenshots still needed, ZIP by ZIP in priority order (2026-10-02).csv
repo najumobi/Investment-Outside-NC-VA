@@ -7,31 +7,33 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 1 board,44123,ohio,Euclid,the six tabs of the ZIP page,"22050 Westport Ave, Euclid, OH 44123; 20390 Westport Ave, Euclid, OH 44123",1,1,0,5,5,58,https://crimegrade.org/safest-places-in-44123/
 1 board,44446,pitt,Niles,the six tabs of the ZIP page,"116 Lafayette Ave, Niles, OH 44446; 117 Gilbert Ave, Niles, OH 44446",1,1,0,4,4,28,https://crimegrade.org/safest-places-in-44446/
 1 board,44305,ohio,Akron,the six tabs of the ZIP page,"1242 - 1244 Laird St, Akron, OH 44305; 1288 Pondview Ave, Akron, OH 44305; 1933 Preston Ave, Akron, OH 44305; 1939 Preston Ave, Akron, OH 44305",1,0,3,9,9,67,https://crimegrade.org/safest-places-in-44305/
-1 board,44306,ohio,Akron,the six tabs of the ZIP page,"896 Huber St, Akron, OH 44306; 972 Hunt St, Akron, OH 44306",1,0,1,6,6,16,https://crimegrade.org/safest-places-in-44306/
 1 board,44146,ohio,Bedford,the six tabs of the ZIP page,"45 1st Ave, Bedford, OH 44146; 16 Columbus St, Bedford, OH 44146",1,0,1,7,3,55,https://crimegrade.org/safest-places-in-44146/
 1 board,45324,ohio,Fairborn,the six tabs of the ZIP page,"1808 Stewart Blvd #1810, Fairborn, OH 45324",1,0,0,6,6,8,https://crimegrade.org/safest-places-in-45324/
 1 board,44203,ohio,Barberton,the six tabs of the ZIP page,"82-84 18th St SW, Barberton, OH 44203",1,0,0,5,5,19,https://crimegrade.org/safest-places-in-44203/
 1 board,43812,ohio,Coshocton,the six tabs of the ZIP page,"722 John, Coshocton, OH 43812",1,0,0,5,5,61,https://crimegrade.org/safest-places-in-43812/
-1b finish a page already shot,19111,phila,Philadelphia,"only the missing tabs: Robbery, Vandalism, Murder, Drug-Related Crime",,0,0,0,14,2,4,https://crimegrade.org/safest-places-in-19111/
-1b finish a page already shot,24401,ncva,Staunton,only the missing tab: Vandalism,,0,0,0,7,0,22,https://crimegrade.org/safest-places-in-24401/
-1b finish a page already shot,27215,ncva,Burlington,only the missing tab: Drug-Related Crime,,0,0,0,7,0,37,https://crimegrade.org/safest-places-in-27215/
-2 detail queue,44483,pitt,Warren,the six tabs of the ZIP page,"1103 High St NE, Warren, OH 44483; 1113 High St NE, Warren, OH 44483; 1132 Woodland Ave NE, Warren, OH 44483; 626 Woodbine Ave SE, Warren, OH 44483",0,4,0,5,5,45,https://crimegrade.org/safest-places-in-44483/
+1b finish a page already shot,44720,ohio,North Canton,"only the missing tabs: Robbery, Vandalism",,0,0,0,2,2,38,https://crimegrade.org/safest-places-in-44720/
+1b finish a page already shot,08232,phila,Pleasantville,"only the missing tabs: Robbery, Assault, Burglary, Murder, Drug-Related Crime",,0,0,0,2,2,65,https://crimegrade.org/safest-places-in-08232/
+1b finish a page already shot,08075,phila,Riverside,"only the missing tabs: Robbery, Burglary, Vandalism, Murder, Drug-Related Crime",,0,0,0,2,2,69,https://crimegrade.org/safest-places-in-08075/
+1b finish a page already shot,28144,ncva,Salisbury,only the missing tab: Murder,,0,0,0,4,0,69,https://crimegrade.org/safest-places-in-28144/
+1b finish a page already shot,28613,ncva,Conover,only the missing tab: Drug-Related Crime,,0,0,0,2,0,84,https://crimegrade.org/safest-places-in-28613/
+1b finish a page already shot,27407,ncva,Greensboro,only the missing tab: Burglary,,0,0,0,2,0,96,https://crimegrade.org/safest-places-in-27407/
+1b finish a page already shot,08360,phila,Vineland,only the missing tab: Vandalism,,0,0,0,10,0,32,https://crimegrade.org/safest-places-in-08360/
+1b finish a page already shot,08060,phila,Mt Holly,"only the missing tabs: Assault, Burglary, Drug-Related Crime",,0,0,0,1,0,64,https://crimegrade.org/safest-places-in-08060/
+1b finish a page already shot,44512,pitt,Youngstown,only the missing tab: Vandalism,,0,0,0,4,0,10,https://crimegrade.org/safest-places-in-44512/
 2 detail queue,15601,pitt,Greensburg,the six tabs of the ZIP page,"1020 Lane Way, Greensburg, PA 15601; 524 Chestnut St, Greensburg, PA 15601; 765 W Otterman St, Greensburg, PA 15601",0,3,0,16,15,12,https://crimegrade.org/safest-places-in-15601/
 2 detail queue,15701,pitt,Indiana,the six tabs of the ZIP page,"1029 School St, Indiana, PA 15701; 1313 Locust St, Indiana, PA 15701",0,2,0,11,11,17,https://crimegrade.org/safest-places-in-15701/
 2 detail queue,15401,pitt,Uniontown,the six tabs of the ZIP page,"23 Jamison St, Uniontown, PA 15401; 72 W Craig St, Uniontown, PA 15401",0,2,0,7,7,9,https://crimegrade.org/safest-places-in-15401/
 2 detail queue,19805,phila,Wilmington,the six tabs of the ZIP page,"1112 S Rodney St, Wilmington, DE 19805; 19 Corbin Ct, Wilmington, DE 19805",0,2,0,5,5,38,https://crimegrade.org/safest-places-in-19805/
 2 detail queue,15106,pitt,Carnegie,the six tabs of the ZIP page,"1213-1215 Washington Ave, Carnegie, PA 15106; 443 Carothers Ave, Carnegie, PA 15106",0,2,0,9,5,25,https://crimegrade.org/safest-places-in-15106/
 2 detail queue,44420,pitt,Girard,the six tabs of the ZIP page,"232-236 Dearborn St, Girard, OH 44420; 952 N Highland Ave, Girard, OH 44420",0,2,0,4,4,71,https://crimegrade.org/safest-places-in-44420/
-2 detail queue,44709,ohio,Canton,the six tabs of the ZIP page,"1818 Cleveland Ave NW, Canton, OH 44709; 1500 28th St NW, Canton, OH 44709",0,2,0,3,3,51,https://crimegrade.org/safest-places-in-44709/
 2 detail queue,44055,ohio,Lorain,the six tabs of the ZIP page,"2331 Homewood Dr, Lorain, OH 44055; 3177 Elyria Ave, Lorain, OH 44055",0,2,0,3,3,81,https://crimegrade.org/safest-places-in-44055/
 2 detail queue,44052,ohio,Lorain,the six tabs of the ZIP page,"2514 Reid Ave, Lorain, OH 44052; 407 W 22nd St, Lorain, OH 44052",0,1,1,15,15,47,https://crimegrade.org/safest-places-in-44052/
 2 detail queue,44035,ohio,Elyria,the six tabs of the ZIP page,"180 Cleveland St, Elyria, OH 44035; 211 Brace Ave, Elyria, OH 44035",0,1,1,10,10,11,https://crimegrade.org/safest-places-in-44035/
 2 detail queue,44004,ohio,Ashtabula,the six tabs of the ZIP page,"5143-5145 Samuel Ave, Ashtabula, OH 44004; 903 Columbus Ave, Ashtabula, OH 44004",0,1,1,6,6,32,https://crimegrade.org/safest-places-in-44004/
 2 detail queue,26505,pitt,Morgantown,the six tabs of the ZIP page,"904 Louise Ave, Morgantown, WV 26505",0,1,0,21,21,40,https://crimegrade.org/safest-places-in-26505/
 2 detail queue,44870,ohio,Sandusky,the six tabs of the ZIP page,"5010 Campbell St, Sandusky, OH 44870",0,1,0,13,13,12,https://crimegrade.org/safest-places-in-44870/
-2 detail queue,26003,pitt,Wheeling,the six tabs of the ZIP page,"25 Kentucky St, Wheeling, WV 26003",0,1,0,19,12,35,https://crimegrade.org/safest-places-in-26003/
 2 detail queue,15010,pitt,Beaver Falls,the six tabs of the ZIP page,"2024 7th Ave, Beaver Falls, PA 15010",0,1,0,11,11,32,https://crimegrade.org/safest-places-in-15010/
-2 detail queue,44077,ohio,Painesville,the six tabs of the ZIP page,"58 Adelaide Ave, Painesville, OH 44077",0,1,0,7,7,36,https://crimegrade.org/safest-places-in-44077/
+2 detail queue,26003,pitt,Wheeling,the six tabs of the ZIP page,"25 Kentucky St, Wheeling, WV 26003",0,1,0,19,11,35,https://crimegrade.org/safest-places-in-26003/
 2 detail queue,44646,ohio,Massillon,the six tabs of the ZIP page,"1847 Lincoln Way E, Massillon, OH 44646",0,1,0,8,6,7,https://crimegrade.org/safest-places-in-44646/
 2 detail queue,21532,pitt,Frostburg,the six tabs of the ZIP page,"140-142 Wood St, Frostburg, MD 21532",0,1,0,8,6,87,https://crimegrade.org/safest-places-in-21532/
 2 detail queue,44319,ohio,Coventry Township,the six tabs of the ZIP page,"6090 Manchester Rd, Akron, OH 44319",0,1,0,4,4,77,https://crimegrade.org/safest-places-in-44319/
@@ -44,10 +46,9 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 2 detail queue,15219,pitt,Pittsburgh,the six tabs of the ZIP page,"23 Seneca St, Pittsburgh, PA 15219",0,1,0,5,2,60,https://crimegrade.org/safest-places-in-15219/
 2 detail queue,13811,phila,Newark Valley,the six tabs of the ZIP page,"9090-9094 State Route 38, Newark Valley, NY 13811",0,1,0,1,1,100,https://crimegrade.org/safest-places-in-13811/
 2 detail queue,45750,pitt,Marietta,the six tabs of the ZIP page,"104 W Spring St, Marietta, OH 45750",0,1,0,1,1,29,https://crimegrade.org/safest-places-in-45750/
-3 passed the money gates before,27401,ncva,Greensboro,the six tabs of the ZIP page,"1919-1921 McConnell Rd, Greensboro, NC 27401; 2101-2103 McConnell Rd, Greensboro, NC 27401; 2900 McConnell Rd, Greensboro, NC 27401; 730 Gillespie St, Greensboro, NC 27401",0,0,4,9,9,13,https://crimegrade.org/safest-places-in-27401/
+3 passed the money gates before,27401,ncva,Greensboro,the six tabs of the ZIP page,"1919-1921 McConnell Rd, Greensboro, NC 27401; 2101-2103 McConnell Rd, Greensboro, NC 27401; 2900 McConnell Rd, Greensboro, NC 27401; 730 Gillespie St, Greensboro, NC 27401",0,0,4,9,6,13,https://crimegrade.org/safest-places-in-27401/
 3 passed the money gates before,18407,phila,Carbondale,the six tabs of the ZIP page,"86-86 1/2 Belmont St, Carbondale, PA 18407",0,0,1,11,11,52,https://crimegrade.org/safest-places-in-18407/
 3 passed the money gates before,27834,ncva,Greenville,the six tabs of the ZIP page,"410 Latham Street, Greenville, NC 27834",0,0,1,9,9,18,https://crimegrade.org/safest-places-in-27834/
-3 passed the money gates before,28052,ncva,Gastonia,the six tabs of the ZIP page,"930 S Miller St, Gastonia, NC 28052",0,0,1,8,8,7,https://crimegrade.org/safest-places-in-28052/
 3 passed the money gates before,14843,phila,Hornell,the six tabs of the ZIP page,"7 Bostwick Pl, Hornell, NY 14843",0,0,1,6,6,30,https://crimegrade.org/safest-places-in-14843/
 3 passed the money gates before,24230,ncva,Coeburn,the six tabs of the ZIP page,"11730 Essex Rd, Coeburn, VA 24230",0,0,1,5,5,44,https://crimegrade.org/safest-places-in-24230/
 3 passed the money gates before,27536,ncva,Henderson,the six tabs of the ZIP page,"311 Arch St, Henderson, NC 27536",0,0,1,4,4,55,https://crimegrade.org/safest-places-in-27536/
@@ -56,108 +57,21 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 3 passed the money gates before,44647,ohio,Massillon,the six tabs of the ZIP page,"519 Euclid St SW, Massillon, OH 44647",0,0,1,2,2,91,https://crimegrade.org/safest-places-in-44647/
 3 passed the money gates before,15147,pitt,Verona,the six tabs of the ZIP page,"1517 Hulton Rd, Verona, PA 15147",0,0,1,7,2,88,https://crimegrade.org/safest-places-in-15147/
 4 other sweep ZIPs with unread listings,08401,phila,Atlantic City,the six tabs of the ZIP page,,0,0,0,33,33,40,https://crimegrade.org/safest-places-in-08401/
-4 other sweep ZIPs with unread listings,19148,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,29,29,7,https://crimegrade.org/safest-places-in-19148/
-4 other sweep ZIPs with unread listings,19145,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,27,21,58,https://crimegrade.org/safest-places-in-19145/
-4 other sweep ZIPs with unread listings,19401,phila,Norristown,the six tabs of the ZIP page,,0,0,0,14,14,28,https://crimegrade.org/safest-places-in-19401/
-4 other sweep ZIPs with unread listings,19601,phila,Reading,the six tabs of the ZIP page,,0,0,0,12,12,20,https://crimegrade.org/safest-places-in-19601/
-4 other sweep ZIPs with unread listings,19128,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,11,11,34,https://crimegrade.org/safest-places-in-19128/
-4 other sweep ZIPs with unread listings,08360,phila,Vineland,the six tabs of the ZIP page,,0,0,0,10,10,32,https://crimegrade.org/safest-places-in-08360/
-4 other sweep ZIPs with unread listings,19464,phila,Pottstown,the six tabs of the ZIP page,,0,0,0,9,9,66,https://crimegrade.org/safest-places-in-19464/
 4 other sweep ZIPs with unread listings,26501,pitt,Morgantown,the six tabs of the ZIP page,,0,0,0,9,9,76,https://crimegrade.org/safest-places-in-26501/
-4 other sweep ZIPs with unread listings,28034,ncva,Dallas,the six tabs of the ZIP page,,0,0,0,6,6,34,https://crimegrade.org/safest-places-in-28034/
-4 other sweep ZIPs with unread listings,27302,ncva,Mebane,the six tabs of the ZIP page,,0,0,0,6,6,35,https://crimegrade.org/safest-places-in-27302/
-4 other sweep ZIPs with unread listings,27360,ncva,Thomasville,the six tabs of the ZIP page,,0,0,0,6,6,62,https://crimegrade.org/safest-places-in-27360/
-4 other sweep ZIPs with unread listings,22601,ncva,Winchester,the six tabs of the ZIP page,,0,0,0,6,6,81,https://crimegrade.org/safest-places-in-22601/
 4 other sweep ZIPs with unread listings,44107,ohio,Lakewood,the six tabs of the ZIP page,,0,0,0,28,6,1,https://crimegrade.org/safest-places-in-44107/
-4 other sweep ZIPs with unread listings,44641,ohio,Louisville,the six tabs of the ZIP page,,0,0,0,6,6,60,https://crimegrade.org/safest-places-in-44641/
-4 other sweep ZIPs with unread listings,24219,ncva,Big Stone Gap,the six tabs of the ZIP page,,0,0,0,5,5,43,https://crimegrade.org/safest-places-in-24219/
-4 other sweep ZIPs with unread listings,23060,ncva,Glen Allen,the six tabs of the ZIP page,,0,0,0,5,5,45,https://crimegrade.org/safest-places-in-23060/
-4 other sweep ZIPs with unread listings,27530,ncva,Goldsboro,the six tabs of the ZIP page,,0,0,0,5,5,50,https://crimegrade.org/safest-places-in-27530/
-4 other sweep ZIPs with unread listings,28540,ncva,Jacksonville,the six tabs of the ZIP page,,0,0,0,5,5,51,https://crimegrade.org/safest-places-in-28540/
-4 other sweep ZIPs with unread listings,28092,ncva,Lincolnton,the six tabs of the ZIP page,,0,0,0,5,5,54,https://crimegrade.org/safest-places-in-28092/
-4 other sweep ZIPs with unread listings,28645,ncva,Lenoir,the six tabs of the ZIP page,,0,0,0,5,5,57,https://crimegrade.org/safest-places-in-28645/
-4 other sweep ZIPs with unread listings,28602,ncva,Hickory,the six tabs of the ZIP page,,0,0,0,5,5,64,https://crimegrade.org/safest-places-in-28602/
-4 other sweep ZIPs with unread listings,27576,ncva,Selma,the six tabs of the ZIP page,,0,0,0,5,5,76,https://crimegrade.org/safest-places-in-27576/
-4 other sweep ZIPs with unread listings,44703,ohio,Canton,the six tabs of the ZIP page,,0,0,0,8,5,73,https://crimegrade.org/safest-places-in-44703/
 4 other sweep ZIPs with unread listings,44811,ohio,Bellevue,the six tabs of the ZIP page,,0,0,0,5,5,87,https://crimegrade.org/safest-places-in-44811/
 4 other sweep ZIPs with unread listings,08021,phila,Clementon,the six tabs of the ZIP page,,0,0,0,5,5,21,https://crimegrade.org/safest-places-in-08021/
-4 other sweep ZIPs with unread listings,19115,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,5,5,67,https://crimegrade.org/safest-places-in-19115/
-4 other sweep ZIPs with unread listings,24153,ncva,Salem,the six tabs of the ZIP page,,0,0,0,5,4,33,https://crimegrade.org/safest-places-in-24153/
-4 other sweep ZIPs with unread listings,22840,ncva,McGaheysville,the six tabs of the ZIP page,,0,0,0,4,4,47,https://crimegrade.org/safest-places-in-22840/
-4 other sweep ZIPs with unread listings,24112,ncva,Martinsville,the six tabs of the ZIP page,,0,0,0,4,4,53,https://crimegrade.org/safest-places-in-24112/
-4 other sweep ZIPs with unread listings,27030,ncva,Mount Airy,the six tabs of the ZIP page,,0,0,0,4,4,60,https://crimegrade.org/safest-places-in-27030/
-4 other sweep ZIPs with unread listings,28144,ncva,Salisbury,the six tabs of the ZIP page,,0,0,0,4,4,69,https://crimegrade.org/safest-places-in-28144/
-4 other sweep ZIPs with unread listings,23222,ncva,Richmond,the six tabs of the ZIP page,,0,0,0,4,4,71,https://crimegrade.org/safest-places-in-23222/
-4 other sweep ZIPs with unread listings,28217,ncva,Charlotte,the six tabs of the ZIP page,,0,0,0,4,4,72,https://crimegrade.org/safest-places-in-28217/
-4 other sweep ZIPs with unread listings,28659,ncva,North Wilkesboro,the six tabs of the ZIP page,,0,0,0,4,4,78,https://crimegrade.org/safest-places-in-28659/
-4 other sweep ZIPs with unread listings,28001,ncva,Albemarle,the six tabs of the ZIP page,,0,0,0,4,4,83,https://crimegrade.org/safest-places-in-28001/
-4 other sweep ZIPs with unread listings,28722,ncva,Columbus,the six tabs of the ZIP page,,0,0,0,4,4,93,https://crimegrade.org/safest-places-in-28722/
 4 other sweep ZIPs with unread listings,45429,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,4,4,14,https://crimegrade.org/safest-places-in-45429/
 4 other sweep ZIPs with unread listings,08105,phila,Camden,the six tabs of the ZIP page,,0,0,0,4,4,27,https://crimegrade.org/safest-places-in-08105/
-4 other sweep ZIPs with unread listings,44512,pitt,Youngstown,the six tabs of the ZIP page,,0,0,0,4,4,10,https://crimegrade.org/safest-places-in-44512/
-4 other sweep ZIPs with unread listings,27127,ncva,Winston Salem,the six tabs of the ZIP page,,0,0,0,3,3,56,https://crimegrade.org/safest-places-in-27127/
-4 other sweep ZIPs with unread listings,28025,ncva,Concord,the six tabs of the ZIP page,,0,0,0,3,3,66,https://crimegrade.org/safest-places-in-28025/
-4 other sweep ZIPs with unread listings,28532,ncva,Havelock,the six tabs of the ZIP page,,0,0,0,3,3,67,https://crimegrade.org/safest-places-in-28532/
-4 other sweep ZIPs with unread listings,28412,ncva,Wilmington,the six tabs of the ZIP page,,0,0,0,3,3,70,https://crimegrade.org/safest-places-in-28412/
-4 other sweep ZIPs with unread listings,28056,ncva,Gastonia,the six tabs of the ZIP page,,0,0,0,3,3,77,https://crimegrade.org/safest-places-in-28056/
-4 other sweep ZIPs with unread listings,28312,ncva,Fayetteville,the six tabs of the ZIP page,,0,0,0,3,3,80,https://crimegrade.org/safest-places-in-28312/
-4 other sweep ZIPs with unread listings,28203,ncva,Charlotte,the six tabs of the ZIP page,,0,0,0,3,3,82,https://crimegrade.org/safest-places-in-28203/
-4 other sweep ZIPs with unread listings,24319,ncva,Chilhowie,the six tabs of the ZIP page,,0,0,0,3,3,86,https://crimegrade.org/safest-places-in-24319/
-4 other sweep ZIPs with unread listings,28170,ncva,Wadesboro,the six tabs of the ZIP page,,0,0,0,3,3,87,https://crimegrade.org/safest-places-in-28170/
-4 other sweep ZIPs with unread listings,24301,ncva,Pulaski,the six tabs of the ZIP page,,0,0,0,3,3,88,https://crimegrade.org/safest-places-in-24301/
-4 other sweep ZIPs with unread listings,24416,ncva,Buena Vista,the six tabs of the ZIP page,,0,0,0,3,3,90,https://crimegrade.org/safest-places-in-24416/
-4 other sweep ZIPs with unread listings,27260,ncva,High Point,the six tabs of the ZIP page,,0,0,0,3,3,98,https://crimegrade.org/safest-places-in-27260/
-4 other sweep ZIPs with unread listings,44134,ohio,Parma,the six tabs of the ZIP page,,0,0,0,3,3,37,https://crimegrade.org/safest-places-in-44134/
-4 other sweep ZIPs with unread listings,44224,ohio,Stow,the six tabs of the ZIP page,,0,0,0,3,3,54,https://crimegrade.org/safest-places-in-44224/
-4 other sweep ZIPs with unread listings,19154,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,3,3,63,https://crimegrade.org/safest-places-in-19154/
-4 other sweep ZIPs with unread listings,28320,ncva,Bladenboro,the six tabs of the ZIP page,,0,0,0,2,2,61,https://crimegrade.org/safest-places-in-28320/
-4 other sweep ZIPs with unread listings,27403,ncva,Greensboro,the six tabs of the ZIP page,,0,0,0,2,2,79,https://crimegrade.org/safest-places-in-27403/
-4 other sweep ZIPs with unread listings,28613,ncva,Conover,the six tabs of the ZIP page,,0,0,0,2,2,84,https://crimegrade.org/safest-places-in-28613/
-4 other sweep ZIPs with unread listings,24202,ncva,Bristol,the six tabs of the ZIP page,,0,0,0,2,2,85,https://crimegrade.org/safest-places-in-24202/
-4 other sweep ZIPs with unread listings,24361,ncva,Meadowview,the six tabs of the ZIP page,,0,0,0,2,2,91,https://crimegrade.org/safest-places-in-24361/
-4 other sweep ZIPs with unread listings,24523,ncva,Bedford,the six tabs of the ZIP page,,0,0,0,2,2,92,https://crimegrade.org/safest-places-in-24523/
-4 other sweep ZIPs with unread listings,28358,ncva,Lumberton,the six tabs of the ZIP page,,0,0,0,2,2,95,https://crimegrade.org/safest-places-in-28358/
-4 other sweep ZIPs with unread listings,27407,ncva,Greensboro,the six tabs of the ZIP page,,0,0,0,2,2,96,https://crimegrade.org/safest-places-in-27407/
-4 other sweep ZIPs with unread listings,28601,ncva,Hickory,the six tabs of the ZIP page,,0,0,0,2,2,100,https://crimegrade.org/safest-places-in-28601/
+4 other sweep ZIPs with unread listings,28052,ncva,Gastonia,the six tabs of the ZIP page,,0,0,0,8,3,7,https://crimegrade.org/safest-places-in-28052/
+4 other sweep ZIPs with unread listings,44077,ohio,Painesville,the six tabs of the ZIP page,,0,0,0,7,3,36,https://crimegrade.org/safest-places-in-44077/
 4 other sweep ZIPs with unread listings,45365,ohio,Sidney,the six tabs of the ZIP page,,0,0,0,2,2,13,https://crimegrade.org/safest-places-in-45365/
-4 other sweep ZIPs with unread listings,44663,ohio,New Philadelphia,the six tabs of the ZIP page,,0,0,0,2,2,17,https://crimegrade.org/safest-places-in-44663/
-4 other sweep ZIPs with unread listings,43420,ohio,Fremont,the six tabs of the ZIP page,,0,0,0,2,2,20,https://crimegrade.org/safest-places-in-43420/
-4 other sweep ZIPs with unread listings,44601,ohio,Alliance,the six tabs of the ZIP page,,0,0,0,2,2,23,https://crimegrade.org/safest-places-in-44601/
-4 other sweep ZIPs with unread listings,44221,ohio,Cuyahoga Falls,the six tabs of the ZIP page,,0,0,0,2,2,27,https://crimegrade.org/safest-places-in-44221/
-4 other sweep ZIPs with unread listings,44720,ohio,North Canton,the six tabs of the ZIP page,,0,0,0,2,2,38,https://crimegrade.org/safest-places-in-44720/
-4 other sweep ZIPs with unread listings,44312,ohio,Akron,the six tabs of the ZIP page,,0,0,0,2,2,70,https://crimegrade.org/safest-places-in-44312/
-4 other sweep ZIPs with unread listings,44691,ohio,Wooster,the six tabs of the ZIP page,,0,0,0,2,2,85,https://crimegrade.org/safest-places-in-44691/
-4 other sweep ZIPs with unread listings,44281,ohio,Wadsworth,the six tabs of the ZIP page,,0,0,0,2,2,94,https://crimegrade.org/safest-places-in-44281/
-4 other sweep ZIPs with unread listings,44256,ohio,Medina,the six tabs of the ZIP page,,0,0,0,2,2,96,https://crimegrade.org/safest-places-in-44256/
-4 other sweep ZIPs with unread listings,19446,phila,Lansdale,the six tabs of the ZIP page,,0,0,0,2,2,29,https://crimegrade.org/safest-places-in-19446/
-4 other sweep ZIPs with unread listings,08232,phila,Pleasantville,the six tabs of the ZIP page,,0,0,0,2,2,65,https://crimegrade.org/safest-places-in-08232/
-4 other sweep ZIPs with unread listings,08075,phila,Riverside,the six tabs of the ZIP page,,0,0,0,2,2,69,https://crimegrade.org/safest-places-in-08075/
-4 other sweep ZIPs with unread listings,26062,pitt,Weirton,the six tabs of the ZIP page,,0,0,0,8,2,67,https://crimegrade.org/safest-places-in-26062/
-4 other sweep ZIPs with unread listings,43906,pitt,Bellaire,the six tabs of the ZIP page,,0,0,0,2,2,73,https://crimegrade.org/safest-places-in-43906/
-4 other sweep ZIPs with unread listings,28306,ncva,Fayetteville,the six tabs of the ZIP page,,0,0,0,7,1,26,https://crimegrade.org/safest-places-in-28306/
-4 other sweep ZIPs with unread listings,24502,ncva,Lynchburg,the six tabs of the ZIP page,,0,0,0,5,1,63,https://crimegrade.org/safest-places-in-24502/
-4 other sweep ZIPs with unread listings,22901,ncva,Charlottesville,the six tabs of the ZIP page,,0,0,0,3,1,68,https://crimegrade.org/safest-places-in-22901/
-4 other sweep ZIPs with unread listings,27529,ncva,Garner,the six tabs of the ZIP page,,0,0,0,3,1,73,https://crimegrade.org/safest-places-in-27529/
-4 other sweep ZIPs with unread listings,43615,ohio,Toledo,the six tabs of the ZIP page,,0,0,0,2,1,21,https://crimegrade.org/safest-places-in-43615/
+4 other sweep ZIPs with unread listings,44306,ohio,Akron,the six tabs of the ZIP page,,0,0,0,6,1,16,https://crimegrade.org/safest-places-in-44306/
 4 other sweep ZIPs with unread listings,45331,ohio,Greenville,the six tabs of the ZIP page,,0,0,0,1,1,40,https://crimegrade.org/safest-places-in-45331/
 4 other sweep ZIPs with unread listings,45449,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,1,1,41,https://crimegrade.org/safest-places-in-45449/
 4 other sweep ZIPs with unread listings,45420,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,1,1,44,https://crimegrade.org/safest-places-in-45420/
-4 other sweep ZIPs with unread listings,44060,ohio,Mentor,the six tabs of the ZIP page,,0,0,0,1,1,48,https://crimegrade.org/safest-places-in-44060/
-4 other sweep ZIPs with unread listings,44240,ohio,Kent,the six tabs of the ZIP page,,0,0,0,1,1,52,https://crimegrade.org/safest-places-in-44240/
-4 other sweep ZIPs with unread listings,44223,ohio,Cuyahoga Falls,the six tabs of the ZIP page,,0,0,0,1,1,68,https://crimegrade.org/safest-places-in-44223/
-4 other sweep ZIPs with unread listings,44129,ohio,Parma,the six tabs of the ZIP page,,0,0,0,1,1,69,https://crimegrade.org/safest-places-in-44129/
-4 other sweep ZIPs with unread listings,44130,ohio,Middleburg Heights,the six tabs of the ZIP page,,0,0,0,1,1,83,https://crimegrade.org/safest-places-in-44130/
-4 other sweep ZIPs with unread listings,44057,ohio,Madison,the six tabs of the ZIP page,,0,0,0,1,1,92,https://crimegrade.org/safest-places-in-44057/
-4 other sweep ZIPs with unread listings,44313,ohio,Akron,the six tabs of the ZIP page,,0,0,0,1,1,99,https://crimegrade.org/safest-places-in-44313/
-4 other sweep ZIPs with unread listings,19114,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,5,1,19,https://crimegrade.org/safest-places-in-19114/
+4 other sweep ZIPs with unread listings,44709,ohio,Canton,the six tabs of the ZIP page,,0,0,0,3,1,51,https://crimegrade.org/safest-places-in-44709/
 4 other sweep ZIPs with unread listings,08052,phila,Maple Shade,the six tabs of the ZIP page,,0,0,0,1,1,50,https://crimegrade.org/safest-places-in-08052/
-4 other sweep ZIPs with unread listings,19460,phila,Phoenixville,the six tabs of the ZIP page,,0,0,0,1,1,57,https://crimegrade.org/safest-places-in-19460/
-4 other sweep ZIPs with unread listings,19604,phila,Reading,the six tabs of the ZIP page,,0,0,0,1,1,59,https://crimegrade.org/safest-places-in-19604/
-4 other sweep ZIPs with unread listings,08060,phila,Mt Holly,the six tabs of the ZIP page,,0,0,0,1,1,64,https://crimegrade.org/safest-places-in-08060/
-4 other sweep ZIPs with unread listings,44484,pitt,Warren,the six tabs of the ZIP page,,0,0,0,1,1,33,https://crimegrade.org/safest-places-in-44484/
-4 other sweep ZIPs with unread listings,44444,pitt,Newton Falls,the six tabs of the ZIP page,,0,0,0,1,1,52,https://crimegrade.org/safest-places-in-44444/
-4 other sweep ZIPs with unread listings,25311,pitt,Charleston,the six tabs of the ZIP page,,0,0,0,1,1,68,https://crimegrade.org/safest-places-in-25311/
-4 other sweep ZIPs with unread listings,25177,pitt,St Albans,the six tabs of the ZIP page,,0,0,0,1,1,69,https://crimegrade.org/safest-places-in-25177/
 5 sweep ZIPs with no listings now,45431,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,0,0,28,https://crimegrade.org/safest-places-in-45431/
 5 sweep ZIPs with no listings now,45424,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,0,0,29,https://crimegrade.org/safest-places-in-45424/
 5 sweep ZIPs with no listings now,45458,ohio,Dayton,the six tabs of the ZIP page,,0,0,0,0,0,31,https://crimegrade.org/safest-places-in-45458/
@@ -191,8 +105,6 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 6 every current listing already read through other pages,18634,phila,Nanticoke,the six tabs of the ZIP page,,0,0,0,18,5,60,https://crimegrade.org/safest-places-in-18634/
 6 every current listing already read through other pages,18201,phila,Hazleton,the six tabs of the ZIP page,,0,0,0,20,4,51,https://crimegrade.org/safest-places-in-18201/
 6 every current listing already read through other pages,27707,ncva,Durham,the six tabs of the ZIP page,,0,0,0,8,2,8,https://crimegrade.org/safest-places-in-27707/
-6 every current listing already read through other pages,28216,ncva,Charlotte,the six tabs of the ZIP page,,0,0,0,3,1,41,https://crimegrade.org/safest-places-in-28216/
-6 every current listing already read through other pages,22902,ncva,Charlottesville,the six tabs of the ZIP page,,0,0,0,3,1,46,https://crimegrade.org/safest-places-in-22902/
 6 every current listing already read through other pages,44112,ohio,East Cleveland,the six tabs of the ZIP page,,0,0,0,41,1,71,https://crimegrade.org/safest-places-in-44112/
 6 every current listing already read through other pages,44311,ohio,Akron,the six tabs of the ZIP page,,0,0,0,9,1,86,https://crimegrade.org/safest-places-in-44311/
 6 every current listing already read through other pages,19144,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,20,1,22,https://crimegrade.org/safest-places-in-19144/
@@ -201,11 +113,7 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 6 every current listing already read through other pages,19104,phila,Philadelphia,the six tabs of the ZIP page,,0,0,0,42,1,56,https://crimegrade.org/safest-places-in-19104/
 6 every current listing already read through other pages,18705,phila,Wilkes Barre,the six tabs of the ZIP page,,0,0,0,6,1,72,https://crimegrade.org/safest-places-in-18705/
 6 every current listing already read through other pages,25705,pitt,Huntington,the six tabs of the ZIP page,,0,0,0,3,1,42,https://crimegrade.org/safest-places-in-25705/
-6 every current listing already read through other pages,27701,ncva,Durham,the six tabs of the ZIP page,,0,0,0,12,0,6,https://crimegrade.org/safest-places-in-27701/
 6 every current listing already read through other pages,27217,ncva,Burlington,the six tabs of the ZIP page,,0,0,0,7,0,38,https://crimegrade.org/safest-places-in-27217/
-6 every current listing already read through other pages,27704,ncva,Durham,the six tabs of the ZIP page,,0,0,0,5,0,42,https://crimegrade.org/safest-places-in-27704/
-6 every current listing already read through other pages,28205,ncva,Charlotte,the six tabs of the ZIP page,,0,0,0,4,0,59,https://crimegrade.org/safest-places-in-28205/
-6 every current listing already read through other pages,23223,ncva,Richmond,the six tabs of the ZIP page,,0,0,0,4,0,75,https://crimegrade.org/safest-places-in-23223/
 6 every current listing already read through other pages,24503,ncva,Lynchburg,the six tabs of the ZIP page,,0,0,0,4,0,89,https://crimegrade.org/safest-places-in-24503/
 6 every current listing already read through other pages,44111,ohio,Cleveland,the six tabs of the ZIP page,,0,0,0,17,0,5,https://crimegrade.org/safest-places-in-44111/
 6 every current listing already read through other pages,44708,ohio,Canton,the six tabs of the ZIP page,,0,0,0,2,0,10,https://crimegrade.org/safest-places-in-44708/
@@ -246,6 +154,7 @@ priority,zip,region,place,what to shoot,addresses,board_rows,queue_rows,passer_r
 6 every current listing already read through other pages,15211,pitt,Pittsburgh,the six tabs of the ZIP page,,0,0,0,9,0,18,https://crimegrade.org/safest-places-in-15211/
 6 every current listing already read through other pages,15212,pitt,Pittsburgh,the six tabs of the ZIP page,,0,0,0,29,0,22,https://crimegrade.org/safest-places-in-15212/
 6 every current listing already read through other pages,15226,pitt,Pittsburgh,the six tabs of the ZIP page,,0,0,0,4,0,38,https://crimegrade.org/safest-places-in-15226/
+6 every current listing already read through other pages,44483,pitt,Warren,the six tabs of the ZIP page,,0,0,0,5,0,45,https://crimegrade.org/safest-places-in-44483/
 6 every current listing already read through other pages,15104,pitt,Braddock,the six tabs of the ZIP page,,0,0,0,2,0,49,https://crimegrade.org/safest-places-in-15104/
 6 every current listing already read through other pages,15218,pitt,Pittsburgh,the six tabs of the ZIP page,,0,0,0,8,0,50,https://crimegrade.org/safest-places-in-15218/
 6 every current listing already read through other pages,15003,pitt,Ambridge,the six tabs of the ZIP page,,0,0,0,12,0,51,https://crimegrade.org/safest-places-in-15003/
