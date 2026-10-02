@@ -1,0 +1,146 @@
+[
+ {
+  "address": "3536-3538 Orchard St, Weirton, WV 26062",
+  "old": {
+   "crime": "zip B retired 9/30; block maps needed",
+   "score": "13.1",
+   "why": "YELLOW -4; drive 7.25h tier B -0.5"
+  },
+  "new": {
+   "crime": "R .36 B / A .83 D / B .74 D+ / V .79 D; M D-, D F (10/2)",
+   "score": "13.1",
+   "why": "YELLOW -4; drive 7.25h tier B -0.5; crime R .36 B 0; zip letter B retired 9/30"
+  },
+  "bg": "540290213002",
+  "R": 0.362,
+  "B": 0.737,
+  "V": 0.794,
+  "robbery_F": false
+ },
+ {
+  "address": "3427 Clearfield St, Pittsburgh, PA 15204",
+  "old": {
+   "crime": "zip C- retired 9/30; block maps needed",
+   "score": "5.3",
+   "why": "YELLOW -4; drive 6.62h tier B -0.5"
+  },
+  "new": {
+   "crime": "R .76 D+ / A .87 D- / B .79 D / V .93 F; M D-, D D (10/2)",
+   "score": "4.1",
+   "why": "YELLOW -4; drive 6.62h tier B -0.5; crime R .76 D+ -1.2; zip letter C- retired 9/30"
+  },
+  "bg": "420035630003",
+  "R": 0.756,
+  "B": 0.794,
+  "V": 0.934,
+  "robbery_F": false
+ },
+ {
+  "address": "556 Bellwood Rd Unit A, Newport News, VA 23601",
+  "old": {
+   "crime": "zip F retired 9/30; off the 23601 page map to the south (pan and re-shoot)",
+   "score": "3.8",
+   "why": "YELLOW -4; crime F -3"
+  },
+  "new": {
+   "crime": "R .93 F / A .96 F / B .57 C / V .86 D-; M F, D D (10/2)",
+   "score": "4.3",
+   "why": "YELLOW -4; crime R .93 F -2.5; zip letter F retired 9/30"
+  },
+  "bg": "517000314004",
+  "R": 0.934,
+  "B": 0.568,
+  "V": 0.858,
+  "robbery_F": true
+ },
+ {
+  "address": "408-410 Pump Hill Pl, Mount Pleasant, PA 15666",
+  "old": {
+   "crime": "zip A retired 9/30; off the 15666 page map to the north (pan and re-shoot)",
+   "score": "2.1",
+   "why": "YELLOW -4; drive 5.97h tier B -0.5"
+  },
+  "new": {
+   "crime": "R .61 C / A .39 B- / B .45 B- / V .35 B; M B-, D B (10/2)",
+   "score": "2.0",
+   "why": "YELLOW -4; drive 5.97h tier B -0.5; crime R .61 C -0.1; zip letter A retired 9/30"
+  },
+  "bg": "421298071001",
+  "R": 0.611,
+  "B": 0.445,
+  "V": 0.348,
+  "robbery_F": false
+ },
+ {
+  "address": "603 33rd St, Parkersburg, WV 26101",
+  "old": {
+   "crime": "zip C- retired 9/30; off the 26101 page map to the north (pan and re-shoot)",
+   "score": "-4.3",
+   "why": "YELLOW -4; drive 7.05h tier B -0.5; DSCR 1.12 -2"
+  },
+  "new": {
+   "crime": "R .91 D- / A .93 F / B .93 F / V .99 F; M F, D F (10/2)",
+   "score": "-6.6",
+   "why": "YELLOW -4; drive 7.05h tier B -0.5; DSCR 1.12 -2; crime R .91 D- -2.3; zip letter C- retired 9/30"
+  },
+  "bg": "541070110001",
+  "R": 0.913,
+  "B": 0.934,
+  "V": 0.991,
+  "robbery_F": false
+ },
+ {
+  "address": "14 14 Rear Railroad St, Plymouth, PA 18651",
+  "old": {
+   "crime": "zip B- retired 9/30; block maps needed",
+   "score": "-5.2",
+   "why": "YELLOW -4; drive 6.58h tier B -0.5; flood 6 -1; DSCR 1.12 -2"
+  },
+  "new": {
+   "crime": "R .60 C / A .90 D- / B .95 F / V .82 D; M C, D C+ (10/2)",
+   "score": "-5.2",
+   "why": "YELLOW -4; drive 6.58h tier B -0.5; flood 6 -1; DSCR 1.12 -2; crime R .60 C 0; zip letter B- retired 9/30"
+  },
+  "bg": "420792136002",
+  "R": 0.598,
+  "B": 0.954,
+  "V": 0.821,
+  "robbery_F": false
+ },
+ {
+  "address": "1818 Mary St, Pittsburgh, PA 15203",
+  "old": {
+   "crime": "zip D+ retired 9/30; block maps needed",
+   "score": "-5.4",
+   "why": "YELLOW -4; crime D+ -0.5; drive 6.53h tier B -0.5; DSCR 1.09 -2"
+  },
+  "new": {
+   "crime": "R .90 D- / A .90 D- / B .89 D- / V .86 D-; M D+, D D (10/2)",
+   "score": "-7.1",
+   "why": "YELLOW -4; crime R .90 D- -2.2; drive 6.53h tier B -0.5; DSCR 1.09 -2; zip letter D+ retired 9/30"
+  },
+  "bg": "420031702004",
+  "R": 0.895,
+  "B": 0.889,
+  "V": 0.858,
+  "robbery_F": false
+ },
+ {
+  "address": "6198 State Route 17c, Endicott, NY 13760",
+  "old": {
+   "crime": "zip C+ retired 9/30; off the 13760 page map to the west (pan and re-shoot)",
+   "score": "-9.3",
+   "why": "YELLOW -4; drive 8.11h tier C -0.5; DSCR 0.85 -2"
+  },
+  "new": {
+   "crime": "R .14 A / A .16 A- / B .60 C / V .11 A; M A, D A- (10/2)",
+   "score": "-9.3",
+   "why": "YELLOW -4; drive 8.11h tier C -0.5; DSCR 0.85 -2; crime R .14 A 0; zip letter C+ retired 9/30"
+  },
+  "bg": "361070203004",
+  "R": 0.144,
+  "B": 0.598,
+  "V": 0.111,
+  "robbery_F": false
+ }
+]

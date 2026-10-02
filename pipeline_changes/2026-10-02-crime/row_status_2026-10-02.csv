@@ -1,0 +1,634 @@
+set,address,zip,status,side,km,bg,pages,missing,old
+board (active file-14 row),"426 Washington Ave, Huntington, WV 25701",25701,read,,,540110009002,,,read
+board (active file-14 row),"321-323 Slack St, Steubenville, OH 43952",43952,read,,,390810124001,,,read
+board (active file-14 row),"276 Harry L Dr Dr, Johnson City, NY 13790",13790,read,,,360070138003,,,read
+board (active file-14 row),"713 Mcmillen St, Johnstown, PA 15902",15902,read,,,420210135001,,,read
+board (active file-14 row),"313-315 Village St, Johnstown, PA 15902",15902,read,,,420210006002,,,read
+board (active file-14 row),"227 Munson Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034644002,,,read
+board (active file-14 row),"704 Baker St, Cumberland, MD 21502",21502,read,,,240010006002,,,read
+board (active file-14 row),"822 Lamont St, Mc Kees Rocks, PA 15136",15136,read,,,420034626001,,,read
+board (active file-14 row),"530/532 Woodside Ave, Cumberland, MD 21502",21502,read,,,240010005001,,,read
+board (active file-14 row),"509 Transverse Ave, Pittsburgh, PA 15210",15210,read,,,420034810004,,,read
+board (active file-14 row),"806 Lynn St, Parkersburg, WV 26101",26101,read,,,541070007013,,,read
+board (active file-14 row),"613 Walnut St, Elmira, NY 14901",14901,read,,,360150005001,,,read
+board (active file-14 row),"1500 Grandview Ave, McKeesport, PA 15132",15132,read,,,420035520003,,,read
+board (active file-14 row),"3536-3538 Orchard St, Weirton, WV 26062",26062,read,,,540290213002,,,read
+board (active file-14 row),"422 E Division St, New Castle, PA 16101",16101,read,,,420730007002,,,read
+board (active file-14 row),"1114 Lafayette Blvd NW, Roanoke, VA 24017",24017,read,,,517700001001,,,read
+board (active file-14 row),"604-606 Highland Ave, Johnstown, PA 15902",15902,read,,,420210006002,,,read
+board (active file-14 row),"118 & 120 S Poplar St, Winston Salem, NC 27101",27101,read,,,370670001001,,,read
+board (active file-14 row),"106-108 Messenger St, Johnstown, PA 15902",15902,read,,,420210003002,,,read
+board (active file-14 row),"47 Lydia St, Binghamton, NY 13905",13905,read,,,360070003003,,,read
+board (active file-14 row),"1992 Starr Ave, Toledo, OH 43605",43605,read,,,390950050002,,,read
+board (active file-14 row),"4902 Kershaw St, Philadelphia, PA 19131",19131,read,,,421010111003,,,read
+board (active file-14 row),"934 Ridge St, Mc Kees Rocks, PA 15136",15136,read,,,420034626002,,,read
+board (active file-14 row),"811 10th St, Mc Kees Rocks, PA 15136",15136,read,,,420034626002,,,read
+board (active file-14 row),"509-511 Naylor Rd, Johnstown, PA 15906",15906,read,,,420210101003,,,read
+board (active file-14 row),"372 Diven Ave, Elmira, NY 14901",14901,read,,,360150001002,,,read
+board (active file-14 row),"708 Lookout Ave, Charleroi, PA 15022",15022,read,,,421257832001,,,read
+board (active file-14 row),"750 Quincy St, Parkersburg, WV 26101",26101,read,,,541070110002,,,read
+board (active file-14 row),"11910 Chesterfield Ave, Cleveland, OH 44108",44108,read,,,390351991003,,,read
+board (active file-14 row),"1300 Latrobe St, Parkersburg, WV 26101",26101,read,,,541070005004,,,read
+board (active file-14 row),"1104 Lake St, Elmira, NY 14901",14901,read,,,360150001003,,,read
+board (active file-14 row),"90 Gaylord St, Binghamton, NY 13904",13904,read,,,360070007003,,,read
+board (active file-14 row),"1996 Starr Ave, Toledo, OH 43605",43605,read,,,390950050002,,,read
+board (active file-14 row),"731 Lincoln Ave, Charleroi, PA 15022",15022,read,,,421257832001,,,read
+board (active file-14 row),"1634-1636 Main St, Bloomsburg, PA 17815",17815,read,,,420370509001,,,read
+board (active file-14 row),"360 Diven Ave, Elmira, NY 14901",14901,read,,,360150001002,,,read
+board (active file-14 row),"5830 N 12th St, Philadelphia, PA 19141",19141,read,,,421010276003,,,read
+board (active file-14 row),"654 W Sylvania Ave, Toledo, OH 43612",43612,read,,,390950004002,,,read
+board (active file-14 row),"324-326 Diven Ave, Elmira, NY 14901",14901,read,,,360150001002,,,read
+board (active file-14 row),"515-517 N Daughtry St, Rocky Mount, NC 27801",27801,read,,,370650203001,,,read
+board (active file-14 row),"3601 Memphis Ave, Cleveland, OH 44109",44109,read,,,390351974002,,,read
+board (active file-14 row),"245 N Ruby St, Philadelphia, PA 19139",19139,read,,,421010093005,,,read
+board (active file-14 row),"601 4th St, Charleroi, PA 15022",15022,read,,,421257827001,,,read
+board (active file-14 row),"1611 Floyd St, Lynchburg, VA 24501",24501,read,,,516800011001,,,read
+board (active file-14 row),"3248 W 90th St, Cleveland, OH 44102",44102,read,,,390351024021,,,read
+board (active file-14 row),"223 Spruce St, Suffolk, VA 23434",23434,read,,,518000654013,,,read
+board (active file-14 row),"3427 Clearfield St, Pittsburgh, PA 15204",15204,read,,,420035630003,,,read
+board (active file-14 row),"3704 Mariner Ave, Portsmouth, VA 23703",23703,read,,,517402130015,,,read
+board (active file-14 row),"163 Choate St, Portsmouth, VA 23707",23707,read,,,517402117003,,,read
+board (active file-14 row),"4102 Richland Ave NW, Roanoke, VA 24012",24012,read,,,517700003002,,,read
+board (active file-14 row),"202 Lee St NE, Wilson, NC 27893",27893,read,,,371950001002,,,read
+board (active file-14 row),"5700 Kingsessing Ave, Philadelphia, PA 19143",19143,read,,,421010070003,,,read
+board (active file-14 row),"1019 Mark Ave, Scranton, PA 18510",18510,read,,,420691005002,,,read
+board (active file-14 row),"1934 Oakland St, Petersburg, VA 23805",23805,read,,,517308109001,,,read
+board (active file-14 row),"556 Bellwood Rd Unit A, Newport News, VA 23601",23601,read,,,517000314004,,,off the page map
+board (active file-14 row),"139-141 Front St, North Huntingdon, PA 15642",15642,read,,,421298035023,,,read
+board (active file-14 row),"1247 E 84th St, Cleveland, OH 44103",44103,read,,,390351990002,,,read
+board (active file-14 row),"1013 John Ave, Scranton, PA 18510",18510,read,,,420691005002,,,read
+board (active file-14 row),"613 S 52nd St, Philadelphia, PA 19143",19143,read,,,421010080002,,,read
+board (active file-14 row),"341 31st St, Ashland, KY 41101",41101,read,,,210190302001,,,read
+board (active file-14 row),"207 Tunstall Ave, Blackstone, VA 23824",23824,read,,,511350001022,,,read
+board (active file-14 row),"408-410 Pump Hill Pl, Mount Pleasant, PA 15666",15666,read,,,421298071001,,,off the page map
+board (active file-14 row),"5306 Webster St, Philadelphia, PA 19143",19143,read,,,421010080003,,,read
+board (active file-14 row),"104 Day Street St, Suffolk, VA 23434",23434,read,,,518000652002,,,read
+board (active file-14 row),"1735 Laketon Rd, Pittsburgh, PA 15221",15221,read,,,420035614003,,,read
+board (active file-14 row),"1214 E Washington St, New Castle, PA 16101",16101,read,,,420730008002,,,read
+board (active file-14 row),"10001 Sophia Ave, Cleveland, OH 44104",44104,read,,,390351202001,,,read
+board (active file-14 row),"3446 E 125th St, Cleveland, OH 44120",44120,read,,,390351207012,,,read
+board (active file-14 row),"316 Longfellow St, Vandergrift, PA 15690",15690,read,,,421298015002,,,read
+board (active file-14 row),"610 /612 S 2nd St, Pinetops, NC 27864",27864,read,,,370650215002,,,read
+board (active file-14 row),"214 Barron Ave, Johnstown, PA 15906",15906,read,,,420210012002,,,read
+board (active file-14 row),"325 Ranch Farm Rd Unit A - B, Raleigh, NC 27603",27603,read,,,371830528023,,,read
+board (active file-14 row),"73 Pointview Ave, Dayton, OH 45405",45405,read,,,391130011003,,,read
+board (active file-14 row),"4753 Rorer St, Philadelphia, PA 19120",19120,read,,,421010289022,,,read
+board (active file-14 row),"979 Lagonda Ave, Springfield, OH 45503",45503,page not shot,,,390230005003,,,page not shot
+board (active file-14 row),"310 Broadway Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034639003,,,"on map, block group not in table"
+board (active file-14 row),"1115 Lincoln Ave, Toledo, OH 43607",43607,read,,,390950025002,,,read
+board (active file-14 row),"788 S Irvine Ave, Sharon, PA 16146",16146,read,,,420850301003,,,read
+board (active file-14 row),"226 Crete Ave, Elmira, NY 14901",14901,read,,,360150002001,,,read
+board (active file-14 row),"117 W 11th Ave, Tarentum, PA 15084",15084,read,,,420034035001,,,read
+board (active file-14 row),"200 E Albanus St, Philadelphia, PA 19120",19120,read,,,421010290001,,,read
+board (active file-14 row),"16523 Kipling Ave, Cleveland, OH 44110",44110,read,,,390351175002,,,read
+board (active file-14 row),"650 Ardmore Blvd, Pittsburgh, PA 15221",15221,read,,,420035615001,,,read
+board (active file-14 row),"4236 Aldine St, Philadelphia, PA 19136",19136,read,,,421010330006,,,"on map, block group not in table"
+board (active file-14 row),"14A 14B Oak St, Jenkins Township, PA 18640",18640,read,,,420792117013,,,read
+board (active file-14 row),"206 Ingram Ave SW, Canton, OH 44710",44710,read,,,391517013001,,,read
+board (active file-14 row),"3029-3031 W 104th St, Cleveland, OH 44111",44111,read,,,390351015012,,,read
+board (active file-14 row),"9110 Jeffries Ave, Cleveland, OH 44105",44105,read,,,390351159002,,,read
+board (active file-14 row),"407 Industrial Ave, Danville, VA 24541",24541,read,,,515900005002,,,read
+board (active file-14 row),"639 Conover Rd, Durham, NC 27703",27703,read,,,370630018083,,,read
+board (active file-14 row),"126 & 128 Troy Ave NE, Roanoke, VA 24012",24012,read,,,517700004001,,,read
+board (active file-14 row),"1433 Kenmore Blvd, Akron, OH 44314",44314,read,,,391535057004,,,read
+board (active file-14 row),"540 W Chestnut St, Washington, PA 15301",15301,read,,,421257544001,,,read
+board (active file-14 row),"208 Scarborough St Unit A AND B, Spring Lake, NC 28390",28390,off the page map,south,2.0,370510035012,,,off the page map
+board (active file-14 row),"9816 Manor Ave, Cleveland, OH 44104",44104,read,,,390351202003,,,read
+board (active file-14 row),"53 Carrick Ave, Pittsburgh, PA 15210",15210,read,,,420032904002,,,read
+board (active file-14 row),"14002 Idarose Ave, Cleveland, OH 44110",44110,read,,,390351169001,,,read
+board (active file-14 row),"134 N 53rd St, Philadelphia, PA 19139",19139,read,,,421010093004,,,read
+board (active file-14 row),"107 Maryland Ave, Pittsburgh, PA 15209",15209,read,,,420034270002,,,read
+board (active file-14 row),"1959 Berdan Ave, Toledo, OH 43613",43613,read,,,390950007022,,,read
+board (active file-14 row),"413-415 Gilmer Cir, Reidsville, NC 27320",27320,read,,,371570412004,,,read
+board (active file-14 row),"7 Barney Pl, Portsmouth, VA 23702",23702,read,,,517402123004,,,read
+board (active file-14 row),"1242 - 1244 Laird St, Akron, OH 44305",44305,page not shot,,,391535025002,,,page not shot
+board (active file-14 row),"18331 Newell Rd, Shaker Heights, OH 44122",44122,read,,,390351836061,,,read
+board (active file-14 row),"259 Sunset Dr, Corning, NY 14830",14830,read,,,361019626001,,,read
+board (active file-14 row),"45 1st Ave, Bedford, OH 44146",44146,page not shot,,,390351323022,,,page not shot
+board (active file-14 row),"14 E Railroad St, Plymouth, PA 18651",18651,read,,,420792136002,,,read
+board (active file-14 row),"722 John, Coshocton, OH 43812",43812,page not shot,,,390319616001,,,page not shot
+board (active file-14 row),"310 Linden St, Vandergrift, PA 15690",15690,read,,,421298015002,,,read
+board (active file-14 row),"7317 E Walnut Ln, Philadelphia, PA 19138",19138,read,,,421010266001,,,read
+board (active file-14 row),"949 W Pike St, Clarksburg, WV 26301",26301,page not shot,,,540330301003,,,page not shot
+board (active file-14 row),"319 E Essex Ave, Lansdowne, PA 19050",19050,read,,,420454003021,,,read
+board (active file-14 row),"18518 Newell Rd, Shaker Heights, OH 44122",44122,read,,,390351836061,,,read
+board (active file-14 row),"306 W Center St, Elmira, NY 14901",14901,read,,,360150002002,,,read
+board (active file-14 row),"14 14 Rear Railroad St, Plymouth, PA 18651",18651,read,,,420792136002,,,read
+board (active file-14 row),"896 Huber St, Akron, OH 44306",44306,page not shot,,,391535035003,,,page not shot
+board (active file-14 row),"1808 Stewart Blvd #1810, Fairborn, OH 45324",45324,page not shot,,,390572007002,,,page not shot
+board (active file-14 row),"1818 Mary St, Pittsburgh, PA 15203",15203,read,,,420031702004,,,read
+board (active file-14 row),"116 Lafayette Ave, Niles, OH 44446",44446,page not shot,,,391559327023,,,page not shot
+board (active file-14 row),"12010 Derby Ave, Garfield Heights, OH 44125",44125,read,,,390351545022,,,read
+board (active file-14 row),"12.5 Franklin St St, Binghamton, NY 13905",13905,read,,,360070003002,,,read
+board (active file-14 row),"12809 Mccracken Rd #1, Garfield Heights, OH 44125",44125,read,,,390351546011,,,read
+board (active file-14 row),"10609 Wadsworth Ave, Garfield Heights, OH 44125",44125,read,,,390351546015,,,read
+board (active file-14 row),"31 Crandall St, Binghamton, NY 13905",13905,read,,,360070002001,,,read
+board (active file-14 row),"2326 Elm Ave, Portsmouth, VA 23704",23704,read,,,517402119001,,,read
+board (active file-14 row),"234 Mauch Chunk St, Tamaqua, PA 18252",18252,"read, tabs missing",,,421070026002,,M,"on map, block group not in table"
+board (active file-14 row),"2423 W Norris St, Philadelphia, PA 19121",19121,read,,,421010152003,,,read
+board (active file-14 row),"2102 Rogers Dr, Fayetteville, NC 28303",28303,read,,,370510009002,,,read
+board (active file-14 row),"1967 Georgian Rd, Philadelphia, PA 19138",19138,read,,,421010266002,,,read
+board (active file-14 row),"2014 E Clearfield St, Philadelphia, PA 19134",19134,read,,,421010178003,,,read
+board (active file-14 row),"1600 Mcclure St, Homestead, PA 15120",15120,page not shot,,,420034838003,,,page not shot
+board (active file-14 row),"315 E Essex Ave, Lansdowne, PA 19050",19050,read,,,420454003021,,,read
+board (active file-14 row),"450 Jefferson Ave, Washington, PA 15301",15301,read,,,421257545001,,,"on map, block group not in table"
+board (active file-14 row),"117 Helen St, Binghamton, NY 13905",13905,read,,,360070015001,,,read
+board (active file-14 row),"803 6th St, New Brighton, PA 15066",15066,page not shot,,,420076014002,,,page not shot
+board (active file-14 row),"133 Hugh Caldwell Rd, Charlotte, NC 28214",28214,read,,,371190060091,,,read
+board (active file-14 row),"886 N Sharpsville Ave, Sharon, PA 16146",16146,read,,,420850303001,,,read
+board (active file-14 row),"408 15th St, New Brighton, PA 15066",15066,page not shot,,,420076054002,,,page not shot
+board (active file-14 row),"814 Varsity Dr Unit A-B, Fayetteville, NC 28301",28301,read,,,370510011002,,,read
+board (active file-14 row),"213 Rockwood Ave, Pittsburgh, PA 15221",15221,read,,,420035639002,,,read
+board (active file-14 row),"220 Mercer St, Butler, PA 16001",16001,read,,,420199023001,,,read
+board (active file-14 row),"299 Robinson St, Binghamton, NY 13904",13904,read,,,360070007001,,,read
+board (active file-14 row),"907 Whittier Ave, Akron, OH 44320",44320,read,,,391535065003,,,read
+board (active file-14 row),"4544 Lewis Ave, Toledo, OH 43612",43612,read,,,390950004003,,,read
+board (active file-14 row),"258 E Warrington Ave, Pittsburgh, PA 15210",15210,read,,,420035624003,,,read
+board (active file-14 row),"129 131 Summit St, Edwardsville, PA 18704",18704,read,,,420792132003,,,read
+board (active file-14 row),"129 Summit St, Edwardsville, PA 18704",18704,read,,,420792132003,,,read
+board (active file-14 row),"430 Loder St, Waverly, NY 14892",14892,read,,,361070207034,,,read
+board (active file-14 row),"1739 Kimball Ave, Arnold, PA 15068",15068,read,,,421298003001,,,read
+board (active file-14 row),"1013 Grant Ct, Dickson City, PA 18519",18519,read,,,420691115002,,,read
+board (active file-14 row),"741-745 Tamarack Dr, Fayetteville, NC 28311",28311,read,,,370510024022,,,read
+board (active file-14 row),"114-114 1/2 I St, Johnstown, PA 15906",15906,read,,,420210012002,,,read
+board (active file-14 row),"33 Lydia St, Binghamton, NY 13905",13905,read,,,360070003003,,,read
+board (active file-14 row),"127 Burbank Ave, Johnson City, NY 13790",13790,read,,,360070141003,,,read
+board (active file-14 row),"189 Sherman Ave, Vandergrift, PA 15690",15690,read,,,421298016001,,,read
+board (active file-14 row),"14713 Westropp Ave, Cleveland, OH 44110",44110,read,,,390351171012,,,read
+board (active file-14 row),"605 Washington St, Laurinburg, NC 28352",28352,read,,,371650102001,,,read
+board (active file-14 row),"3835 Matlack Ave, Toledo, OH 43613",43613,read,,,390950007011,,,read
+board (active file-14 row),"1702 Birchwood Dr SE, Wilson, NC 27893",27893,read,,,371950008023,,,read
+board (active file-14 row),"1706 Birchwood Dr SE, Wilson, NC 27893",27893,read,,,371950008023,,,read
+board (active file-14 row),"1707 Birchwood Dr SE, Wilson, NC 27893",27893,read,,,371950008023,,,read
+board (active file-14 row),"1703 Birchwood Dr SE, Wilson, NC 27893",27893,read,,,371950008023,,,read
+board (active file-14 row),"4304 Beta Ave, Newburgh Heights, OH 44105",44105,read,,,390351961002,,,read
+board (active file-14 row),"310 Harrison Ave, Jeannette, PA 15644",15644,read,,,421298026002,,,read
+board (active file-14 row),"477 E 148th St, Cleveland, OH 44110",44110,read,,,390351171012,,,read
+board (active file-14 row),"519-521 1st St, Charleroi, PA 15022",15022,read,,,421257833002,,,read
+board (active file-14 row),"1021 Penmar Ave SE, Roanoke, VA 24013",24013,read,,,517700027003,,,read
+board (active file-14 row),"17 Way St, Binghamton, NY 13901",13901,read,,,360070005003,,,read
+board (active file-14 row),"40 Robinson St, Binghamton, NY 13901",13901,read,,,360070005002,,,read
+board (active file-14 row),"334 Rhew St, Fayetteville, NC 28303",28303,read,,,370510022002,,,read
+board (active file-14 row),"82-84 18th St SW, Barberton, OH 44203",44203,page not shot,,,391535104002,,,page not shot
+board (active file-14 row),"1708 Birchwood Dr SE, Wilson, NC 27893",27893,read,,,371950008023,,,read
+board (active file-14 row),"22050 Westport Ave, Euclid, OH 44123",44123,page not shot,,,390351521022,,,page not shot
+board (active file-14 row),"13305 Ferris Ave, Cleveland, OH 44105",44105,read,,,390351214011,,,read
+board (active file-14 row),"13 Holland St, Binghamton, NY 13905",13905,read,,,360070002002,,,read
+board (active file-14 row),"6198 State Route 17c, Endicott, NY 13760",13760,read,,,361070203004,,,off the page map
+board (active file-14 row),"297 E 2nd St, Corning, NY 14830",14830,read,,,361019627003,,,read
+board (active file-14 row),"1121 35th St, Newport News, VA 23607",23607,read,,,517000306001,,,read
+board (active file-14 row),"417 Squirrel St, Fayetteville, NC 28303",28303,read,,,370510022002,,,read
+board (active file-14 row),"421 Squirrel St, Fayetteville, NC 28303",28303,read,,,370510022002,,,read
+board (active file-14 row),"425 Squirrel St, Fayetteville, NC 28303",28303,read,,,370510022002,,,read
+board (active file-14 row),"301 S High St, Franklin, VA 23851",23851,read,,,516200902001,,,read
+board (active file-14 row),"108 S Pine St, Rocky Mount, NC 27804",27804,read,,,371270104003,,,read
+board (active file-14 row),"604 Centennial St, New Castle, PA 16101",16101,read,,,420730003001,,,read
+board (active file-14 row),"716 31st St, Newport News, VA 23607",23607,read,,,517000304001,,,read
+board (active file-14 row),"61 Lake Ave Ave #2, Binghamton, NY 13905",13905,read,,,360070002003,,,read
+board (active file-14 row),"67 S Washington St, Binghamton, NY 13903",13903,read,,,360070017005,,,read
+board (active file-14 row),"2614 Pecan Dr, Fayetteville, NC 28303",28303,read,,,370510009003,,,read
+board (active file-14 row),"302 Columbia St, Fairmont, WV 26554",26554,read,,,540490208003,,,read
+board (active file-14 row),"4 12 1/2 St SW, Roanoke, VA 24016",24016,read,,,517700010002,,,read
+board (active file-14 row),"307 S Jacob St, Cherryville, NC 28021",28021,read,,,370710307001,,,read
+board (active file-14 row),"34 Pearne St, Binghamton, NY 13901",13901,read,,,360070005001,,,read
+board (active file-14 row),"84 Bigelow St, Binghamton, NY 13904",13904,read,,,360070007003,,,read
+board (active file-14 row),"1200 Wilbur Ave, Akron, OH 44301",44301,read,,,391535045003,,,read
+board (active file-14 row),"438 Watson St, Sharon, PA 16146",16146,read,,,420850303003,,,read
+board (active file-14 row),"2316 Edgar St, Fayetteville, NC 28301",28301,read,,,370510011002,,,read
+board (active file-14 row),"28 Glenwood Ave, Binghamton, NY 13905",13905,read,,,360070002002,,,read
+board (active file-14 row),"4104 Woburn Ave, Cleveland, OH 44109",44109,read,,,390351974001,,,read
+board (active file-14 row),"3862 N 6th St, Philadelphia, PA 19140",19140,read,,,421010198002,,,read
+board (active file-14 row),"234 E Mauch Chunk St, Tamaqua, PA 18252",18252,"read, tabs missing",,,421070026002,,M,"on map, block group not in table"
+board (active file-14 row),"1909 Woodmont Ave, Arnold, PA 15068",15068,read,,,421298003002,,,read
+board (active file-14 row),"1006 Faison St E, Wilson, NC 27893",27893,read,,,371950007023,,,read
+board (active file-14 row),"307 N Church St, Clayton, NC 27520",27520,read,,,371010410015,,,"on map, block group not in table"
+board (active file-14 row),"4697 E 85th St, Garfield Heights, OH 44125",44125,read,,,390351541002,,,read
+board (active file-14 row),"2326 E 95th St, Cleveland, OH 44106",44106,read,,,390351985002,,,read
+board (active file-14 row),"12501 Dove Ave, Cleveland, OH 44105",44105,read,,,390351211001,,,read
+board (active file-14 row),"2311 Nickey Ave, Fayetteville, NC 28301",28301,read,,,370510011002,,,read
+detail queue,"107 E Franklin St #2, Endicott, NY 13760",13760,read,,,360070136001,,,read
+detail queue,"111 S Page Ave, Endicott, NY 13760",13760,read,,,360070136005,,,read
+detail queue,"13 Lincoln Ave, Endicott, NY 13760",13760,read,,,360070135003,,,read
+detail queue,"1703 Watson Blvd, Endicott, NY 13760",13760,read,,,360070134004,,,read
+detail queue,"215 Oak Hill Ave, Endicott, NY 13760",13760,read,,,360070134002,,,read
+detail queue,"163 Ackley Ave, Johnson City, NY 13790",13790,read,,,360070141003,,,read
+detail queue,"9090-9094 State Route 38, Newark Valley, NY 13811",13811,page not shot,,,361070201023,,,page not shot
+detail queue,"111 Eldredge St St, Binghamton, NY 13901",13901,read,,,360070005002,,,read
+detail queue,"1143 River Rd, Binghamton, NY 13901",13901,read,,,360070121024,,,"on map, block group not in table"
+detail queue,"465 Chenango St, Binghamton, NY 13901",13901,read,,,360070005003,,,read
+detail queue,"736 River Rd, Binghamton, NY 13901",13901,read,,,360070121022,,,read
+detail queue,"15 Telegraph St, Binghamton, NY 13903",13903,read,,,360070018005,,,read
+detail queue,"25 Telegraph St, Binghamton, NY 13903",13903,read,,,360070018004,,,read
+detail queue,"6 Stone St, Binghamton, NY 13903",13903,read,,,360070017005,,,read
+detail queue,"72.5 Mary St #5, Binghamton, NY 13903",13903,read,,,360070017001,,,read
+detail queue,"18 Johnson St, Binghamton, NY 13905",13905,read,,,360070002003,,,read
+detail queue,"179 Sly Ave, Corning, NY 14830",14830,read,,,361019624001,,,read
+detail queue,"411 Welles St #2, Elmira, NY 14901",14901,read,,,360150004003,,,read
+detail queue,"425-427 Fairmount Ave, Sunbury, PA 17801",17801,page not shot,,,420970820003,,,page not shot
+detail queue,"345 East 4th St, Bloomsburg, PA 17815",17815,read,,,420370511012,,,"on map, block group not in table"
+detail queue,"327 E Mine St, Hazleton, PA 18201",18201,page not shot,,,420792172001,,,page not shot
+detail queue,"414 E Mine St, Hazleton, PA 18201",18201,page not shot,,,420792172001,,,page not shot
+detail queue,"123 S Bromley Ave, Scranton, PA 18504",18504,read,,,420691020002,,,read
+detail queue,"1273 Snyder Ave, Scranton, PA 18504",18504,read,,,420691125006,,,read
+detail queue,"1413 Bulwer St, Scranton, PA 18504",18504,read,,,420691017001,,,read
+detail queue,"910-912 S Hampton St, Scranton, PA 18504",18504,read,,,420691023003,,,read
+detail queue,"14A E Oak St, Pittston, PA 18640",18640,read,,,420792106002,,,read
+detail queue,"401 N Springfield Rd, Clifton Heights, PA 19018",19018,read,,,420454033002,,,read
+detail queue,"409 N Springfield Rd, Clifton Heights, PA 19018",19018,read,,,420454033002,,,read
+detail queue,"7201 Wayne Ave, Upper Darby, PA 19082",19082,read,,,420454007004,,,read
+detail queue,"9218 W Chester Pike, Upper Darby, PA 19082",19082,read,,,420454006002,,,read
+detail queue,"116 E Eleanor St, Philadelphia, PA 19120",19120,read,,,421010288001,,,read
+detail queue,"4611 Tampa St, Philadelphia, PA 19120",19120,read,,,421010289013,,,read
+detail queue,"524 W Tabor Rd, Philadelphia, PA 19120",19120,read,,,421010275003,,,read
+detail queue,"5260 W Jefferson St, Philadelphia, PA 19131",19131,read,,,421010119003,,,"on map, block group not in table"
+detail queue,"939 N 50th St, Philadelphia, PA 19131",19131,read,,,421010104003,,,read
+detail queue,"4243 Chippendale St, Philadelphia, PA 19136",19136,read,,,421010330001,,,"on map, block group not in table"
+detail queue,"4735 Loring St, Philadelphia, PA 19136",19136,read,,,421010330004,,,read
+detail queue,"6532 Limekiln Pike, Philadelphia, PA 19138",19138,read,,,421010267003,,,read
+detail queue,"1112 S Rodney St, Wilmington, DE 19805",19805,page not shot,,,100030125001,,,page not shot
+detail queue,"19 Corbin Ct, Wilmington, DE 19805",19805,page not shot,,,100030024002,,,page not shot
+detail queue,"2208 Duss Ave, Ambridge, PA 15003",15003,page not shot,,,420076040001,,,page not shot
+detail queue,"848 Duss Ave, Ambridge, PA 15003",15003,page not shot,,,420076040002,,,page not shot
+detail queue,"2024 7th Ave, Beaver Falls, PA 15010",15010,page not shot,,,420076013001,,,page not shot
+detail queue,"400 5th St, Charleroi, PA 15022",15022,read,,,421257832002,,,read
+detail queue,"611 6th St, New Brighton, PA 15066",15066,page not shot,,,420076014001,,,page not shot
+detail queue,"144 Ridge Ave, New Kensington, PA 15068",15068,read,,,421298006002,,,read
+detail queue,"216 Ridge Ave, New Kensington, PA 15068",15068,read,,,421298006002,,,read
+detail queue,"1117 Highland St, Tarentum, PA 15084",15084,read,,,420034035002,,,read
+detail queue,"1438-1440 Grandview Ave, Braddock, PA 15104",15104,page not shot,,,420035120001,,,page not shot
+detail queue,"1515 Terrace St, Braddock, PA 15104",15104,page not shot,,,420035120001,,,page not shot
+detail queue,"1213-1215 Washington Ave, Carnegie, PA 15106",15106,page not shot,,,420034706001,,,page not shot
+detail queue,"443 Carothers Ave, Carnegie, PA 15106",15106,page not shot,,,420034706002,,,page not shot
+detail queue,"110 Main St, Coraopolis, PA 15108",15108,page not shot,,,420034508001,,,page not shot
+detail queue,"241 E 18th Ave, Homestead, PA 15120",15120,page not shot,,,420034838003,,,page not shot
+detail queue,"2809 Highland Ave, Mckeesport, PA 15132",15132,read,,,420035519001,,,read
+detail queue,"3412 Gleason St, Mckeesport, PA 15132",15132,read,,,420035520004,,,read
+detail queue,"4716 Walnut St, Mckeesport, PA 15132",15132,read,,,420035010001,,,read
+detail queue,"1255 Chartiers Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034639002,,,read
+detail queue,"200 Copeland St, Mc Kees Rocks, PA 15136",15136,read,,,420034639001,,,read
+detail queue,"502 Broadway Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034639003,,,"on map, block group not in table"
+detail queue,"708 Broadway Ave, Mckees Rocks, PA 15136",15136,read,,,420034626004,,,read
+detail queue,"753 Chartiers Ave, Mckees Rocks, PA 15136",15136,read,,,420034644003,,,read
+detail queue,"825 Benwood Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034626002,,,read
+detail queue,"5614 Verona Rd, Verona, PA 15147",15147,page not shot,,,420035238002,,,page not shot
+detail queue,"6150 Saltsburg Rd, Verona, PA 15147",15147,page not shot,,,420035235012,,,page not shot
+detail queue,"117 Cleveland Ave, Pittsburgh, PA 15202",15202,read,,,420034324003,,,read
+detail queue,"197-199 E Bellevue Ave, Pittsburgh, PA 15202",15202,read,,,420034296002,,,read
+detail queue,"617 Florence Ave, Pittsburgh, PA 15202",15202,read,,,420034324002,,,page not shot
+detail queue,"100 S 14th St, Pittsburgh, PA 15203",15203,read,,,420031702003,,,read
+detail queue,"1709 Wrights Way, Pittsburgh, PA 15203",15203,read,,,420031702002,,,read
+detail queue,"19 Enon Way, Pittsburgh, PA 15203",15203,read,,,420031702003,,,read
+detail queue,"1913 Fox Way, Pittsburgh, PA 15203",15203,read,,,420031702002,,,read
+detail queue,"2817 Jane St, Pittsburgh, PA 15203",15203,read,,,420031609002,,,read
+detail queue,"1031 Tyndall St, Pittsburgh, PA 15204",15204,read,,,420032022001,,,read
+detail queue,"3908 Winterburn Ave, Pittsburgh, PA 15207",15207,read,,,420031516001,,,read
+detail queue,"711-713 Mifflin Rd, Pittsburgh, PA 15207",15207,read,,,420035653001,,,read
+detail queue,"1329 Anderson Rd, Pittsburgh, PA 15209",15209,read,,,420034271001,,,read
+detail queue,"130 John St, Pittsburgh, PA 15210",15210,read,,,420034810001,,,read
+detail queue,"133-135 Bausman St, Pittsburgh, PA 15210",15210,read,,,420033001002,,,read
+detail queue,"140 Bausman St, Pittsburgh, PA 15210",15210,read,,,420033001002,,,read
+detail queue,"1511 St Patrick St, Pittsburgh, PA 15210",15210,read,,,420031706002,,,read
+detail queue,"2332 Eccles St, Pittsburgh, PA 15210",15210,read,,,420031608001,,,read
+detail queue,"1604 Hatteras St, Pittsburgh, PA 15212",15212,page not shot,,,420032413002,,,page not shot
+detail queue,"1809 Rialto St, Pittsburgh, PA 15212",15212,page not shot,,,420032413002,,,page not shot
+detail queue,"2023 Lowrie St, Pittsburgh, PA 15212",15212,page not shot,,,420032413001,,,page not shot
+detail queue,"2123 Lautner St, Pittsburgh, PA 15212",15212,page not shot,,,420032413001,,,page not shot
+detail queue,"3441 Fleming Ave, Pittsburgh, PA 15212",15212,read,,,420032703002,,,page not shot
+detail queue,"3654 Perrysville Ave, Pittsburgh, PA 15214",15214,read,,,420032607001,,,read
+detail queue,"206 Clay St, Pittsburgh, PA 15215",15215,read,,,420034240003,,,read
+detail queue,"227 9th St, Sharpsburg, PA 15215",15215,read,,,420034240004,,,read
+detail queue,"304 Pilgrim Way, Pittsburgh, PA 15215",15215,read,,,420034240003,,,read
+detail queue,"806-808 Penn St, Pittsburgh, PA 15215",15215,read,,,420034240004,,,read
+detail queue,"3825 Beechwood Blvd, Pittsburgh, PA 15217",15217,read,,,420031517002,,,read
+detail queue,"7237 Whipple St, Pittsburgh, PA 15218",15218,read,,,420035154012,,,read
+detail queue,"23 Seneca St, Pittsburgh, PA 15219",15219,page not shot,,,420030103022,,,page not shot
+detail queue,"1627-1629 Laketon Rd, Pittsburgh, PA 15221",15221,read,,,420035648001,,,read
+detail queue,"214 Lenox Ave, Pittsburgh, PA 15221",15221,read,,,420035639003,,,read
+detail queue,"431 Ella St, Wilkinsburg, PA 15221",15221,read,,,420035647002,,,read
+detail queue,"549-551 Ardmore Blvd, Pittsburgh, PA 15221",15221,read,,,420035647002,,,read
+detail queue,"2088 Plainview Ave, Pittsburgh, PA 15226",15226,read,,,420031917002,,,read
+detail queue,"102 Stewart Ave, Pittsburgh, PA 15227",15227,read,,,420032904003,,,read
+detail queue,"2927 Pyramid Ave, Pittsburgh, PA 15227",15227,read,,,420034782003,,,page not shot
+detail queue,"512 Brinwood Ave, Pittsburgh, PA 15227",15227,read,,,420032904004,,,read
+detail queue,"445-449 Jefferson Ave, Washington, PA 15301",15301,read,,,421257545001,,,"on map, block group not in table"
+detail queue,"23 Jamison St, Uniontown, PA 15401",15401,page not shot,,,420512621001,,,page not shot
+detail queue,"72 W Craig St, Uniontown, PA 15401",15401,page not shot,,,420512622002,,,page not shot
+detail queue,"904-906 S Pittsburgh St, Connellsville, PA 15425",15425,page not shot,,,420512607002,,,page not shot
+detail queue,"639 S Ankeny Ave, Somerset, PA 15501",15501,page not shot,,,421110211002,,,page not shot
+detail queue,"1020 Lane Way, Greensburg, PA 15601",15601,page not shot,,,421298041001,,,page not shot
+detail queue,"524 Chestnut St, Greensburg, PA 15601",15601,page not shot,,,421298043002,,,page not shot
+detail queue,"765 W Otterman St, Greensburg, PA 15601",15601,page not shot,,,421298040001,,,page not shot
+detail queue,"1301-1301.5 Penn Ave, Jeannette, PA 15644",15644,read,,,421298028002,,,read
+detail queue,"306 N 1st St, Jeannette, PA 15644",15644,read,,,421298026002,,,read
+detail queue,"424-426 Cassett Ave, Jeannette, PA 15644",15644,read,,,421298028002,,,read
+detail queue,"104-106 S Depot St, Mount Pleasant, PA 15666",15666,read,,,421298068001,,,read
+detail queue,"1029 School St, Indiana, PA 15701",15701,page not shot,,,420639611032,,,page not shot
+detail queue,"1313 Locust St, Indiana, PA 15701",15701,page not shot,,,420639611031,,,page not shot
+detail queue,"718-720 Fronheiser St, Johnstown, PA 15902",15902,read,,,420210003002,,,read
+detail queue,"917-917 Bedford St, Johnstown, PA 15902",15902,read,,,420210135001,,,read
+detail queue,"1138-1140 Boyd Ave, Johnstown, PA 15905",15905,read,,,420210007002,,,read
+detail queue,"212-214;-214R Clarion St, Johnstown, PA 15905",15905,read,,,420210113004,,,read
+detail queue,"117-117.5 I St, Johnstown, PA 15906",15906,read,,,420210012002,,,read
+detail queue,"214-216 Chandler Ave, Johnstown, PA 15906",15906,read,,,420210012001,,,read
+detail queue,"125 N Chestnut St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"210 Mercer St, Butler, PA 16001",16001,read,,,420199023001,,,read
+detail queue,"320 W Birch St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
+detail queue,"326 W Cunningham St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
+detail queue,"327 & 329 Howard St, Butler, PA 16001",16001,read,,,420199021002,,,read
+detail queue,"327 W Brady St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"328 W Cunningham St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
+detail queue,"333 W Brady St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"227 Wallace St, Cumberland, MD 21502",21502,read,,,240010012002,,,read
+detail queue,"140-142 Wood St, Frostburg, MD 21532",21532,page not shot,,,240010018003,,,page not shot
+detail queue,"25 Kentucky St, Wheeling, WV 26003",26003,page not shot,,,540690005002,,,page not shot
+detail queue,"225 7th St, Parkersburg, WV 26101",26101,read,,,541070110002,,,read
+detail queue,"313 Thomas, Nutter Fort, WV 26301",26301,page not shot,,,540330305023,,,page not shot
+detail queue,"425 Hornor Ave, Clarksburg, WV 26301",26301,page not shot,,,540330301002,,,page not shot
+detail queue,"523 Hornor Ave, Clarksburg, WV 26301",26301,page not shot,,,540330301002,,,page not shot
+detail queue,"904 Louise Ave, Morgantown, WV 26505",26505,page not shot,,,540610107005,,,page not shot
+detail queue,"520 Deal St, Ashland, KY 41101",41101,read,,,210190304001,,,read
+detail queue,"1235 Sinclair Ave, Steubenville, OH 43952",43952,read,,,390810013001,,,read
+detail queue,"127 Forest St, Steubenville, OH 43953",43953,read,,,390810012003,,,page not shot
+detail queue,"232-236 Dearborn St, Girard, OH 44420",44420,page not shot,,,391559339002,,,page not shot
+detail queue,"952 N Highland Ave, Girard, OH 44420",44420,page not shot,,,391559323004,,,page not shot
+detail queue,"117 Gilbert Ave, Niles, OH 44446",44446,page not shot,,,391559326003,,,page not shot
+detail queue,"1103 High St NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
+detail queue,"1113 High St NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
+detail queue,"1132 Woodland Ave NE, Warren, OH 44483",44483,page not shot,,,391559203004,,,page not shot
+detail queue,"626 Woodbine Ave SE, Warren, OH 44483",44483,page not shot,,,391559204002,,,page not shot
+detail queue,"104 W Spring St, Marietta, OH 45750",45750,page not shot,,,391670210003,,,page not shot
+detail queue,"1022 Liberty St, Toledo, OH 43605",43605,read,,,390950053001,,,read
+detail queue,"1401 Liberty St, Toledo, OH 43605",43605,read,,,390950053001,,,read
+detail queue,"2019 Kensington Rd, Toledo, OH 43607",43607,read,,,390950024014,,,read
+detail queue,"2634 Calverton Rd, Toledo, OH 43607",43607,read,,,390950024014,,,read
+detail queue,"4018 Lyman Ave, Toledo, OH 43612",43612,read,,,390950002013,,,read
+detail queue,"4120 Overland Pkwy, Toledo, OH 43612",43612,read,,,390950003022,,,read
+detail queue,"1836 Strathmoor Ave, Toledo, OH 43614",43614,page not shot,,,390950069002,,,page not shot
+detail queue,"5143-5145 Samuel Ave, Ashtabula, OH 44004",44004,page not shot,,,390070007032,,,page not shot
+detail queue,"180 Cleveland St, Elyria, OH 44035",44035,page not shot,,,390930707001,,,page not shot
+detail queue,"2514 Reid Ave, Lorain, OH 44052",44052,page not shot,,,390930233001,,,page not shot
+detail queue,"2331 Homewood Dr, Lorain, OH 44055",44055,page not shot,,,390930975001,,,page not shot
+detail queue,"3177 Elyria Ave, Lorain, OH 44055",44055,page not shot,,,390930232003,,,page not shot
+detail queue,"58 Adelaide Ave, Painesville, OH 44077",44077,page not shot,,,390852062001,,,page not shot
+detail queue,"3457 E 105th St, Cleveland, OH 44104",44104,read,,,390351205001,,,read
+detail queue,"10906 Nelson Ave, Cleveland, OH 44105",44105,read,,,390351275013,,,read
+detail queue,"11118 Glenboro Dr, Cleveland, OH 44105",44105,read,,,390351275012,,,read
+detail queue,"13611 Beachwood Ave, Cleveland, OH 44105",44105,read,,,390351214031,,,"on map, block group not in table"
+detail queue,"3659 E 116th St, Cleveland, OH 44105",44105,read,,,390351206002,,,read
+detail queue,"3978 E 55th St, Newburgh Heights, OH 44105",44105,read,,,390351961002,,,read
+detail queue,"7918 Force Ave, Cleveland, OH 44105",44105,read,,,390351159001,,,read
+detail queue,"12436 Saywell Ave, Cleveland, OH 44108",44108,read,,,390351991003,,,read
+detail queue,"3202 Marvin Ave, Cleveland, OH 44109",44109,read,,,390351976004,,,read
+detail queue,"4611 W 41st St, Cleveland, OH 44109",44109,read,,,390351066003,,,read
+detail queue,"406 E 148th St, Cleveland, OH 44110",44110,read,,,390351171012,,,read
+detail queue,"505 E 149th St, Cleveland, OH 44110",44110,read,,,390351171013,,,read
+detail queue,"14208 Triskett Rd, Cleveland, OH 44111",44111,read,,,390351232002,,,read
+detail queue,"3474 Raymont Blvd, University Heights, OH 44118",44118,read,,,390351871032,,,read
+detail queue,"3740 Washington Blvd, University Heights, OH 44118",44118,read,,,390351871031,,,read
+detail queue,"841 Hoover Ave, Cleveland, OH 44119",44119,read,,,390351176001,,,read
+detail queue,"12210 Kinsman Rd, Cleveland, OH 44120",44120,read,,,390351207012,,,read
+detail queue,"2707 Noble Rd, Cleveland Heights, OH 44121",44121,read,,,390351405001,,,read
+detail queue,"20390 Westport Ave, Euclid, OH 44123",44123,page not shot,,,390351521023,,,page not shot
+detail queue,"48 E Brookside Ave, Akron, OH 44301",44301,read,,,391535047005,,,read
+detail queue,"131 & 133 Westwood Aly, Akron, OH 44302",44302,read,,,391535066003,,,read
+detail queue,"835 Kenmore Blvd, Akron, OH 44314",44314,read,,,391535055004,,,read
+detail queue,"6090 Manchester Rd, Akron, OH 44319",44319,page not shot,,,391535317023,,,page not shot
+detail queue,"395 Madison Ave, Akron, OH 44320",44320,read,,,391535065003,,,read
+detail queue,"1847 Lincoln Way E, Massillon, OH 44646",44646,page not shot,,,391517150002,,,page not shot
+detail queue,"1435 Stark Ave SW, Canton, OH 44706",44706,read,,,391517025004,,,read
+detail queue,"1818 Cleveland Ave NW, Canton, OH 44709",44709,page not shot,,,391517006002,,,page not shot
+detail queue,"3029 7th St SW, Canton, OH 44710",44710,read,,,391517013001,,,read
+detail queue,"10 Walnut St, Norwalk, OH 44857",44857,page not shot,,,390779156004,,,page not shot
+detail queue,"5010 Campbell St, Sandusky, OH 44870",44870,page not shot,,,390430416002,,,page not shot
+detail queue,"1863-1865 Emerson Ave, Dayton, OH 45406",45406,read,,,391130008012,,,read
+detail queue,"1967 Rugby Rd, Dayton, OH 45406",45406,read,,,391130008012,,,read
+detail queue,"1832 Warder St, Springfield, OH 45503",45503,page not shot,,,390230015002,,,page not shot
+detail queue,"21 Lagonda Ave, Springfield, OH 45503",45503,page not shot,,,390230034002,,,page not shot
+detail queue,"910 Fallowfield Ave, Charleroi, PA 15022",15022,read,,,421257832002,,,read
+detail queue,"1354 5th Ave, Arnold, PA 15068",15068,read,,,421298002001,,,read
+detail queue,"210 Southmont Blvd, Johnstown, PA 15905",15905,read,,,420210007001,,,read
+detail queue,"1905 Covert St, Parkersburg, WV 26101",26101,read,,,541070005001,,,read
+detail queue,"3525 Avalon Rd, Shaker Heights, OH 44120",44120,read,,,390351836041,,,read
+detail queue,"1500 28th St NW, Canton, OH 44709",44709,page not shot,,,391517007023,,,page not shot
+passed the money gates before,"136 Marshall St, Petersburg, VA 23803",23803,read,,,517308113002,,,
+passed the money gates before,"2132 Hill St, Petersburg, VA 23803",23803,read,,,517308103001,,,
+passed the money gates before,"502 Dale Ave SE, Roanoke, VA 24013",24013,read,,,517700026001,,,
+passed the money gates before,"515 Albemarle Ave SE, Roanoke, VA 24013",24013,read,,,517700027002,,,
+passed the money gates before,"707 Bullitt Ave SE, Roanoke, VA 24013",24013,read,,,517700027001,,,
+passed the money gates before,"1622 Patterson Ave SW, Roanoke, VA 24016",24016,read,,,517700010001,,,
+passed the money gates before,"11730 Essex Rd, Coeburn, VA 24230",24230,page not shot,,,511959315003,,,
+passed the money gates before,"816 Elizabeth St, Burlington, NC 27217",27217,page not shot,,,370010204003,,,
+passed the money gates before,"1919-1921 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
+passed the money gates before,"2101-2103 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810111012,,,
+passed the money gates before,"2900 McConnell Rd, Greensboro, NC 27401",27401,page not shot,,,370810128033,,,
+passed the money gates before,"730 Gillespie St, Greensboro, NC 27401",27401,page not shot,,,370810111013,,,
+passed the money gates before,"4912 Watlington Rd, Greensboro, NC 27405",27405,page not shot,,,370810155003,,,
+passed the money gates before,"311 Arch St, Henderson, NC 27536",27536,page not shot,,,371819607004,,,
+passed the money gates before,"410 Latham Street, Greenville, NC 27834",27834,page not shot,,,371470007014,,,
+passed the money gates before,"207 Bruton St W, Wilson, NC 27893",27893,read,,,371950001004,,,
+passed the money gates before,"930 S Miller St, Gastonia, NC 28052",28052,page not shot,,,370710332032,,,
+passed the money gates before,"213 Colonial Dr, Fayetteville, NC 28301",28301,read,,,370510012005,,,
+passed the money gates before,"219 Colonial Dr, Fayetteville, NC 28301",28301,read,,,370510012005,,,
+passed the money gates before,"2602 Sedgefield Dr, Fayetteville, NC 28306",28306,read,,,370510019012,,,
+passed the money gates before,"619 Mckay St, Laurinburg, NC 28352",28352,read,,,371650103003,,,
+passed the money gates before,"105 Madison Ave, Endicott, NY 13760",13760,read,,,360070135002,,,
+passed the money gates before,"327 Hill Ave, Endicott, NY 13760",13760,read,,,360070134002,,,
+passed the money gates before,"32 Brown St, Johnson City, NY 13790",13790,read,,,360070138002,,,
+passed the money gates before,"11 Vine St, Binghamton, NY 13903",13903,read,,,360070017001,,,
+passed the money gates before,"11 Burton Ave, Binghamton, NY 13904",13904,read,,,360070007002,,,
+passed the money gates before,"12 Burton Ave, Binghamton, NY 13904",13904,read,,,360070007002,,,
+passed the money gates before,"290 Robinson St, Binghamton, NY 13904",13904,read,,,360070007002,,,
+passed the money gates before,"5 Gaylord St, Binghamton, NY 13904",13904,read,,,360070007002,,,
+passed the money gates before,"95 Moeller St, Binghamton, NY 13904",13904,read,,,360070006002,,,
+passed the money gates before,"20 Cypress St St, Binghamton, NY 13905",13905,read,,,360070003003,,,
+passed the money gates before,"30 Franklin St, Binghamton, NY 13905",13905,read,,,360070003002,,,
+passed the money gates before,"5 Julian St, Binghamton, NY 13905",13905,read,,,360070002003,,,
+passed the money gates before,"7 Bostwick Pl, Hornell, NY 14843",14843,page not shot,,,361019607004,,,
+passed the money gates before,"1319 Lake Street St, Elmira, NY 14901",14901,read,,,360150001002,,,
+passed the money gates before,"366 Diven Ave, Elmira, NY 14901",14901,read,,,360150001002,,,
+passed the money gates before,"420 Standish St, Elmira, NY 14901",14901,read,,,360150001003,,,
+passed the money gates before,"208 E Noble St, Hazleton, PA 18201",18201,page not shot,,,420792172003,,,
+passed the money gates before,"86-86 1/2 Belmont St, Carbondale, PA 18407",18407,page not shot,,,420691108003,,,
+passed the money gates before,"115 Phillip St, Nanticoke, PA 18634",18634,page not shot,,,420792143002,,,
+passed the money gates before,"132 Espy St, Nanticoke, PA 18634",18634,page not shot,,,420792143002,,,
+passed the money gates before,"40 Coal St, Nanticoke, PA 18634",18634,page not shot,,,420792141001,,,
+passed the money gates before,"1021-1023 W Main St, Plymouth, PA 18651",18651,read,,,420792139001,,,
+passed the money gates before,"485 - 487 2nd St, Plymouth, PA 18651",18651,read,,,420792138001,,,
+passed the money gates before,"437 Schuyler Ave, Kingston, PA 18704",18704,read,,,420792127003,,,
+passed the money gates before,"98 Brookside St, Wilkes Barre, PA 18705",18705,read,,,420792013001,,,
+passed the money gates before,"10-12 Mary St, Ashley, PA 18706",18706,read,,,420792151001,,,
+passed the money gates before,"879 N 45th St, Philadelphia, PA 19104",19104,read,,,421010105001,,,
+passed the money gates before,"623 W Olney Ave, Philadelphia, PA 19120",19120,read,,,421010275004,,,
+passed the money gates before,"1826 W Thompson St, Philadelphia, PA 19121",19121,read,,,421010140001,,,
+passed the money gates before,"1848 N 21st St, Philadelphia, PA 19121",19121,read,,,421010152001,,,
+passed the money gates before,"1224 E Columbia Rear Ave, Philadelphia, PA 19125",19125,read,,,421010158004,,,
+passed the money gates before,"5100 Warren St, Philadelphia, PA 19131",19131,read,,,421010111003,,,
+passed the money gates before,"5137 Harlan St, Philadelphia, PA 19131",19131,read,,,421010111003,,,
+passed the money gates before,"2076 E Birch St, Philadelphia, PA 19134",19134,read,,,421010178001,,,
+passed the money gates before,"100 N Millick St, Philadelphia, PA 19139",19139,read,,,421010096002,,,
+passed the money gates before,"115 N Farson St, Philadelphia, PA 19139",19139,read,,,421010093002,,,
+passed the money gates before,"258 S 55th St, Philadelphia, PA 19139",19139,read,,,421010084001,,,
+passed the money gates before,"3858 N Darien St, Philadelphia, PA 19140",19140,read,,,421010198003,,,
+passed the money gates before,"5731 N 12th St, Philadelphia, PA 19141",19141,read,,,421010276002,,,
+passed the money gates before,"40 W Wyneva St, Philadelphia, PA 19144",19144,read,,,421010244002,,,
+passed the money gates before,"551 N 63rd St, Philadelphia, PA 19151",19151,read,,,421010101005,,,
+passed the money gates before,"5905 Haverford Ave, Philadelphia, PA 19151",19151,read,,,421010095003,,,
+passed the money gates before,"627 Olive Ln, Ambridge, PA 15003",15003,page not shot,,,420076041003,,,
+passed the money gates before,"639 Washington Ave, Charleroi, PA 15022",15022,read,,,421257832002,,,
+passed the money gates before,"211 E 7th Ave, Tarentum, PA 15084",15084,read,,,420034035003,,,
+passed the money gates before,"720 Center St, Tarentum, PA 15084",15084,read,,,420034035005,,,
+passed the money gates before,"3204 Versailles Ave, Mckeesport, PA 15132",15132,read,,,420035520003,,,
+passed the money gates before,"709-711 Fruit Way, Mc Kees Rocks, PA 15136",15136,read,,,420034644001,,,
+passed the money gates before,"906 Broadway Ave, Mc Kees Rocks, PA 15136",15136,read,,,420034626003,,,
+passed the money gates before,"1517 Hulton Rd, Verona, PA 15147",15147,page not shot,,,420035237011,,,
+passed the money gates before,"215 Anthony St, Pittsburgh, PA 15210",15210,read,,,420034810002,,,
+passed the money gates before,"430 Brownsville Rd, Pittsburgh, PA 15210",15210,read,,,420033001003,,,
+passed the money gates before,"102 N Main St, Pittsburgh, PA 15215",15215,read,,,420034240003,,,
+passed the money gates before,"519 Francis St, Pittsburgh, PA 15219",15219,page not shot,,,420030501002,,,
+passed the money gates before,"95 Hilda St, Pittsburgh, PA 15235",15235,read,,,420035231004,,,
+passed the money gates before,"460 Jefferson Ave, Washington, PA 15301",15301,read,,,421257545001,,,
+passed the money gates before,"224 S 5th St, Jeannette, PA 15644",15644,read,,,421298028001,,,
+passed the money gates before,"300 Longfellow, Vandergrift, PA 15690",15690,read,,,421298015002,,,
+passed the money gates before,"706 Holland St, Vandergrift, PA 15690",15690,read,,,421298014001,,,
+passed the money gates before,"177-179 Pine St, Johnstown, PA 15902",15902,read,,,420210003001,,,
+passed the money gates before,"313-315 Grove Ave, Johnstown, PA 15902",15902,read,,,420210005002,,,
+passed the money gates before,"761/763 & 761R Coleman Ave, Johnstown, PA 15902",15902,read,,,420210006002,,,
+passed the money gates before,"539 Ferndale Ave, Johnstown, PA 15905",15905,read,,,420210110001,,,
+passed the money gates before,"620 Fairfield Ave, Johnstown, PA 15906",15906,read,,,420210114001,,,
+passed the money gates before,"324 W North St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,
+passed the money gates before,"545 & 625 Davis St, Sharon, PA 16146",16146,read,,,420850301003,,,
+passed the money gates before,"1007 Kentucky Ave, Cumberland, MD 21502",21502,read,,,240010006001,,,
+passed the money gates before,"214 S Central Ave, Cumberland, MD 21502",21502,read,,,240010005001,,,
+passed the money gates before,"401-403 Ascension St, Cumberland, MD 21502",21502,read,,,240010006002,,,
+passed the money gates before,"516 Shriver Ave, Cumberland, MD 21502",21502,read,,,240010010001,,,
+passed the money gates before,"507 Laurel St, Parkersburg, WV 26101",26101,read,,,541070008011,,,
+passed the money gates before,"508 Summers St, Parkersburg, WV 26101",26101,read,,,541070009022,,,
+passed the money gates before,"603 33rd St, Parkersburg, WV 26101",26101,read,,,541070110001,,,
+passed the money gates before,"903 13th St, Parkersburg, WV 26101",26101,read,,,541070005004,,,
+passed the money gates before,"653 Mulberry Ave, Clarksburg, WV 26301",26301,page not shot,,,540330301004,,,
+passed the money gates before,"1005 Locust Ave, Fairmont, WV 26554",26554,read,,,540490202004,,,
+passed the money gates before,"318 Bellview Ave, Fairmont, WV 26554",26554,read,,,540490206001,,,
+passed the money gates before,"512 E Park Ave, Fairmont, WV 26554",26554,read,,,540490207003,,,
+passed the money gates before,"312 N 7th St, Martins Ferry, OH 43935",43935,read,,,390130120002,,,
+passed the money gates before,"511 Union Ave, Steubenville, OH 43952",43952,read,,,390810124002,,,
+passed the money gates before,"1532 Liberty St, Toledo, OH 43605",43605,read,,,390950053001,,,
+passed the money gates before,"1624 Pool St, Toledo, OH 43605",43605,read,,,390950052003,,,
+passed the money gates before,"2712 Hoehler Dr, Toledo, OH 43606",43606,read,,,390950013032,,,
+passed the money gates before,"1102 Hamilton St, Toledo, OH 43607",43607,read,,,390950036001,,,
+passed the money gates before,"1688 Avondale Ave, Toledo, OH 43607",43607,read,,,390950032002,,,
+passed the money gates before,"2171 Mellwood Ave, Toledo, OH 43613",43613,read,,,390950062001,,,
+passed the money gates before,"903 Columbus Ave, Ashtabula, OH 44004",44004,page not shot,,,390070004001,,,
+passed the money gates before,"211 Brace Ave, Elyria, OH 44035",44035,page not shot,,,390930704003,,,
+passed the money gates before,"407 W 22nd St, Lorain, OH 44052",44052,page not shot,,,390930233001,,,
+passed the money gates before,"2149 W 106th St, Cleveland, OH 44102",44102,read,,,390351014001,,,
+passed the money gates before,"2153 W 96th St, Cleveland, OH 44102",44102,read,,,390351016032,,,
+passed the money gates before,"3185 W 58th St, Cleveland, OH 44102",44102,read,,,390351027001,,,
+passed the money gates before,"3235 W 88th St, Cleveland, OH 44102",44102,read,,,390351024022,,,
+passed the money gates before,"3261 W 88th St, Cleveland, OH 44102",44102,read,,,390351024022,,,
+passed the money gates before,"3288 W 52nd St, Cleveland, OH 44102",44102,read,,,390351027002,,,
+passed the money gates before,"3295 W 56th St, Cleveland, OH 44102",44102,read,,,390351027001,,,
+passed the money gates before,"7107 Hague Ave, Cleveland, OH 44102",44102,read,,,390351019012,,,
+passed the money gates before,"7602 Berry Ave, Cleveland, OH 44102",44102,read,,,390351024012,,,
+passed the money gates before,"7619 Lawn Ave, Cleveland, OH 44102",44102,read,,,390351018003,,,
+passed the money gates before,"7944 Lorain Ave, Cleveland, OH 44102",44102,read,,,390351018002,,,
+passed the money gates before,"1234 E 84th St, Cleveland, OH 44103",44103,read,,,390351990002,,,
+passed the money gates before,"1256 E 60th St, Cleveland, OH 44103",44103,read,,,390351112022,,,
+passed the money gates before,"5700 Prosser Ave, Cleveland, OH 44103",44103,read,,,390351112022,,,
+passed the money gates before,"7112 Duluth Ave, Cleveland, OH 44103",44103,read,,,390351121002,,,
+passed the money gates before,"3123 E 94th St, Cleveland, OH 44104",44104,read,,,390351202003,,,
+passed the money gates before,"9418 Dickens Ave, Cleveland, OH 44104",44104,read,,,390351202003,,,
+passed the money gates before,"9724 Hilgert Dr, Cleveland, OH 44104",44104,read,,,390351202003,,,
+passed the money gates before,"11101 Nelson Ave, Cleveland, OH 44105",44105,read,,,390351275012,,,
+passed the money gates before,"11903 Avon Ave, Cleveland, OH 44105",44105,read,,,390351211002,,,
+passed the money gates before,"12113 Corlett Ave, Cleveland, OH 44105",44105,read,,,390351211003,,,
+passed the money gates before,"12205 Revere Ave, Cleveland, OH 44105",44105,read,,,390351211003,,,
+passed the money gates before,"12500 Ferris Ave, Cleveland, OH 44105",44105,read,,,390351214012,,,
+passed the money gates before,"12722 Holborn Ave, Cleveland, OH 44105",44105,read,,,390351207022,,,
+passed the money gates before,"3590 E 108th St, Cleveland, OH 44105",44105,read,,,390351205002,,,
+passed the money gates before,"3741 E 71st St, Cleveland, OH 44105",44105,read,,,390351158004,,,
+passed the money gates before,"3804 E 72nd St, Cleveland, OH 44105",44105,read,,,390351158004,,,
+passed the money gates before,"4309 E 128th St, Cleveland, OH 44105",44105,read,,,390351214032,,,
+passed the money gates before,"5604 Linton Ave, Cleveland, OH 44105",44105,read,,,390351109012,,,
+passed the money gates before,"6811 Worley Ave, Cleveland, OH 44105",44105,read,,,390351154001,,,
+passed the money gates before,"7207 Deveny Ave, Cleveland, OH 44105",44105,read,,,390351158002,,,
+passed the money gates before,"8511 Jeffries Ave, Cleveland, OH 44105",44105,read,,,390351159002,,,
+passed the money gates before,"1416 E 110th St, Cleveland, OH 44106",44106,read,,,390351183012,,,
+passed the money gates before,"10101 North Blvd, Cleveland, OH 44108",44108,read,,,390351181011,,,
+passed the money gates before,"10803 Navarre Ct, Cleveland, OH 44108",44108,read,,,390351992001,,,
+passed the money gates before,"11503 Carolina Rd, Cleveland, OH 44108",44108,read,,,390351991001,,,
+passed the money gates before,"11506 Ohlman Ave, Cleveland, OH 44108",44108,read,,,390351166003,,,
+passed the money gates before,"11604 Tuscora Ave, Cleveland, OH 44108",44108,read,,,390351166003,,,
+passed the money gates before,"11705 Fairport Ave, Cleveland, OH 44108",44108,read,,,390351166003,,,
+passed the money gates before,"12811 Austin Ave, Cleveland, OH 44108",44108,read,,,390351168002,,,
+passed the money gates before,"554 E 101st St, Cleveland, OH 44108",44108,read,,,390351992002,,,
+passed the money gates before,"621 E 128th St, Cleveland, OH 44108",44108,read,,,390351168002,,,
+passed the money gates before,"626 E 130th St, Cleveland, OH 44108",44108,read,,,390351168002,,,
+passed the money gates before,"684 E 128th St, Cleveland, OH 44108",44108,read,,,390351168002,,,
+passed the money gates before,"882 E 131st St, Cleveland, OH 44108",44108,read,,,390351168001,,,
+passed the money gates before,"889 E 128th St, Cleveland, OH 44108",44108,read,,,390351168001,,,
+passed the money gates before,"3147 W 44th St, Cleveland, OH 44109",44109,read,,,390351028002,,,
+passed the money gates before,"3261 Scranton Rd, Cleveland, OH 44109",44109,read,,,390351048003,,,
+passed the money gates before,"3791 W 38th St, Cleveland, OH 44109",44109,read,,,390351054001,,,
+passed the money gates before,"3885 W 20th St, Cleveland, OH 44109",44109,read,,,390351056022,,,
+passed the money gates before,"1030 E 149th St, Cleveland, OH 44110",44110,read,,,390351169002,,,
+passed the money gates before,"1049 E 147th St, Cleveland, OH 44110",44110,read,,,390351169002,,,
+passed the money gates before,"1088 E 141st St, Cleveland, OH 44110",44110,read,,,390351169001,,,
+passed the money gates before,"1104 E 143rd St, Cleveland, OH 44110",44110,read,,,390351169001,,,
+passed the money gates before,"14131 Sylvia Ave, Cleveland, OH 44110",44110,read,,,390351171013,,,
+passed the money gates before,"14221 Glenside Rd, Cleveland, OH 44110",44110,read,,,390351169001,,,
+passed the money gates before,"14305 Westropp Ave, Cleveland, OH 44110",44110,read,,,390351171012,,,
+passed the money gates before,"14720 Coit Rd, Cleveland, OH 44110",44110,read,,,390351169001,,,
+passed the money gates before,"15213 Ridpath Ave, Cleveland, OH 44110",44110,read,,,390351172032,,,
+passed the money gates before,"15610 Holmes Ave, Cleveland, OH 44110",44110,read,,,390351174002,,,
+passed the money gates before,"412 E 146th St, Cleveland, OH 44110",44110,read,,,390351171012,,,
+passed the money gates before,"452 -454 E 149th St, Cleveland, OH 44110",44110,read,,,390351171012,,,
+passed the money gates before,"810 E 157th St, Cleveland, OH 44110",44110,read,,,390351174002,,,
+passed the money gates before,"831 Whitcomb Rd, Cleveland, OH 44110",44110,read,,,390351175001,,,
+passed the money gates before,"845 Royal Rd, Cleveland, OH 44110",44110,read,,,390351175001,,,
+passed the money gates before,"941 Alhambra Rd, Cleveland, OH 44110",44110,read,,,390351175002,,,
+passed the money gates before,"951 Royal Rd, Cleveland, OH 44110",44110,read,,,390351175002,,,
+passed the money gates before,"3183 W 116th St, Cleveland, OH 44111",44111,read,,,390351014002,,,
+passed the money gates before,"3219 W 114th St, Cleveland, OH 44111",44111,read,,,390351014002,,,
+passed the money gates before,"3542 W 119th St, Cleveland, OH 44111",44111,read,,,390351241001,,,
+passed the money gates before,"1248 E 137th St, East Cleveland, OH 44112",44112,read,,,390351501002,,,
+passed the money gates before,"1276 E 133rd St, East Cleveland, OH 44112",44112,read,,,390351501002,,,
+passed the money gates before,"1320 E 142nd St, East Cleveland, OH 44112",44112,read,,,390351501003,,,
+passed the money gates before,"13508 Mann Ave, East Cleveland, OH 44112",44112,read,,,390351501002,,,
+passed the money gates before,"15506 Elderwood Ave, East Cleveland, OH 44112",44112,read,,,390351501001,,,
+passed the money gates before,"1876 Penrose Ave, East Cleveland, OH 44112",44112,read,,,390351517002,,,
+passed the money gates before,"2103 Cottage Grove Dr, Cleveland Heights, OH 44118",44118,read,,,390351406001,,,
+passed the money gates before,"11616 Buckingham Ave, Cleveland, OH 44120",44120,read,,,390351194012,,,
+passed the money gates before,"2628 E 122nd St, Cleveland, OH 44120",44120,read,,,390351194012,,,
+passed the money gates before,"3323 E 143rd St, Cleveland, OH 44120",44120,read,,,390351199002,,,
+passed the money gates before,"3331 E 140th St, Cleveland, OH 44120",44120,read,,,390351199002,,,
+passed the money gates before,"3331 E 145th St, Cleveland, OH 44120",44120,read,,,390351199001,,,
+passed the money gates before,"3349 E 132nd St, Cleveland, OH 44120",44120,read,,,390351198001,,,
+passed the money gates before,"3379 E 130th St, Cleveland, OH 44120",44120,read,,,390351198001,,,
+passed the money gates before,"3384 E 121st St, Cleveland, OH 44120",44120,read,,,390351207012,,,
+passed the money gates before,"3435 E 117th St, Cleveland, OH 44120",44120,read,,,390351206002,,,
+passed the money gates before,"3477 E 142 St, Cleveland, OH 44120",44120,read,,,390351199002,,,
+passed the money gates before,"4752 E 88th, Garfield Heights, OH 44125",44125,read,,,390351541002,,,
+passed the money gates before,"16 Columbus St, Bedford, OH 44146",44146,page not shot,,,390351322002,,,
+passed the money gates before,"1208-1210 Bellows St, Akron, OH 44301",44301,read,,,391535044001,,,
+passed the money gates before,"1364-1366 Marcy St, Akron, OH 44301",44301,read,,,391535044001,,,
+passed the money gates before,"1923 & 1925 Evergreen Ave, Akron, OH 44301",44301,read,,,391535048001,,,
+passed the money gates before,"44 E Brookside Ave, Akron, OH 44301",44301,read,,,391535047005,,,
+passed the money gates before,"973 W Exchange St, Akron, OH 44302",44302,read,,,391535064002,,,
+passed the money gates before,"1288 Pondview Ave, Akron, OH 44305",44305,page not shot,,,391535026001,,,
+passed the money gates before,"1933 Preston Ave, Akron, OH 44305",44305,page not shot,,,391535028001,,,
+passed the money gates before,"1939 Preston Ave, Akron, OH 44305",44305,page not shot,,,391535028001,,,
+passed the money gates before,"972 Hunt St, Akron, OH 44306",44306,page not shot,,,391535033002,,,
+passed the money gates before,"1332-1334 Alphada Ave, Akron, OH 44310",44310,page not shot,,,391535021023,,,
+passed the money gates before,"499 Brown St, Akron, OH 44311",44311,read,,,391535041001,,,
+passed the money gates before,"504 Gage St, Akron, OH 44311",44311,read,,,391535041001,,,
+passed the money gates before,"382 Madison Ave, Akron, OH 44320",44320,read,,,391535065002,,,
+passed the money gates before,"840 Work Dr, Akron, OH 44320",44320,read,,,391535065001,,,
+passed the money gates before,"519 Euclid St SW, Massillon, OH 44647",44647,page not shot,,,391517141003,,,
+passed the money gates before,"435 Hazlett Ave NW, Canton, OH 44708",44708,read,,,391517010002,,,
+passed the money gates before,"610 Wertz Ave SW, Canton, OH 44710",44710,read,,,391517013001,,,
+passed the money gates before,"2212 N Main St, Dayton, OH 45405",45405,read,,,391130011005,,,
+passed the money gates before,"40 Maylan Dr, Dayton, OH 45405",45405,read,,,391130008011,,,
+passed the money gates before,"97 99 Fernwood Ave, Dayton, OH 45405",45405,read,,,391130011002,,,
+passed the money gates before,"817 Harvard Blvd, Dayton, OH 45406",45406,read,,,391130009001,,,
+passed the money gates before,"910 Harvard Blvd #908, Dayton, OH 45406",45406,read,,,391130009001,,,
+passed the money gates before,"306-308 E Northern Ave, Springfield, OH 45503",45503,page not shot,,,390230006004,,,

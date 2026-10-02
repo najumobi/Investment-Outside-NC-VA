@@ -5,8 +5,13 @@ Usage: build_crime_bg.py <out.json> <batch folder> [<batch folder> ...]
 Each batch folder holds x/ (screenshots), manifest.json ({screenshot: {zip, type, view}}) and fits/view_NN.json
 written by grade_by_view.py. For each view the 2020 block groups intersecting the map are fetched from
 TIGERweb (cached in cache/bg_view_<md5>.json) and, on every tab image of that view, each block group's
-median legend position is read (block groups with fewer than 150 residents, less than 60% of their box
-on the map or fewer than 300 pixels on the legend ramp are skipped). Output: {GEOID: {"pop": n, "reads":
+median legend position is read. Block groups with fewer than 150 residents are skipped. A block group
+needs at least 40 of its pixels on the legend ramp inside the map (a dense city block at the ZIP-page zoom
+has 100 to 300), and one with fewer than 300 must read as one colour (interquartile range 0.08 or less), so
+a sliver tinted by a neighbour is not taken. A block group partly off the map is read from the part that
+shows, since CrimeGrade fills a block group with one colour. (Until 2026-10-02 the limits were 300 pixels
+and 60 percent of the box on the map, set for the block-group validation; they left dense blocks with
+listings unread although the address reader reads them.) Output: {GEOID: {"pop": n, "reads":
 {type: [{"position", "grade", "zip_page", "batch", "view", "pixels"}...]}, "types": {type: mean position}}}
 and a flat CSV beside it. An address is looked up by its 12-digit block group from the Census geocoder.
 """
@@ -67,13 +72,15 @@ def main():
             for ft in feats:
                 pr=ft['properties']; gid=pr['GEOID']; pop=pr.get('POP100') or 0
                 if pop<150 or not ft.get('geometry'): continue
-                if bbox_inside(ft['geometry'],proj,top,left,right,bottom)<0.6: continue
                 m=_mask(ft['geometry'],proj,W,H,2)&keep
-                if m.sum()<300: continue
+                if m.sum()<60: continue
                 rec=table.setdefault(gid,{'pop':pop,'reads':{}})
                 for f in files:
                     P=ramp_positions(imgs[f][m])
-                    if len(P)<300: continue
+                    if len(P)<40: continue
+                    if len(P)<300:
+                        q25,q75=np.percentile(P,[25,75])
+                        if q75-q25>0.08: continue
                     pos=float(np.median(P)); t=man[f]['type']
                     rec['reads'].setdefault(t,[]).append({'position':round(pos,3),'grade':grade_equal_bands(pos),'zip_page':man[f]['zip'],'batch':batch,'view':v,'pixels':int(len(P))})
                 n+=1
