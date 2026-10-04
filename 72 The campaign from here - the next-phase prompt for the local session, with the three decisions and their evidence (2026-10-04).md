@@ -4,7 +4,7 @@ Written 2026-10-04 (cloud session) at Najum's request, once the crime layer cove
 
 ## 1. For Najum
 
-**Where the layer stands.** `_pipeline/model/crime_bg.json` holds 13,218 block groups read from your screenshots of 344 ZIP pages. Every one of the 207 active rows of file 14 has its six-tab reading, so do all 204 rows waiting for detail pages and all 222 listings that pass the money gates. 327 of the 400 sweep ZIPs carry all six tabs; the 73 others have no listings (4) or are covered by neighbouring pages (69). Nothing in that remainder blocks a row. From here the routines name the ZIPs they need in each report, and the layer is refreshed about once a year (memo 69 §4 item 6).
+**Where the layer stands.** `_pipeline/model/crime_bg.json` holds 13,237 block groups read from your screenshots of 348 ZIP pages. Every one of the 207 active rows of file 14 has its six-tab reading, so do all 204 rows waiting for detail pages and all 222 listings that pass the money gates. 327 of the 400 sweep ZIPs carry all six tabs; the 73 others have no listings (4) or are covered by neighbouring pages (69). Nothing in that remainder blocks a row. From here the routines name the ZIPs they need in each report, and the layer is refreshed about once a year (memo 69 §4 item 6).
 
 **What the sweep now does on its own.** Each run reads crime at `ingest`, knocks out a row by memo 69 §4.4, puts Robbery-F and unread rows behind the rest of the detail queue, scores the Robbery position and applies the 8 percent vacancy at Robbery F when it underwrites a row. The 25 queue rows that meet the knockout leave the queue at their region's next run (16 Pittsburgh on Wednesday, 7 Philadelphia on Tuesday, 2 Ohio on Thursday) without anyone touching them.
 
@@ -26,7 +26,7 @@ You are continuing Najum's 2026-2027 duplex search for his sister Ogo from the p
 
 ### Phase A. Close the crime work on the board (one sitting, before the Tuesday 6:43 AM run)
 
-A1. **Verify the inputs.** Confirm that `PIPE\model\crime_bg.json` reports `"built": "2026-10-04"` and 13,218 block groups in its `meta`, that `PIPE\weekly_sweep.py` has the 10/2 header line ("a row whose block group no map covers yet sorts below the rows that have a reading"), and that file 14 has 229 rows of which 207 are `ACTIVE`, every one of them with a `crime` cell that starts with `R ` and ends with a date. If any of the three is false, stop and report.
+A1. **Verify the inputs.** Confirm that `PIPE\model\crime_bg.json` reports `"built": "2026-10-04"` and 13,237 block groups in its `meta`, that `PIPE\weekly_sweep.py` has the 10/2 header line ("a row whose block group no map covers yet sorts below the rows that have a reading"), and that file 14 has 229 rows of which 207 are `ACTIVE`, every one of them with a `crime` cell that starts with `R ` and ends with a date. If any of the three is false, stop and report.
 
 A2. **The knockout, if Najum has said yes to decision 1.** Write `PIPE\apply_knockout_1005.py`. It reads file 14 and `72a Board rows that meet the memo 69 knockout, 35 of 207 active (2026-10-04).csv`, matches the 35 rows by address and URL, and for each one that is still `ACTIVE` sets the event to `<existing event> | OUT (crime) applied 2026-10-05: <reason from 72a> (memo 69 section 4.4)`, leaving `status`, `price`, `score`, `crime`, `novice`, `why`, `note` and `url` as they are. It then sorts the file with the sweep's key (active rows first, then rows with a reading, then score), which the 10/2 patch already uses, and writes it back with the BOM and CRLF line endings intact; before writing it copies the live file to `PIPE\_backup_14_before_1005knockout.csv`. Dry-run first (`--dry` prints the 35 event strings and the row count and changes nothing); show Najum the dry run; then write. Record every changed cell in `72b Knockout applied to the board, 35 rows before and after (2026-10-05).csv` at the campaign root, and add one line to the handoff README's "Weekly sweeps log". If a row of 72a is no longer `ACTIVE` when you run, skip it and say so in the report.
 
@@ -87,7 +87,7 @@ End each phase with 8 to 15 plain sentences: what changed, what was skipped and 
 
 ### 3.1 The layer on 2026-10-04
 
-13,218 block groups, 13,189 with all six tabs, built from 11 screenshot batches (2,352 shots) read between 9/29 and 10/4. Every reading of a block group seen on two pages agrees to within 0.024 on the legend scale, and the 344 ZIP pages fitted so far all pass the one-colour test (`check_fits.py`) apart from one blank map. 327 of the 400 sweep ZIPs carry all six tabs; 73 are unshot (4 with no listings, 69 covered by their neighbours' pages). Status of every board, queue and money-passing row: `pipeline_changes/2026-10-02-crime/row_status_2026-10-04.csv`.
+13,237 block groups, 13,212 with all six tabs, built from 12 screenshot batches (2,376 shots) read between 9/29 and 10/4. Every reading of a block group seen on two pages agrees to within 0.024 on the legend scale, and the 348 ZIP pages fitted so far all pass the one-colour test (`check_fits.py`) apart from one blank map. 327 of the 400 sweep ZIPs carry all six tabs; 73 are unshot (4 with no listings, 69 covered by their neighbours' pages). Status of every board, queue and money-passing row: `pipeline_changes/2026-10-02-crime/row_status_2026-10-04.csv`.
 
 ### 3.2 The ZIP-level shares
 
