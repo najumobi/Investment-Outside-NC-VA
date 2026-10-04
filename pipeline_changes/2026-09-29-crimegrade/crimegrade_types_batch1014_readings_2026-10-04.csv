@@ -1,0 +1,2 @@
+id,address,source,zip_page,view,type,image,zoom,fit_score,block_group,grade,position,position_iqr,at_address_position,pixels,edge_distance_m,neighbours,bg_inside,note
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,0,Drug-Related Crime,maps/types_batch1014/44306_drug.png,13.335,0.552,391535035003,D,0.78,0.78-0.78,0.78,1142,89,,1.0,
