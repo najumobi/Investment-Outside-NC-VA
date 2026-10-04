@@ -143,7 +143,6 @@
 44512, vandalism
 15066, drug crime
 26301, drug crime
-45503, drug crime
 15120, drug crime
 44123, drug crime
 44446, drug crime
@@ -170,7 +169,6 @@
 26003, drug crime
 26505, drug crime
 43614, drug crime
-44319, drug crime
 44646, drug crime
 44870, drug crime
 45750, drug crime
