@@ -117,3 +117,9 @@ In the detail queue, 201 of 204 rows are now readable, and 25 of them will leave
 6. The 101 ZIPs that can wait.
 
 After this batch 233 of the 400 sweep ZIPs are complete, and the table holds 11,969 block groups.
+
+## 10. The 10:45 PM batch of 2026-10-04: the layer is complete for every row that matters
+
+With this batch every active row of file 14, every row in the detail queue and every listing that passes the money gates has a block-level reading. The two pan re-shoots brought the three off-map queue rows onto a map. The board's knockout count stays at 35 of 207 active rows and the queue's at 25 of 204. The thirteen board cells written on 10/4 without a Drug flag get it now, with the date of the read, and nothing else about those rows changes.
+
+What is left to shoot no longer blocks anything: the Drug tab for 43 pages (a flag for the review stage), Vandalism and Drug for 08401, and 73 ZIPs that can wait. 71a and 71b now list only those, in that order. Memo 69's "once a year, or when CrimeGrade's data window moves" refresh is the next time the layer needs work.

@@ -1,0 +1,359 @@
+image,screenshot,zip_page,crime,view,type_inferred,status
+maps/types_batch1045/08021_assault.png,Screen Shot 10-03-26 at 09.45 PM 007.PNG,08021,Assault,28,,read
+maps/types_batch1045/08021_burglary.png,Screen Shot 10-03-26 at 09.45 PM 008.PNG,08021,Burglary,28,,read
+maps/types_batch1045/08021_murder.png,Screen Shot 10-03-26 at 09.45 PM 006.PNG,08021,Murder,28,,read
+maps/types_batch1045/08021_overall_crime.png,Screen Shot 10-03-26 at 09.45 PM 004.PNG,08021,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/08021_robbery.png,Screen Shot 10-03-26 at 09.42 PM 007.PNG,08021,Robbery,28,,read
+maps/types_batch1045/08021_vandalism.png,Screen Shot 10-03-26 at 09.45 PM 005.PNG,08021,Vandalism,28,,read
+maps/types_batch1045/08052_assault.png,Screen Shot 10-03-26 at 09.37 PM 001.PNG,08052,Assault,13,,read
+maps/types_batch1045/08052_burglary.png,Screen Shot 10-03-26 at 09.37 PM 005.PNG,08052,Burglary,14,,read
+maps/types_batch1045/08052_murder.png,Screen Shot 10-03-26 at 09.37 PM 004.PNG,08052,Murder,14,,read
+maps/types_batch1045/08052_overall_crime.png,Screen Shot 10-03-26 at 09.37 PM 002.PNG,08052,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/08052_robbery.png,Screen Shot 10-03-26 at 09.37 PM.PNG,08052,Robbery,14,,read
+maps/types_batch1045/08052_vandalism.png,Screen Shot 10-03-26 at 09.37 PM 003.PNG,08052,Vandalism,13,,read
+maps/types_batch1045/08060_assault.png,Screen Shot 10-03-26 at 09.38 PM 002.PNG,08060,Assault,17,,read
+maps/types_batch1045/08060_burglary.png,Screen Shot 10-03-26 at 09.38 PM 004.PNG,08060,Burglary,17,,read
+maps/types_batch1045/08060_overall_crime.png,Screen Shot 10-03-26 at 09.38 PM 003.PNG,08060,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/08075_drug.png,Screen Shot 10-03-26 at 10.27 PM 005.PNG,08075,Drug-Related Crime,95,,read
+maps/types_batch1045/08105_assault.png,Screen Shot 10-03-26 at 09.44 PM 003.PNG,08105,Assault,31,,read
+maps/types_batch1045/08105_burglary.png,Screen Shot 10-03-26 at 09.44 PM 007.PNG,08105,Burglary,31,,read
+maps/types_batch1045/08105_murder.png,Screen Shot 10-03-26 at 09.44 PM 006.PNG,08105,Murder,31,,read
+maps/types_batch1045/08105_overall_crime.png,Screen Shot 10-03-26 at 09.44 PM 004.PNG,08105,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/08105_robbery.png,Screen Shot 10-03-26 at 09.44 PM 002.PNG,08105,Robbery,31,,read
+maps/types_batch1045/08105_vandalism.png,Screen Shot 10-03-26 at 09.44 PM 005.PNG,08105,Vandalism,31,,read
+maps/types_batch1045/08232_drug.png,Screen Shot 10-03-26 at 10.28 PM.PNG,08232,Drug-Related Crime,98,,read
+maps/types_batch1045/08360_assault.png,Screen Shot 10-03-26 at 10.30 PM 003.PNG,08360,Assault,16,,read
+maps/types_batch1045/08360_burglary.png,Screen Shot 10-03-26 at 10.30 PM.PNG,08360,Burglary,16,,read
+maps/types_batch1045/08360_drug.png,Screen Shot 10-03-26 at 10.30 PM 004.PNG,08360,Drug-Related Crime,16,,read
+maps/types_batch1045/08360_drug_2.png,Screen Shot 10-03-26 at 10.31 PM.PNG,08360,Drug-Related Crime,16,,read
+maps/types_batch1045/08360_robbery.png,Screen Shot 10-03-26 at 10.30 PM 002.PNG,08360,Robbery,16,,read
+maps/types_batch1045/08360_vandalism.png,Screen Shot 10-03-26 at 09.38 PM 001.PNG,08360,Vandalism,16,,read
+maps/types_batch1045/08360_vandalism_2.png,Screen Shot 10-03-26 at 10.30 PM 001.PNG,08360,Vandalism,16,,read
+maps/types_batch1045/08401_assault.png,Screen Shot 10-03-26 at 09.36 PM 004.PNG,08401,Assault,11,,read
+maps/types_batch1045/08401_burglary.png,Screen Shot 10-03-26 at 09.40 PM 005.PNG,08401,Burglary,11,,read
+maps/types_batch1045/08401_murder.png,Screen Shot 10-03-26 at 09.41 PM 003.PNG,08401,Murder,11,,read
+maps/types_batch1045/08401_overall_crime.png,Screen Shot 10-03-26 at 09.36 PM 005.PNG,08401,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/08401_robbery.png,Screen Shot 10-03-26 at 09.36 PM 003.PNG,08401,Robbery,11,,read
+maps/types_batch1045/08401_vandalism.png,Screen Shot 10-03-26 at 09.36 PM 006.PNG,08401,Vandalism,,,dropped: street layer did not load and the map sits at a different position from the page's other tabs; Vandalism needs a re-shoot
+maps/types_batch1045/13811_drug.png,Screen Shot 10-03-26 at 10.22 PM 001.PNG,13811,Drug-Related Crime,78,,read
+maps/types_batch1045/14843_drug.png,Screen Shot 10-03-26 at 10.27 PM 002.PNG,14843,Drug-Related Crime,92,,read
+maps/types_batch1045/14845_assault.png,Screen Shot 10-03-26 at 10.36 PM 006.PNG,14845,Assault,113,,read
+maps/types_batch1045/14845_burglary.png,Screen Shot 10-03-26 at 10.37 PM 002.PNG,14845,Burglary,114,,read
+maps/types_batch1045/14845_murder.png,Screen Shot 10-03-26 at 10.37 PM 001.PNG,14845,Murder,114,,read
+maps/types_batch1045/14845_overall_crime.png,Screen Shot 10-03-26 at 10.36 PM 007.PNG,14845,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/14845_robbery.png,Screen Shot 10-03-26 at 10.36 PM 005.PNG,14845,Robbery,113,,read
+maps/types_batch1045/14845_vandalism.png,Screen Shot 10-03-26 at 10.37 PM.PNG,14845,Vandalism,113,,read
+maps/types_batch1045/15010_drug.png,Screen Shot 10-03-26 at 10.22 PM 002.PNG,15010,Drug-Related Crime,79,,read
+maps/types_batch1045/15066_drug.png,Screen Shot 10-03-26 at 10.14 PM.PNG,15066,Drug-Related Crime,61,,read
+maps/types_batch1045/15106_burglary.png,Screen Shot 10-03-26 at 10.28 PM 004.PNG,15106,Burglary,97,,read
+maps/types_batch1045/15106_drug.png,Screen Shot 10-03-26 at 10.28 PM 002.PNG,15106,Drug-Related Crime,97,,read
+maps/types_batch1045/15106_murder.png,Screen Shot 10-03-26 at 10.28 PM 003.PNG,15106,Murder,97,,read
+maps/types_batch1045/15108_drug.png,Screen Shot 10-03-26 at 10.22 PM 003.PNG,15108,Drug-Related Crime,80,,read
+maps/types_batch1045/15120_drug.png,Screen Shot 10-03-26 at 10.14 PM 002.PNG,15120,Drug-Related Crime,60,,read
+maps/types_batch1045/15147_assault.png,Screen Shot 10-03-26 at 09.35 PM 005.PNG,15147,Assault,9,,read
+maps/types_batch1045/15147_burglary.png,Screen Shot 10-03-26 at 09.36 PM 002.PNG,15147,Burglary,10,,read
+maps/types_batch1045/15147_murder.png,Screen Shot 10-03-26 at 09.36 PM 001.PNG,15147,Murder,9,,read
+maps/types_batch1045/15147_overall_crime.png,Screen Shot 10-03-26 at 09.35 PM 006.PNG,15147,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/15147_robbery.png,Screen Shot 10-03-26 at 09.35 PM 004.PNG,15147,Robbery,9,,read
+maps/types_batch1045/15147_vandalism.png,Screen Shot 10-03-26 at 09.36 PM.PNG,15147,Vandalism,9,,read
+maps/types_batch1045/15219_drug.png,Screen Shot 10-03-26 at 10.21 PM.PNG,15219,Drug-Related Crime,77,,read
+maps/types_batch1045/15401_drug.png,Screen Shot 10-03-26 at 10.20 PM.PNG,15401,Drug-Related Crime,74,,read
+maps/types_batch1045/15425_drug.png,Screen Shot 10-03-26 at 10.23 PM.PNG,15425,Drug-Related Crime,84,,read
+maps/types_batch1045/15501_drug.png,Screen Shot 10-03-26 at 10.25 PM.PNG,15501,Drug-Related Crime,87,,read
+maps/types_batch1045/15601_drug.png,Screen Shot 10-03-26 at 10.19 PM 001.PNG,15601,Drug-Related Crime,68,,read
+maps/types_batch1045/15701_drug.png,Screen Shot 10-03-26 at 10.20 PM 001.PNG,15701,Drug-Related Crime,70,,read
+maps/types_batch1045/15717_assault.png,Screen Shot 10-03-26 at 10.33 PM 009.PNG,15717,Assault,107,,read
+maps/types_batch1045/15717_burglary.png,Screen Shot 10-03-26 at 10.34 PM 001.PNG,15717,Burglary,107,,read
+maps/types_batch1045/15717_murder.png,Screen Shot 10-03-26 at 10.34 PM.PNG,15717,Murder,107,,read
+maps/types_batch1045/15717_overall_crime.png,Screen Shot 10-03-26 at 10.33 PM 010.PNG,15717,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/15717_robbery.png,Screen Shot 10-03-26 at 10.33 PM 008.PNG,15717,Robbery,107,,read
+maps/types_batch1045/15717_vandalism.png,Screen Shot 10-03-26 at 10.33 PM 011.PNG,15717,Vandalism,107,,read
+maps/types_batch1045/15904_assault.png,Screen Shot 10-03-26 at 10.34 PM 003.PNG,15904,Assault,108,,read
+maps/types_batch1045/15904_burglary.png,Screen Shot 10-03-26 at 10.35 PM 002.PNG,15904,Burglary,109,,read
+maps/types_batch1045/15904_murder.png,Screen Shot 10-03-26 at 10.35 PM 001.PNG,15904,Murder,108,,read
+maps/types_batch1045/15904_overall_crime.png,Screen Shot 10-03-26 at 10.34 PM 004.PNG,15904,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/15904_robbery.png,Screen Shot 10-03-26 at 10.34 PM 002.PNG,15904,Robbery,108,,read
+maps/types_batch1045/15904_vandalism.png,Screen Shot 10-03-26 at 10.35 PM.PNG,15904,Vandalism,108,,read
+maps/types_batch1045/17870_assault.png,Screen Shot 10-03-26 at 10.39 PM 004.PNG,17870,Assault,120,,read
+maps/types_batch1045/17870_burglary.png,Screen Shot 10-03-26 at 10.39 PM 002.PNG,17870,Burglary,120,,read
+maps/types_batch1045/17870_murder.png,Screen Shot 10-03-26 at 10.38 PM.PNG,17870,Murder,120,,read
+maps/types_batch1045/17870_robbery.png,Screen Shot 10-03-26 at 10.41 PM 007.PNG,17870,Robbery,120,,read
+maps/types_batch1045/17870_vandalism.png,Screen Shot 10-03-26 at 10.40 PM.PNG,17870,Vandalism,120,,read
+maps/types_batch1045/18407_drug.png,Screen Shot 10-03-26 at 10.27 PM 003.PNG,18407,Drug-Related Crime,93,,read
+maps/types_batch1045/18434_assault.png,Screen Shot 10-03-26 at 10.38 PM 003.PNG,18434,Assault,119,,read
+maps/types_batch1045/18434_burglary.png,Screen Shot 10-03-26 at 10.41 PM 006.PNG,18434,Burglary,119,,read
+maps/types_batch1045/18434_drug.png,Screen Shot 10-03-26 at 10.41 PM 003.PNG,18434,Drug-Related Crime,119,,read
+maps/types_batch1045/18434_murder.png,Screen Shot 10-03-26 at 10.41 PM 005.PNG,18434,Murder,119,,read
+maps/types_batch1045/18434_robbery.png,Screen Shot 10-03-26 at 10.38 PM 002.PNG,18434,Robbery,119,,read
+maps/types_batch1045/18434_vandalism.png,Screen Shot 10-03-26 at 10.41 PM 004.PNG,18434,Vandalism,119,,read
+maps/types_batch1045/18644_assault.png,Screen Shot 10-03-26 at 10.39 PM.PNG,18644,Assault,118,,read
+maps/types_batch1045/18644_burglary.png,Screen Shot 10-03-26 at 10.42 PM 005.PNG,18644,Burglary,118,,read
+maps/types_batch1045/18644_murder.png,Screen Shot 10-03-26 at 10.40 PM 004.PNG,18644,Murder,118,,read
+maps/types_batch1045/18644_robbery.png,Screen Shot 10-03-26 at 10.38 PM 001.PNG,18644,Robbery,118,,read
+maps/types_batch1045/18644_vandalism.png,Screen Shot 10-03-26 at 10.39 PM 001.PNG,18644,Vandalism,118,,read
+maps/types_batch1045/19007_assault.png,Screen Shot 10-03-26 at 10.36 PM.PNG,19007,Assault,111,,read
+maps/types_batch1045/19007_burglary.png,Screen Shot 10-03-26 at 10.36 PM 004.PNG,19007,Burglary,112,,read
+maps/types_batch1045/19007_murder.png,Screen Shot 10-03-26 at 10.36 PM 003.PNG,19007,Murder,111,,read
+maps/types_batch1045/19007_overall_crime.png,Screen Shot 10-03-26 at 10.36 PM 001.PNG,19007,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/19007_robbery.png,Screen Shot 10-03-26 at 10.35 PM 009.PNG,19007,Robbery,111,,read
+maps/types_batch1045/19007_vandalism.png,Screen Shot 10-03-26 at 10.36 PM 002.PNG,19007,Vandalism,111,,read
+maps/types_batch1045/19020_assault.png,Screen Shot 10-03-26 at 10.00 PM.PNG,19020,Assault,56,,read
+maps/types_batch1045/19020_burglary.png,Screen Shot 10-03-26 at 10.06 PM 001.PNG,19020,Burglary,56,,read
+maps/types_batch1045/19020_murder.png,Screen Shot 10-03-26 at 10.06 PM.PNG,19020,Murder,56,,read
+maps/types_batch1045/19020_overall_crime.png,Screen Shot 10-03-26 at 10.00 PM 001.PNG,19020,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/19020_robbery.png,Screen Shot 10-03-26 at 10.00 PM 003.PNG,19020,Robbery,56,,read
+maps/types_batch1045/19020_vandalism.png,Screen Shot 10-03-26 at 10.05 PM.PNG,19020,Vandalism,56,,read
+maps/types_batch1045/19720_assault.png,Screen Shot 10-03-26 at 10.23 PM 008.PNG,19720,Assault,83,,read
+maps/types_batch1045/19720_burglary.png,Screen Shot 10-03-26 at 10.31 PM 003.PNG,19720,Burglary,101,,read
+maps/types_batch1045/19720_murder.png,Screen Shot 10-03-26 at 10.31 PM 002.PNG,19720,Murder,83,,read
+maps/types_batch1045/19720_overall_crime.png,Screen Shot 10-03-26 at 10.23 PM 009.PNG,19720,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/19720_robbery.png,Screen Shot 10-03-26 at 10.23 PM 007.PNG,19720,Robbery,83,,read
+maps/types_batch1045/19720_vandalism.png,Screen Shot 10-03-26 at 10.31 PM 001.PNG,19720,Vandalism,83,,read
+maps/types_batch1045/19805_drug.png,Screen Shot 10-03-26 at 10.20 PM 002.PNG,19805,Drug-Related Crime,71,,read
+maps/types_batch1045/24230_assault.png,Screen Shot 10-03-26 at 09.33 PM 001.PNG,24230,Assault,0,,read
+maps/types_batch1045/24230_burglary.png,Screen Shot 10-03-26 at 09.33 PM 005.PNG,24230,Burglary,0,,read
+maps/types_batch1045/24230_murder.png,Screen Shot 10-03-26 at 09.33 PM 004.PNG,24230,Murder,0,,read
+maps/types_batch1045/24230_overall_crime.png,Screen Shot 10-03-26 at 09.33 PM 002.PNG,24230,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/24230_robbery.png,Screen Shot 10-03-26 at 09.29 PM.PNG,24230,Robbery,0,,read
+maps/types_batch1045/24230_robbery_2.png,Screen Shot 10-03-26 at 09.33 PM.PNG,24230,Robbery,0,,read
+maps/types_batch1045/24230_vandalism.png,Screen Shot 10-03-26 at 09.33 PM 003.PNG,24230,Vandalism,0,,read
+maps/types_batch1045/26003_drug.png,Screen Shot 10-03-26 at 10.25 PM 001.PNG,26003,Drug-Related Crime,85,,read
+maps/types_batch1045/26301_drug.png,Screen Shot 10-03-26 at 10.14 PM 001.PNG,26301,Drug-Related Crime,59,,read
+maps/types_batch1045/26501_assault.png,Screen Shot 10-03-26 at 09.40 PM 007.PNG,26501,Assault,23,,read
+maps/types_batch1045/26501_burglary.png,Screen Shot 10-03-26 at 09.41 PM 001.PNG,26501,Burglary,23,,read
+maps/types_batch1045/26501_murder.png,Screen Shot 10-03-26 at 09.41 PM.PNG,26501,Murder,26,,read
+maps/types_batch1045/26501_overall_crime.png,Screen Shot 10-03-26 at 09.40 PM 008.PNG,26501,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/26501_robbery.png,Screen Shot 10-03-26 at 09.40 PM 006.PNG,26501,Robbery,23,,read
+maps/types_batch1045/26501_vandalism.png,Screen Shot 10-03-26 at 09.40 PM 009.PNG,26501,Vandalism,23,,read
+maps/types_batch1045/26505_drug.png,Screen Shot 10-03-26 at 10.25 PM 002.PNG,26505,Drug-Related Crime,86,,read
+maps/types_batch1045/27401_drug.png,Screen Shot 10-03-26 at 10.27 PM 001.PNG,27401,Drug-Related Crime,91,,read
+maps/types_batch1045/27405_assault.png,Screen Shot 10-03-26 at 09.34 PM 004.PNG,27405,Assault,4,,read
+maps/types_batch1045/27405_burglary.png,Screen Shot 10-03-26 at 09.34 PM 008.PNG,27405,Burglary,4,,read
+maps/types_batch1045/27405_murder.png,Screen Shot 10-03-26 at 09.34 PM 007.PNG,27405,Murder,3,,read
+maps/types_batch1045/27405_overall_crime.png,Screen Shot 10-03-26 at 09.34 PM 005.PNG,27405,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/27405_robbery.png,Screen Shot 10-03-26 at 09.34 PM 003.PNG,27405,Robbery,3,,read
+maps/types_batch1045/27405_vandalism.png,Screen Shot 10-03-26 at 09.34 PM 006.PNG,27405,Vandalism,3,,read
+maps/types_batch1045/27536_assault.png,Screen Shot 10-03-26 at 09.33 PM 007.PNG,27536,Assault,1,,read
+maps/types_batch1045/27536_burglary.png,Screen Shot 10-03-26 at 09.34 PM 002.PNG,27536,Burglary,2,,read
+maps/types_batch1045/27536_murder.png,Screen Shot 10-03-26 at 09.34 PM 001.PNG,27536,Murder,1,,read
+maps/types_batch1045/27536_overall_crime.png,Screen Shot 10-03-26 at 09.33 PM 008.PNG,27536,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/27536_robbery.png,Screen Shot 10-03-26 at 09.33 PM 006.PNG,27536,Robbery,1,,read
+maps/types_batch1045/27536_vandalism.png,Screen Shot 10-03-26 at 09.34 PM.PNG,27536,Vandalism,1,,read
+maps/types_batch1045/27834_drug.png,Screen Shot 10-03-26 at 10.27 PM 004.PNG,27834,Drug-Related Crime,94,,read
+maps/types_batch1045/28052_assault.png,Screen Shot 10-03-26 at 09.45 PM 001.PNG,28052,Assault,32,,read
+maps/types_batch1045/28052_burglary.png,Screen Shot 10-03-26 at 09.47 PM 002.PNG,28052,Burglary,32,,read
+maps/types_batch1045/28052_murder.png,Screen Shot 10-03-26 at 09.47 PM 001.PNG,28052,Murder,32,,read
+maps/types_batch1045/28052_overall_crime.png,Screen Shot 10-03-26 at 09.45 PM 002.PNG,28052,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/28052_robbery.png,Screen Shot 10-03-26 at 09.45 PM.PNG,28052,Robbery,32,,read
+maps/types_batch1045/28052_vandalism.png,Screen Shot 10-03-26 at 09.45 PM 003.PNG,28052,Vandalism,32,,read
+maps/types_batch1045/28144_murder.png,Screen Shot 10-03-26 at 09.37 PM 006.PNG,28144,Murder,15,,read
+maps/types_batch1045/28144_murder_2.png,Screen Shot 10-03-26 at 10.29 PM 004.PNG,28144,Murder,15,,read
+maps/types_batch1045/28613_drug.png,Screen Shot 10-03-26 at 10.28 PM 001.PNG,28613,Drug-Related Crime,19,,read
+maps/types_batch1045/28613_overall_crime.png,Screen Shot 10-03-26 at 09.38 PM.PNG,28613,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/43402_assault.png,Screen Shot 10-03-26 at 09.59 PM 001.PNG,43402,Assault,53,,read
+maps/types_batch1045/43402_burglary.png,Screen Shot 10-03-26 at 09.59 PM 005.PNG,43402,Burglary,53,,read
+maps/types_batch1045/43402_murder.png,Screen Shot 10-03-26 at 09.59 PM 004.PNG,43402,Murder,53,,read
+maps/types_batch1045/43402_overall_crime.png,Screen Shot 10-03-26 at 09.59 PM 002.PNG,43402,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/43402_robbery.png,Screen Shot 10-03-26 at 09.59 PM.PNG,43402,Robbery,53,,read
+maps/types_batch1045/43402_vandalism.png,Screen Shot 10-03-26 at 09.59 PM 003.PNG,43402,Vandalism,53,,read
+maps/types_batch1045/43410_assault.png,Screen Shot 10-03-26 at 10.32 PM 003.PNG,43410,Assault,106,,read
+maps/types_batch1045/43410_burglary.png,Screen Shot 10-03-26 at 10.33 PM 002.PNG,43410,Burglary,105,,read
+maps/types_batch1045/43410_murder.png,Screen Shot 10-03-26 at 10.33 PM 001.PNG,43410,Murder,105,,read
+maps/types_batch1045/43410_overall_crime.png,Screen Shot 10-03-26 at 10.32 PM 004.PNG,43410,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/43410_robbery.png,Screen Shot 10-03-26 at 10.32 PM 002.PNG,43410,Robbery,105,,read
+maps/types_batch1045/43410_vandalism.png,Screen Shot 10-03-26 at 10.33 PM.PNG,43410,Vandalism,105,,read
+maps/types_batch1045/43614_drug.png,Screen Shot 10-03-26 at 10.26 PM.PNG,43614,Drug-Related Crime,90,,read
+maps/types_batch1045/43812_drug.png,Screen Shot 10-03-26 at 10.16 PM.PNG,43812,Drug-Related Crime,67,,read
+maps/types_batch1045/44004_drug.png,Screen Shot 10-03-26 at 10.21 PM 001.PNG,44004,Drug-Related Crime,75,,read
+maps/types_batch1045/44035_drug.png,Screen Shot 10-03-26 at 10.21 PM 002.PNG,44035,Drug-Related Crime,76,,read
+maps/types_batch1045/44041_assault.png,Screen Shot 10-03-26 at 10.37 PM 004.PNG,44041,Assault,115,,read
+maps/types_batch1045/44041_burglary.png,Screen Shot 10-03-26 at 10.37 PM 008.PNG,44041,Burglary,115,,read
+maps/types_batch1045/44041_murder.png,Screen Shot 10-03-26 at 10.37 PM 007.PNG,44041,Murder,116,,read
+maps/types_batch1045/44041_overall_crime.png,Screen Shot 10-03-26 at 10.37 PM 005.PNG,44041,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44041_robbery.png,Screen Shot 10-03-26 at 10.37 PM 003.PNG,44041,Robbery,115,,read
+maps/types_batch1045/44041_vandalism.png,Screen Shot 10-03-26 at 10.37 PM 006.PNG,44041,Vandalism,115,,read
+maps/types_batch1045/44052_drug.png,Screen Shot 10-03-26 at 10.22 PM.PNG,44052,Drug-Related Crime,81,,read
+maps/types_batch1045/44055_drug.png,Screen Shot 10-03-26 at 10.20 PM 003.PNG,44055,Drug-Related Crime,72,,read
+maps/types_batch1045/44077_assault.png,Screen Shot 10-03-26 at 09.47 PM 003.PNG,44077,Assault,34,,read
+maps/types_batch1045/44077_burglary.png,Screen Shot 10-03-26 at 09.47 PM 008.PNG,44077,Burglary,35,,read
+maps/types_batch1045/44077_murder.png,Screen Shot 10-03-26 at 09.47 PM 007.PNG,44077,Murder,34,,read
+maps/types_batch1045/44077_overall_crime.png,Screen Shot 10-03-26 at 09.47 PM 005.PNG,44077,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44077_robbery.png,Screen Shot 10-03-26 at 09.47 PM 004.PNG,44077,Robbery,34,,read
+maps/types_batch1045/44077_vandalism.png,Screen Shot 10-03-26 at 09.47 PM 006.PNG,44077,Vandalism,34,,read
+maps/types_batch1045/44094_assault.png,Screen Shot 10-03-26 at 10.40 PM 001.PNG,44094,Assault,121,,read
+maps/types_batch1045/44094_burglary.png,Screen Shot 10-03-26 at 10.41 PM 002.PNG,44094,Burglary,121,,read
+maps/types_batch1045/44094_drug.png,Screen Shot 10-03-26 at 10.40 PM 002.PNG,44094,Drug-Related Crime,121,,read
+maps/types_batch1045/44094_murder.png,Screen Shot 10-03-26 at 10.41 PM 001.PNG,44094,Murder,121,,read
+maps/types_batch1045/44094_robbery.png,Screen Shot 10-03-26 at 10.39 PM 003.PNG,44094,Robbery,121,,read
+maps/types_batch1045/44094_vandalism.png,Screen Shot 10-03-26 at 10.40 PM 003.PNG,44094,Vandalism,121,,read
+maps/types_batch1045/44107_assault.png,Screen Shot 10-03-26 at 09.41 PM 004.PNG,44107,Assault,24,,read
+maps/types_batch1045/44107_burglary.png,Screen Shot 10-03-26 at 09.42 PM.PNG,44107,Burglary,24,,read
+maps/types_batch1045/44107_murder.png,Screen Shot 10-03-26 at 09.41 PM 007.PNG,44107,Murder,25,,read
+maps/types_batch1045/44107_overall_crime.png,Screen Shot 10-03-26 at 09.41 PM 005.PNG,44107,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44107_robbery.png,Screen Shot 10-03-26 at 09.41 PM 002.PNG,44107,Robbery,24,,read
+maps/types_batch1045/44107_vandalism.png,Screen Shot 10-03-26 at 09.41 PM 006.PNG,44107,Vandalism,25,,read
+maps/types_batch1045/44123_drug.png,Screen Shot 10-03-26 at 10.15 PM.PNG,44123,Drug-Related Crime,65,,read
+maps/types_batch1045/44146_drug.png,Screen Shot 10-03-26 at 10.15 PM 003.PNG,44146,Drug-Related Crime,64,,read
+maps/types_batch1045/44202_assault.png,Screen Shot 10-03-26 at 10.31 PM 005.PNG,44202,Assault,103,,read
+maps/types_batch1045/44202_burglary.png,Screen Shot 10-03-26 at 10.32 PM.PNG,44202,Burglary,103,,read
+maps/types_batch1045/44202_murder.png,Screen Shot 10-03-26 at 10.31 PM 008.PNG,44202,Murder,103,,read
+maps/types_batch1045/44202_overall_crime.png,Screen Shot 10-03-26 at 10.31 PM 006.PNG,44202,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44202_robbery.png,Screen Shot 10-03-26 at 10.31 PM 004.PNG,44202,Robbery,102,,read
+maps/types_batch1045/44202_vandalism.png,Screen Shot 10-03-26 at 10.31 PM 007.PNG,44202,Vandalism,103,,read
+maps/types_batch1045/44203_drug.png,Screen Shot 10-03-26 at 10.16 PM 001.PNG,44203,Drug-Related Crime,66,,read
+maps/types_batch1045/44266_assault.png,Screen Shot 10-03-26 at 10.23 PM 002.PNG,44266,Assault,82,,read
+maps/types_batch1045/44266_burglary.png,Screen Shot 10-03-26 at 10.23 PM 006.PNG,44266,Burglary,82,,read
+maps/types_batch1045/44266_murder.png,Screen Shot 10-03-26 at 10.23 PM 005.PNG,44266,Murder,82,,read
+maps/types_batch1045/44266_overall_crime.png,Screen Shot 10-03-26 at 10.23 PM 003.PNG,44266,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44266_robbery.png,Screen Shot 10-03-26 at 10.23 PM 001.PNG,44266,Robbery,82,,read
+maps/types_batch1045/44266_vandalism.png,Screen Shot 10-03-26 at 10.23 PM 004.PNG,44266,Vandalism,82,,read
+maps/types_batch1045/44278_assault.png,Screen Shot 10-03-26 at 10.42 PM 003.PNG,44278,Assault,123,,read
+maps/types_batch1045/44278_burglary.png,Screen Shot 10-03-26 at 10.41 PM 008.PNG,44278,Burglary,122,,read
+maps/types_batch1045/44278_drug.png,Screen Shot 10-03-26 at 10.42 PM 002.PNG,44278,Drug-Related Crime,122,,read
+maps/types_batch1045/44278_murder.png,Screen Shot 10-03-26 at 10.42 PM.PNG,44278,Murder,122,,read
+maps/types_batch1045/44278_robbery.png,Screen Shot 10-03-26 at 10.42 PM 004.PNG,44278,Robbery,124,,read
+maps/types_batch1045/44278_vandalism.png,Screen Shot 10-03-26 at 10.42 PM 001.PNG,44278,Vandalism,122,,read
+maps/types_batch1045/44305_drug.png,Screen Shot 10-03-26 at 10.15 PM 002.PNG,44305,Drug-Related Crime,63,,read
+maps/types_batch1045/44306_assault.png,Screen Shot 10-03-26 at 09.48 PM 004.PNG,44306,Assault,37,,read
+maps/types_batch1045/44306_burglary.png,Screen Shot 10-03-26 at 09.48 PM 008.PNG,44306,Burglary,37,,read
+maps/types_batch1045/44306_murder.png,Screen Shot 10-03-26 at 09.48 PM 007.PNG,44306,Murder,37,,read
+maps/types_batch1045/44306_overall_crime.png,Screen Shot 10-03-26 at 09.48 PM 005.PNG,44306,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44306_robbery.png,Screen Shot 10-03-26 at 09.48 PM 003.PNG,44306,Robbery,37,,read
+maps/types_batch1045/44306_vandalism.png,Screen Shot 10-03-26 at 09.48 PM 006.PNG,44306,Vandalism,37,,read
+maps/types_batch1045/44310_assault.png,Screen Shot 10-03-26 at 09.34 PM 010.PNG,44310,Assault,5,,read
+maps/types_batch1045/44310_burglary.png,Screen Shot 10-03-26 at 09.34 PM 014.PNG,44310,Burglary,5,,read
+maps/types_batch1045/44310_murder.png,Screen Shot 10-03-26 at 09.34 PM 013.PNG,44310,Murder,6,,read
+maps/types_batch1045/44310_overall_crime.png,Screen Shot 10-03-26 at 09.34 PM 011.PNG,44310,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44310_robbery.png,Screen Shot 10-03-26 at 09.34 PM 009.PNG,44310,Robbery,5,,read
+maps/types_batch1045/44310_vandalism.png,Screen Shot 10-03-26 at 09.34 PM 012.PNG,44310,Vandalism,5,,read
+maps/types_batch1045/44319_assault.png,Screen Shot 10-03-26 at 10.09 PM 004.PNG,44319,Assault,58,,read
+maps/types_batch1045/44319_burglary.png,Screen Shot 10-03-26 at 10.09 PM.PNG,44319,Burglary,58,,read
+maps/types_batch1045/44319_drug.png,Screen Shot 10-03-26 at 10.09 PM 005.PNG,44319,Drug-Related Crime,58,,read
+maps/types_batch1045/44319_murder.png,Screen Shot 10-03-26 at 10.09 PM 002.PNG,44319,Murder,58,,read
+maps/types_batch1045/44319_robbery.png,Screen Shot 10-03-26 at 10.09 PM 003.PNG,44319,Robbery,58,,read
+maps/types_batch1045/44319_vandalism.png,Screen Shot 10-03-26 at 10.09 PM 001.PNG,44319,Vandalism,58,,read
+maps/types_batch1045/44420_drug.png,Screen Shot 10-03-26 at 10.20 PM 004.PNG,44420,Drug-Related Crime,73,,read
+maps/types_batch1045/44446_drug.png,Screen Shot 10-03-26 at 10.15 PM 001.PNG,44446,Drug-Related Crime,62,,read
+maps/types_batch1045/44460_assault.png,Screen Shot 10-03-26 at 09.55 PM.PNG,44460,Assault,41,,read
+maps/types_batch1045/44460_burglary.png,Screen Shot 10-03-26 at 09.55 PM 004.PNG,44460,Burglary,41,,read
+maps/types_batch1045/44460_murder.png,Screen Shot 10-03-26 at 09.55 PM 003.PNG,44460,Murder,41,,read
+maps/types_batch1045/44460_overall_crime.png,Screen Shot 10-03-26 at 09.55 PM 001.PNG,44460,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44460_robbery.png,Screen Shot 10-03-26 at 09.54 PM.PNG,44460,Robbery,41,,read
+maps/types_batch1045/44460_vandalism.png,Screen Shot 10-03-26 at 09.55 PM 002.PNG,44460,Vandalism,41,,read
+maps/types_batch1045/44512_vandalism.png,Screen Shot 10-03-26 at 09.50 PM.PNG,44512,Vandalism,40,,read
+maps/types_batch1045/44512_vandalism_2.png,Screen Shot 10-03-26 at 10.29 PM 003.PNG,44512,Vandalism,100,,read
+maps/types_batch1045/44515_assault.png,Screen Shot 10-03-26 at 09.58 PM 006.PNG,44515,Assault,50,,read
+maps/types_batch1045/44515_burglary.png,Screen Shot 10-03-26 at 09.58 PM 010.PNG,44515,Burglary,50,,read
+maps/types_batch1045/44515_murder.png,Screen Shot 10-03-26 at 09.58 PM 009.PNG,44515,Murder,50,,read
+maps/types_batch1045/44515_overall_crime.png,Screen Shot 10-03-26 at 09.58 PM 007.PNG,44515,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44515_robbery.png,Screen Shot 10-03-26 at 09.58 PM 005.PNG,44515,Robbery,50,,read
+maps/types_batch1045/44515_vandalism.png,Screen Shot 10-03-26 at 09.58 PM 008.PNG,44515,Vandalism,51,,read
+maps/types_batch1045/44614_assault.png,Screen Shot 10-03-26 at 10.43 PM.PNG,44614,Assault,125,,read
+maps/types_batch1045/44614_burglary.png,Screen Shot 10-03-26 at 10.42 PM 006.PNG,44614,Burglary,125,,read
+maps/types_batch1045/44614_drug.png,Screen Shot 10-03-26 at 10.42 PM 009.PNG,44614,Drug-Related Crime,125,,read
+maps/types_batch1045/44614_murder.png,Screen Shot 10-03-26 at 10.42 PM 007.PNG,44614,Murder,125,,read
+maps/types_batch1045/44614_robbery.png,Screen Shot 10-03-26 at 10.43 PM 001.PNG,44614,Robbery,125,,read
+maps/types_batch1045/44614_vandalism.png,Screen Shot 10-03-26 at 10.42 PM 008.PNG,44614,Vandalism,125,,read
+maps/types_batch1045/44622_assault.png,Screen Shot 10-03-26 at 10.33 PM 004.PNG,44622,Assault,104,,read
+maps/types_batch1045/44622_burglary.png,Screen Shot 10-03-26 at 10.33 PM 007.PNG,44622,Burglary,104,,read
+maps/types_batch1045/44622_murder.png,Screen Shot 10-03-26 at 10.33 PM 006.PNG,44622,Murder,104,,read
+maps/types_batch1045/44622_overall_crime.png,Screen Shot 10-03-26 at 10.33 PM 005.PNG,44622,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44622_robbery.png,Screen Shot 10-03-26 at 10.33 PM 003.PNG,44622,Robbery,104,,read
+maps/types_batch1045/44622_vandalism.png,Screen Shot 10-03-26 at 10.32 PM 001.PNG,44622,Vandalism,104,,read
+maps/types_batch1045/44646_drug.png,Screen Shot 10-03-26 at 10.26 PM 001.PNG,44646,Drug-Related Crime,88,,read
+maps/types_batch1045/44647_assault.png,Screen Shot 10-03-26 at 09.34 PM 016.PNG,44647,Assault,7,,read
+maps/types_batch1045/44647_burglary.png,Screen Shot 10-03-26 at 09.35 PM 003.PNG,44647,Burglary,8,,read
+maps/types_batch1045/44647_murder.png,Screen Shot 10-03-26 at 09.35 PM 002.PNG,44647,Murder,7,,read
+maps/types_batch1045/44647_overall_crime.png,Screen Shot 10-03-26 at 09.35 PM.PNG,44647,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44647_robbery.png,Screen Shot 10-03-26 at 09.34 PM 015.PNG,44647,Robbery,7,,read
+maps/types_batch1045/44647_vandalism.png,Screen Shot 10-03-26 at 09.35 PM 001.PNG,44647,Vandalism,7,,read
+maps/types_batch1045/44657_assault.png,Screen Shot 10-03-26 at 10.38 PM 004.PNG,44657,Assault,117,,read
+maps/types_batch1045/44657_burglary.png,Screen Shot 10-03-26 at 10.41 PM.PNG,44657,Burglary,117,,read
+maps/types_batch1045/44657_murder.png,Screen Shot 10-03-26 at 10.43 PM 003.PNG,44657,Murder,117,,read
+maps/types_batch1045/44657_robbery.png,Screen Shot 10-03-26 at 10.37 PM 009.PNG,44657,Robbery,117,,read
+maps/types_batch1045/44657_vandalism.png,Screen Shot 10-03-26 at 10.43 PM 002.PNG,44657,Vandalism,117,,read
+maps/types_batch1045/44667_assault.png,Screen Shot 10-03-26 at 10.35 PM 004.PNG,44667,Assault,110,,read
+maps/types_batch1045/44667_burglary.png,Screen Shot 10-03-26 at 10.35 PM 008.PNG,44667,Burglary,110,,read
+maps/types_batch1045/44667_murder.png,Screen Shot 10-03-26 at 10.35 PM 007.PNG,44667,Murder,110,,read
+maps/types_batch1045/44667_overall_crime.png,Screen Shot 10-03-26 at 10.35 PM 005.PNG,44667,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44667_robbery.png,Screen Shot 10-03-26 at 10.35 PM 003.PNG,44667,Robbery,110,,read
+maps/types_batch1045/44667_vandalism.png,Screen Shot 10-03-26 at 10.35 PM 006.PNG,44667,Vandalism,110,,read
+maps/types_batch1045/44709_assault.png,Screen Shot 10-03-26 at 09.49 PM 004.PNG,44709,Assault,20,,read
+maps/types_batch1045/44709_burglary.png,Screen Shot 10-03-26 at 09.38 PM 005.PNG,44709,Burglary,18,,read
+maps/types_batch1045/44709_murder.png,Screen Shot 10-03-26 at 09.39 PM 001.PNG,44709,Murder,20,,read
+maps/types_batch1045/44709_overall_crime.png,Screen Shot 10-03-26 at 09.39 PM.PNG,44709,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44709_robbery.png,Screen Shot 10-03-26 at 09.38 PM 006.PNG,44709,Robbery,18,,read
+maps/types_batch1045/44709_vandalism.png,Screen Shot 10-03-26 at 09.49 PM 007.PNG,44709,Vandalism,18,,read
+maps/types_batch1045/44811_assault.png,Screen Shot 10-03-26 at 09.42 PM 002.PNG,44811,Assault,27,,read
+maps/types_batch1045/44811_burglary.png,Screen Shot 10-03-26 at 09.42 PM 006.PNG,44811,Burglary,27,,read
+maps/types_batch1045/44811_murder.png,Screen Shot 10-03-26 at 09.42 PM 005.PNG,44811,Murder,27,,read
+maps/types_batch1045/44811_overall_crime.png,Screen Shot 10-03-26 at 09.42 PM 003.PNG,44811,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/44811_robbery.png,Screen Shot 10-03-26 at 09.42 PM 001.PNG,44811,Robbery,27,,read
+maps/types_batch1045/44811_vandalism.png,Screen Shot 10-03-26 at 09.42 PM 004.PNG,44811,Vandalism,27,,read
+maps/types_batch1045/44857_burglary.png,Screen Shot 10-03-26 at 10.29 PM 001.PNG,44857,Burglary,99,,read
+maps/types_batch1045/44857_drug.png,Screen Shot 10-03-26 at 10.29 PM.PNG,44857,Drug-Related Crime,99,,read
+maps/types_batch1045/44857_murder.png,Screen Shot 10-03-26 at 10.29 PM 002.PNG,44857,Murder,99,,read
+maps/types_batch1045/44870_drug.png,Screen Shot 10-03-26 at 10.26 PM 002.PNG,44870,Drug-Related Crime,89,,read
+maps/types_batch1045/45324_drug.png,Screen Shot 10-03-26 at 10.19 PM.PNG,45324,Drug-Related Crime,69,,read
+maps/types_batch1045/45331_assault.png,Screen Shot 10-03-26 at 09.43 PM.PNG,45331,Assault,29,,read
+maps/types_batch1045/45331_burglary.png,Screen Shot 10-03-26 at 09.48 PM 011.PNG,45331,Burglary,29,,read
+maps/types_batch1045/45331_murder.png,Screen Shot 10-03-26 at 09.48 PM 010.PNG,45331,Murder,29,,read
+maps/types_batch1045/45331_overall_crime.png,Screen Shot 10-03-26 at 09.43 PM 001.PNG,45331,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45331_robbery.png,Screen Shot 10-03-26 at 09.48 PM 009.PNG,45331,Robbery,29,,read
+maps/types_batch1045/45331_vandalism.png,Screen Shot 10-03-26 at 09.43 PM 002.PNG,45331,Vandalism,29,,read
+maps/types_batch1045/45365_assault.png,Screen Shot 10-03-26 at 09.47 PM 010.PNG,45365,Assault,36,,read
+maps/types_batch1045/45365_burglary.png,Screen Shot 10-03-26 at 09.48 PM 001.PNG,45365,Burglary,36,,read
+maps/types_batch1045/45365_murder.png,Screen Shot 10-03-26 at 09.48 PM.PNG,45365,Murder,36,,read
+maps/types_batch1045/45365_overall_crime.png,Screen Shot 10-03-26 at 09.47 PM 011.PNG,45365,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45365_robbery.png,Screen Shot 10-03-26 at 09.47 PM 009.PNG,45365,Robbery,36,,read
+maps/types_batch1045/45365_vandalism.png,Screen Shot 10-03-26 at 09.48 PM 002.PNG,45365,Vandalism,36,,read
+maps/types_batch1045/45420_assault.png,Screen Shot 10-03-26 at 09.40 PM.PNG,45420,Assault,21,,read
+maps/types_batch1045/45420_burglary.png,Screen Shot 10-03-26 at 09.40 PM 004.PNG,45420,Burglary,22,,read
+maps/types_batch1045/45420_murder.png,Screen Shot 10-03-26 at 09.40 PM 003.PNG,45420,Murder,21,,read
+maps/types_batch1045/45420_overall_crime.png,Screen Shot 10-03-26 at 09.40 PM 001.PNG,45420,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45420_robbery.png,Screen Shot 10-03-26 at 09.49 PM 003.PNG,45420,Robbery,22,,read
+maps/types_batch1045/45420_vandalism.png,Screen Shot 10-03-26 at 09.40 PM 002.PNG,45420,Vandalism,21,,read
+maps/types_batch1045/45424_assault.png,Screen Shot 10-03-26 at 09.57 PM 001.PNG,45424,Assault,45,,read
+maps/types_batch1045/45424_burglary.png,Screen Shot 10-03-26 at 09.57 PM 005.PNG,45424,Burglary,45,,read
+maps/types_batch1045/45424_murder.png,Screen Shot 10-03-26 at 09.57 PM 004.PNG,45424,Murder,46,,read
+maps/types_batch1045/45424_overall_crime.png,Screen Shot 10-03-26 at 09.57 PM 002.PNG,45424,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45424_robbery.png,Screen Shot 10-03-26 at 09.57 PM.PNG,45424,Robbery,48,,read
+maps/types_batch1045/45424_vandalism.png,Screen Shot 10-03-26 at 09.57 PM 003.PNG,45424,Vandalism,45,,read
+maps/types_batch1045/45429_assault.png,Screen Shot 10-03-26 at 09.46 PM.PNG,45429,Assault,30,,read
+maps/types_batch1045/45429_burglary.png,Screen Shot 10-03-26 at 09.44 PM 001.PNG,45429,Burglary,30,,read
+maps/types_batch1045/45429_murder.png,Screen Shot 10-03-26 at 09.44 PM.PNG,45429,Murder,30,,read
+maps/types_batch1045/45429_overall_crime.png,Screen Shot 10-03-26 at 09.46 PM 001.PNG,45429,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45429_overall_crime_2.png,Screen Shot 10-03-26 at 09.46 PM 002.PNG,45429,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45429_robbery.png,Screen Shot 10-03-26 at 09.45 PM 009.PNG,45429,Robbery,33,,read
+maps/types_batch1045/45429_vandalism.png,Screen Shot 10-03-26 at 09.47 PM.PNG,45429,Vandalism,30,,read
+maps/types_batch1045/45431_assault.png,Screen Shot 10-03-26 at 09.55 PM 006.PNG,45431,Assault,44,,read
+maps/types_batch1045/45431_burglary.png,Screen Shot 10-03-26 at 09.56 PM 003.PNG,45431,Burglary,44,,read
+maps/types_batch1045/45431_drug.png,Screen Shot 10-03-26 at 09.56 PM.PNG,45431,Drug-Related Crime,44,,read
+maps/types_batch1045/45431_murder.png,Screen Shot 10-03-26 at 09.56 PM 002.PNG,45431,Murder,43,,read
+maps/types_batch1045/45431_robbery.png,Screen Shot 10-03-26 at 09.55 PM 005.PNG,45431,Robbery,43,,read
+maps/types_batch1045/45431_vandalism.png,Screen Shot 10-03-26 at 09.56 PM 001.PNG,45431,Vandalism,44,,read
+maps/types_batch1045/45449_assault.png,Screen Shot 10-03-26 at 09.49 PM 001.PNG,45449,Assault,38,,read
+maps/types_batch1045/45449_burglary.png,Screen Shot 10-03-26 at 09.49 PM 008.PNG,45449,Burglary,38,,read
+maps/types_batch1045/45449_murder.png,Screen Shot 10-03-26 at 09.49 PM 006.PNG,45449,Murder,38,,read
+maps/types_batch1045/45449_overall_crime.png,Screen Shot 10-03-26 at 09.49 PM 002.PNG,45449,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45449_robbery.png,Screen Shot 10-03-26 at 09.49 PM.PNG,45449,Robbery,39,,read
+maps/types_batch1045/45449_vandalism.png,Screen Shot 10-03-26 at 09.49 PM 005.PNG,45449,Vandalism,38,,read
+maps/types_batch1045/45458_assault.png,Screen Shot 10-03-26 at 09.58 PM.PNG,45458,Assault,52,,read
+maps/types_batch1045/45458_burglary.png,Screen Shot 10-03-26 at 09.58 PM 004.PNG,45458,Burglary,49,,read
+maps/types_batch1045/45458_murder.png,Screen Shot 10-03-26 at 09.58 PM 003.PNG,45458,Murder,49,,read
+maps/types_batch1045/45458_overall_crime.png,Screen Shot 10-03-26 at 09.58 PM 001.PNG,45458,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45458_robbery.png,Screen Shot 10-03-26 at 09.57 PM 006.PNG,45458,Robbery,47,,read
+maps/types_batch1045/45458_vandalism.png,Screen Shot 10-03-26 at 09.58 PM 002.PNG,45458,Vandalism,49,,read
+maps/types_batch1045/45459_assault.png,Screen Shot 10-03-26 at 09.59 PM 007.PNG,45459,Assault,54,,read
+maps/types_batch1045/45459_burglary.png,Screen Shot 10-03-26 at 10.00 PM 002.PNG,45459,Burglary,54,,read
+maps/types_batch1045/45459_murder.png,Screen Shot 10-03-26 at 09.59 PM 010.PNG,45459,Murder,55,,read
+maps/types_batch1045/45459_overall_crime.png,Screen Shot 10-03-26 at 09.59 PM 008.PNG,45459,Overall Crime,,,dropped: Overall Crime tab (retired measure) shot instead of Drug-Related Crime
+maps/types_batch1045/45459_robbery.png,Screen Shot 10-03-26 at 09.59 PM 006.PNG,45459,Robbery,54,,read
+maps/types_batch1045/45459_vandalism.png,Screen Shot 10-03-26 at 09.59 PM 009.PNG,45459,Vandalism,54,,read
+maps/types_batch1045/45503_assault.png,Screen Shot 10-03-26 at 10.08 PM 001.PNG,45503,Assault,57,,read
+maps/types_batch1045/45503_burglary.png,Screen Shot 10-03-26 at 10.08 PM 005.PNG,45503,Burglary,57,,read
+maps/types_batch1045/45503_drug.png,Screen Shot 10-03-26 at 10.08 PM 002.PNG,45503,Drug-Related Crime,57,,read
+maps/types_batch1045/45503_murder.png,Screen Shot 10-03-26 at 10.08 PM 004.PNG,45503,Murder,57,,read
+maps/types_batch1045/45503_robbery.png,Screen Shot 10-03-26 at 10.08 PM.PNG,45503,Robbery,57,,read
+maps/types_batch1045/45503_vandalism.png,Screen Shot 10-03-26 at 10.08 PM 003.PNG,45503,Vandalism,57,,read
+maps/types_batch1045/45750_drug.png,Screen Shot 10-03-26 at 10.27 PM.PNG,45750,Drug-Related Crime,96,,read
