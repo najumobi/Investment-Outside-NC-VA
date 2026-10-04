@@ -95,3 +95,25 @@ One board row gained a reading: 896 Huber St, Akron, reads through the neighbour
 - 30 ZIPs have no listings, and 69 are covered through other pages.
 
 None of the group 1, 2 or 3 ZIPs has been shot yet; they are the ones the board and the weekly runs depend on.
+
+## 9. The 9:20 PM batch of 2026-10-04
+
+Najum shot the list in order, starting with the board, and every active row of file 14 now has a block-level reading. The 13 board rows this batch read were updated in the same way as the earlier ones (`pipeline_changes/2026-10-02-crime/board_changes_1004.json`), and the board was sorted again with the sweep's key. Two of them now meet memo 69's knockout, which brings the board's count to 35 of 207 active rows:
+
+- 208 Scarborough St, Spring Lake, now on the re-shot map, is F on every tab.
+- 1242-1244 Laird St, Akron, is Robbery F with F across the street.
+
+1600 Mcclure St, Homestead, is Robbery F, but the block across the street is better, so it does not meet the knockout. Most of the batch's pages lack only Drug-Related Crime, because Overall Crime was shot in its place. Drug is a flag with no part in the knockout or the score, so those rows read normally, and their cells carry Murder but not Drug.
+
+In the detail queue, 201 of 204 rows are now readable, and 25 of them will leave the queue at their region's next run. The other three lie just south of their page maps: two in Springfield (45503), 0.6 and 0.7 km off, and one in Akron (44319), 1.7 km off.
+
+71a and 71b are rewritten in a new order:
+
+1. The two pan re-shoots.
+2. The four group-3 ZIPs left.
+3. The 16 group-4 ZIPs.
+4. Six pages missing a tab other than Drug.
+5. The Drug tab for 40 pages.
+6. The 101 ZIPs that can wait.
+
+After this batch 233 of the 400 sweep ZIPs are complete, and the table holds 11,969 block groups.

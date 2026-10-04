@@ -1,255 +1,15 @@
-15066, robbery
-15066, assault
-15066, drug crime
-15066, vandalism
-15066, murder
-15066, burglary
-26301, robbery
-26301, assault
-26301, drug crime
-26301, vandalism
-26301, murder
-26301, burglary
 45503, robbery
 45503, assault
 45503, drug crime
 45503, vandalism
 45503, murder
 45503, burglary
-15120, robbery
-15120, assault
-15120, drug crime
-15120, vandalism
-15120, murder
-15120, burglary
-44123, robbery
-44123, assault
-44123, drug crime
-44123, vandalism
-44123, murder
-44123, burglary
-44446, robbery
-44446, assault
-44446, drug crime
-44446, vandalism
-44446, murder
-44446, burglary
-44305, robbery
-44305, assault
-44305, drug crime
-44305, vandalism
-44305, murder
-44305, burglary
-44146, robbery
-44146, assault
-44146, drug crime
-44146, vandalism
-44146, murder
-44146, burglary
-45324, robbery
-45324, assault
-45324, drug crime
-45324, vandalism
-45324, murder
-45324, burglary
-44203, robbery
-44203, assault
-44203, drug crime
-44203, vandalism
-44203, murder
-44203, burglary
-43812, robbery
-43812, assault
-43812, drug crime
-43812, vandalism
-43812, murder
-43812, burglary
-28390, robbery
-28390, assault
-28390, drug crime
-28390, vandalism
-28390, murder
-28390, burglary
-15601, robbery
-15601, assault
-15601, drug crime
-15601, vandalism
-15601, murder
-15601, burglary
-15701, robbery
-15701, assault
-15701, drug crime
-15701, vandalism
-15701, murder
-15701, burglary
-15401, robbery
-15401, assault
-15401, drug crime
-15401, vandalism
-15401, murder
-15401, burglary
-19805, robbery
-19805, assault
-19805, drug crime
-19805, vandalism
-19805, murder
-19805, burglary
-15106, robbery
-15106, assault
-15106, drug crime
-15106, vandalism
-15106, murder
-15106, burglary
-44420, robbery
-44420, assault
-44420, drug crime
-44420, vandalism
-44420, murder
-44420, burglary
-44055, robbery
-44055, assault
-44055, drug crime
-44055, vandalism
-44055, murder
-44055, burglary
-44052, robbery
-44052, assault
-44052, drug crime
-44052, vandalism
-44052, murder
-44052, burglary
-44035, robbery
-44035, assault
-44035, drug crime
-44035, vandalism
-44035, murder
-44035, burglary
-44004, robbery
-44004, assault
-44004, drug crime
-44004, vandalism
-44004, murder
-44004, burglary
-26505, robbery
-26505, assault
-26505, drug crime
-26505, vandalism
-26505, murder
-26505, burglary
-44870, robbery
-44870, assault
-44870, drug crime
-44870, vandalism
-44870, murder
-44870, burglary
-15010, robbery
-15010, assault
-15010, drug crime
-15010, vandalism
-15010, murder
-15010, burglary
-26003, robbery
-26003, assault
-26003, drug crime
-26003, vandalism
-26003, murder
-26003, burglary
-44646, robbery
-44646, assault
-44646, drug crime
-44646, vandalism
-44646, murder
-44646, burglary
-21532, robbery
-21532, assault
-21532, drug crime
-21532, vandalism
-21532, murder
-21532, burglary
 44319, robbery
 44319, assault
 44319, drug crime
 44319, vandalism
 44319, murder
 44319, burglary
-15108, robbery
-15108, assault
-15108, drug crime
-15108, vandalism
-15108, murder
-15108, burglary
-43614, robbery
-43614, assault
-43614, drug crime
-43614, vandalism
-43614, murder
-43614, burglary
-44857, robbery
-44857, assault
-44857, drug crime
-44857, vandalism
-44857, murder
-44857, burglary
-17801, robbery
-17801, assault
-17801, drug crime
-17801, vandalism
-17801, murder
-17801, burglary
-15501, robbery
-15501, assault
-15501, drug crime
-15501, vandalism
-15501, murder
-15501, burglary
-15425, robbery
-15425, assault
-15425, drug crime
-15425, vandalism
-15425, murder
-15425, burglary
-15219, robbery
-15219, assault
-15219, drug crime
-15219, vandalism
-15219, murder
-15219, burglary
-13811, robbery
-13811, assault
-13811, drug crime
-13811, vandalism
-13811, murder
-13811, burglary
-45750, robbery
-45750, assault
-45750, drug crime
-45750, vandalism
-45750, murder
-45750, burglary
-27401, robbery
-27401, assault
-27401, drug crime
-27401, vandalism
-27401, murder
-27401, burglary
-18407, robbery
-18407, assault
-18407, drug crime
-18407, vandalism
-18407, murder
-18407, burglary
-27834, robbery
-27834, assault
-27834, drug crime
-27834, vandalism
-27834, murder
-27834, burglary
-14843, robbery
-14843, assault
-14843, drug crime
-14843, vandalism
-14843, murder
-14843, burglary
 24230, robbery
 24230, assault
 24230, drug crime
@@ -268,49 +28,18 @@
 27405, vandalism
 27405, murder
 27405, burglary
-44310, robbery
-44310, assault
-44310, drug crime
-44310, vandalism
-44310, murder
-44310, burglary
-44647, robbery
-44647, assault
-44647, drug crime
-44647, vandalism
-44647, murder
-44647, burglary
 15147, robbery
 15147, assault
 15147, drug crime
 15147, vandalism
 15147, murder
 15147, burglary
-44720, robbery
-44720, vandalism
-08232, robbery
-08232, assault
-08232, drug crime
-08232, murder
-08232, burglary
-08075, robbery
-08075, drug crime
-08075, vandalism
-08075, murder
-08075, burglary
-27407, burglary
 08401, robbery
 08401, assault
 08401, drug crime
 08401, vandalism
 08401, murder
 08401, burglary
-26501, robbery
-26501, assault
-26501, drug crime
-26501, vandalism
-26501, murder
-26501, burglary
 44107, robbery
 44107, assault
 44107, drug crime
@@ -341,6 +70,12 @@
 08105, vandalism
 08105, murder
 08105, burglary
+26501, robbery
+26501, assault
+26501, drug crime
+26501, vandalism
+26501, murder
+26501, burglary
 28052, robbery
 28052, assault
 28052, drug crime
@@ -359,12 +94,6 @@
 45365, vandalism
 45365, murder
 45365, burglary
-44306, robbery
-44306, assault
-44306, drug crime
-44306, vandalism
-44306, murder
-44306, burglary
 45331, robbery
 45331, assault
 45331, drug crime
@@ -389,19 +118,69 @@
 44709, vandalism
 44709, murder
 44709, burglary
+44310, robbery
+44310, assault
+44310, drug crime
+44310, vandalism
+44310, murder
+44310, burglary
 08052, robbery
 08052, assault
 08052, drug crime
 08052, vandalism
 08052, murder
 08052, burglary
+15106, drug crime
+15106, murder
+15106, burglary
+44857, drug crime
+44857, burglary
 28144, murder
-28613, drug crime
 08360, vandalism
 08060, assault
 08060, drug crime
 08060, burglary
 44512, vandalism
+15066, drug crime
+26301, drug crime
+45503, drug crime
+15120, drug crime
+44123, drug crime
+44446, drug crime
+44305, drug crime
+44146, drug crime
+43812, drug crime
+44203, drug crime
+45324, drug crime
+15601, drug crime
+15401, drug crime
+15701, drug crime
+19805, drug crime
+44055, drug crime
+44420, drug crime
+15219, drug crime
+44004, drug crime
+44035, drug crime
+44052, drug crime
+13811, drug crime
+15010, drug crime
+15108, drug crime
+15425, drug crime
+15501, drug crime
+26003, drug crime
+26505, drug crime
+43614, drug crime
+44319, drug crime
+44646, drug crime
+44870, drug crime
+45750, drug crime
+27401, drug crime
+14843, drug crime
+18407, drug crime
+27834, drug crime
+08075, drug crime
+08232, drug crime
+28613, drug crime
 44460, robbery
 44460, assault
 44460, drug crime
@@ -792,6 +571,12 @@
 27217, vandalism
 27217, murder
 27217, burglary
+44306, robbery
+44306, assault
+44306, drug crime
+44306, vandalism
+44306, murder
+44306, burglary
 18705, robbery
 18705, assault
 18705, drug crime
@@ -948,6 +733,12 @@
 18452, vandalism
 18452, murder
 18452, burglary
+44647, robbery
+44647, assault
+44647, drug crime
+44647, vandalism
+44647, murder
+44647, burglary
 15656, robbery
 15656, assault
 15656, drug crime
