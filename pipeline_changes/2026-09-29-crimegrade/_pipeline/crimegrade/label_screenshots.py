@@ -30,9 +30,10 @@ def boxes(path):
     """TAB, ZIP and MAP crop boxes for one screenshot. Narrower windows keep the fixed boxes the first batches used;
     a window 940 px or wider takes them from the selected-tab border (the ZIP from the overview sentence 91 px above it)."""
     im = Image.open(path).convert('RGB'); W, H = im.size
-    if W < 940: return TAB, ZIP, MAP
+    if W < 940:   # the first batches' 911x667 and 909x673 windows; anything else is not a ZIP-page screenshot (2026-10-04)
+        return (TAB, ZIP, MAP) if (895 <= W <= 930 and 640 <= H <= 700) else None
     y = tab_marker_row(np.asarray(im))
-    if y is None: return None
+    if y is None or y < 91 or y + 529 > H or W > 1000: return None   # no selected tab, or a page that is not the ZIP page in a 940-1000 px window
     return (8, y + 5, 208, y + 36), (590, y - 91, 700, y - 61), (40, y + 49, 870, y + 529)
 
 def crops(d, files, which):
@@ -82,7 +83,7 @@ def main():
     cmd, folder = sys.argv[1], os.path.abspath(sys.argv[2]); d=os.path.join(folder,'x'); files=sorted(os.listdir(d))
     if cmd=='cluster':
         aside=[f for f in files if boxes(os.path.join(d,f)) is None]
-        if aside: print('set aside, no selected tab:', ', '.join(aside))
+        if aside: print('set aside, not a ZIP-page shot with a selected tab:', ', '.join(aside))
         files=[f for f in files if f not in aside]
         tabs, ta = cluster_text(crops(d,files,0), 12)
         zips, za = cluster_text(crops(d,files,1), 10)
