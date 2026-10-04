@@ -124,7 +124,7 @@ board (active file-14 row),"12809 Mccracken Rd #1, Garfield Heights, OH 44125",4
 board (active file-14 row),"10609 Wadsworth Ave, Garfield Heights, OH 44125",44125,read,,,390351546015,,,read
 board (active file-14 row),"31 Crandall St, Binghamton, NY 13905",13905,read,,,360070002001,,,read
 board (active file-14 row),"2326 Elm Ave, Portsmouth, VA 23704",23704,read,,,517402119001,,,read
-board (active file-14 row),"234 Mauch Chunk St, Tamaqua, PA 18252",18252,"read, tabs missing",,,421070026002,,M,"on map, block group not in table"
+board (active file-14 row),"234 Mauch Chunk St, Tamaqua, PA 18252",18252,read,,,421070026002,,,"on map, block group not in table"
 board (active file-14 row),"2423 W Norris St, Philadelphia, PA 19121",19121,read,,,421010152003,,,read
 board (active file-14 row),"2102 Rogers Dr, Fayetteville, NC 28303",28303,read,,,370510009002,,,read
 board (active file-14 row),"1967 Georgian Rd, Philadelphia, PA 19138",19138,read,,,421010266002,,,read
@@ -198,7 +198,7 @@ board (active file-14 row),"2316 Edgar St, Fayetteville, NC 28301",28301,read,,,
 board (active file-14 row),"28 Glenwood Ave, Binghamton, NY 13905",13905,read,,,360070002002,,,read
 board (active file-14 row),"4104 Woburn Ave, Cleveland, OH 44109",44109,read,,,390351974001,,,read
 board (active file-14 row),"3862 N 6th St, Philadelphia, PA 19140",19140,read,,,421010198002,,,read
-board (active file-14 row),"234 E Mauch Chunk St, Tamaqua, PA 18252",18252,"read, tabs missing",,,421070026002,,M,"on map, block group not in table"
+board (active file-14 row),"234 E Mauch Chunk St, Tamaqua, PA 18252",18252,read,,,421070026002,,,"on map, block group not in table"
 board (active file-14 row),"1909 Woodmont Ave, Arnold, PA 15068",15068,read,,,421298003002,,,read
 board (active file-14 row),"1006 Faison St E, Wilson, NC 27893",27893,read,,,371950007023,,,read
 board (active file-14 row),"307 N Church St, Clayton, NC 27520",27520,read,,,371010410015,,,"on map, block group not in table"
@@ -330,14 +330,14 @@ detail queue,"1138-1140 Boyd Ave, Johnstown, PA 15905",15905,read,,,420210007002
 detail queue,"212-214;-214R Clarion St, Johnstown, PA 15905",15905,read,,,420210113004,,,read
 detail queue,"117-117.5 I St, Johnstown, PA 15906",15906,read,,,420210012002,,,read
 detail queue,"214-216 Chandler Ave, Johnstown, PA 15906",15906,read,,,420210012001,,,read
-detail queue,"125 N Chestnut St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"125 N Chestnut St, Butler, PA 16001",16001,read,,,420199022002,,,read
 detail queue,"210 Mercer St, Butler, PA 16001",16001,read,,,420199023001,,,read
 detail queue,"320 W Birch St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
 detail queue,"326 W Cunningham St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
 detail queue,"327 & 329 Howard St, Butler, PA 16001",16001,read,,,420199021002,,,read
-detail queue,"327 W Brady St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"327 W Brady St, Butler, PA 16001",16001,read,,,420199022002,,,read
 detail queue,"328 W Cunningham St, Butler, PA 16001",16001,read,,,420199023003,,,"on map, block group not in table"
-detail queue,"333 W Brady St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,read
+detail queue,"333 W Brady St, Butler, PA 16001",16001,read,,,420199022002,,,read
 detail queue,"227 Wallace St, Cumberland, MD 21502",21502,read,,,240010012002,,,read
 detail queue,"140-142 Wood St, Frostburg, MD 21532",21532,read,,,240010018003,,,page not shot
 detail queue,"25 Kentucky St, Wheeling, WV 26003",26003,read,,,540690005002,,,page not shot
@@ -495,7 +495,7 @@ passed the money gates before,"313-315 Grove Ave, Johnstown, PA 15902",15902,rea
 passed the money gates before,"761/763 & 761R Coleman Ave, Johnstown, PA 15902",15902,read,,,420210006002,,,
 passed the money gates before,"539 Ferndale Ave, Johnstown, PA 15905",15905,read,,,420210110001,,,
 passed the money gates before,"620 Fairfield Ave, Johnstown, PA 15906",15906,read,,,420210114001,,,
-passed the money gates before,"324 W North St, Butler, PA 16001",16001,"read, tabs missing",,,420199022002,,M,
+passed the money gates before,"324 W North St, Butler, PA 16001",16001,read,,,420199022002,,,
 passed the money gates before,"545 & 625 Davis St, Sharon, PA 16146",16146,read,,,420850301003,,,
 passed the money gates before,"1007 Kentucky Ave, Cumberland, MD 21502",21502,read,,,240010006001,,,
 passed the money gates before,"214 S Central Ave, Cumberland, MD 21502",21502,read,,,240010005001,,,
