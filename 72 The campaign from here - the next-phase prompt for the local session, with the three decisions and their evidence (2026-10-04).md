@@ -4,7 +4,7 @@ Written 2026-10-04 (cloud session) at Najum's request, once the crime layer cove
 
 ## 1. For Najum
 
-**Where the layer stands.** `_pipeline/model/crime_bg.json` holds 13,218 block groups read from your screenshots of 344 ZIP pages. Every one of the 207 active rows of file 14 has its six-tab reading, so do all 204 rows waiting for detail pages and all 222 listings that pass the money gates. 283 of the 400 sweep ZIPs carry all six tabs; the rest either lack only the Drug flag (43), need two tabs re-shot (08401), have no listings (4) or are covered by neighbouring pages (69). Nothing in that remainder blocks a row. From here the routines name the ZIPs they need in each report, and the layer is refreshed about once a year (memo 69 §4 item 6).
+**Where the layer stands.** `_pipeline/model/crime_bg.json` holds 13,218 block groups read from your screenshots of 344 ZIP pages. Every one of the 207 active rows of file 14 has its six-tab reading, so do all 204 rows waiting for detail pages and all 222 listings that pass the money gates. 327 of the 400 sweep ZIPs carry all six tabs; the 73 others have no listings (4) or are covered by neighbouring pages (69). Nothing in that remainder blocks a row. From here the routines name the ZIPs they need in each report, and the layer is refreshed about once a year (memo 69 §4 item 6).
 
 **What the sweep now does on its own.** Each run reads crime at `ingest`, knocks out a row by memo 69 §4.4, puts Robbery-F and unread rows behind the rest of the detail queue, scores the Robbery position and applies the 8 percent vacancy at Robbery F when it underwrites a row. The 25 queue rows that meet the knockout leave the queue at their region's next run (16 Pittsburgh on Wednesday, 7 Philadelphia on Tuesday, 2 Ohio on Thursday) without anyone touching them.
 
@@ -87,7 +87,7 @@ End each phase with 8 to 15 plain sentences: what changed, what was skipped and 
 
 ### 3.1 The layer on 2026-10-04
 
-13,218 block groups, 13,189 with all six tabs, built from 11 screenshot batches (2,352 shots) read between 9/29 and 10/4. Every reading of a block group seen on two pages agrees to within 0.024 on the legend scale, and the 344 ZIP pages fitted so far all pass the one-colour test (`check_fits.py`) apart from one blank map. 283 of the 400 sweep ZIPs carry all six tabs; 43 lack only the Drug flag; 08401 lacks Vandalism and Drug; 73 are unshot (4 with no listings, 69 covered by their neighbours' pages). Status of every board, queue and money-passing row: `pipeline_changes/2026-10-02-crime/row_status_2026-10-04.csv`.
+13,218 block groups, 13,189 with all six tabs, built from 11 screenshot batches (2,352 shots) read between 9/29 and 10/4. Every reading of a block group seen on two pages agrees to within 0.024 on the legend scale, and the 344 ZIP pages fitted so far all pass the one-colour test (`check_fits.py`) apart from one blank map. 327 of the 400 sweep ZIPs carry all six tabs; 73 are unshot (4 with no listings, 69 covered by their neighbours' pages). Status of every board, queue and money-passing row: `pipeline_changes/2026-10-02-crime/row_status_2026-10-04.csv`.
 
 ### 3.2 The ZIP-level shares
 
