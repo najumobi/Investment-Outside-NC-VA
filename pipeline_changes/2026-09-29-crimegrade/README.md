@@ -156,3 +156,7 @@ Later on 10/4 `check_fits.py` was run over every view of the batches read before
 
 `types_batch45342_manifest_2026-10-05.csv` lists five screenshots of 45342 Miamisburg (Robbery, Assault, Drug-Related Crime, Vandalism, Murder; Burglary still to come), pasted into the conversation as 955 x 663 images rather than zipped. One view, street score 0.59, 100 percent one colour, exact agreement with the 375 readings shared with earlier pages. The table grows to 14,328 block groups (14,307 compact; 14,271 with all six tabs, unchanged until the Burglary tab is read); `crime_bg_2026-10-05.csv`, `.json.gz` and `model/crime_bg.json` are rewritten with it included.
 
+## 45342 Burglary (2026-10-05), and where the layer stands
+
+`types_batch45342b_manifest_2026-10-05.csv` lists the one Burglary screenshot of 45342, fitted to the same view as the five tabs before it (0.59, 100 percent one colour), exact agreement with the 75 readings shared with earlier pages. The table stands at 14,328 block groups (14,307 compact, 14,276 with all six tabs) from 447 six-tab pages read between 9/29 and 10/5; 395 of the 400 sweep ZIPs carry their own page and the other five are read from their neighbours'. `crime_bg_2026-10-05.csv`, `.json.gz` and `model/crime_bg.json` are the final files of the day. The screenshot list (files 71a and 71b) is empty.
+

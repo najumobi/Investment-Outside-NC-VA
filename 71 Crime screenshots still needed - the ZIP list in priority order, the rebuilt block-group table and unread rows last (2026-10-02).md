@@ -153,3 +153,7 @@ Najum shot 45356, 43551, 45377, 45426, 25309, 19606, 43611, 44505, 08012, 43537,
 
 Najum pasted the Robbery, Assault, Drug-Related Crime, Vandalism and Murder tabs of 45342 straight into the conversation as full-size screenshots; one view, fitted at 0.59 and 100 percent one colour, agreeing exactly with the 375 readings it shares with earlier pages. The table holds 14,328 block groups, 47 more; the six-tab count stays at 14,271 because 45342's Burglary tab is still to come, and 71a and 71b hold that one line. With it, every ZIP of the four sweep lists either carries its own six-tab page (395) or is read almost entirely from its neighbours' pages (19132, 43609, 45403, 45410, 45419).
 
+## 18. The list is empty (2026-10-05)
+
+The Burglary tab of 45342 arrived the same way, pasted into the conversation; it fits the same view as the other five (0.59, 100 percent one colour) and agrees exactly with the 75 readings it shares. The table holds 14,328 block groups, 14,276 with all six tabs, from 447 six-tab pages. Of the 400 ZIPs on the four sweep lists, 395 carry their own six-tab page and the other five (19132, 43609, 45403, 45410, 45419) are read 96 to 100 percent from their neighbours' pages. Every board, queue and money-passing row reads on all six tabs. Files 71a and 71b are empty. From here the only screenshots are the ones each weekly report names under "Crime maps needed" (a ZIP added to a list, or a listing that lands outside the mapped area), and the yearly refresh of the layer due in October 2027 (memo 69 section 4, item 6).
+
