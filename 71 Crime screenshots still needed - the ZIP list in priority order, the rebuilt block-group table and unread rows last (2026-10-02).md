@@ -149,3 +149,7 @@ Najum shot the twelve new sweep ZIPs that had no page read (08107, 08053, 08079,
 
 Najum shot 45356, 43551, 45377, 45426, 25309, 19606, 43611, 44505, 08012, 43537, 27406, 25303, 45440 and 25314: 84 shots in 14 clean views, every one fitted (street scores 0.47 to 0.65) and 100 percent one colour, agreeing exactly with the 4,168 readings they share with earlier pages; no letter changed. The table holds 14,323 block groups (14,271 with all six tabs), 227 more, from 446 six-tab pages. 394 of the 400 sweep ZIPs now carry their own six-tab page; of the six that do not, five (19132, 43609, 45403, 45410, 45419) are read 96 to 100 percent from their neighbours' pages and need none, and one, 45342 Miamisburg, is read 89 percent and is the last line of 71a and 71b. Every board, queue and money-passing row still reads.
 
+## 17. Miamisburg 45342, five tabs (2026-10-05)
+
+Najum pasted the Robbery, Assault, Drug-Related Crime, Vandalism and Murder tabs of 45342 straight into the conversation as full-size screenshots; one view, fitted at 0.59 and 100 percent one colour, agreeing exactly with the 375 readings it shares with earlier pages. The table holds 14,328 block groups, 47 more; the six-tab count stays at 14,271 because 45342's Burglary tab is still to come, and 71a and 71b hold that one line. With it, every ZIP of the four sweep lists either carries its own six-tab page (395) or is read almost entirely from its neighbours' pages (19132, 43609, 45403, 45410, 45419).
+

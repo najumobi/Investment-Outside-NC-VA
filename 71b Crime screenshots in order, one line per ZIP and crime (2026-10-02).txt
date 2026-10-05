@@ -1,6 +1,1 @@
-45342, robbery
-45342, assault
-45342, drug crime
-45342, vandalism
-45342, murder
 45342, burglary
