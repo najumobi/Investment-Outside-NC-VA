@@ -1,29 +1,16 @@
 ﻿order,group,tabs to shoot,zip,region,place,addresses,board_rows,queue_rows,passer_rows,listings_now,listings_unread,sweep_rank,url
-1,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08107,phila,Oaklyn,"12 block groups, none read",0,0,0,0,0,73,https://crimegrade.org/safest-places-in-08107/
-2,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08053,phila,Marlton (Evesham),"27 block groups, none read",0,0,0,0,0,83,https://crimegrade.org/safest-places-in-08053/
-3,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08079,phila,Salem,"8 block groups, none read",0,0,0,0,0,91,https://crimegrade.org/safest-places-in-08079/
-4,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,19320,phila,Coatesville,"37 block groups, none read",0,0,0,0,0,98,https://crimegrade.org/safest-places-in-19320/
-5,"New sweep ZIP, no page read yet (first run Wed 10/7)",all six,44432,pitt,Lisbon,"9 block groups, none read",0,0,0,0,0,65,https://crimegrade.org/safest-places-in-44432/
-6,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,43078,ohio,Urbana,"18 block groups, none read",0,0,0,0,0,29,https://crimegrade.org/safest-places-in-43078/
-7,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45322,ohio,Englewood,"10 block groups, none read",0,0,0,0,0,72,https://crimegrade.org/safest-places-in-45322/
-8,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45373,ohio,Troy,"29 block groups, none read",0,0,0,0,0,88,https://crimegrade.org/safest-places-in-45373/
-9,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,43567,ohio,Wauseon,"9 block groups, none read",0,0,0,0,0,93,https://crimegrade.org/safest-places-in-43567/
-10,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45309,ohio,Brookville,"9 block groups, none read",0,0,0,0,0,98,https://crimegrade.org/safest-places-in-45309/
-11,"New sweep ZIP, no page read yet (first run Mon 10/12)",all six,23602,ncva,Newport News,"30 block groups, none read",0,0,0,0,0,25,https://crimegrade.org/safest-places-in-23602/
-12,"New sweep ZIP, no page read yet (first run Mon 10/12)",all six,27330,ncva,Sanford,"26 block groups, none read",0,0,0,0,0,30,https://crimegrade.org/safest-places-in-27330/
-13,"New sweep ZIP, partly covered by neighbouring pages",all six,08332,phila,Millville,1 of 26 block groups read (2 percent of residents),0,0,0,0,0,47,https://crimegrade.org/safest-places-in-08332/
-14,"New sweep ZIP, partly covered by neighbouring pages",all six,45356,ohio,Piqua,1 of 24 block groups read (4 percent of residents),0,0,0,0,0,42,https://crimegrade.org/safest-places-in-45356/
-15,"New sweep ZIP, partly covered by neighbouring pages",all six,43551,ohio,Perrysburg,3 of 25 block groups read (11 percent of residents),0,0,0,0,0,79,https://crimegrade.org/safest-places-in-43551/
-16,"New sweep ZIP, partly covered by neighbouring pages",all six,45377,ohio,Vandalia,1 of 10 block groups read (14 percent of residents),0,0,0,0,0,80,https://crimegrade.org/safest-places-in-45377/
-17,"New sweep ZIP, partly covered by neighbouring pages",all six,45426,ohio,Trotwood,2 of 12 block groups read (14 percent of residents),0,0,0,0,0,90,https://crimegrade.org/safest-places-in-45426/
-18,"New sweep ZIP, partly covered by neighbouring pages",all six,25309,pitt,South Charleston,2 of 10 block groups read (18 percent of residents),0,0,0,0,0,34,https://crimegrade.org/safest-places-in-25309/
-19,"New sweep ZIP, partly covered by neighbouring pages",all six,19606,phila,Reading,9 of 24 block groups read (29 percent of residents),0,0,0,0,0,88,https://crimegrade.org/safest-places-in-19606/
-20,"New sweep ZIP, partly covered by neighbouring pages",all six,43611,ohio,Toledo,6 of 21 block groups read (32 percent of residents),0,0,0,0,0,62,https://crimegrade.org/safest-places-in-43611/
-21,"New sweep ZIP, partly covered by neighbouring pages",all six,44505,pitt,Youngstown,7 of 19 block groups read (39 percent of residents),0,0,0,0,0,66,https://crimegrade.org/safest-places-in-44505/
-22,"New sweep ZIP, partly covered by neighbouring pages",all six,08012,phila,Blackwood,12 of 26 block groups read (55 percent of residents),0,0,0,0,0,77,https://crimegrade.org/safest-places-in-08012/
-23,"New sweep ZIP, partly covered by neighbouring pages",all six,43537,ohio,Maumee,16 of 27 block groups read (58 percent of residents),0,0,0,0,0,56,https://crimegrade.org/safest-places-in-43537/
-24,"New sweep ZIP, partly covered by neighbouring pages",all six,27406,ncva,Greensboro,29 of 40 block groups read (71 percent of residents),0,0,0,0,0,10,https://crimegrade.org/safest-places-in-27406/
-25,"New sweep ZIP, partly covered by neighbouring pages",all six,25303,pitt,South Charleston,5 of 7 block groups read (79 percent of residents),0,0,0,0,0,100,https://crimegrade.org/safest-places-in-25303/
-26,"New sweep ZIP, partly covered by neighbouring pages",all six,45440,ohio,Kettering,12 of 14 block groups read (83 percent of residents),0,0,0,0,0,71,https://crimegrade.org/safest-places-in-45440/
-27,"New sweep ZIP, partly covered by neighbouring pages",all six,25314,pitt,Charleston,13 of 15 block groups read (85 percent of residents),0,0,0,0,0,8,https://crimegrade.org/safest-places-in-25314/
-28,"New sweep ZIP, partly covered by neighbouring pages",all six,45342,ohio,Miamisburg,20 of 23 block groups read (89 percent of residents),0,0,0,0,0,28,https://crimegrade.org/safest-places-in-45342/
+1,"New sweep ZIP, partly covered by neighbouring pages",all six,45356,ohio,Piqua,1 of 24 block groups read (4 percent of residents),0,0,0,0,0,42,https://crimegrade.org/safest-places-in-45356/
+2,"New sweep ZIP, partly covered by neighbouring pages",all six,43551,ohio,Perrysburg,3 of 25 block groups read (11 percent of residents),0,0,0,0,0,79,https://crimegrade.org/safest-places-in-43551/
+3,"New sweep ZIP, partly covered by neighbouring pages",all six,45377,ohio,Vandalia,1 of 10 block groups read (14 percent of residents),0,0,0,0,0,80,https://crimegrade.org/safest-places-in-45377/
+4,"New sweep ZIP, partly covered by neighbouring pages",all six,45426,ohio,Trotwood,2 of 12 block groups read (14 percent of residents),0,0,0,0,0,90,https://crimegrade.org/safest-places-in-45426/
+5,"New sweep ZIP, partly covered by neighbouring pages",all six,25309,pitt,South Charleston,2 of 10 block groups read (18 percent of residents),0,0,0,0,0,34,https://crimegrade.org/safest-places-in-25309/
+6,"New sweep ZIP, partly covered by neighbouring pages",all six,19606,phila,Reading,9 of 24 block groups read (29 percent of residents),0,0,0,0,0,88,https://crimegrade.org/safest-places-in-19606/
+7,"New sweep ZIP, partly covered by neighbouring pages",all six,43611,ohio,Toledo,6 of 21 block groups read (32 percent of residents),0,0,0,0,0,62,https://crimegrade.org/safest-places-in-43611/
+8,"New sweep ZIP, partly covered by neighbouring pages",all six,44505,pitt,Youngstown,7 of 19 block groups read (39 percent of residents),0,0,0,0,0,66,https://crimegrade.org/safest-places-in-44505/
+9,"New sweep ZIP, partly covered by neighbouring pages",all six,08012,phila,Blackwood,12 of 26 block groups read (55 percent of residents),0,0,0,0,0,77,https://crimegrade.org/safest-places-in-08012/
+10,"New sweep ZIP, partly covered by neighbouring pages",all six,43537,ohio,Maumee,16 of 27 block groups read (58 percent of residents),0,0,0,0,0,56,https://crimegrade.org/safest-places-in-43537/
+11,"New sweep ZIP, partly covered by neighbouring pages",all six,27406,ncva,Greensboro,29 of 40 block groups read (71 percent of residents),0,0,0,0,0,10,https://crimegrade.org/safest-places-in-27406/
+12,"New sweep ZIP, partly covered by neighbouring pages",all six,25303,pitt,South Charleston,5 of 7 block groups read (79 percent of residents),0,0,0,0,0,100,https://crimegrade.org/safest-places-in-25303/
+13,"New sweep ZIP, partly covered by neighbouring pages",all six,45440,ohio,Kettering,12 of 14 block groups read (83 percent of residents),0,0,0,0,0,71,https://crimegrade.org/safest-places-in-45440/
+14,"New sweep ZIP, partly covered by neighbouring pages",all six,25314,pitt,Charleston,13 of 15 block groups read (85 percent of residents),0,0,0,0,0,8,https://crimegrade.org/safest-places-in-25314/
+15,"New sweep ZIP, partly covered by neighbouring pages",all six,45342,ohio,Miamisburg,20 of 23 block groups read (89 percent of residents),0,0,0,0,0,28,https://crimegrade.org/safest-places-in-45342/
