@@ -148,3 +148,7 @@ Later on 10/4 `check_fits.py` was run over every view of the batches read before
 
 `types_batch1243_manifest_2026-10-05.csv` lists 78 screenshots: six-tab sets for the twelve new sweep ZIPs with no block group read (08107, 08053, 08079, 19320, 44432, 43078, 45322, 45373, 43567, 45309, 23602, 27330) and for 08332. One view per page, all streeted; street scores 0.44 to 0.68, every view 100 percent one colour. The batch shares only 162 readings with earlier pages (new ground) and agrees with them exactly; no letter changed. The table grows to 14,096 block groups (14,075 compact, 14,041 with all six tabs) from 432 six-tab pages; `crime_bg_2026-10-05.csv`, `.json.gz` and `model/crime_bg.json` are rewritten with this batch included.
 
+## Batch of 2026-10-05 (12:57 PM): fourteen partly covered new sweep ZIPs
+
+`types_batch1257_manifest_2026-10-05.csv` lists 84 screenshots: six-tab sets for 45356, 43551, 45377, 45426, 25309, 19606, 43611, 44505, 08012, 43537, 27406, 25303, 45440 and 25314, one view per page, all streeted; street scores 0.47 to 0.65, every view 100 percent one colour. The batch agrees exactly with the 4,168 readings it shares with earlier pages and changes no letter. The table grows to 14,323 block groups (14,302 compact, 14,271 with all six tabs) from 446 six-tab pages; `crime_bg_2026-10-05.csv`, `.json.gz` and `model/crime_bg.json` are rewritten with this batch included.
+
