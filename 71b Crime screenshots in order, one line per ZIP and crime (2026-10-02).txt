@@ -1,39 +1,177 @@
-44683, robbery
-44683, assault
-44683, drug crime
-44683, vandalism
-44683, murder
-44683, burglary
-44212, robbery
-44212, assault
-44212, drug crime
-44212, vandalism
-44212, murder
-44212, burglary
-18433, robbery
-18433, assault
-18433, drug crime
-18433, vandalism
-18433, murder
-18433, burglary
-26508, robbery
-26508, assault
-26508, drug crime
-26508, vandalism
-26508, murder
-26508, burglary
+08107, robbery
+08107, assault
+08107, drug crime
+08107, vandalism
+08107, murder
+08107, burglary
+08053, robbery
+08053, assault
+08053, drug crime
+08053, vandalism
+08053, murder
+08053, burglary
+08079, robbery
+08079, assault
+08079, drug crime
+08079, vandalism
+08079, murder
+08079, burglary
+19320, robbery
+19320, assault
+19320, drug crime
+19320, vandalism
+19320, murder
+19320, burglary
+44432, robbery
+44432, assault
+44432, drug crime
+44432, vandalism
+44432, murder
+44432, burglary
+43078, robbery
+43078, assault
+43078, drug crime
+43078, vandalism
+43078, murder
+43078, burglary
+45322, robbery
+45322, assault
+45322, drug crime
+45322, vandalism
+45322, murder
+45322, burglary
+45373, robbery
+45373, assault
+45373, drug crime
+45373, vandalism
+45373, murder
+45373, burglary
+43567, robbery
+43567, assault
+43567, drug crime
+43567, vandalism
+43567, murder
+43567, burglary
+45309, robbery
+45309, assault
+45309, drug crime
+45309, vandalism
+45309, murder
+45309, burglary
+23602, robbery
+23602, assault
+23602, drug crime
+23602, vandalism
+23602, murder
+23602, burglary
+27330, robbery
+27330, assault
+27330, drug crime
+27330, vandalism
+27330, murder
+27330, burglary
+08332, robbery
+08332, assault
+08332, drug crime
+08332, vandalism
+08332, murder
+08332, burglary
+45356, robbery
+45356, assault
+45356, drug crime
+45356, vandalism
+45356, murder
+45356, burglary
+43551, robbery
+43551, assault
+43551, drug crime
+43551, vandalism
+43551, murder
+43551, burglary
+45377, robbery
+45377, assault
+45377, drug crime
+45377, vandalism
+45377, murder
+45377, burglary
+45426, robbery
+45426, assault
+45426, drug crime
+45426, vandalism
+45426, murder
+45426, burglary
+25309, robbery
+25309, assault
+25309, drug crime
+25309, vandalism
+25309, murder
+25309, burglary
+19606, robbery
+19606, assault
+19606, drug crime
+19606, vandalism
+19606, murder
+19606, burglary
+43611, robbery
+43611, assault
+43611, drug crime
+43611, vandalism
+43611, murder
+43611, burglary
+44505, robbery
+44505, assault
+44505, drug crime
+44505, vandalism
+44505, murder
+44505, burglary
+08012, robbery
+08012, assault
+08012, drug crime
+08012, vandalism
+08012, murder
+08012, burglary
+43537, robbery
+43537, assault
+43537, drug crime
+43537, vandalism
+43537, murder
+43537, burglary
+27406, robbery
+27406, assault
+27406, drug crime
+27406, vandalism
+27406, murder
+27406, burglary
+25303, robbery
+25303, assault
+25303, drug crime
+25303, vandalism
+25303, murder
+25303, burglary
+45440, robbery
+45440, assault
+45440, drug crime
+45440, vandalism
+45440, murder
+45440, burglary
+25314, robbery
+25314, assault
+25314, drug crime
+25314, vandalism
+25314, murder
+25314, burglary
+45342, robbery
+45342, assault
+45342, drug crime
+45342, vandalism
+45342, murder
+45342, burglary
 19104, robbery
 19104, assault
 19104, drug crime
 19104, vandalism
 19104, murder
 19104, burglary
-44112, robbery
-44112, assault
-44112, drug crime
-44112, vandalism
-44112, murder
-44112, burglary
 18504, robbery
 18504, assault
 18504, drug crime

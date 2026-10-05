@@ -1,74 +1,97 @@
-order,group,tabs to shoot,zip,region,place,addresses,board_rows,queue_rows,passer_rows,listings_now,listings_unread,sweep_rank,url
-1,No listings now,all six,44683,ohio,Cleveland–Akron,,0,0,0,0,0,93,https://crimegrade.org/safest-places-in-44683/
-2,No listings now,all six,44212,ohio,Cleveland–Akron,,0,0,0,0,0,98,https://crimegrade.org/safest-places-in-44212/
-3,No listings now,all six,18433,phila,Scranton,,0,0,0,0,0,98,https://crimegrade.org/safest-places-in-18433/
-4,No listings now,all six,26508,pitt,Morgantown,,0,0,0,0,0,100,https://crimegrade.org/safest-places-in-26508/
-5,Already covered by neighbouring pages,all six,19104,phila,Philadelphia,,0,0,0,42,0,56,https://crimegrade.org/safest-places-in-19104/
-6,Already covered by neighbouring pages,all six,44112,ohio,East Cleveland,,0,0,0,41,0,71,https://crimegrade.org/safest-places-in-44112/
-7,Already covered by neighbouring pages,all six,18504,phila,Scranton,,0,0,0,32,0,12,https://crimegrade.org/safest-places-in-18504/
-8,Already covered by neighbouring pages,all six,15212,pitt,Pittsburgh,,0,0,0,29,0,22,https://crimegrade.org/safest-places-in-15212/
-9,Already covered by neighbouring pages,all six,15203,pitt,Pittsburgh,,0,0,0,25,0,5,https://crimegrade.org/safest-places-in-15203/
-10,Already covered by neighbouring pages,all six,18505,phila,Scranton,,0,0,0,23,0,23,https://crimegrade.org/safest-places-in-18505/
-11,Already covered by neighbouring pages,all six,19144,phila,Philadelphia,,0,0,0,20,0,22,https://crimegrade.org/safest-places-in-19144/
-12,Already covered by neighbouring pages,all six,18201,phila,Hazleton,,0,0,0,20,0,51,https://crimegrade.org/safest-places-in-18201/
-13,Already covered by neighbouring pages,all six,19151,phila,Philadelphia,,0,0,0,18,0,11,https://crimegrade.org/safest-places-in-19151/
-14,Already covered by neighbouring pages,all six,44118,ohio,Cleveland Heights,,0,0,0,18,0,46,https://crimegrade.org/safest-places-in-44118/
-15,Already covered by neighbouring pages,all six,15217,pitt,Pittsburgh,,0,0,0,18,0,59,https://crimegrade.org/safest-places-in-15217/
-16,Already covered by neighbouring pages,all six,18634,phila,Nanticoke,,0,0,0,18,0,60,https://crimegrade.org/safest-places-in-18634/
-17,Already covered by neighbouring pages,all six,44113,ohio,Cleveland,,0,0,0,18,0,75,https://crimegrade.org/safest-places-in-44113/
-18,Already covered by neighbouring pages,all six,44111,ohio,Cleveland,,0,0,0,17,0,5,https://crimegrade.org/safest-places-in-44111/
-19,Already covered by neighbouring pages,all six,18509,phila,Scranton,,0,0,0,16,0,15,https://crimegrade.org/safest-places-in-18509/
-20,Already covered by neighbouring pages,all six,19125,phila,Philadelphia,,0,0,0,16,0,53,https://crimegrade.org/safest-places-in-19125/
-21,Already covered by neighbouring pages,all six,19135,phila,Philadelphia,,0,0,0,14,0,62,https://crimegrade.org/safest-places-in-19135/
-22,Already covered by neighbouring pages,all six,19149,phila,Philadelphia,,0,0,0,13,0,9,https://crimegrade.org/safest-places-in-19149/
-23,Already covered by neighbouring pages,all six,15202,pitt,Pittsburgh,,0,0,0,13,0,14,https://crimegrade.org/safest-places-in-15202/
-24,Already covered by neighbouring pages,all six,15003,pitt,Ambridge,,0,0,0,12,0,51,https://crimegrade.org/safest-places-in-15003/
-25,Already covered by neighbouring pages,all six,44122,ohio,Shaker Heights,,0,0,0,12,0,63,https://crimegrade.org/safest-places-in-44122/
-26,Already covered by neighbouring pages,all six,43606,ohio,Toledo,,0,0,0,11,0,15,https://crimegrade.org/safest-places-in-43606/
-27,Already covered by neighbouring pages,all six,19082,phila,Upper Darby,,0,0,0,11,0,18,https://crimegrade.org/safest-places-in-19082/
-28,Already covered by neighbouring pages,all six,45406,ohio,Dayton,,0,0,0,10,0,39,https://crimegrade.org/safest-places-in-45406/
-29,Already covered by neighbouring pages,all six,15211,pitt,Pittsburgh,,0,0,0,9,0,18,https://crimegrade.org/safest-places-in-15211/
-30,Already covered by neighbouring pages,all six,15220,pitt,Pittsburgh,,0,0,0,9,0,58,https://crimegrade.org/safest-places-in-15220/
-31,Already covered by neighbouring pages,all six,44311,ohio,Akron,,0,0,0,9,0,86,https://crimegrade.org/safest-places-in-44311/
-32,Already covered by neighbouring pages,all six,27707,ncva,Durham,,0,0,0,8,0,8,https://crimegrade.org/safest-places-in-27707/
-33,Already covered by neighbouring pages,all six,18512,phila,Dunmore,,0,0,0,8,0,31,https://crimegrade.org/safest-places-in-18512/
-34,Already covered by neighbouring pages,all six,19023,phila,Darby,,0,0,0,8,0,37,https://crimegrade.org/safest-places-in-19023/
-35,Already covered by neighbouring pages,all six,15218,pitt,Pittsburgh,,0,0,0,8,0,50,https://crimegrade.org/safest-places-in-15218/
-36,Already covered by neighbouring pages,all six,15905,pitt,Johnstown,,0,0,0,8,0,79,https://crimegrade.org/safest-places-in-15905/
-37,Already covered by neighbouring pages,all six,15215,pitt,Pittsburgh,,0,0,0,8,0,81,https://crimegrade.org/safest-places-in-15215/
-38,Already covered by neighbouring pages,all six,44301,ohio,Akron,,0,0,0,8,0,95,https://crimegrade.org/safest-places-in-44301/
-39,Already covered by neighbouring pages,all six,27217,ncva,Burlington,,0,0,0,7,0,38,https://crimegrade.org/safest-places-in-27217/
-40,Already covered by neighbouring pages,all six,18705,phila,Wilkes Barre,,0,0,0,6,0,72,https://crimegrade.org/safest-places-in-18705/
-41,Already covered by neighbouring pages,all six,15216,pitt,Pittsburgh,,0,0,0,5,0,7,https://crimegrade.org/safest-places-in-15216/
-42,Already covered by neighbouring pages,all six,43613,ohio,Toledo,,0,0,0,5,0,35,https://crimegrade.org/safest-places-in-43613/
-43,Already covered by neighbouring pages,all six,44483,pitt,Warren,,0,0,0,5,0,45,https://crimegrade.org/safest-places-in-44483/
-44,Already covered by neighbouring pages,all six,15208,pitt,Pittsburgh,,0,0,0,5,0,57,https://crimegrade.org/safest-places-in-15208/
-45,Already covered by neighbouring pages,all six,18447,phila,Olyphant,,0,0,0,5,0,71,https://crimegrade.org/safest-places-in-18447/
-46,Already covered by neighbouring pages,all six,15204,pitt,Pittsburgh,,0,0,0,5,0,98,https://crimegrade.org/safest-places-in-15204/
-47,Already covered by neighbouring pages,all six,19152,phila,Philadelphia,,0,0,0,4,0,16,https://crimegrade.org/safest-places-in-19152/
-48,Already covered by neighbouring pages,all six,15226,pitt,Pittsburgh,,0,0,0,4,0,38,https://crimegrade.org/safest-places-in-15226/
-49,Already covered by neighbouring pages,all six,19026,phila,Drexel Hill,,0,0,0,4,0,45,https://crimegrade.org/safest-places-in-19026/
-50,Already covered by neighbouring pages,all six,44302,ohio,Akron,,0,0,0,4,0,59,https://crimegrade.org/safest-places-in-44302/
-51,Already covered by neighbouring pages,all six,19018,phila,Clifton Heights,,0,0,0,4,0,74,https://crimegrade.org/safest-places-in-19018/
-52,Already covered by neighbouring pages,all six,15223,pitt,Etna,,0,0,0,4,0,82,https://crimegrade.org/safest-places-in-15223/
-53,Already covered by neighbouring pages,all six,24503,ncva,Lynchburg,,0,0,0,4,0,89,https://crimegrade.org/safest-places-in-24503/
-54,Already covered by neighbouring pages,all six,15137,pitt,North Versailles,,0,0,0,4,0,93,https://crimegrade.org/safest-places-in-15137/
-55,Already covered by neighbouring pages,all six,13850,phila,Vestal,,0,0,0,4,0,99,https://crimegrade.org/safest-places-in-13850/
-56,Already covered by neighbouring pages,all six,44121,ohio,Cleveland Heights,,0,0,0,4,0,100,https://crimegrade.org/safest-places-in-44121/
-57,Already covered by neighbouring pages,all six,25705,pitt,Huntington,,0,0,0,3,0,42,https://crimegrade.org/safest-places-in-25705/
-58,Already covered by neighbouring pages,all six,44119,ohio,Cleveland,,0,0,0,3,0,66,https://crimegrade.org/safest-places-in-44119/
-59,Already covered by neighbouring pages,all six,15207,pitt,Pittsburgh,,0,0,0,3,0,84,https://crimegrade.org/safest-places-in-15207/
-60,Already covered by neighbouring pages,all six,44708,ohio,Canton,,0,0,0,2,0,10,https://crimegrade.org/safest-places-in-44708/
-61,Already covered by neighbouring pages,all six,19153,phila,Philadelphia,,0,0,0,2,0,36,https://crimegrade.org/safest-places-in-19153/
-62,Already covered by neighbouring pages,all six,15104,pitt,Braddock,,0,0,0,2,0,49,https://crimegrade.org/safest-places-in-15104/
-63,Already covered by neighbouring pages,all six,44144,ohio,Cleveland,,0,0,0,2,0,50,https://crimegrade.org/safest-places-in-44144/
-64,Already covered by neighbouring pages,all six,45714,pitt,Belpre,,0,0,0,2,0,80,https://crimegrade.org/safest-places-in-45714/
-65,Already covered by neighbouring pages,all six,18452,phila,Peckville,,0,0,0,2,0,90,https://crimegrade.org/safest-places-in-18452/
-66,Already covered by neighbouring pages,all six,15656,pitt,Leechburg,,0,0,0,2,0,95,https://crimegrade.org/safest-places-in-15656/
-67,Already covered by neighbouring pages,all six,44706,ohio,Canton,,0,0,0,1,0,76,https://crimegrade.org/safest-places-in-44706/
-68,Already covered by neighbouring pages,all six,15065,pitt,Natrona Heights,,0,0,0,1,0,78,https://crimegrade.org/safest-places-in-15065/
-69,Already covered by neighbouring pages,all six,18643,phila,West Pittston,,0,0,0,1,0,82,https://crimegrade.org/safest-places-in-18643/
-70,Already covered by neighbouring pages,all six,18641,phila,Avoca,,0,0,0,1,0,87,https://crimegrade.org/safest-places-in-18641/
-71,Already covered by neighbouring pages,all six,43953,pitt,Steubenville,,0,0,0,1,0,89,https://crimegrade.org/safest-places-in-43953/
-72,Already covered by neighbouring pages,all six,44707,ohio,Canton,,0,0,0,1,0,97,https://crimegrade.org/safest-places-in-44707/
-73,Already covered by neighbouring pages,all six,18642,phila,Duryea,,0,0,0,1,0,97,https://crimegrade.org/safest-places-in-18642/
+﻿order,group,tabs to shoot,zip,region,place,addresses,board_rows,queue_rows,passer_rows,listings_now,listings_unread,sweep_rank,url
+1,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08107,phila,Oaklyn,"12 block groups, none read",0,0,0,0,0,73,https://crimegrade.org/safest-places-in-08107/
+2,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08053,phila,Marlton (Evesham),"27 block groups, none read",0,0,0,0,0,83,https://crimegrade.org/safest-places-in-08053/
+3,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,08079,phila,Salem,"8 block groups, none read",0,0,0,0,0,91,https://crimegrade.org/safest-places-in-08079/
+4,"New sweep ZIP, no page read yet (first run Tue 10/6)",all six,19320,phila,Coatesville,"37 block groups, none read",0,0,0,0,0,98,https://crimegrade.org/safest-places-in-19320/
+5,"New sweep ZIP, no page read yet (first run Wed 10/7)",all six,44432,pitt,Lisbon,"9 block groups, none read",0,0,0,0,0,65,https://crimegrade.org/safest-places-in-44432/
+6,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,43078,ohio,Urbana,"18 block groups, none read",0,0,0,0,0,29,https://crimegrade.org/safest-places-in-43078/
+7,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45322,ohio,Englewood,"10 block groups, none read",0,0,0,0,0,72,https://crimegrade.org/safest-places-in-45322/
+8,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45373,ohio,Troy,"29 block groups, none read",0,0,0,0,0,88,https://crimegrade.org/safest-places-in-45373/
+9,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,43567,ohio,Wauseon,"9 block groups, none read",0,0,0,0,0,93,https://crimegrade.org/safest-places-in-43567/
+10,"New sweep ZIP, no page read yet (first run Thu 10/8)",all six,45309,ohio,Brookville,"9 block groups, none read",0,0,0,0,0,98,https://crimegrade.org/safest-places-in-45309/
+11,"New sweep ZIP, no page read yet (first run Mon 10/12)",all six,23602,ncva,Newport News,"30 block groups, none read",0,0,0,0,0,25,https://crimegrade.org/safest-places-in-23602/
+12,"New sweep ZIP, no page read yet (first run Mon 10/12)",all six,27330,ncva,Sanford,"26 block groups, none read",0,0,0,0,0,30,https://crimegrade.org/safest-places-in-27330/
+13,"New sweep ZIP, partly covered by neighbouring pages",all six,08332,phila,Millville,1 of 26 block groups read (2 percent of residents),0,0,0,0,0,47,https://crimegrade.org/safest-places-in-08332/
+14,"New sweep ZIP, partly covered by neighbouring pages",all six,45356,ohio,Piqua,1 of 24 block groups read (4 percent of residents),0,0,0,0,0,42,https://crimegrade.org/safest-places-in-45356/
+15,"New sweep ZIP, partly covered by neighbouring pages",all six,43551,ohio,Perrysburg,3 of 25 block groups read (11 percent of residents),0,0,0,0,0,79,https://crimegrade.org/safest-places-in-43551/
+16,"New sweep ZIP, partly covered by neighbouring pages",all six,45377,ohio,Vandalia,1 of 10 block groups read (14 percent of residents),0,0,0,0,0,80,https://crimegrade.org/safest-places-in-45377/
+17,"New sweep ZIP, partly covered by neighbouring pages",all six,45426,ohio,Trotwood,2 of 12 block groups read (14 percent of residents),0,0,0,0,0,90,https://crimegrade.org/safest-places-in-45426/
+18,"New sweep ZIP, partly covered by neighbouring pages",all six,25309,pitt,South Charleston,2 of 10 block groups read (18 percent of residents),0,0,0,0,0,34,https://crimegrade.org/safest-places-in-25309/
+19,"New sweep ZIP, partly covered by neighbouring pages",all six,19606,phila,Reading,9 of 24 block groups read (29 percent of residents),0,0,0,0,0,88,https://crimegrade.org/safest-places-in-19606/
+20,"New sweep ZIP, partly covered by neighbouring pages",all six,43611,ohio,Toledo,6 of 21 block groups read (32 percent of residents),0,0,0,0,0,62,https://crimegrade.org/safest-places-in-43611/
+21,"New sweep ZIP, partly covered by neighbouring pages",all six,44505,pitt,Youngstown,7 of 19 block groups read (39 percent of residents),0,0,0,0,0,66,https://crimegrade.org/safest-places-in-44505/
+22,"New sweep ZIP, partly covered by neighbouring pages",all six,08012,phila,Blackwood,12 of 26 block groups read (55 percent of residents),0,0,0,0,0,77,https://crimegrade.org/safest-places-in-08012/
+23,"New sweep ZIP, partly covered by neighbouring pages",all six,43537,ohio,Maumee,16 of 27 block groups read (58 percent of residents),0,0,0,0,0,56,https://crimegrade.org/safest-places-in-43537/
+24,"New sweep ZIP, partly covered by neighbouring pages",all six,27406,ncva,Greensboro,29 of 40 block groups read (71 percent of residents),0,0,0,0,0,10,https://crimegrade.org/safest-places-in-27406/
+25,"New sweep ZIP, partly covered by neighbouring pages",all six,25303,pitt,South Charleston,5 of 7 block groups read (79 percent of residents),0,0,0,0,0,100,https://crimegrade.org/safest-places-in-25303/
+26,"New sweep ZIP, partly covered by neighbouring pages",all six,45440,ohio,Kettering,12 of 14 block groups read (83 percent of residents),0,0,0,0,0,71,https://crimegrade.org/safest-places-in-45440/
+27,"New sweep ZIP, partly covered by neighbouring pages",all six,25314,pitt,Charleston,13 of 15 block groups read (85 percent of residents),0,0,0,0,0,8,https://crimegrade.org/safest-places-in-25314/
+28,"New sweep ZIP, partly covered by neighbouring pages",all six,45342,ohio,Miamisburg,20 of 23 block groups read (89 percent of residents),0,0,0,0,0,28,https://crimegrade.org/safest-places-in-45342/
+29,Already covered by neighbouring pages,all six,19104,phila,Philadelphia,,0,0,0,42,0,56,https://crimegrade.org/safest-places-in-19104/
+30,Already covered by neighbouring pages,all six,18504,phila,Scranton,,0,0,0,32,0,12,https://crimegrade.org/safest-places-in-18504/
+31,Already covered by neighbouring pages,all six,15212,pitt,Pittsburgh,,0,0,0,29,0,22,https://crimegrade.org/safest-places-in-15212/
+32,Already covered by neighbouring pages,all six,15203,pitt,Pittsburgh,,0,0,0,25,0,5,https://crimegrade.org/safest-places-in-15203/
+33,Already covered by neighbouring pages,all six,18505,phila,Scranton,,0,0,0,23,0,23,https://crimegrade.org/safest-places-in-18505/
+34,Already covered by neighbouring pages,all six,19144,phila,Philadelphia,,0,0,0,20,0,22,https://crimegrade.org/safest-places-in-19144/
+35,Already covered by neighbouring pages,all six,18201,phila,Hazleton,,0,0,0,20,0,51,https://crimegrade.org/safest-places-in-18201/
+36,Already covered by neighbouring pages,all six,19151,phila,Philadelphia,,0,0,0,18,0,11,https://crimegrade.org/safest-places-in-19151/
+37,Already covered by neighbouring pages,all six,44118,ohio,Cleveland Heights,,0,0,0,18,0,46,https://crimegrade.org/safest-places-in-44118/
+38,Already covered by neighbouring pages,all six,15217,pitt,Pittsburgh,,0,0,0,18,0,59,https://crimegrade.org/safest-places-in-15217/
+39,Already covered by neighbouring pages,all six,18634,phila,Nanticoke,,0,0,0,18,0,60,https://crimegrade.org/safest-places-in-18634/
+40,Already covered by neighbouring pages,all six,44113,ohio,Cleveland,,0,0,0,18,0,75,https://crimegrade.org/safest-places-in-44113/
+41,Already covered by neighbouring pages,all six,44111,ohio,Cleveland,,0,0,0,17,0,5,https://crimegrade.org/safest-places-in-44111/
+42,Already covered by neighbouring pages,all six,18509,phila,Scranton,,0,0,0,16,0,15,https://crimegrade.org/safest-places-in-18509/
+43,Already covered by neighbouring pages,all six,19125,phila,Philadelphia,,0,0,0,16,0,53,https://crimegrade.org/safest-places-in-19125/
+44,Already covered by neighbouring pages,all six,19135,phila,Philadelphia,,0,0,0,14,0,62,https://crimegrade.org/safest-places-in-19135/
+45,Already covered by neighbouring pages,all six,19149,phila,Philadelphia,,0,0,0,13,0,9,https://crimegrade.org/safest-places-in-19149/
+46,Already covered by neighbouring pages,all six,15202,pitt,Pittsburgh,,0,0,0,13,0,14,https://crimegrade.org/safest-places-in-15202/
+47,Already covered by neighbouring pages,all six,15003,pitt,Ambridge,,0,0,0,12,0,51,https://crimegrade.org/safest-places-in-15003/
+48,Already covered by neighbouring pages,all six,44122,ohio,Shaker Heights,,0,0,0,12,0,63,https://crimegrade.org/safest-places-in-44122/
+49,Already covered by neighbouring pages,all six,43606,ohio,Toledo,,0,0,0,11,0,15,https://crimegrade.org/safest-places-in-43606/
+50,Already covered by neighbouring pages,all six,19082,phila,Upper Darby,,0,0,0,11,0,18,https://crimegrade.org/safest-places-in-19082/
+51,Already covered by neighbouring pages,all six,45406,ohio,Dayton,,0,0,0,10,0,39,https://crimegrade.org/safest-places-in-45406/
+52,Already covered by neighbouring pages,all six,15211,pitt,Pittsburgh,,0,0,0,9,0,18,https://crimegrade.org/safest-places-in-15211/
+53,Already covered by neighbouring pages,all six,15220,pitt,Pittsburgh,,0,0,0,9,0,58,https://crimegrade.org/safest-places-in-15220/
+54,Already covered by neighbouring pages,all six,44311,ohio,Akron,,0,0,0,9,0,86,https://crimegrade.org/safest-places-in-44311/
+55,Already covered by neighbouring pages,all six,27707,ncva,Durham,,0,0,0,8,0,8,https://crimegrade.org/safest-places-in-27707/
+56,Already covered by neighbouring pages,all six,18512,phila,Dunmore,,0,0,0,8,0,31,https://crimegrade.org/safest-places-in-18512/
+57,Already covered by neighbouring pages,all six,19023,phila,Darby,,0,0,0,8,0,37,https://crimegrade.org/safest-places-in-19023/
+58,Already covered by neighbouring pages,all six,15218,pitt,Pittsburgh,,0,0,0,8,0,50,https://crimegrade.org/safest-places-in-15218/
+59,Already covered by neighbouring pages,all six,15905,pitt,Johnstown,,0,0,0,8,0,79,https://crimegrade.org/safest-places-in-15905/
+60,Already covered by neighbouring pages,all six,15215,pitt,Pittsburgh,,0,0,0,8,0,81,https://crimegrade.org/safest-places-in-15215/
+61,Already covered by neighbouring pages,all six,44301,ohio,Akron,,0,0,0,8,0,95,https://crimegrade.org/safest-places-in-44301/
+62,Already covered by neighbouring pages,all six,27217,ncva,Burlington,,0,0,0,7,0,38,https://crimegrade.org/safest-places-in-27217/
+63,Already covered by neighbouring pages,all six,18705,phila,Wilkes Barre,,0,0,0,6,0,72,https://crimegrade.org/safest-places-in-18705/
+64,Already covered by neighbouring pages,all six,15216,pitt,Pittsburgh,,0,0,0,5,0,7,https://crimegrade.org/safest-places-in-15216/
+65,Already covered by neighbouring pages,all six,43613,ohio,Toledo,,0,0,0,5,0,35,https://crimegrade.org/safest-places-in-43613/
+66,Already covered by neighbouring pages,all six,44483,pitt,Warren,,0,0,0,5,0,45,https://crimegrade.org/safest-places-in-44483/
+67,Already covered by neighbouring pages,all six,15208,pitt,Pittsburgh,,0,0,0,5,0,57,https://crimegrade.org/safest-places-in-15208/
+68,Already covered by neighbouring pages,all six,18447,phila,Olyphant,,0,0,0,5,0,71,https://crimegrade.org/safest-places-in-18447/
+69,Already covered by neighbouring pages,all six,15204,pitt,Pittsburgh,,0,0,0,5,0,98,https://crimegrade.org/safest-places-in-15204/
+70,Already covered by neighbouring pages,all six,19152,phila,Philadelphia,,0,0,0,4,0,16,https://crimegrade.org/safest-places-in-19152/
+71,Already covered by neighbouring pages,all six,15226,pitt,Pittsburgh,,0,0,0,4,0,38,https://crimegrade.org/safest-places-in-15226/
+72,Already covered by neighbouring pages,all six,19026,phila,Drexel Hill,,0,0,0,4,0,45,https://crimegrade.org/safest-places-in-19026/
+73,Already covered by neighbouring pages,all six,44302,ohio,Akron,,0,0,0,4,0,59,https://crimegrade.org/safest-places-in-44302/
+74,Already covered by neighbouring pages,all six,19018,phila,Clifton Heights,,0,0,0,4,0,74,https://crimegrade.org/safest-places-in-19018/
+75,Already covered by neighbouring pages,all six,15223,pitt,Etna,,0,0,0,4,0,82,https://crimegrade.org/safest-places-in-15223/
+76,Already covered by neighbouring pages,all six,24503,ncva,Lynchburg,,0,0,0,4,0,89,https://crimegrade.org/safest-places-in-24503/
+77,Already covered by neighbouring pages,all six,15137,pitt,North Versailles,,0,0,0,4,0,93,https://crimegrade.org/safest-places-in-15137/
+78,Already covered by neighbouring pages,all six,13850,phila,Vestal,,0,0,0,4,0,99,https://crimegrade.org/safest-places-in-13850/
+79,Already covered by neighbouring pages,all six,44121,ohio,Cleveland Heights,,0,0,0,4,0,100,https://crimegrade.org/safest-places-in-44121/
+80,Already covered by neighbouring pages,all six,25705,pitt,Huntington,,0,0,0,3,0,42,https://crimegrade.org/safest-places-in-25705/
+81,Already covered by neighbouring pages,all six,44119,ohio,Cleveland,,0,0,0,3,0,66,https://crimegrade.org/safest-places-in-44119/
+82,Already covered by neighbouring pages,all six,15207,pitt,Pittsburgh,,0,0,0,3,0,84,https://crimegrade.org/safest-places-in-15207/
+83,Already covered by neighbouring pages,all six,44708,ohio,Canton,,0,0,0,2,0,10,https://crimegrade.org/safest-places-in-44708/
+84,Already covered by neighbouring pages,all six,19153,phila,Philadelphia,,0,0,0,2,0,36,https://crimegrade.org/safest-places-in-19153/
+85,Already covered by neighbouring pages,all six,15104,pitt,Braddock,,0,0,0,2,0,49,https://crimegrade.org/safest-places-in-15104/
+86,Already covered by neighbouring pages,all six,44144,ohio,Cleveland,,0,0,0,2,0,50,https://crimegrade.org/safest-places-in-44144/
+87,Already covered by neighbouring pages,all six,45714,pitt,Belpre,,0,0,0,2,0,80,https://crimegrade.org/safest-places-in-45714/
+88,Already covered by neighbouring pages,all six,18452,phila,Peckville,,0,0,0,2,0,90,https://crimegrade.org/safest-places-in-18452/
+89,Already covered by neighbouring pages,all six,15656,pitt,Leechburg,,0,0,0,2,0,95,https://crimegrade.org/safest-places-in-15656/
+90,Already covered by neighbouring pages,all six,44706,ohio,Canton,,0,0,0,1,0,76,https://crimegrade.org/safest-places-in-44706/
+91,Already covered by neighbouring pages,all six,15065,pitt,Natrona Heights,,0,0,0,1,0,78,https://crimegrade.org/safest-places-in-15065/
+92,Already covered by neighbouring pages,all six,18643,phila,West Pittston,,0,0,0,1,0,82,https://crimegrade.org/safest-places-in-18643/
+93,Already covered by neighbouring pages,all six,18641,phila,Avoca,,0,0,0,1,0,87,https://crimegrade.org/safest-places-in-18641/
+94,Already covered by neighbouring pages,all six,43953,pitt,Steubenville,,0,0,0,1,0,89,https://crimegrade.org/safest-places-in-43953/
+95,Already covered by neighbouring pages,all six,44707,ohio,Canton,,0,0,0,1,0,97,https://crimegrade.org/safest-places-in-44707/
+96,Already covered by neighbouring pages,all six,18642,phila,Duryea,,0,0,0,1,0,97,https://crimegrade.org/safest-places-in-18642/
