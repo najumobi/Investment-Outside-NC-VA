@@ -12,7 +12,7 @@ Najum asked (2026-10-06) for a hunt for more usable photos than the one each of 
 | 1104 Lake St | 1 | UNYREIS EC258522 (2020 sale), one exterior | 2020 |
 | 704 Baker St, 806 Lynn St, 1300 Latrobe St, 822 Lamont St | 0 | no earlier listing exists on any portal's history, and the county portals that might hold a photo refuse scripted access | |
 
-Every folder here is named exactly as its Dropbox `_evidence` folder, so the whole `_evidence` tree can be dragged onto the Dropbox one and merges without touching the 10/5 files; each note is `README_hunt_2026-10-06.txt`, beside the existing README.txt. The photos are the originals as served by the CDNs (file names keep the MLS number and frame index); byte-identical duplicates were dropped.
+Every folder here is named exactly as its Dropbox `_evidence` folder. The same eleven subfolders and eight notes were written into the Dropbox `_evidence` tree on 2026-10-06 (the photos by Dropbox's save-from-URL from the CDNs, the notes as `README_hunt_2026-10-06.txt` beside each existing README.txt); nothing from 10/5 was touched. The photos are the originals as served by the CDNs (file names keep the MLS number and frame index); byte-identical duplicates were dropped.
 
 ## How (and where the method generalises)
 
