@@ -1,0 +1,5 @@
+Photo hunt 2026-10-06 (cloud session) for 1300 Latrobe St, Parkersburg WV 26101 (file 14 row w51). Nothing new was found; this note records the attempt.
+
+CHECKED: Redfin's sale history (https://www.redfin.com/WV/Parkersburg/1300-Latrobe-St-26101/home/128102556) lists only the current MLS Now #5191598 (Mar 6, 2026); no earlier listing, so no earlier gallery on the CDN. Zillow (https://www.zillow.com/homedetails/1300-Latrobe-St-Parkersburg-WV-26101/23181110_zpid/), Realtor.com, Trulia, Homes.com, RE/MAX, Century 21 and the agent IDX copies carry the one 2023 Street View capture. Redfin's property details add: "fixer condition", a one-bedroom and a two-bedroom unit both leased, three full baths in total, shingle roof.
+
+COUNTY: the Wood County parcel layer returns parcel 05-70-0463, owner BOSLEY KIMBERLY A (mailing 104 Skylar Dr, Parkersburg), built 1910, 2,704 sq ft, 2 stories, land-use code 103, class 4, appraised $67,000, deed book 1091 page 264, note "RENTAL HAUGHT,A.", legal "45x50 13th & Latrobe Sts". No photo field. The CAMA site (https://inquiries.woodcountywv.com/CAMA/Search.aspx) rejects scripted searches; try it by address in your own browser.
