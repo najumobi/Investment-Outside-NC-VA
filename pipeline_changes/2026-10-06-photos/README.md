@@ -23,3 +23,25 @@ Every folder here is named exactly as its Dropbox `_evidence` folder. The same e
 5. County portals: Wood County's parcel layer answered (no photos); Allegheny, Westmoreland and Wood's CAMA sites reject scripted postbacks; Lawrence County's ActDataScout and Chemung County's Beacon are robots-closed to the proxies. The notes give the manual path for each.
 
 The weekly fold could adopt step 1 and 2 as a script: for each new single-photo row, read the Redfin history, probe the CDN for each earlier MLS number, and write the frames and a note into the row's folder.
+
+## 2026-10-06, second pass: the five rows still at one image after the morning fold
+
+Najum asked (10/6, afternoon) for the same hunt on 1992 Starr Ave Toledo, 1996 Starr Ave Toledo, 315 E Essex Ave Lansdowne, 319 E Essex Ave Lansdowne and 426 Washington Ave Huntington.
+
+| Row | New photos | From | Vintage |
+|---|---|---|---|
+| 1992 Starr Ave | 4 county photos and 1 Street View frame | the Lucas County Auditor's parcel photos (the document API behind the Photos tab of icare.co.lucas.oh.us); the Street View frame Realtor.com embeds | 1997, 2006, 2011, and a county "Front" photo stamped 2/7/2024; the Street View frame is undated |
+| 1996 Starr Ave | 3 county photos and 1 Street View frame | the same two sources | 1997, 2006, 2011; Street View undated |
+| 315 E Essex Ave | 0 new photographs; 1 full Street View frame, the same Google capture the listing cover was cropped from | Realtor.com's embedded frame; the Delaware County card and sketch | undated |
+| 319 E Essex Ave | 0 new photographs; 1 full Street View frame, the same capture as the cover | the same | undated |
+| 426 Washington Ave | 0; the Zillow for-sale-by-owner listing's only image is Google's Street View frame, the capture Najum had already screenshotted, saved here at Google's full 1536 x 1152 | Zillow's raw page | undated |
+
+Also saved: the county footprint sketches for all four MLS rows, the Lucas County photo metadata, and (in the notes) the Delaware County residential cards, which record two living units for each Essex house, a reading the morning pass could not get because the county's https certificate has expired and the site answers over http only.
+
+What the county photos change: 1992 Starr is a ONE-STORY building of 1,280 sq ft behind a two-story-looking false front (the 2011 side view and the county card agree), so "4 bedrooms, 2 baths" means tiny units or a basement unit; 1996 Starr was the Pastime Bar in 1997 and 2006 and "apartments and office" by 2011, so its commercial class is its history, not an error.
+
+Plumbing for this pass: the three direct Bright Data connectors all answered "session expired", so every Bright Data call went through Composio with the accounts rotated across all four; Bright Data refuses county sites as "Government" and Zillow's search URLs under its robots policy (Zillow's homedetails pages and zillowstatic's address suggestions are allowed); the county sites were read from the cloud container; SerpApi did the search-engine work because the workbench's own web_search helper is disabled by Composio's "enhanced controls"; Homes.com and a Facebook group post failed on both the Bright Data and Apify legs; the Wayback CDX index (through Bright Data) had no capture of any of the five Zillow pages or of the Redfin page tried; Dropbox fetched the Street View frames from Google's signed links and took the county images as uploads from the Composio sandbox.
+
+The same subfolders and notes were written into the Dropbox `_evidence` tree on 2026-10-06; nothing older was touched.
+
+The weekly fold could adopt the Lucas County route as a script: a Tyler iasWorld public-access site exposes its parcel photos through `api/documents/Parcel%20Photo/<jurisdiction>/<base64 of the assessor number>?token=<the token printed in idoc2/photoview.aspx>` once an address search has opened the parcel's datalet; each document's image is `api/document/<id>/standard?token=...`. Delaware County's iasWorld site keeps no photo documents, only the sketch (a session-bound Telerik image on the Sketch tab).
