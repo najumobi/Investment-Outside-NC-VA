@@ -1,10 +1,10 @@
-Photo hunt, 2026-10-06, second pass (Najum's ask: more usable photos than the one listing image, which is a crop of a Google Street View screenshot).
+Photo hunt, 2026-10-06, second pass (Najum's ask: more usable photos than the one listing image, which is a crop of a Google Street View screenshot). Rewritten the same evening: the first version called the Street View frame "the same Google capture as the listing cover"; it is not.
 
-RESULT: no photograph of 315 exists in any public source beyond the Google Street View capture the listing's cover was cropped from. Added: the full Street View frame (wider, no map controls), the county's footprint sketch, and the county's residential card, which the morning pass could not read.
+RESULT: no listing photograph of 315 exists in any public source beyond the one cover (saved on 10/6 at two sizes, an older and a current version of the same capture: the red-and-white sign stands on its post at the front steps in both). Added: a Google Street View frame that is a DIFFERENT capture (no sign at the steps, the grass longer, the red grill in the same place), so the folder now holds two distinct exterior views, both of the front from the street, no interiors; plus the county's footprint sketch and the county's residential card, which the morning pass could not read.
 
 NEW FILES
 - 315_essex_google_streetview_via_realtor_2026-10-06/
-  streetview_950x428.jpg: the frame Realtor.com embeds for the address. It is the SAME Google capture as the listing cover (the same chairs and grill stand at the steps), not a new photo; Google's capture date is not exposed. It shows the brick row from 313 to 317, the pair of doors under the shingled hood, window air conditioners, the stone base, the basement windows (one boarded), the lawn and the walk.
+  streetview_950x428.jpg: the frame Realtor.com embeds for the address; Google's capture date is not exposed. 315's pair of doors under the shingled hood sits at the centre (315 is the left door); the frame runs from the pair of doors at the far left (311 and 313, ASSUMPTION from the numbering) to 319's hood at the right edge, where 319's chairs, grill and satellite dish are visible. Window air conditioners, the stone base, basement windows, lawn and walk.
 - 315_essex_delco_county_card_2026-10-06/
   delco_sketch_main_building_20x36.png: the county's footprint: Main Building 20 x 36 ft (1,440 sq ft over two floors; the same drawing as 319's, because the two houses have the same footprint).
 
