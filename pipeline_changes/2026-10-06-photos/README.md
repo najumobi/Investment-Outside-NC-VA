@@ -45,3 +45,24 @@ Plumbing for this pass: the three direct Bright Data connectors all answered "se
 The same subfolders and notes were written into the Dropbox `_evidence` tree on 2026-10-06; nothing older was touched.
 
 The weekly fold could adopt the Lucas County route as a script: a Tyler iasWorld public-access site exposes its parcel photos through `api/documents/Parcel%20Photo/<jurisdiction>/<base64 of the assessor number>?token=<the token printed in idoc2/photoview.aspx>` once an address search has opened the parcel's datalet; each document's image is `api/document/<id>/standard?token=...`. Delaware County's iasWorld site keeps no photo documents, only the sketch (a session-bound Telerik image on the Sketch tab).
+
+## 2026-10-06, third pass: 613 S 52nd St Philadelphia
+
+Najum asked (10/6, evening) for the same hunt on 613 S 52nd St, the one Philadelphia row still at a single image (the Zillow cover at 1024 x 681).
+
+| Source | New images | Vintage |
+|---|---|---|
+| Realtor.com's copy of the Bright MLS listing PAPH2603378 | 34, the whole gallery, at 2048 x 1362 | May 2026 |
+| Redfin's photo CDN, listing PAPH2224964 | 23 distinct (26 files; 3 byte-identical repeats dropped) | April 2023 |
+| Redfin's photo CDN, listing 1000750585 | 1 (320 x 240) | September 2006 |
+| Zillow's "Floor 2" rental record | 5 | about January 2026 |
+| OfferMarket's wholesale posting | 2 photos and a parcel map | 2023 |
+| Google Street View, the frame Zillow and Realtor embed | one capture at 1536 x 1152 and 950 x 428 | undated, after the 2025 repaint |
+
+What the photos change: the folder had the cover alone; now every room of both units, the rear, the yard and the side lot are on file, and the 2023 set shows the same kitchens and baths before the 2025 purchase, so the 2026 listing's refresh is paint, first-floor laminate and fixtures (an inference from the comparison, labeled so in the note). Drop ceilings hide the first-floor ceilings and the second-floor front rooms' ceilings, which the note flags for inspection.
+
+What the pages change: the listing reads off the market on 10/6 (Realtor.com status off_market with its Bright MLS raw block last updated 8/14, EveryHome "No Longer Available", Zillow's main record back to the 2025 sale with one photo, Redfin "Off Market" and never carrying the listing). No site exposes the date. Under the standing rule the row is OUT until the agent confirms; this pass does not edit the tracker.
+
+Plumbing for this pass: the direct Bright Data connectors were still expired, so every page read went through Composio's BRIGHTDATA_WEB_UNLOCKER (raw format, rotated across the four accounts), which answered for Zillow (the main record and both unit records), Realtor.com, Redfin, EveryHome, OfferMarket, LoopNet (a login wall), lifeinthephillyburbs (a redirect), the eXp IDX page (404) and three Wayback CDX queries (all empty); Homes.com and Facebook refused the Bright Data and the Apify legs as before. The photo bytes came straight from the public CDNs (ap.rdcpix.com, ssl.cdn-redfin.com, photos.zillowstatic.com, cms.offermarket.us, maps.googleapis.com) to the cloud container, where contact sheets confirmed every frame is this house; the container's egress resets on web.archive.org, hence the unlocker for the CDX. The six subfolders were created with the Dropbox connector, the 68 images saved into them with Composio's DROPBOX_SAVE_URL from the same public URLs, and the note and the two JSON files written with the connector; nothing older was touched.
+
+Method notes for the weekly fold: Realtor.com's raw page lists every listing photo with its rdcpix id, and the `od-w2048_h1536.jpg` suffix serves a 2048 px rendering, larger than Zillow's 1536 px; Redfin's CDN still serves a removed listing's gallery by MLS number years later (PAPH2224964 from 2023, 1000750585 from 2006). The eXp IDX CDN pattern (`listingphotos<office>/<MLS>-<n>.jpg`) is a trap: it answers 200 with a "Photo Coming Soon" placeholder for every index, so a 200 there proves nothing.
