@@ -1,0 +1,236 @@
+[
+ {
+  "address": "979 Lagonda Ave, Springfield, OH 45503",
+  "old": {
+   "crime": "maps needed 45503",
+   "score": "0.1",
+   "why": "YELLOW -4; crime unread (maps needed); drive 9.22h tier C -0.5"
+  },
+  "new": {
+   "crime": "R .69 D+ / A .17 A- / B .77 D / V .93 F; M D (10/4)",
+   "score": "-0.6",
+   "why": "YELLOW -4; crime R .69 D+ -0.7; drive 9.22h tier C -0.5"
+  },
+  "bg": "390230005003",
+  "R": 0.694,
+  "B": 0.774,
+  "V": 0.934,
+  "robbery_F": false
+ },
+ {
+  "address": "208 Scarborough St Unit A AND B, Spring Lake, NC 28390",
+  "old": {
+   "crime": "zip D+ retired 9/30; off the 28390 page map to the south (pan and re-shoot)",
+   "score": "-2.0",
+   "why": "crime D+ -0.5; drive 4.2h -2; DSCR<1.2 -2; G5 FAIL at own rent (0.86%); density-nonconforming duplex (11,000 sf needed)"
+  },
+  "new": {
+   "crime": "R .99 F / A .99 F / B .99 F / V .99 F; M F, D F (10/4)",
+   "score": "-4.4",
+   "why": "crime R .99 F -2.9; drive 4.2h -2; DSCR<1.2 -2; G5 FAIL at own rent (0.86%); density-nonconforming duplex (11,000 sf needed); zip letter D+ retired 9/30"
+  },
+  "bg": "370510035012",
+  "R": 0.992,
+  "B": 0.992,
+  "V": 0.992,
+  "robbery_F": true
+ },
+ {
+  "address": "1242 - 1244 Laird St, Akron, OH 44305",
+  "old": {
+   "crime": "maps needed 44305",
+   "score": "-3.3",
+   "why": "YELLOW -4; crime unread (maps needed); drive 8.02h tier C -0.5; DSCR 1.17 -2"
+  },
+  "new": {
+   "crime": "R .95 F / A .86 D- / B .98 F / V .98 F; M D- (10/4)",
+   "score": "-6.0",
+   "why": "YELLOW -4; crime R .95 F -2.7; drive 8.02h tier C -0.5; DSCR 1.17 -2"
+  },
+  "bg": "391535025002",
+  "R": 0.954,
+  "B": 0.985,
+  "V": 0.985,
+  "robbery_F": true
+ },
+ {
+  "address": "45 1st Ave, Bedford, OH 44146",
+  "old": {
+   "crime": "maps needed 44146",
+   "score": "-3.8",
+   "why": "YELLOW -4; crime unread (maps needed); drive 8.19h tier C -0.5; DSCR 1.14 -2"
+  },
+  "new": {
+   "crime": "R .90 D- / A .93 F / B .89 D- / V .93 F; M D- (10/4)",
+   "score": "-6.0",
+   "why": "YELLOW -4; crime R .90 D- -2.2; drive 8.19h tier C -0.5; DSCR 1.14 -2"
+  },
+  "bg": "390351323022",
+  "R": 0.895,
+  "B": 0.889,
+  "V": 0.934,
+  "robbery_F": false
+ },
+ {
+  "address": "722 John, Coshocton, OH 43812",
+  "old": {
+   "crime": "maps needed 43812",
+   "score": "-4.3",
+   "why": "YELLOW -4; crime unread (maps needed); drive 8.44h tier C -0.5; DSCR 1.12 -2"
+  },
+  "new": {
+   "crime": "R .50 C+ / A .34 B / B .02 A+ / V .14 A; M D- (10/4)",
+   "score": "-4.3",
+   "why": "YELLOW -4; crime R .50 C+ 0; drive 8.44h tier C -0.5; DSCR 1.12 -2"
+  },
+  "bg": "390319616001",
+  "R": 0.504,
+  "B": 0.021,
+  "V": 0.143,
+  "robbery_F": false
+ },
+ {
+  "address": "949 W Pike St, Clarksburg, WV 26301",
+  "old": {
+   "crime": "zip B- retired 9/30; block maps needed",
+   "score": "-4.5",
+   "why": "YELLOW -4; drive 5.86h tier B -0.5; DSCR 1.11 -2"
+  },
+  "new": {
+   "crime": "R .34 B / A .60 C / B .90 D- / V .78 D; M D+ (10/4)",
+   "score": "-4.5",
+   "why": "YELLOW -4; drive 5.86h tier B -0.5; DSCR 1.11 -2; crime R .34 B 0; zip letter B- retired 9/30"
+  },
+  "bg": "540330301003",
+  "R": 0.336,
+  "B": 0.895,
+  "V": 0.78,
+  "robbery_F": false
+ },
+ {
+  "address": "1808 Stewart Blvd #1810, Fairborn, OH 45324",
+  "old": {
+   "crime": "maps needed 45324",
+   "score": "-5.3",
+   "why": "YELLOW -4; crime unread (maps needed); drive 9.11h tier C -0.5; DSCR 1.06 -2"
+  },
+  "new": {
+   "crime": "R .60 C / A .75 D+ / B .75 D+ / V .74 D+; M C+ (10/4)",
+   "score": "-5.3",
+   "why": "YELLOW -4; crime R .60 C 0; drive 9.11h tier C -0.5; DSCR 1.06 -2"
+  },
+  "bg": "390572007002",
+  "R": 0.598,
+  "B": 0.751,
+  "V": 0.737,
+  "robbery_F": false
+ },
+ {
+  "address": "116 Lafayette Ave, Niles, OH 44446",
+  "old": {
+   "crime": "zip C- retired 9/30; block maps needed",
+   "score": "-5.6",
+   "why": "YELLOW -4; drive 7.64h tier B -0.5; DSCR 1.05 -2"
+  },
+  "new": {
+   "crime": "R .52 C+ / A .19 A- / B .47 C+ / V .50 C+; M D+ (10/4)",
+   "score": "-5.6",
+   "why": "YELLOW -4; drive 7.64h tier B -0.5; DSCR 1.05 -2; crime R .52 C+ 0; zip letter C- retired 9/30"
+  },
+  "bg": "391559327023",
+  "R": 0.523,
+  "B": 0.467,
+  "V": 0.504,
+  "robbery_F": false
+ },
+ {
+  "address": "1600 Mcclure St, Homestead, PA 15120",
+  "old": {
+   "crime": "zip C- retired 9/30; block maps needed",
+   "score": "-6.4",
+   "why": "YELLOW -4; drive 6.52h tier B -0.5; DSCR 1.01 -2"
+  },
+  "new": {
+   "crime": "R .94 F / A .93 F / B .93 F / V .69 D+; M F (10/4)",
+   "score": "-8.9",
+   "why": "YELLOW -4; drive 6.52h tier B -0.5; DSCR 1.01 -2; crime R .94 F -2.5; zip letter C- retired 9/30"
+  },
+  "bg": "420034838003",
+  "R": 0.935,
+  "B": 0.934,
+  "V": 0.694,
+  "robbery_F": true
+ },
+ {
+  "address": "803 6th St, New Brighton, PA 15066",
+  "old": {
+   "crime": "zip B retired 9/30; block maps needed",
+   "score": "-6.7",
+   "why": "YELLOW -4; drive 7.01h tier B -0.5; DSCR 0.99 -2"
+  },
+  "new": {
+   "crime": "R .32 B / A .64 C- / B .66 C- / V .64 C-; M D+ (10/4)",
+   "score": "-6.7",
+   "why": "YELLOW -4; drive 7.01h tier B -0.5; DSCR 0.99 -2; crime R .32 B 0; zip letter B retired 9/30"
+  },
+  "bg": "420076014002",
+  "R": 0.321,
+  "B": 0.661,
+  "V": 0.644,
+  "robbery_F": false
+ },
+ {
+  "address": "408 15th St, New Brighton, PA 15066",
+  "old": {
+   "crime": "zip B retired 9/30; block maps needed",
+   "score": "-6.8",
+   "why": "YELLOW -4; drive 7.01h tier B -0.5; DSCR 0.98 -2"
+  },
+  "new": {
+   "crime": "R .24 B+ / A .74 D+ / B .69 D+ / V .62 C-; M D+ (10/4)",
+   "score": "-6.8",
+   "why": "YELLOW -4; drive 7.01h tier B -0.5; DSCR 0.98 -2; crime R .24 B+ 0; zip letter B retired 9/30"
+  },
+  "bg": "420076054002",
+  "R": 0.24,
+  "B": 0.694,
+  "V": 0.625,
+  "robbery_F": false
+ },
+ {
+  "address": "82-84 18th St SW, Barberton, OH 44203",
+  "old": {
+   "crime": "maps needed 44203",
+   "score": "-9.0",
+   "why": "fails Gate 5: rent-to-price 1.02% < 1.05% (tier C bar); YELLOW -4; crime unread (maps needed); drive 8.25h tier C -0.5; DSCR 0.87 -2"
+  },
+  "new": {
+   "crime": "R .41 B- / A .77 D / B .61 C / V .64 C-; M C+ (10/4)",
+   "score": "-9.0",
+   "why": "fails Gate 5: rent-to-price 1.02% < 1.05% (tier C bar); YELLOW -4; crime R .41 B- 0; drive 8.25h tier C -0.5; DSCR 0.87 -2"
+  },
+  "bg": "391535104002",
+  "R": 0.412,
+  "B": 0.611,
+  "V": 0.644,
+  "robbery_F": false
+ },
+ {
+  "address": "22050 Westport Ave, Euclid, OH 44123",
+  "old": {
+   "crime": "maps needed 44123",
+   "score": "-9.1",
+   "why": "fails Gate 5: rent-to-price 1.03% < 1.05% (tier C bar); YELLOW -4; crime unread (maps needed); drive 8.54h tier C -0.5; DSCR 0.86 -2"
+  },
+  "new": {
+   "crime": "R .84 D / A .77 D+ / B .87 D- / V .93 F; M F (10/4)",
+   "score": "-10.9",
+   "why": "fails Gate 5: rent-to-price 1.03% < 1.05% (tier C bar); YELLOW -4; crime R .84 D -1.8; drive 8.54h tier C -0.5; DSCR 0.86 -2"
+  },
+  "bg": "390351521022",
+  "R": 0.837,
+  "B": 0.866,
+  "V": 0.934,
+  "robbery_F": false
+ }
+]

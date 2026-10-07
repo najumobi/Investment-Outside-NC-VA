@@ -1,0 +1,157 @@
+# check_fits.py, run on 2026-10-04 over every view of the batches read before 10/2, and again over the refitted views of the later batches with their current fits.
+# A view is flagged ('<-- check') under 90 percent one colour or with fewer than 5 block groups tested.
+# batch1109 view 16 (16001 Murder) is the misplaced view whose readings were removed earlier that day. batch1109 view 9 (a second, wider Burglary shot of 28304)
+# agrees with every other reading of its 107 shared block groups to within 0.023, so its readings stay.
+
+## samples
+samples view  0 zip 13905 score 0.662: 179 block groups tested, 100% one colour
+samples view  1 zip 14830 score 0.641: 50 block groups tested, 100% one colour
+samples view  2 zip 14830 score 0.644: 50 block groups tested, 100% one colour
+samples view  3 zip 14892 score 0.629: 38 block groups tested, 100% one colour
+samples view  4 zip 14892 score 0.625: 19 block groups tested, 100% one colour
+samples view  5 zip 14901 score 0.630: 104 block groups tested, 100% one colour
+samples view  6 zip 27703 score 0.580: 140 block groups tested, 100% one colour
+samples view  7 zip 24012 score 0.555: 144 block groups tested, 100% one colour
+samples view  8 zip 28301 score 0.597: 88 block groups tested, 100% one colour
+samples view  9 zip 24013 score 0.469: 94 block groups tested, 100% one colour
+samples view 10 zip 23805 score 0.474: 50 block groups tested, 100% one colour
+samples view 11 zip 27804 score 0.659: 88 block groups tested, 100% one colour
+samples view 12 zip 27804 score 0.655: 44 block groups tested, 100% one colour
+samples view 13 zip 15906 score 0.651: 56 block groups tested, 100% one colour
+samples view 14 zip 44109 score 0.488: 210 block groups tested, 100% one colour
+samples view 15 zip 44120 score 0.430: 288 block groups tested, 100% one colour
+samples view 16 zip 19131 score 0.567: 231 block groups tested, 100% one colour
+samples view 17 zip 19131 score 0.508: 217 block groups tested, 100% one colour
+samples view 18 zip 19139 score 0.501: 381 block groups tested, 100% one colour
+samples view 19 zip 19139 score 0.500: 381 block groups tested, 100% one colour
+samples view 20 zip 44104 score 0.494: 247 block groups tested, 100% one colour
+samples view 21 zip 43935 score 0.631: 54 block groups tested, 100% one colour
+samples view 22 zip 13760 score 0.656: 116 block groups tested, 100% one colour
+samples view 23 zip 13790 score 0.653: 140 block groups tested, 100% one colour
+samples view 24 zip 13901 score 0.661: 60 block groups tested, 100% one colour
+samples view 25 zip 13903 score 0.519: 132 block groups tested, 100% one colour
+samples view 26 zip 13904 score 0.631: 132 block groups tested, 100% one colour
+
+## batch510
+batch510 view  0 zip 15022 score 0.620: 68 block groups tested, 100% one colour
+batch510 view  1 zip 15132 score 0.500: 138 block groups tested, 100% one colour
+batch510 view  2 zip 15136 score 0.532: 150 block groups tested, 100% one colour
+batch510 view  3 zip 15210 score 0.451: 252 block groups tested, 100% one colour
+batch510 view  4 zip 15902 score 0.568: 94 block groups tested, 100% one colour
+batch510 view  5 zip 16101 score 0.641: 78 block groups tested, 100% one colour
+batch510 view  6 zip 17815 score 0.477: 50 block groups tested, 100% one colour
+batch510 view  7 zip 18252 score 0.541: 38 block groups tested, 100% one colour
+batch510 view  8 zip 18252 score 0.249: 19 block groups tested, 95% one colour
+batch510 view  9 zip 18510 score 0.522: 158 block groups tested, 100% one colour
+batch510 view 10 zip 18519 score 0.574: 44 block groups tested, 100% one colour
+batch510 view 11 zip 18519 score 0.396: 30 block groups tested, 93% one colour
+batch510 view 12 zip 18519 score 0.395: 30 block groups tested, 100% one colour
+batch510 view 13 zip 18519 score 0.399: 30 block groups tested, 100% one colour
+batch510 view 14 zip 45405 score 0.569: 170 block groups tested, 100% one colour
+batch510 view 15 zip 44710 score 0.548: 84 block groups tested, 100% one colour
+batch510 view 16 zip 44320 score 0.595: 170 block groups tested, 100% one colour
+batch510 view 17 zip 44314 score 0.526: 104 block groups tested, 100% one colour
+batch510 view 18 zip 44125 score 0.547: 130 block groups tested, 100% one colour
+batch510 view 20 zip 44110 score 0.612: 92 block groups tested, 100% one colour
+batch510 view 21 zip 44108 score 0.479: 380 block groups tested, 100% one colour
+batch510 view 22 zip 44106 score 0.419: 174 block groups tested, 100% one colour
+batch510 view 23 zip 44105 score 0.456: 312 block groups tested, 100% one colour
+batch510 view 24 zip 44103 score 0.543: 124 block groups tested, 100% one colour
+batch510 view 25 zip 44102 score 0.634: 302 block groups tested, 100% one colour
+batch510 view 26 zip 43952 score 0.595: 70 block groups tested, 100% one colour
+batch510 view 27 zip 43612 score 0.624: 210 block groups tested, 100% one colour
+batch510 view 29 zip 43607 score 0.510: 236 block groups tested, 100% one colour
+batch510 view 30 zip 43605 score 0.577: 216 block groups tested, 100% one colour
+batch510 view 31 zip 28390 score 0.394: 40 block groups tested, 100% one colour
+batch510 view 32 zip 28390 score 0.399: 40 block groups tested, 100% one colour
+batch510 view 33 zip 28390 score 0.395: 20 block groups tested, 100% one colour
+
+## batch1001
+batch1001 view  1 zip 18640 score 0.525: 108 block groups tested, 100% one colour
+batch1001 view  3 zip 18651 score 0.451: 112 block groups tested, 100% one colour
+batch1001 view  4 zip 18704 score 0.514: 124 block groups tested, 100% one colour
+batch1001 view  5 zip 19050 score 0.442: 283 block groups tested, 100% one colour
+batch1001 view  6 zip 19120 score 0.465: 340 block groups tested, 100% one colour
+batch1001 view  7 zip 19121 score 0.465: 306 block groups tested, 100% one colour
+batch1001 view  9 zip 19134 score 0.423: 276 block groups tested, 100% one colour
+batch1001 view 10 zip 19136 score 0.568: 283 block groups tested, 100% one colour
+batch1001 view 11 zip 19138 score 0.465: 288 block groups tested, 100% one colour
+batch1001 view 12 zip 19140 score 0.465: 322 block groups tested, 100% one colour
+batch1001 view 13 zip 19141 score 0.443: 314 block groups tested, 100% one colour
+batch1001 view 14 zip 19143 score 0.401: 350 block groups tested, 100% one colour
+batch1001 view 15 zip 21502 score 0.585: 56 block groups tested, 100% one colour
+batch1001 view 16 zip 23434 score 0.450: 94 block groups tested, 100% one colour
+batch1001 view 17 zip 23452 score 0.532: 180 block groups tested, 100% one colour
+batch1001 view 18 zip 23607 score 0.495: 96 block groups tested, 100% one colour
+batch1001 view 19 zip 23701 score 0.539: 150 block groups tested, 100% one colour
+batch1001 view 20 zip 23702 score 0.459: 88 block groups tested, 100% one colour
+batch1001 view 21 zip 23703 score 0.619: 86 block groups tested, 100% one colour
+batch1001 view 22 zip 23704 score 0.563: 112 block groups tested, 100% one colour
+batch1001 view 23 zip 23707 score 0.549: 166 block groups tested, 100% one colour
+batch1001 view 24 zip 23803 score 0.515: 116 block groups tested, 100% one colour
+batch1001 view 25 zip 23824 score 0.346: 18 block groups tested, 100% one colour
+batch1001 view 26 zip 23851 score 0.499: 30 block groups tested, 100% one colour
+batch1001 view 27 zip 24016 score 0.482: 144 block groups tested, 100% one colour
+batch1001 view 28 zip 24017 score 0.510: 118 block groups tested, 100% one colour
+batch1001 view 29 zip 24501 score 0.543: 126 block groups tested, 100% one colour
+batch1001 view 30 zip 24540 score 0.435: 80 block groups tested, 100% one colour
+batch1001 view 31 zip 43612 score 0.606: 210 block groups tested, 100% one colour
+batch1001 view 32 zip 24541 score 0.448: 100 block groups tested, 100% one colour
+batch1001 view 33 zip 44125 score 0.513: 66 block groups tested, 100% one colour
+batch1001 view 34 zip 25701 score 0.600: 138 block groups tested, 100% one colour
+batch1001 view 35 zip 26101 score 0.594: 90 block groups tested, 100% one colour
+batch1001 view 36 zip 27101 score 0.543: 150 block groups tested, 100% one colour
+batch1001 view 37 zip 27104 score 0.564: 146 block groups tested, 100% one colour
+batch1001 view 38 zip 27288 score 0.405: 58 block groups tested, 100% one colour
+batch1001 view 39 zip 27320 score 0.419: 64 block groups tested, 100% one colour
+batch1001 view 40 zip 27520 score 0.555: 82 block groups tested, 100% one colour
+batch1001 view 41 zip 27565 score 0.456: 32 block groups tested, 100% one colour
+batch1001 view 42 zip 28352 score 0.611: 42 block groups tested, 100% one colour
+batch1001 view 43 zip 28311 score 0.618: 68 block groups tested, 100% one colour
+batch1001 view 44 zip 28303 score 0.563: 158 block groups tested, 100% one colour
+batch1001 view 45 zip 28214 score 0.543: 80 block groups tested, 100% one colour
+batch1001 view 46 zip 28021 score 0.518: 40 block groups tested, 100% one colour
+batch1001 view 47 zip 27893 score 0.498: 92 block groups tested, 100% one colour
+batch1001 view 48 zip 27864 score 0.538: 14 block groups tested, 100% one colour
+batch1001 view 49 zip 27801 score 0.579: 82 block groups tested, 100% one colour
+batch1001 view 50 zip 27603 score 0.492: 90 block groups tested, 100% one colour
+
+## batch1001_v39
+batch1001_v39 view 39 zip 27320 score 0.419: 64 block groups tested, 100% one colour
+
+## batch1109
+batch1109 view  0 zip 15068 score 0.639: 92 block groups tested, 100% one colour
+batch1109 view  1 zip 15084 score 0.579: 70 block groups tested, 100% one colour
+batch1109 view  2 zip 15209 score 0.531: 130 block groups tested, 100% one colour
+batch1109 view  3 zip 15221 score 0.493: 228 block groups tested, 100% one colour
+batch1109 view  4 zip 15301 score 0.690: 82 block groups tested, 100% one colour
+batch1109 view  5 zip 15642 score 0.595: 76 block groups tested, 100% one colour
+batch1109 view  6 zip 15642 score 0.589: 38 block groups tested, 100% one colour
+batch1109 view  7 zip 41101 score 0.648: 70 block groups tested, 100% one colour
+batch1109 view  8 zip 28304 score 0.524: 178 block groups tested, 100% one colour
+batch1109 view  9 zip 28304 score 0.347: 89 block groups tested, 88% one colour  <-- check
+batch1109 view 10 zip 26554 score 0.465: 86 block groups tested, 100% one colour
+batch1109 view 11 zip 15644 score 0.609: 64 block groups tested, 100% one colour
+batch1109 view 12 zip 15666 score 0.626: 38 block groups tested, 100% one colour
+batch1109 view 13 zip 15690 score 0.701: 52 block groups tested, 100% one colour
+batch1109 view 14 zip 15690 score 0.697: 26 block groups tested, 100% one colour
+batch1109 view 15 zip 16001 score 0.690: 66 block groups tested, 100% one colour
+batch1109 view 16 zip 16001 score 0.253: 34 block groups tested, 56% one colour  <-- check
+batch1109 view 17 zip 16001 score 0.608: 33 block groups tested, 100% one colour
+batch1109 view 18 zip 16146 score 0.578: 76 block groups tested, 100% one colour
+batch1109 view 19 zip 16146 score 0.457: 43 block groups tested, 98% one colour
+
+## batch23601
+batch23601 view  0 zip 23601 score 0.555: 96 block groups tested, 100% one colour
+
+## refitted views of the later batches, and the 12:15 PM Tamaqua and Butler set
+batch920 view 10 zip 44123 score 0.564: 80 block groups tested, 100% one colour
+batch920 view 11 zip 44123 score 0.662: 80 block groups tested, 100% one colour
+batch1045 view 11 zip 08401 score 0.628: 84 block groups tested, 100% one colour
+batch1045 view 65 zip 44123 score 0.663: 40 block groups tested, 100% one colour
+batch1014 view  2 zip 08401 score 0.629: 84 block groups tested, 100% one colour
+batchmt view  0 zip 18252 score 0.620: 36 block groups tested, 100% one colour
+batchmt view  1 zip 21152 score 0.539: 24 block groups tested, 100% one colour
+batchmt view  2 zip 44822 score 0.542: 14 block groups tested, 100% one colour
+batchmt view  3 zip 44822 score 0.540: 14 block groups tested, 100% one colour
+batchmt view  4 zip 16001 score 0.684: 66 block groups tested, 100% one colour

@@ -1,0 +1,246 @@
+{
+ "Philadelphia": {
+  "block_groups": 341,
+  "robberies": 1486,
+  "spearman": 0.474,
+  "pearson_log": 0.479,
+  "multi_map_bgs": 99,
+  "median_spread_between_maps": 0.0,
+  "zero_count_bgs": 90,
+  "mean_annual_count": 2.18,
+  "by_letter": {
+   "A-": {
+    "n": 1,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "B+": {
+    "n": 3,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.65
+   },
+   "B": {
+    "n": 2,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "B-": {
+    "n": 8,
+    "median_rate": 0.31,
+    "p25": 0.0,
+    "p75": 0.55
+   },
+   "C+": {
+    "n": 12,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.07
+   },
+   "C": {
+    "n": 25,
+    "median_rate": 0.3,
+    "p25": 0.0,
+    "p75": 1.09
+   },
+   "C-": {
+    "n": 17,
+    "median_rate": 0.3,
+    "p25": 0.0,
+    "p75": 1.27
+   },
+   "D+": {
+    "n": 34,
+    "median_rate": 0.79,
+    "p25": 0.0,
+    "p75": 1.51
+   },
+   "D": {
+    "n": 47,
+    "median_rate": 1.36,
+    "p25": 0.0,
+    "p75": 2.67
+   },
+   "D-": {
+    "n": 78,
+    "median_rate": 1.83,
+    "p25": 0.99,
+    "p75": 3.31
+   },
+   "F": {
+    "n": 114,
+    "median_rate": 2.77,
+    "p25": 0.87,
+    "p75": 4.54
+   }
+  },
+  "position_quintiles": [
+   {
+    "position_range": [
+     0.181,
+     0.686
+    ],
+    "mean_rate": 0.54,
+    "median_rate": 0.0,
+    "n": 68
+   },
+   {
+    "position_range": [
+     0.694,
+     0.835
+    ],
+    "mean_rate": 1.24,
+    "median_rate": 0.8,
+    "n": 68
+   },
+   {
+    "position_range": [
+     0.837,
+     0.895
+    ],
+    "mean_rate": 1.92,
+    "median_rate": 1.59,
+    "n": 68
+   },
+   {
+    "position_range": [
+     0.895,
+     0.935
+    ],
+    "mean_rate": 2.72,
+    "median_rate": 2.11,
+    "n": 68
+   },
+   {
+    "position_range": [
+     0.935,
+     0.991
+    ],
+    "mean_rate": 3.85,
+    "median_rate": 3.37,
+    "n": 69
+   }
+  ]
+ },
+ "Cleveland": {
+  "block_groups": 577,
+  "robberies": 2513,
+  "spearman": 0.655,
+  "pearson_log": 0.588,
+  "multi_map_bgs": 382,
+  "median_spread_between_maps": 0.0,
+  "zero_count_bgs": 223,
+  "mean_annual_count": 2.34,
+  "by_letter": {
+   "B+": {
+    "n": 4,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.07
+   },
+   "B": {
+    "n": 4,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "B-": {
+    "n": 9,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "C+": {
+    "n": 17,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "C": {
+    "n": 31,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "C-": {
+    "n": 16,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "D+": {
+    "n": 52,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 0.0
+   },
+   "D": {
+    "n": 69,
+    "median_rate": 0.0,
+    "p25": 0.0,
+    "p75": 1.64
+   },
+   "D-": {
+    "n": 91,
+    "median_rate": 1.52,
+    "p25": 0.0,
+    "p75": 2.98
+   },
+   "F": {
+    "n": 284,
+    "median_rate": 3.64,
+    "p25": 1.51,
+    "p75": 6.53
+   }
+  },
+  "position_quintiles": [
+   {
+    "position_range": [
+     0.24,
+     0.737
+    ],
+    "mean_rate": 0.14,
+    "median_rate": 0.0,
+    "n": 115
+   },
+   {
+    "position_range": [
+     0.737,
+     0.872
+    ],
+    "mean_rate": 1.14,
+    "median_rate": 0.0,
+    "n": 115
+   },
+   {
+    "position_range": [
+     0.872,
+     0.934
+    ],
+    "mean_rate": 2.17,
+    "median_rate": 1.79,
+    "n": 116
+   },
+   {
+    "position_range": [
+     0.934,
+     0.961
+    ],
+    "mean_rate": 4.06,
+    "median_rate": 3.5,
+    "n": 115
+   },
+   {
+    "position_range": [
+     0.961,
+     0.992
+    ],
+    "mean_rate": 6.19,
+    "median_rate": 5.29,
+    "n": 116
+   }
+  ]
+ }
+}

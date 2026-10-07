@@ -1,0 +1,36 @@
+id,address,source,zip_page,view,type,image,zoom,fit_score,block_group,grade,position,position_iqr,at_address_position,pixels,edge_distance_m,neighbours,bg_inside,note
+f103,"1242 Laird St, Akron, OH 44305",file 14,44306,37,Robbery,maps/types_batch1045/44306_robbery.png,13.335,0.552,391535025002,F,0.954,0.954-0.954,0.954,3445,183,,0.78,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,37,Robbery,maps/types_batch1045/44306_robbery.png,13.335,0.552,391535035003,C,0.611,0.611-0.611,0.611,1150,89,,1.0,on the C/C- line
+f103,"1242 Laird St, Akron, OH 44305",file 14,44306,37,Assault,maps/types_batch1045/44306_assault.png,13.335,0.552,391535025002,D-,0.858,0.858-0.858,0.858,3458,183,,0.78,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,37,Assault,maps/types_batch1045/44306_assault.png,13.335,0.552,391535035003,D,0.78,0.78-0.78,0.78,1145,89,,1.0,
+f103,"1242 Laird St, Akron, OH 44305",file 14,44306,37,Vandalism,maps/types_batch1045/44306_vandalism.png,13.335,0.552,391535025002,F,0.985,0.985-0.985,0.985,3415,183,,0.78,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,37,Vandalism,maps/types_batch1045/44306_vandalism.png,13.335,0.552,391535035003,D-,0.866,0.866-0.866,0.866,1160,89,,1.0,
+f103,"1242 Laird St, Akron, OH 44305",file 14,44306,37,Murder,maps/types_batch1045/44306_murder.png,13.335,0.552,391535025002,D-,0.872,0.872-0.872,0.872,3427,183,,0.78,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,37,Murder,maps/types_batch1045/44306_murder.png,13.335,0.552,391535035003,D-,0.889,0.889-0.889,0.889,1147,89,,1.0,
+f103,"1242 Laird St, Akron, OH 44305",file 14,44306,37,Burglary,maps/types_batch1045/44306_burglary.png,13.335,0.552,391535025002,F,0.985,0.985-0.985,0.985,3411,183,,0.78,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,37,Burglary,maps/types_batch1045/44306_burglary.png,13.335,0.552,391535035003,F,0.934,0.934-0.934,0.934,1159,89,,1.0,
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,43,Robbery,maps/types_batch1045/45431_robbery.png,12.99,0.449,390572007002,C,0.598,0.598-0.598,0.598,824,176,,0.55,block group partly off the map
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,43,Murder,maps/types_batch1045/45431_murder.png,12.99,0.449,390572007002,C+,0.523,0.523-0.523,0.523,829,176,,0.55,block group partly off the map
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,44,Assault,maps/types_batch1045/45431_assault.png,12.985,0.526,390572007002,D+,0.751,0.751-0.751,0.751,845,176,,0.56,block group partly off the map
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,44,Vandalism,maps/types_batch1045/45431_vandalism.png,12.985,0.526,390572007002,D+,0.737,0.737-0.737,0.737,843,176,,0.56,block group partly off the map
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,44,Burglary,maps/types_batch1045/45431_burglary.png,12.985,0.526,390572007002,D+,0.751,0.751-0.751,0.751,845,176,,0.56,block group partly off the map
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45431,44,Drug-Related Crime,maps/types_batch1045/45431_drug.png,12.985,0.526,390572007002,D+,0.694,0.694-0.694,0.694,849,176,,0.56,on the C-/D+ line; block group partly off the map
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Assault,maps/types_batch1045/45503_assault.png,13.235,0.644,390230005003,A-,0.17,0.17-0.17,0.17,2375,67,,1.0,
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Drug-Related Crime,maps/types_batch1045/45503_drug.png,13.235,0.644,390230005003,C,0.611,0.611-0.611,0.611,2387,67,,1.0,on the C/C- line
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Vandalism,maps/types_batch1045/45503_vandalism.png,13.235,0.644,390230005003,F,0.934,0.934-0.934,0.934,2402,67,,1.0,
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Murder,maps/types_batch1045/45503_murder.png,13.235,0.644,390230005003,D,0.837,0.837-0.837,0.837,2401,67,,1.0,
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Burglary,maps/types_batch1045/45503_burglary.png,13.235,0.644,390230005003,D,0.774,0.774-0.774,0.774,2385,67,,1.0,
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,57,Robbery,maps/types_batch1045/45503_robbery.png,13.235,0.644,390230005003,D+,0.694,0.694-0.694,0.694,2402,67,,1.0,on the C-/D+ line
+f113,"949 W Pike St, Clarksburg, WV 26301",file 14,26301,59,Drug-Related Crime,maps/types_batch1045/26301_drug.png,12.735,0.662,540330301003,D+,0.694,0.694-0.694,0.694,675,183,,1.0,on the C-/D+ line
+f133,"1600 Mcclure St, Homestead, PA 15120",file 14,15120,60,Drug-Related Crime,maps/types_batch1045/15120_drug.png,13.235,0.437,420034838003,D,0.78,0.78-0.78,0.78,600,9,420034843003 D at 9 m,1.0,
+f137,"803 6th St, New Brighton, PA 15066",file 14,15066,61,Drug-Related Crime,maps/types_batch1045/15066_drug.png,12.735,0.615,420076014002,C+,0.467,0.467-0.467,0.467,636,74,,1.0,
+f140,"408 15th St, New Brighton, PA 15066",file 14,15066,61,Drug-Related Crime,maps/types_batch1045/15066_drug.png,12.735,0.615,420076054002,C-,0.661,0.661-0.661,0.661,2796,176,,1.0,
+f121,"116 Lafayette Ave, Niles, OH 44446",file 14,44446,62,Drug-Related Crime,maps/types_batch1045/44446_drug.png,12.99,0.533,391559327023,B-,0.395,0.395-0.395,0.395,1199,184,,1.0,
+f103,"1242 Laird St, Akron, OH 44305",file 14,44305,63,Drug-Related Crime,maps/types_batch1045/44305_drug.png,13.235,0.598,391535025002,D-,0.872,0.872-0.872,0.872,3367,183,,1.0,
+f107,"45 1st Ave, Bedford, OH 44146",file 14,44146,64,Drug-Related Crime,maps/types_batch1045/44146_drug.png,13.235,0.553,390351323022,D+,0.737,0.737-0.737,0.737,5943,188,,1.0,
+f174,"82 18th St SW, Barberton, OH 44203",file 14,44203,66,Drug-Related Crime,maps/types_batch1045/44203_drug.png,12.985,0.611,391535104002,B,0.362,0.362-0.362,0.362,4710,144,,1.0,
+f110,"722 John, Coshocton, OH 43812",file 14,43812,67,Drug-Related Crime,maps/types_batch1045/43812_drug.png,12.235,0.509,390319616001,A+,0.004,0.004-0.004,0.004,1015,226,,1.0,
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45324,69,Drug-Related Crime,maps/types_batch1045/45324_drug.png,12.985,0.604,390572007002,D+,0.694,0.694-0.694,0.694,996,176,,1.0,on the C-/D+ line
+f121,"116 Lafayette Ave, Niles, OH 44446",file 14,44420,73,Drug-Related Crime,maps/types_batch1045/44420_drug.png,12.985,0.62,391559327023,B-,0.395,0.395-0.395,0.395,1186,184,,1.0,
+f137,"803 6th St, New Brighton, PA 15066",file 14,15010,79,Drug-Related Crime,maps/types_batch1045/15010_drug.png,12.735,0.658,420076014002,C+,0.467,0.467-0.467,0.467,619,74,,1.0,
+g07,"312 N 7th St, Martins Ferry, OH 43935",photo list,26003,85,Drug-Related Crime,maps/types_batch1045/26003_drug.png,12.835,0.671,390130120002,B+,0.267,0.267-0.267,0.267,2924,77,,0.38,block group partly off the map

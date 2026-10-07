@@ -1,0 +1,14 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+g07,"312 N 7th St, Martins Ferry, OH 43935",photo list,43935,,,,,0.267,,,,,,B+,
+f075,"979 Lagonda Ave, Springfield, OH 45503",file 14,45503,0.694,0.170,0.774,0.934,0.611,0.837,D+,A-,D,F,C,D
+f103,"1242 Laird St, Akron, OH 44305",file 14,44305,0.954,0.858,0.985,0.985,0.872,0.872,F,D-,F,F,D-,D-
+f107,"45 1st Ave, Bedford, OH 44146",file 14,44146,,,,,0.737,,,,,,D+,
+f110,"722 John, Coshocton, OH 43812",file 14,43812,,,,,0.004,,,,,,A+,
+f113,"949 W Pike St, Clarksburg, WV 26301",file 14,26301,,,,,0.694,,,,,,D+,
+f118,"896 Huber St, Akron, OH 44306",file 14,44306,0.611,0.780,0.934,0.866,,0.889,C,D,F,D-,,D-
+f119,"1808 Stewart Blvd #1810, Fairborn, OH 45324",file 14,45324,0.598,0.751,0.751,0.737,0.694,0.523,C,D+,D+,D+,D+,C+
+f121,"116 Lafayette Ave, Niles, OH 44446",file 14,44446,,,,,0.395,,,,,,B-,
+f133,"1600 Mcclure St, Homestead, PA 15120",file 14,15120,,,,,0.780,,,,,,D,
+f137,"803 6th St, New Brighton, PA 15066",file 14,15066,,,,,0.467,,,,,,C+,
+f140,"408 15th St, New Brighton, PA 15066",file 14,15066,,,,,0.661,,,,,,C-,
+f174,"82 18th St SW, Barberton, OH 44203",file 14,44203,,,,,0.362,,,,,,B,

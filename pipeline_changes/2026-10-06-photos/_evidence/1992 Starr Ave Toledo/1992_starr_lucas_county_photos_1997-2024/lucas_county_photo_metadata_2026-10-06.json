@@ -1,0 +1,10 @@
+{
+ "source": "Lucas County Auditor iasWorld public access, https://icare.co.lucas.oh.us/LucasCare/, document API, document type Parcel Photo, jurisdiction 048, parcel (assessor number) 08077032, read 2026-10-06",
+ "files": [
+  {"file": "lucas_county_photo_2024-02-07_front.jpg", "Filename": "standard.jpg", "Size": 934917, "CreatedOn": "2025-10-20T14:37:00", "CreatedBy": "photomnt", "Rank": 1, "Fields": {"Parid": "08077032", "Jur": "048", "Taxyr": 2025, "Card": 1, "Photo Category": "Primary View", "Title": "Front", "Photo Capture Date": null}, "note": "the date 2/7/2024 is stamped on the photo"},
+  {"file": "lucas_county_photo_taxyr2011_primary_view.jpg", "Filename": "08077032-1.jpg", "Size": 51028, "CreatedOn": "2013-08-29T15:30:16", "CreatedBy": "apecio", "Rank": 2, "Fields": {"Parid": "08077032", "Jur": "048", "Taxyr": 2011, "Card": null, "Photo Category": "Primary View", "Title": "Primary View", "Photo Capture Date": null}},
+  {"file": "lucas_county_photo_2006-08-22_primary_view.jpg", "Filename": "08077032-2.jpg", "Size": 537084, "CreatedOn": "2013-08-29T15:30:16", "CreatedBy": "apecio", "Rank": 3, "Fields": {"Parid": "08077032", "Jur": "048", "Taxyr": 2006, "Card": null, "Photo Category": "Primary View", "Title": "Primary View", "Photo Capture Date": "2006-08-22T06:19:27"}},
+  {"file": "lucas_county_photo_1997-01-02_primary_view.jpg", "Filename": "08077032-3.jpg", "Size": 169309, "CreatedOn": "2013-08-29T15:30:15", "CreatedBy": "apecio", "Rank": 4, "Fields": {"Parid": "08077032", "Jur": "048", "Taxyr": 1998, "Card": null, "Photo Category": "Primary View", "Title": "Primary View", "Photo Capture Date": "1997-01-02T00:49:00"}}
+ ],
+ "note": "Size is the county's stored original; the saved files are the API's 'standard' rendering (1600 or 1536 px wide)"
+}

@@ -1,0 +1,190 @@
+﻿area,states,lead_verdict_9-26,drive_h_from_Williamsburg_OSRM,drive_source,distance_tier,kept_counties,counties_with_Redfin_volume,redfin_2to4_unit_sales_12mo_to_2026-05,est_feasible_sales_per_quarter,redfin_2to4_median_sale_price_wtd,central_1_in_2band,worst_case_1_in_band_weighted,expected_verified_leads_per_quarter_central,expected_verified_leads_per_quarter_worst,after_distance_penalty_central,after_distance_penalty_worst,volume_by_state
+"Cleveland–Akron–Canton, OH CSA",OH,no confident call,9.8,osrm,C fly-in (>9.5h),16,16,2450,378.4,160779,12.2,21.0,31.02,18.02,19.23,11.17,OH 2450
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",PA-NJ-DE-MD,no confident call,5.9,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),15,15,1450,198.8,339476,12.1,21.5,16.43,9.25,16.43,9.25,DE 77; MD 6; NJ 379; PA 988
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",PA-OH-WV,no confident call,7.5,osrm,B long drive / short hop (6.5-9.5h),13,13,970,135.2,178775,10.6,20.0,12.75,6.76,10.2,5.41,OH 19; PA 940; WV 11
+"New Orleans–Metairie–Slidell, LA-MS CSA",LA-MS,no confident call,19.3,osrm,C fly-in (>9.5h),9,9,1017,152.5,314864,11.6,34.3,13.15,4.45,8.15,2.76,LA 1014; MS 3
+"Indianapolis–Carmel–Muncie, IN CSA",IN,no confident call,12.8,osrm,C fly-in (>9.5h),19,19,751,117.6,203062,9.6,16.5,12.25,7.13,7.6,4.42,IN 751
+"Scranton–Wilkes-Barre, PA MSA",PA,no confident call,7.8,osrm,B long drive / short hop (6.5-9.5h),3,3,836,116.2,237202,12.8,24.8,9.08,4.69,7.27,3.75,PA 836
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",DC-MD-WV-PA,no confident call,3.9,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),14,14,585,78.2,481802,13.4,33.1,5.84,2.36,5.84,2.36,DC 199; MD 320; PA 42; WV 24
+"St. Louis–St. Charles–Farmington, MO-IL CSA",MO-IL,no confident call,16.1,osrm,C fly-in (>9.5h),16,16,801,95.0,226238,10.3,22.9,9.22,4.15,5.72,2.57,IL 164; MO 637
+"Wichita–Arkansas City–Winfield, KS CSA",KS,no confident call,24.2,osrm,C fly-in (>9.5h),5,5,614,84.2,210237,13.9,27.2,6.06,3.1,3.76,1.92,KS 614
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",GA-AL,no confident call,10.8,osrm,C fly-in (>9.5h),32,32,561,74.2,378957,13.0,25.8,5.71,2.88,3.54,1.78,AL 21; GA 540
+"Binghamton, NY MSA",NY,no confident call,9.0,osrm,B long drive / short hop (6.5-9.5h),2,2,276,47.2,163063,11.2,15.8,4.21,2.99,3.37,2.39,NY 276
+"Dayton–Springfield–Kettering, OH CSA",OH,no confident call,10.5,osrm,C fly-in (>9.5h),7,7,398,61.5,165906,11.8,18.5,5.21,3.32,3.23,2.06,OH 398
+"Rockford–Freeport–Rochelle, IL CSA",IL,no confident call,17.5,osrm,C fly-in (>9.5h),4,4,312,50.5,160157,11.9,16.2,4.25,3.12,2.63,1.93,IL 312
+"Toledo, OH MSA",OH,no confident call,11.5,osrm,C fly-in (>9.5h),3,3,235,36.3,110235,9.7,16.3,3.74,2.23,2.32,1.38,OH 235
+"Elmira–Corning, NY CSA",NY,no confident call,9.0,osrm,B long drive / short hop (6.5-9.5h),2,2,126,21.5,102698,9.9,13.8,2.18,1.56,1.74,1.25,NY 126
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",TN-MS-AR,no confident call,16.0,osrm,C fly-in (>9.5h),7,7,179,23.2,149746,8.6,17.8,2.69,1.3,1.67,0.81,AR 0; MS 2; TN 177
+"Johnstown–Somerset, PA CSA",PA,no confident call,6.5,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,2,83,11.5,68320,7.6,12.2,1.52,0.95,1.52,0.95,PA 83
+"Youngstown–Warren–Salem, OH CSA",OH,no confident call,8.5,osrm,B long drive / short hop (6.5-9.5h),3,3,113,17.5,123043,9.7,15.2,1.8,1.15,1.44,0.92,OH 113
+"Pottsville, PA μSA",PA,no confident call,7.0,est,B long drive / short hop (6.5-9.5h),1,1,89,12.4,167071,7.3,12.4,1.7,1.0,1.36,0.8,PA 89
+"Davenport–Moline, IA-IL CSA",IA-IL,no confident call,18.0,est,C fly-in (>9.5h),6,6,174,26.9,139714,12.7,21.2,2.12,1.27,1.31,0.79,IL 70; IA 104
+"Lansing–East Lansing–Owosso, MI CSA",MI,no confident call,13.6,osrm,C fly-in (>9.5h),4,4,171,25.6,193917,12.8,20.3,2.0,1.26,1.24,0.78,MI 171
+"Erie–Meadville, PA CSA",PA,no confident call,9.6,osrm,C fly-in (>9.5h),2,2,181,25.2,115012,12.6,21.3,2.0,1.18,1.24,0.73,PA 181
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",WV-OH-KY,"likely lead, not high confidence",6.8,osrm,B long drive / short hop (6.5-9.5h),10,10,77,10.4,207534,6.8,11.4,1.53,0.91,1.23,0.73,KY 18; OH 6; WV 53
+"Little Rock–North Little Rock, AR CSA",AR,no confident call,18.4,osrm,C fly-in (>9.5h),6,6,133,18.8,238570,9.6,16.7,1.96,1.13,1.21,0.7,AR 133
+"Oklahoma City–Shawnee, OK CSA",OK,no confident call,24.0,osrm,C fly-in (>9.5h),8,8,199,23.8,290316,12.3,26.0,1.93,0.92,1.2,0.57,OK 199
+"Savannah–Hinesville–Statesboro, GA CSA",GA,no confident call,9.3,osrm,B long drive / short hop (6.5-9.5h),7,7,138,18.2,487409,12.5,36.8,1.46,0.5,1.17,0.4,GA 138
+"Peoria–Canton, IL CSA",IL,no confident call,16.6,osrm,C fly-in (>9.5h),5,5,104,16.8,161172,9.1,15.6,1.85,1.08,1.15,0.67,IL 104
+"Baton Rouge–Hammond, LA CSA",LA,no confident call,19.5,est,C fly-in (>9.5h),7,7,123,18.4,265249,11.9,24.4,1.55,0.76,0.96,0.47,LA 123
+"Bloomsburg–Berwick–Sunbury, PA CSA",PA,no confident call,7.5,est,B long drive / short hop (6.5-9.5h),5,5,108,15.0,200596,13.1,23.7,1.15,0.63,0.92,0.51,PA 108
+"Lubbock–Plainview, TX CSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,151,17.3,225821,11.7,18.7,1.48,0.92,0.92,0.57,TX 151
+"Cumberland, MD-WV μSA",MD-WV,no confident call,5.1,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,2,59,7.9,101061,9.0,16.8,0.88,0.47,0.88,0.47,MD 48; WV 11
+"Gulfport–Biloxi, MS MSA",MS,no confident call,18.5,est,C fly-in (>9.5h),3,3,78,11.1,212556,8.2,14.8,1.36,0.75,0.84,0.47,MS 78
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",KY-IN,no confident call,11.4,osrm,C fly-in (>9.5h),12,12,157,17.7,219060,13.9,27.6,1.28,0.64,0.79,0.4,IN 0; KY 157
+"Macon-Bibb County–Warner Robins, GA CSA",GA,no confident call,11.5,osrm,C fly-in (>9.5h),4,4,74,9.8,212345,8.1,12.0,1.21,0.82,0.75,0.51,GA 74
+"Carbondale–Marion–Herrin, IL CSA",IL,no confident call,15.5,est,C fly-in (>9.5h),2,2,59,9.6,99012,8.0,14.2,1.19,0.67,0.74,0.42,IL 59
+"Springfield–Jacksonville–Lincoln, IL CSA",IL,no confident call,16.0,est,C fly-in (>9.5h),5,5,67,10.8,135987,10.3,16.6,1.05,0.65,0.65,0.41,IL 67
+"Birmingham–Cullman–Talladega, AL CSA",AL,no confident call,13.4,osrm,C fly-in (>9.5h),9,9,71,9.4,218057,9.1,18.6,1.03,0.51,0.64,0.31,AL 71
+"Wheeling, WV-OH MSA",WV-OH,"likely lead, not high confidence",8.1,osrm,B long drive / short hop (6.5-9.5h),3,3,36,5.3,122456,6.6,15.8,0.8,0.33,0.64,0.27,OH 15; WV 21
+"Fairbanks–College, AK MSA",AK,no confident call,99,est,C fly-in (>9.5h),1,1,92,10.9,386463,10.7,20.7,1.02,0.53,0.63,0.33,AK 92
+"Altoona–Huntingdon, PA CSA",PA,no confident call,6.5,est,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,1,37,5.1,99289,8.7,14.6,0.59,0.35,0.59,0.35,PA 37
+"Lafayette–New Iberia–Opelousas, LA CSA",LA,no confident call,19.5,est,C fly-in (>9.5h),6,6,65,9.8,175176,10.8,23.2,0.9,0.42,0.56,0.26,LA 65
+"Evansville–Henderson, IN-KY CSA",IN-KY,no confident call,14.0,est,C fly-in (>9.5h),5,5,54,8.3,169039,9.7,17.4,0.85,0.48,0.53,0.3,IN 50; KY 4
+"Shreveport–Bossier City–Minden, LA CSA",LA,no confident call,19.5,est,C fly-in (>9.5h),4,4,44,6.6,145417,7.8,14.3,0.85,0.46,0.52,0.29,LA 44
+"Morgantown, WV MSA",WV,no confident call,6.5,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,2,46,6.5,298425,12.7,61.7,0.51,0.1,0.51,0.1,WV 46
+"Richmond–Connersville, IN CSA",IN,no confident call,12.0,est,C fly-in (>9.5h),2,2,45,7.0,82352,8.7,12.9,0.81,0.55,0.5,0.34,IN 45
+"Clovis, NM μSA",NM,"likely lead, not high confidence",29.0,est,C fly-in (>9.5h),2,2,36,4.8,274894,6.4,10.7,0.75,0.45,0.46,0.28,NM 36
+"Augusta-Richmond County, GA-SC MSA",GA-SC,no confident call,8.9,osrm,B long drive / short hop (6.5-9.5h),5,5,34,4.4,240479,8.2,12.4,0.54,0.36,0.43,0.29,GA 26; SC 8
+"Champaign–Urbana–Danville, IL CSA",IL,no confident call,15.0,est,C fly-in (>9.5h),4,4,47,7.6,204496,11.4,17.8,0.67,0.43,0.41,0.27,IL 47
+"Jackson, TN MSA",TN,no confident call,14.0,est,C fly-in (>9.5h),4,4,40,5.2,193278,8.0,14.9,0.65,0.35,0.4,0.22,TN 40
+"Burlington–Fort Madison, IA-IL CSA",IA-IL,no confident call,18.0,est,C fly-in (>9.5h),2,2,32,4.8,74359,7.5,12.0,0.64,0.4,0.4,0.25,IA 32
+"Jackson, MI MSA",MI,no confident call,13.0,est,C fly-in (>9.5h),1,1,43,6.4,119357,10.2,19.3,0.63,0.33,0.39,0.21,MI 43
+"Jonesboro–Paragould, AR CSA",AR,no confident call,17.0,est,C fly-in (>9.5h),3,3,42,5.9,160664,9.8,18.0,0.61,0.33,0.38,0.2,AR 42
+"Fairmont–Clarksburg, WV CSA",WV,"likely lead, not high confidence",6.8,osrm,B long drive / short hop (6.5-9.5h),3,3,22,3.1,155455,6.6,13.3,0.47,0.23,0.38,0.19,WV 22
+"Jackson–Vicksburg–Brookhaven, MS CSA",MS,"likely lead, not high confidence",17.7,osrm,C fly-in (>9.5h),7,7,35,5.0,147844,8.4,12.8,0.6,0.39,0.37,0.24,MS 35
+"Lawton–Duncan, OK CSA",OK,no confident call,23.5,est,C fly-in (>9.5h),2,2,36,4.3,233583,7.5,13.2,0.57,0.33,0.36,0.2,OK 36
+"Montgomery–Selma, AL CSA",AL,"likely lead, not high confidence",13.7,osrm,C fly-in (>9.5h),5,5,29,3.8,117466,6.9,11.5,0.56,0.33,0.35,0.21,AL 29
+"Massena–Ogdensburg, NY μSA",NY,no confident call,11.5,est,C fly-in (>9.5h),1,1,34,5.8,134059,10.5,14.6,0.55,0.4,0.34,0.25,NY 34
+"Lafayette–West Lafayette–Frankfort, IN CSA",IN,no confident call,13.5,est,C fly-in (>9.5h),4,4,45,7.0,248657,12.9,27.5,0.55,0.26,0.34,0.16,IN 45
+"Clarksville, TN-KY MSA",TN-KY,no confident call,13.1,osrm,C fly-in (>9.5h),3,3,50,6.4,441871,12.0,31.9,0.53,0.2,0.33,0.12,KY 7; TN 43
+"Fort Smith, AR-OK MSA",AR-OK,no confident call,20.5,est,C fly-in (>9.5h),3,3,43,6.0,216529,11.4,18.9,0.53,0.32,0.33,0.2,AR 40; OK 3
+"Oil City, PA μSA",PA,"likely lead, not high confidence",9.0,est,B long drive / short hop (6.5-9.5h),1,1,19,2.6,74863,6.7,10.6,0.39,0.25,0.32,0.2,PA 19
+"Waterloo–Cedar Falls, IA MSA",IA,no confident call,18.0,est,C fly-in (>9.5h),3,3,35,5.2,165172,10.4,22.7,0.5,0.23,0.31,0.14,IA 35
+"Lake Charles–DeRidder, LA CSA",LA,no confident call,19.5,est,C fly-in (>9.5h),3,3,25,3.7,267900,7.5,16.0,0.5,0.23,0.31,0.15,LA 25
+"Salina, KS μSA",KS,no confident call,24.5,est,C fly-in (>9.5h),2,2,44,6.0,185816,12.1,22.2,0.5,0.27,0.31,0.17,KS 44
+"Terre Haute, IN MSA",IN,"likely lead, not high confidence",14.2,osrm,C fly-in (>9.5h),4,4,22,3.4,168105,7.0,10.9,0.49,0.32,0.31,0.2,IN 22
+"Joplin–Miami, MO-OK-KS CSA",MO-OK-KS,no confident call,19.0,est,C fly-in (>9.5h),4,4,48,5.3,286406,11.0,27.6,0.48,0.19,0.3,0.12,KS 4; MO 44; OK 0
+"Mobile–Daphne–Fairhope, AL CSA",AL,no confident call,16.0,est,C fly-in (>9.5h),1,1,23,3.0,208576,7.1,13.3,0.43,0.23,0.27,0.14,AL 23
+"Abilene–Sweetwater, TX CSA",TX,"likely lead, not high confidence",22.0,est,C fly-in (>9.5h),2,2,30,3.4,277205,8.1,14.3,0.42,0.24,0.26,0.15,TX 30
+"Saginaw–Midland–Bay City, MI CSA",MI,no confident call,14.5,est,C fly-in (>9.5h),2,2,36,5.4,149808,12.9,20.6,0.42,0.26,0.26,0.16,MI 36
+"Topeka, KS MSA",KS,no confident call,24.5,est,C fly-in (>9.5h),4,4,37,5.1,163239,12.5,22.2,0.41,0.23,0.25,0.14,KS 37
+"Parkersburg–Marietta–Vienna, WV-OH CSA",WV-OH,no confident call,8.2,osrm,B long drive / short hop (6.5-9.5h),2,2,21,3.1,129310,9.8,17.1,0.31,0.18,0.25,0.14,OH 8; WV 13
+"Valdosta, GA MSA",GA,no confident call,12.5,est,C fly-in (>9.5h),2,2,29,3.8,391914,9.6,37.3,0.4,0.1,0.25,0.06,GA 29
+"Dixon–Sterling, IL CSA",IL,no confident call,16.5,est,C fly-in (>9.5h),2,2,25,4.0,116696,10.5,14.6,0.39,0.28,0.24,0.17,IL 25
+"State College–DuBois, PA CSA",PA,no confident call,7.0,est,B long drive / short hop (6.5-9.5h),2,2,27,3.8,404407,12.7,26.3,0.3,0.14,0.24,0.11,PA 27
+"Marion, IN μSA",IN,no confident call,13.0,est,C fly-in (>9.5h),1,1,18,2.8,93394,7.4,11.1,0.38,0.25,0.24,0.16,IN 18
+"Beaumont–Port Arthur, TX MSA",TX,no confident call,22.0,est,C fly-in (>9.5h),2,2,25,2.9,248481,8.1,12.8,0.35,0.22,0.22,0.14,TX 25
+"Columbia–Sumter–Orangeburg, SC CSA",SC,no confident call,7.6,osrm,B long drive / short hop (6.5-9.5h),7,3,17,2.1,186755,8.4,13.1,0.25,0.16,0.2,0.13,SC 17
+"Amarillo–Borger, TX CSA",TX,no confident call,22.0,est,C fly-in (>9.5h),3,3,27,3.1,361115,9.5,19.6,0.33,0.16,0.2,0.1,TX 27
+"Longview, TX MSA",TX,no confident call,22.0,est,C fly-in (>9.5h),4,4,32,3.7,239215,11.9,17.8,0.31,0.21,0.19,0.13,TX 32
+"Monroe–Ruston, LA CSA",LA,no confident call,19.5,est,C fly-in (>9.5h),5,5,17,2.5,172853,8.3,20.9,0.31,0.12,0.19,0.08,LA 17
+"Florence, SC MSA",SC,no confident call,6.2,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,2,12,1.5,205292,8.0,13.6,0.19,0.11,0.19,0.11,SC 12
+"Paducah–Mayfield, KY-IL CSA",KY-IL,no confident call,12.5,est,C fly-in (>9.5h),4,4,28,3.2,232882,11.1,18.8,0.29,0.17,0.18,0.1,IL 0; KY 28
+"Findlay–Tiffin, OH CSA",OH,no confident call,11.0,est,C fly-in (>9.5h),2,2,20,3.1,155235,10.9,17.1,0.28,0.18,0.18,0.11,OH 20
+"Houma–Bayou Cane–Thibodaux, LA MSA",LA,no confident call,19.5,est,C fly-in (>9.5h),2,2,16,2.4,256121,8.6,16.6,0.28,0.14,0.17,0.09,LA 16
+"Wichita Falls, TX MSA",TX,no confident call,24.2,osrm,C fly-in (>9.5h),1,1,20,2.3,107282,8.7,13.4,0.26,0.17,0.16,0.11,TX 20
+"Hot Springs–Malvern, AR CSA",AR,no confident call,19.0,est,C fly-in (>9.5h),2,2,21,3.0,249931,11.4,21.0,0.26,0.14,0.16,0.09,AR 21
+"Bradford, PA μSA",PA,"likely lead, not high confidence",9.5,est,B long drive / short hop (6.5-9.5h),1,1,10,1.4,118125,7.0,10.9,0.2,0.13,0.16,0.1,PA 10
+"Hobbs, NM μSA",NM,no confident call,29.0,est,C fly-in (>9.5h),1,1,14,1.9,286929,7.5,11.2,0.25,0.17,0.15,0.1,NM 14
+"Cape Girardeau–Sikeston, MO-IL CSA",MO-IL,no confident call,15.5,est,C fly-in (>9.5h),3,3,26,2.8,280035,11.5,20.9,0.24,0.13,0.15,0.08,MO 26
+"Logansport, IN μSA",IN,no confident call,13.5,est,C fly-in (>9.5h),1,1,17,2.7,127985,11.0,18.6,0.24,0.14,0.15,0.09,IN 17
+"Columbus–Auburn–Opelika, GA-AL CSA",GA-AL,no confident call,12.5,est,C fly-in (>9.5h),6,2,16,2.1,383806,9.1,15.0,0.23,0.14,0.14,0.09,AL 16
+"Texarkana, TX-AR MSA",TX-AR,no confident call,19.5,est,C fly-in (>9.5h),3,3,16,1.9,256444,8.7,13.2,0.22,0.14,0.14,0.09,AR 3; TX 13
+"Alexandria, LA MSA",LA,no confident call,19.5,est,C fly-in (>9.5h),1,1,13,1.9,100862,9.0,16.6,0.22,0.12,0.13,0.07,LA 13
+"Beckley, WV MSA",WV,"likely lead, not high confidence",5.6,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,2,6,0.8,212625,6.5,10.7,0.13,0.08,0.13,0.08,WV 6
+"Galesburg, IL μSA",IL,"likely lead, not high confidence",16.5,est,C fly-in (>9.5h),1,1,10,1.6,67750,7.9,12.1,0.2,0.13,0.13,0.08,IL 10
+"Dothan–Enterprise–Ozark, AL CSA",AL,no confident call,13.5,est,C fly-in (>9.5h),4,4,12,1.6,385475,8.0,15.5,0.2,0.1,0.12,0.06,AL 12
+"Tupelo–Corinth, MS CSA",MS,no confident call,15.5,est,C fly-in (>9.5h),4,4,13,1.9,361462,9.5,19.2,0.2,0.1,0.12,0.06,MS 13
+"Sayre, PA μSA",PA,no confident call,8.5,est,B long drive / short hop (6.5-9.5h),1,1,12,1.7,129688,11.4,21.4,0.15,0.08,0.12,0.06,PA 12
+"Florence–Muscle Shoals–Russellville, AL CSA",AL,no confident call,13.5,est,C fly-in (>9.5h),3,3,16,2.1,296146,11.3,23.7,0.19,0.09,0.12,0.06,AL 16
+"Manhattan, KS MSA",KS,no confident call,24.5,est,C fly-in (>9.5h),2,2,15,2.1,253527,11.5,16.4,0.18,0.13,0.11,0.08,KS 15
+"Middlesborough–Corbin, KY CSA",KY,no confident call,8.5,est,B long drive / short hop (6.5-9.5h),5,5,11,1.2,215609,9.0,12.6,0.14,0.1,0.11,0.08,KY 11
+"Union City–Martin, TN CSA",TN,no confident call,14.5,est,C fly-in (>9.5h),2,2,15,1.9,116203,11.4,21.0,0.17,0.09,0.11,0.06,TN 15
+"Charleston–Mattoon, IL μSA",IL,no confident call,15.0,est,C fly-in (>9.5h),1,1,11,1.8,131500,10.6,15.0,0.17,0.12,0.1,0.07,IL 11
+"Pittsburg, KS μSA",KS,no confident call,24.5,est,C fly-in (>9.5h),1,1,10,1.4,157000,8.6,12.7,0.16,0.11,0.1,0.07,KS 10
+"Anniston–Oxford, AL MSA",AL,no confident call,12.5,est,C fly-in (>9.5h),1,1,11,1.5,130932,9.4,14.6,0.16,0.1,0.1,0.06,AL 11
+"Fort Leonard Wood, MO μSA",MO,no confident call,16.5,est,C fly-in (>9.5h),1,1,14,1.5,216744,10.1,15.4,0.15,0.1,0.09,0.06,MO 14
+"Albany, GA MSA",GA,"likely lead, not high confidence",13.5,osrm,C fly-in (>9.5h),4,4,8,1.1,149562,7.4,11.6,0.14,0.09,0.09,0.06,GA 8
+"Waycross, GA μSA",GA,no confident call,11.0,est,C fly-in (>9.5h),1,1,8,1.1,114625,7.6,11.1,0.14,0.1,0.09,0.06,GA 8
+"Gallipolis, OH μSA",OH,no confident call,8.5,est,B long drive / short hop (6.5-9.5h),1,1,7,1.1,171857,10.2,15.5,0.11,0.07,0.08,0.06,OH 7
+"Enid, OK MSA",OK,"likely lead, not high confidence",23.5,est,C fly-in (>9.5h),1,1,8,1.0,141625,7.3,13.8,0.13,0.07,0.08,0.04,OK 8
+"Ponca City, OK μSA",OK,"likely lead, not high confidence",23.5,est,C fly-in (>9.5h),1,1,8,1.0,87812,7.4,11.9,0.13,0.08,0.08,0.05,OK 8
+"Decatur, IL MSA",IL,no confident call,15.5,est,C fly-in (>9.5h),1,1,6,1.0,204067,7.8,12.9,0.12,0.08,0.08,0.05,IL 6
+"Batesville, AR μSA",AR,no confident call,18.0,est,C fly-in (>9.5h),1,1,8,1.1,345625,9.8,32.3,0.12,0.04,0.07,0.02,AR 8
+"Clearlake, CA μSA",CA,no confident call,45,est,C fly-in (>9.5h),1,1,13,1.2,402692,10.5,37.5,0.11,0.03,0.07,0.02,CA 13
+"Macomb, IL μSA",IL,"likely lead, not high confidence",16.5,est,C fly-in (>9.5h),1,1,5,0.8,75750,8.2,12.6,0.1,0.06,0.06,0.04,IL 5
+"Defiance, OH μSA",OH,no confident call,11.5,est,C fly-in (>9.5h),1,1,7,1.1,128143,11.3,18.2,0.1,0.06,0.06,0.04,OH 7
+"Dyersburg, TN μSA",TN,no confident call,14.5,est,C fly-in (>9.5h),1,1,8,1.0,116625,11.0,22.0,0.09,0.05,0.06,0.03,TN 8
+"Vincennes, IN μSA",IN,no confident call,14.0,est,C fly-in (>9.5h),1,1,5,0.8,173600,8.7,13.6,0.09,0.06,0.06,0.04,IN 5
+"Blytheville, AR μSA",AR,"likely lead, not high confidence",16.5,est,C fly-in (>9.5h),1,1,4,0.6,67000,6.3,10.5,0.09,0.05,0.06,0.03,AR 4
+"Gadsden, AL MSA",AL,no confident call,12.5,est,C fly-in (>9.5h),1,1,7,0.9,117529,10.5,17.6,0.09,0.05,0.05,0.03,AL 7
+"Paris, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),2,2,9,1.0,176444,11.8,19.1,0.09,0.05,0.05,0.03,TX 9
+"Carlsbad–Artesia, NM μSA",NM,no confident call,29.0,est,C fly-in (>9.5h),1,1,6,0.8,411833,9.4,16.4,0.08,0.05,0.05,0.03,NM 6
+"San Angelo, TX MSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,8,0.9,213200,10.9,16.0,0.08,0.06,0.05,0.04,TX 8
+"Bloomington–Bedford, IN CSA",IN,no confident call,13.0,est,C fly-in (>9.5h),2,2,7,1.1,149457,13.1,29.9,0.08,0.04,0.05,0.02,IN 7
+"Mount Vernon, IL μSA",IL,"likely lead, not high confidence",15.5,est,C fly-in (>9.5h),1,1,4,0.6,95000,7.8,11.9,0.08,0.05,0.05,0.03,IL 4
+"Somerset, KY μSA",KY,no confident call,9.5,est,B long drive / short hop (6.5-9.5h),1,1,7,0.8,306143,12.6,29.8,0.06,0.03,0.05,0.02,KY 7
+"Coldwater, MI μSA",MI,no confident call,13.5,est,C fly-in (>9.5h),1,1,6,0.9,146917,12.2,18.6,0.07,0.05,0.05,0.03,MI 6
+"Murray, KY μSA",KY,no confident call,12.5,est,C fly-in (>9.5h),1,1,7,0.8,326036,10.8,22.3,0.07,0.04,0.05,0.02,KY 7
+"Poplar Bluff, MO μSA",MO,no confident call,16.0,est,C fly-in (>9.5h),1,1,7,0.8,223929,11.7,28.1,0.06,0.03,0.04,0.02,MO 7
+"Elkins, WV μSA",WV,no confident call,6.5,est,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),1,1,2,0.3,237500,7.1,12.6,0.04,0.02,0.04,0.02,WV 2
+"Susanville, CA μSA",CA,no confident call,45,est,C fly-in (>9.5h),1,1,6,0.5,208890,11.2,66.0,0.05,0.01,0.03,0.01,CA 6
+"Arkadelphia, AR μSA",AR,no confident call,18.0,est,C fly-in (>9.5h),1,1,3,0.4,237500,9.5,15.4,0.04,0.03,0.03,0.02,AR 3
+"McComb, MS μSA",MS,"likely lead, not high confidence",18.5,est,C fly-in (>9.5h),1,1,2,0.3,239875,6.6,10.7,0.04,0.03,0.03,0.02,MS 2
+"Storm Lake, IA μSA",IA,no confident call,18.0,est,C fly-in (>9.5h),1,1,3,0.4,98000,11.5,16.9,0.04,0.03,0.02,0.02,IA 3
+"Alamogordo, NM μSA",NM,no confident call,29.0,est,C fly-in (>9.5h),1,1,3,0.4,215633,11.4,20.2,0.03,0.02,0.02,0.01,NM 3
+"Del Rio, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,4,0.5,344337,13.2,29.4,0.03,0.02,0.02,0.01,TX 4
+"Bluefield, WV-VA μSA (but excluding Virginia areas: Tazewell county)",WV,no confident call,6.2,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),1,1,1,0.1,130000,6.7,10.9,0.02,0.01,0.02,0.01,WV 1
+"Madisonville, KY μSA",KY,no confident call,11.5,est,C fly-in (>9.5h),1,1,2,0.2,285000,7.7,12.2,0.03,0.02,0.02,0.01,KY 2
+"Moultrie, GA μSA",GA,no confident call,13.0,est,C fly-in (>9.5h),1,1,2,0.3,162000,9.3,14.0,0.03,0.02,0.02,0.01,GA 2
+"Sedalia, MO μSA",MO,no confident call,16.5,est,C fly-in (>9.5h),1,1,3,0.3,193333,12.4,21.1,0.03,0.02,0.02,0.01,MO 3
+"Huron, SD μSA",SD,no confident call,24.0,est,C fly-in (>9.5h),1,1,3,0.3,228333,12.8,23.2,0.03,0.01,0.02,0.01,SD 3
+"Corpus Christi–Kingsville–Alice, TX CSA",TX,no confident call,22.0,est,C fly-in (>9.5h),5,3,2,0.2,207450,10.3,14.4,0.02,0.02,0.01,0.01,TX 2
+"El Dorado, AR μSA",AR,"likely lead, not high confidence",18.0,est,C fly-in (>9.5h),1,1,1,0.1,50000,6.6,10.6,0.02,0.01,0.01,0.01,AR 1
+"Meridian, MS μSA",MS,"likely lead, not high confidence",16.5,est,C fly-in (>9.5h),1,1,1,0.1,275000,6.8,10.7,0.02,0.01,0.01,0.01,MS 1
+"St. Marys, PA μSA",PA,no confident call,8.5,est,B long drive / short hop (6.5-9.5h),1,1,1,0.1,65000,8.7,13.7,0.02,0.01,0.01,0.01,PA 1
+"Ottumwa, IA μSA",IA,"likely lead, not high confidence",18.0,est,C fly-in (>9.5h),1,1,1,0.1,170000,7.4,11.8,0.02,0.01,0.01,0.01,IA 1
+"Americus, GA μSA",GA,"likely lead, not high confidence",12.5,est,C fly-in (>9.5h),1,1,1,0.1,75000,6.9,10.9,0.02,0.01,0.01,0.01,GA 1
+"Fitzgerald, GA μSA",GA,no confident call,12.5,est,C fly-in (>9.5h),1,1,1,0.1,60000,7.5,10.9,0.02,0.01,0.01,0.01,GA 1
+"Woodward, OK μSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,1,0.1,113000,7.6,20.8,0.02,0.01,0.01,0.0,OK 1
+"Hutchinson, KS μSA",KS,no confident call,24.5,est,C fly-in (>9.5h),1,1,1,0.1,62000,9.5,14.5,0.01,0.01,0.01,0.01,KS 1
+"Beeville, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,1,0.1,677305,8.1,13.2,0.01,0.01,0.01,0.01,TX 1
+"Dublin, GA μSA",GA,no confident call,11.0,est,C fly-in (>9.5h),1,1,1,0.1,37500,9.4,14.8,0.01,0.01,0.01,0.01,GA 1
+"Great Bend, KS μSA",KS,no confident call,24.5,est,C fly-in (>9.5h),1,1,1,0.1,220000,10.1,16.2,0.01,0.01,0.01,0.01,KS 1
+"Silver City, NM μSA",NM,no confident call,29.0,est,C fly-in (>9.5h),1,1,1,0.1,265000,10.9,21.7,0.01,0.01,0.01,0.0,NM 1
+"Thomasville, GA μSA",GA,no confident call,13.0,est,C fly-in (>9.5h),2,2,1,0.1,55000,11.7,21.7,0.01,0.01,0.01,0.0,GA 1
+"Deming, NM μSA",NM,no confident call,29.0,est,C fly-in (>9.5h),1,1,1,0.1,190000,12.2,26.6,0.01,0.0,0.01,0.0,NM 1
+"Lufkin, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,1,0.1,279900,10.7,15.6,0.01,0.01,0.01,0.0,TX 1
+"Victoria–Port Lavaca, TX CSA",TX,no confident call,22.0,est,C fly-in (>9.5h),2,2,1,0.1,475000,11.2,18.9,0.01,0.01,0.01,0.0,TX 1
+"Brownwood, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,1,0.1,110500,12.1,17.8,0.01,0.01,0.01,0.0,TX 1
+"Dumas, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,1,0.1,180000,12.3,18.1,0.01,0.01,0.01,0.0,TX 1
+"Tulsa–Bartlesville–Muskogee, OK CSA",OK,no confident call,22.9,osrm,C fly-in (>9.5h),8,8,0,0.0,,13.8,23.1,0.0,0.0,0.0,0.0,OK 0
+"Midland–Odessa–Andrews, TX CSA",TX,no confident call,22.0,est,C fly-in (>9.5h),2,2,0,0.0,,12.0,19.8,0.0,0.0,0.0,0.0,TX 0
+"Tuscaloosa, AL MSA",AL,no confident call,14.0,est,C fly-in (>9.5h),2,2,0,0.0,,9.3,16.5,0.0,0.0,0.0,0.0,AL 0
+"Hattiesburg–Laurel, MS CSA",MS,no confident call,17.5,est,C fly-in (>9.5h),3,0,0,0.0,,8.6,13.2,0.0,0.0,0.0,0.0,
+"Salisbury–Ocean Pines, MD CSA",MD,no confident call,4.0,osrm,A drive (<=6.5h OSRM ~ <=5.5h Google; Charlotte-equivalent),2,0,0,0.0,,8.7,14.5,0.0,0.0,0.0,0.0,
+"Starkville–Columbus, MS CSA",MS,no confident call,16.0,est,C fly-in (>9.5h),1,1,0,0.0,,8.6,13.7,0.0,0.0,0.0,0.0,MS 0
+"Weatherford–Elk City, OK CSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,0,0.0,,8.5,12.4,0.0,0.0,0.0,0.0,OK 0
+"Palestine, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,0,0.0,,12.1,20.8,0.0,0.0,0.0,0.0,TX 0
+"Natchez, MS-LA μSA",MS-LA,"likely lead, not high confidence",19.0,est,C fly-in (>9.5h),1,1,0,0.0,,6.9,11.0,0.0,0.0,0.0,0.0,LA 0
+"Ardmore, OK μSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,0,0.0,,9.3,13.1,0.0,0.0,0.0,0.0,OK 0
+"McAlester, OK μSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,0,0.0,,7.7,14.0,0.0,0.0,0.0,0.0,OK 0
+"Ada, OK μSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,0,0.0,,11.1,19.2,0.0,0.0,0.0,0.0,OK 0
+"Fort Dodge, IA μSA",IA,no confident call,18.0,est,C fly-in (>9.5h),1,1,0,0.0,,8.4,19.4,0.0,0.0,0.0,0.0,IA 0
+"Troy, AL μSA",AL,no confident call,13.5,est,C fly-in (>9.5h),1,1,0,0.0,,8.0,13.0,0.0,0.0,0.0,0.0,AL 0
+"Big Spring, TX μSA",TX,"likely lead, not high confidence",22.0,est,C fly-in (>9.5h),1,1,0,0.0,,7.1,11.6,0.0,0.0,0.0,0.0,TX 0
+"Grenada, MS μSA",MS,"likely lead, not high confidence",17.0,est,C fly-in (>9.5h),1,1,0,0.0,,6.7,10.9,0.0,0.0,0.0,0.0,MS 0
+"Eufaula, AL-GA μSA",AL-GA,no confident call,13.0,est,C fly-in (>9.5h),1,1,0,0.0,,10.7,19.3,0.0,0.0,0.0,0.0,AL 0
+"Kennett, MO μSA",MO,"likely lead, not high confidence",16.5,est,C fly-in (>9.5h),1,1,0,0.0,,6.8,10.9,0.0,0.0,0.0,0.0,MO 0
+"Uvalde, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,0,0.0,,12.1,19.1,0.0,0.0,0.0,0.0,TX 0
+"Altus, OK μSA",OK,"likely lead, not high confidence",23.5,est,C fly-in (>9.5h),1,1,0,0.0,,7.5,16.2,0.0,0.0,0.0,0.0,OK 0
+"Magnolia, AR μSA",AR,no confident call,18.0,est,C fly-in (>9.5h),1,1,0,0.0,,9.8,34.2,0.0,0.0,0.0,0.0,AR 0
+"Liberal, KS μSA",KS,no confident call,24.5,est,C fly-in (>9.5h),1,1,0,0.0,,9.7,14.0,0.0,0.0,0.0,0.0,KS 0
+"Guymon, OK μSA",OK,no confident call,23.5,est,C fly-in (>9.5h),1,1,0,0.0,,10.3,16.6,0.0,0.0,0.0,0.0,OK 0
+"Cordele, GA μSA",GA,no confident call,12.5,est,C fly-in (>9.5h),1,1,0,0.0,,7.4,12.6,0.0,0.0,0.0,0.0,GA 0
+"Hereford, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,0,0.0,,11.4,16.6,0.0,0.0,0.0,0.0,TX 0
+"Snyder, TX μSA",TX,"likely lead, not high confidence",22.0,est,C fly-in (>9.5h),1,1,0,0.0,,7.5,11.9,0.0,0.0,0.0,0.0,TX 0
+"Zapata, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,0,0.0,,11.3,17.2,0.0,0.0,0.0,0.0,TX 0
+"Vernon, TX μSA",TX,"likely lead, not high confidence",22.0,est,C fly-in (>9.5h),1,1,0,0.0,,8.8,13.4,0.0,0.0,0.0,0.0,TX 0
+"Town of Pecos, TX μSA",TX,no confident call,22.0,est,C fly-in (>9.5h),1,1,0,0.0,,9.7,13.4,0.0,0.0,0.0,0.0,TX 0

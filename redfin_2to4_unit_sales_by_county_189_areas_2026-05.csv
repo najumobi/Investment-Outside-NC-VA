@@ -1,0 +1,682 @@
+area,county,state,county_rule_9-26,kept_by_rules,redfin_2to4_sales_12mo_to_2026-05,redfin_2to4_median_sale_price_wtd,redfin_all_sales_12mo
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",District of Columbia,DC,"kept under a ZIP-level price cap (eliminated, 15.8 feasible sales/quarter)",yes,199,836904,6366
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Anne Arundel County,MD,active,yes,17,265117,7517
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Baltimore County,MD,borderline kept under a price cap (25 recorded sales),yes,25,536538,8563
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Calvert County,,"borderline, undecided (0 recorded sales)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Carroll County,MD,active,yes,7,308571,2014
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Charles County,,"borderline, undecided (0 recorded sales)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Dorchester County,MD,active,yes,3,151666,504
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Frederick County,MD,active,yes,13,389403,3632
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Harford County,MD,active,yes,5,331400,3106
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Howard County,,"price screen: eliminated (typical duplex $601K, 0.20 feasible sales/quarter)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Montgomery County,,"price screen: likely eliminated (typical duplex $580K, 0.22 feasible sales/quarter)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Prince George's County,MD,borderline kept under a price cap (8 recorded sales),yes,8,442737,7974
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Queen Anne's County,,"borderline, undecided (3 recorded sales)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",St. Mary's County,,"price screen: eliminated (typical duplex $624K, 0.20 feasible sales/quarter)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Talbot County,,"borderline, undecided (5 recorded sales)",no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Washington County,MD,active,yes,42,250225,1628
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Baltimore city,MD,active,yes,200,288715,7443
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Franklin County,PA,active,yes,42,214640,1786
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Berkeley County,WV,active,yes,20,296225,2550
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Hampshire County,,resort/second-home market (20.7% seasonal homes),no,,,
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Jefferson County,WV,active,yes,4,330500,1447
+"Washington–Baltimore–Arlington, DC-MD-VA-WV-PA CSA (but excluding Virginia areas)",Morgan County,WV,shallow,yes,0,,371
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Kent County,DE,active,yes,14,280714,2228
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",New Castle County,DE,active,yes,63,317431,5563
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Cecil County,MD,active,yes,6,422500,1117
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Atlantic County,NJ,active,yes,90,406218,3300
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Burlington County,NJ,active,yes,64,354442,5378
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Camden County,NJ,active,yes,97,340536,5513
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Cape May County,,resort/second-home market (49.9% seasonal homes),no,,,
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Cumberland County,NJ,active,yes,51,264122,1340
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Gloucester County,NJ,active,yes,45,328888,3422
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Salem County,NJ,active,yes,32,243459,798
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Berks County,PA,active,yes,146,283441,4350
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Bucks County,PA,"kept under a ZIP-level price cap (likely eliminated, 5.2 feasible sales/quarter)",yes,56,489892,6274
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Chester County,PA,borderline kept under a price cap (45 recorded sales),yes,45,486799,5913
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Delaware County,PA,active,yes,199,311314,5769
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Montgomery County,PA,active,yes,206,398912,8733
+"Philadelphia–Reading–Camden, PA-NJ-DE-MD CSA",Philadelphia County,PA,active,yes,336,305329,13913
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Chambers County,AL,shallow,yes,1,175000,278
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Barrow County,GA,active,yes,7,296357,1682
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Bartow County,GA,active,yes,11,324727,1541
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Butts County,GA,shallow,yes,0,,350
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Carroll County,GA,active,yes,7,344142,1623
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Cherokee County,GA,borderline kept under a price cap (6 recorded sales),yes,6,662166,4165
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Clarke County,,student market (25.8% enrolled),no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Clayton County,GA,active,yes,29,293068,2539
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Cobb County,GA,active,yes,42,340214,9243
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Coweta County,GA,active,yes,4,244350,2386
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Dawson County,,"borderline, undecided (0 recorded sales)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",DeKalb County,GA,"kept under a ZIP-level price cap (eliminated, 5.0 feasible sales/quarter)",yes,56,580212,8604
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Douglas County,GA,active,yes,10,307499,1683
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Fayette County,,"price screen: likely eliminated (typical duplex $493K, 0.64 feasible sales/quarter)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Floyd County,GA,active,yes,40,218033,1161
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Forsyth County,,"price screen: likely eliminated (typical duplex $578K, 0.00 feasible sales/quarter)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Fulton County,GA,borderline kept under a price cap (164 recorded sales),yes,164,460286,13658
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Gordon County,GA,active,yes,4,278750,628
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Gwinnett County,GA,borderline kept under a price cap (52 recorded sales),yes,52,405125,10511
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Habersham County,GA,active,yes,3,291300,584
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Hall County,GA,active,yes,10,382990,2864
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Haralson County,GA,shallow,yes,1,102000,346
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Heard County,,"thin (1 sales, 156 structures)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Henry County,GA,active,yes,9,340477,3455
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Jackson County,GA,active,yes,3,302666,1857
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Jasper County,,"thin (0 sales, 127 structures)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Lumpkin County,GA,shallow (campus-radius ZIPs out),yes,1,1000000,439
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Madison County,AL,shallow,yes,20,252050,6915
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Meriwether County,GA,shallow,yes,2,100500,270
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Morgan County,,"borderline, undecided (1 recorded sales)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Newton County,GA,active,yes,15,235566,1526
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Oconee County,,"price screen: likely eliminated (typical duplex $526K, 0.00 feasible sales/quarter)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Oglethorpe County,,"thin (0 sales, 81 structures)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Paulding County,GA,active,yes,4,267737,2753
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Pickens County,GA,shallow,yes,1,338727,605
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Pike County,,"thin (0 sales, 197 structures)",no,,,
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Polk County,GA,active,yes,3,299500,434
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Rockdale County,GA,active,yes,26,354992,1291
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Spalding County,GA,active,yes,24,156908,899
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Troup County,GA,active,yes,5,118400,888
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Upson County,GA,shallow,yes,0,,221
+"Atlanta–Athens-Clarke County–Sandy Springs, GA-AL CSA",Walton County,GA,shallow,yes,1,220000,1455
+"Cleveland–Akron–Canton, OH CSA",Ashtabula County,OH,active,yes,27,143191,942
+"Cleveland–Akron–Canton, OH CSA",Carroll County,OH,shallow,yes,2,122000,234
+"Cleveland–Akron–Canton, OH CSA",Coshocton County,OH,active,yes,9,115211,323
+"Cleveland–Akron–Canton, OH CSA",Cuyahoga County,OH,active,yes,1682,157132,15130
+"Cleveland–Akron–Canton, OH CSA",Erie County,OH,active,yes,42,164737,805
+"Cleveland–Akron–Canton, OH CSA",Geauga County,OH,active,yes,6,275666,958
+"Cleveland–Akron–Canton, OH CSA",Huron County,OH,active,yes,14,167842,458
+"Cleveland–Akron–Canton, OH CSA",Lake County,OH,active,yes,18,225500,2892
+"Cleveland–Akron–Canton, OH CSA",Lorain County,OH,active,yes,106,139217,3701
+"Cleveland–Akron–Canton, OH CSA",Medina County,OH,active,yes,15,228393,2102
+"Cleveland–Akron–Canton, OH CSA",Ottawa County,,resort/second-home market (32.3% seasonal homes),no,,,
+"Cleveland–Akron–Canton, OH CSA",Portage County,OH,active,yes,37,270891,1559
+"Cleveland–Akron–Canton, OH CSA",Sandusky County,OH,active,yes,11,136036,472
+"Cleveland–Akron–Canton, OH CSA",Stark County,OH,active,yes,174,160818,4266
+"Cleveland–Akron–Canton, OH CSA",Summit County,OH,active,yes,257,167318,6794
+"Cleveland–Akron–Canton, OH CSA",Tuscarawas County,OH,active,yes,24,167087,815
+"Cleveland–Akron–Canton, OH CSA",Wayne County,OH,active,yes,26,184134,943
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Bond County,IL,shallow,yes,1,65000,127
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Calhoun County,,resort/second-home market (25.8% seasonal homes),no,,,
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Clinton County,IL,active,yes,4,303975,249
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Jersey County,IL,shallow,yes,1,200000,219
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Macoupin County,IL,shallow,yes,2,77500,369
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Madison County,IL,active,yes,57,141450,3345
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Marion County,IL,active,yes,4,136437,328
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Monroe County,IL,active,yes,5,335400,389
+"St. Louis–St. Charles–Farmington, MO-IL CSA",St. Clair County,IL,active,yes,90,168314,3165
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Franklin County,MO,active,yes,6,384433,1246
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Jefferson County,MO,active,yes,6,212500,2767
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Lincoln County,MO,active,yes,3,211666,746
+"St. Louis–St. Charles–Farmington, MO-IL CSA",St. Charles County,MO,active,yes,15,374043,5485
+"St. Louis–St. Charles–Farmington, MO-IL CSA",St. Francois County,MO,active,yes,6,148416,823
+"St. Louis–St. Charles–Farmington, MO-IL CSA",St. Louis County,MO,active,yes,21,197857,12821
+"St. Louis–St. Charles–Farmington, MO-IL CSA",Warren County,MO,shallow,yes,2,157500,574
+"St. Louis–St. Charles–Farmington, MO-IL CSA",St. Louis city,MO,active,yes,578,240413,3595
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Jefferson County,OH,active,yes,19,92973,531
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Allegheny County,PA,active,yes,568,223394,12831
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Armstrong County,PA,active,yes,15,71066,425
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Beaver County,PA,active,yes,64,125776,1764
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Butler County,PA,active,yes,40,139555,2010
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Fayette County,PA,active,yes,33,74954,820
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Indiana County,PA,active,yes,13,113537,469
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Lawrence County,PA,active,yes,28,95742,784
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Mercer County,PA,active,yes,26,87515,890
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Washington County,PA,active,yes,58,109948,2098
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Westmoreland County,PA,active,yes,95,141364,3369
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Brooke County,WV,active,yes,4,101500,164
+"Pittsburgh–Weirton–Steubenville, PA-OH-WV CSA",Hancock County,WV,active,yes,7,134385,283
+"Indianapolis–Carmel–Muncie, IN CSA",Bartholomew County,IN,active,yes,12,274366,1087
+"Indianapolis–Carmel–Muncie, IN CSA",Boone County,IN,active,yes,7,245396,1389
+"Indianapolis–Carmel–Muncie, IN CSA",Brown County,,"thin (0 sales, 168 structures)",no,,,
+"Indianapolis–Carmel–Muncie, IN CSA",Decatur County,IN,shallow,yes,1,135000,288
+"Indianapolis–Carmel–Muncie, IN CSA",Delaware County,IN,active,yes,37,128700,1277
+"Indianapolis–Carmel–Muncie, IN CSA",Hamilton County,IN,active,yes,21,408351,6663
+"Indianapolis–Carmel–Muncie, IN CSA",Hancock County,IN,active,yes,11,213300,1685
+"Indianapolis–Carmel–Muncie, IN CSA",Hendricks County,IN,active,yes,13,271458,2922
+"Indianapolis–Carmel–Muncie, IN CSA",Henry County,IN,active,yes,10,106190,539
+"Indianapolis–Carmel–Muncie, IN CSA",Howard County,IN,active,yes,16,117968,1247
+"Indianapolis–Carmel–Muncie, IN CSA",Jackson County,IN,shallow,yes,2,227450,427
+"Indianapolis–Carmel–Muncie, IN CSA",Johnson County,IN,active,yes,12,292229,2545
+"Indianapolis–Carmel–Muncie, IN CSA",Madison County,IN,active,yes,51,138301,1765
+"Indianapolis–Carmel–Muncie, IN CSA",Marion County,IN,active,yes,522,205518,12246
+"Indianapolis–Carmel–Muncie, IN CSA",Miami County,IN,active,yes,4,97750,293
+"Indianapolis–Carmel–Muncie, IN CSA",Montgomery County,IN,active,yes,10,182690,540
+"Indianapolis–Carmel–Muncie, IN CSA",Morgan County,IN,active,yes,11,276672,980
+"Indianapolis–Carmel–Muncie, IN CSA",Putnam County,IN,active,yes,4,163750,451
+"Indianapolis–Carmel–Muncie, IN CSA",Shelby County,IN,active,yes,5,110500,554
+"Indianapolis–Carmel–Muncie, IN CSA",Tipton County,IN,shallow,yes,2,213967,161
+"Oklahoma City–Shawnee, OK CSA",Canadian County,OK,active,yes,25,319392,3590
+"Oklahoma City–Shawnee, OK CSA",Cleveland County,OK,active,yes,28,329635,3946
+"Oklahoma City–Shawnee, OK CSA",Grady County,OK,active,yes,4,355625,896
+"Oklahoma City–Shawnee, OK CSA",Lincoln County,OK,shallow,yes,0,,344
+"Oklahoma City–Shawnee, OK CSA",Logan County,OK,shallow,yes,2,211422,1072
+"Oklahoma City–Shawnee, OK CSA",McClain County,OK,shallow,yes,1,265000,784
+"Oklahoma City–Shawnee, OK CSA",Oklahoma County,OK,active,yes,131,287423,10684
+"Oklahoma City–Shawnee, OK CSA",Pottawatomie County,OK,active,yes,8,99441,973
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Clark County,IN,shallow,yes,0,,1941
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Floyd County,IN,shallow,yes,0,,1120
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Harrison County,IN,shallow,yes,0,,415
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Washington County,IN,shallow,yes,0,,241
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Bullitt County,KY,active,yes,3,196663,1046
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Hardin County,KY,active,yes,54,222568,1350
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Henry County,KY,shallow,yes,0,,145
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Jefferson County,KY,active,yes,89,206904,10503
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Larue County,KY,active,yes,3,313333,133
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Meade County,KY,shallow,yes,0,,308
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Nelson County,KY,shallow,yes,1,400000,545
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Oldham County,,"borderline, undecided (0 recorded sales)",no,,,
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Shelby County,KY,active,yes,7,289882,623
+"Louisville/Jefferson County–Elizabethtown, KY-IN CSA",Spencer County,,"thin (1 sales, 132 structures)",no,,,
+"Birmingham–Cullman–Talladega, AL CSA",Bibb County,AL,shallow,yes,1,410000,81
+"Birmingham–Cullman–Talladega, AL CSA",Blount County,AL,shallow,yes,1,270000,486
+"Birmingham–Cullman–Talladega, AL CSA",Chilton County,AL,shallow,yes,0,,363
+"Birmingham–Cullman–Talladega, AL CSA",Coosa County,,"thin (0 sales, 92 structures)",no,,,
+"Birmingham–Cullman–Talladega, AL CSA",Cullman County,AL,active,yes,11,335172,1096
+"Birmingham–Cullman–Talladega, AL CSA",Jefferson County,AL,active,yes,51,196798,8437
+"Birmingham–Cullman–Talladega, AL CSA",St. Clair County,AL,shallow,yes,0,,1380
+"Birmingham–Cullman–Talladega, AL CSA",Shelby County,AL,shallow,yes,1,149900,3891
+"Birmingham–Cullman–Talladega, AL CSA",Talladega County,AL,active,yes,4,195885,748
+"Birmingham–Cullman–Talladega, AL CSA",Walker County,AL,shallow,yes,2,72500,465
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Crittenden County,AR,shallow,yes,0,,430
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",St. Francis County,AR,shallow,yes,0,,56
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Benton County,,post-disaster zone (FEMA DR-4899: 0.077 large awards per home),no,,,
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Coahoma County,,post-disaster zone (FEMA DR-4899: 0.099 large awards per home),no,,,
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",DeSoto County,MS,shallow,yes,2,314500,2595
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Marshall County,,post-disaster zone (FEMA DR-4899: 0.044 large awards per home),no,,,
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Tate County,MS,shallow,yes,0,,179
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Tunica County,,post-disaster zone (FEMA DR-4899: 0.050 large awards per home),no,,,
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Fayette County,TN,shallow,yes,0,,691
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Shelby County,TN,active,yes,176,148206,8966
+"Memphis–Clarksdale–Forrest City, TN-MS-AR CSA",Tipton County,TN,shallow,yes,1,91325,584
+"New Orleans–Metairie–Slidell, LA-MS CSA",Jefferson Parish,LA,active,yes,134,301809,3489
+"New Orleans–Metairie–Slidell, LA-MS CSA",Orleans Parish,LA,active,yes,814,319186,3584
+"New Orleans–Metairie–Slidell, LA-MS CSA",Plaquemines Parish,LA,shallow,yes,2,327450,157
+"New Orleans–Metairie–Slidell, LA-MS CSA",St. Bernard Parish,LA,active,yes,26,269869,366
+"New Orleans–Metairie–Slidell, LA-MS CSA",St. Charles Parish,LA,active,yes,10,305900,422
+"New Orleans–Metairie–Slidell, LA-MS CSA",St. James Parish,,post-disaster zone (FEMA DR-4817: 0.050 large awards per home),no,,,
+"New Orleans–Metairie–Slidell, LA-MS CSA",St. John the Baptist Parish,LA,active,yes,9,254944,253
+"New Orleans–Metairie–Slidell, LA-MS CSA",St. Tammany Parish,LA,active,yes,17,351852,3913
+"New Orleans–Metairie–Slidell, LA-MS CSA",Washington Parish,LA,shallow,yes,2,258000,198
+"New Orleans–Metairie–Slidell, LA-MS CSA",Pearl River County,MS,active,yes,3,144701,305
+"Tulsa–Bartlesville–Muskogee, OK CSA",Creek County,OK,shallow,yes,0,,749
+"Tulsa–Bartlesville–Muskogee, OK CSA",Muskogee County,OK,shallow,yes,0,,573
+"Tulsa–Bartlesville–Muskogee, OK CSA",Okmulgee County,OK,shallow,yes,0,,296
+"Tulsa–Bartlesville–Muskogee, OK CSA",Osage County,OK,shallow,yes,0,,433
+"Tulsa–Bartlesville–Muskogee, OK CSA",Pawnee County,,"thin (0 sales, 169 structures)",no,,,
+"Tulsa–Bartlesville–Muskogee, OK CSA",Rogers County,OK,shallow,yes,0,,1327
+"Tulsa–Bartlesville–Muskogee, OK CSA",Tulsa County,OK,shallow,yes,0,,8822
+"Tulsa–Bartlesville–Muskogee, OK CSA",Wagoner County,OK,shallow,yes,0,,1598
+"Tulsa–Bartlesville–Muskogee, OK CSA",Washington County,OK,shallow,yes,0,,754
+"Columbia–Sumter–Orangeburg, SC CSA",Calhoun County,,"thin (0 sales, 122 structures)",no,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Fairfield County,,shallow,yes,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Kershaw County,,shallow,yes,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Lexington County,,shallow,yes,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Newberry County,SC,shallow,yes,0,,253
+"Columbia–Sumter–Orangeburg, SC CSA",Orangeburg County,SC,active,yes,5,257970,596
+"Columbia–Sumter–Orangeburg, SC CSA",Richland County,,shallow,yes,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Saluda County,,"thin (0 sales, 108 structures)",no,,,
+"Columbia–Sumter–Orangeburg, SC CSA",Sumter County,SC,active,yes,12,157082,1276
+"Dayton–Springfield–Kettering, OH CSA",Champaign County,OH,active,yes,10,174790,410
+"Dayton–Springfield–Kettering, OH CSA",Clark County,OH,active,yes,70,139800,1698
+"Dayton–Springfield–Kettering, OH CSA",Darke County,OH,active,yes,18,135458,501
+"Dayton–Springfield–Kettering, OH CSA",Greene County,OH,active,yes,33,185740,2186
+"Dayton–Springfield–Kettering, OH CSA",Miami County,OH,active,yes,30,170601,1391
+"Dayton–Springfield–Kettering, OH CSA",Montgomery County,OH,active,yes,221,171980,7069
+"Dayton–Springfield–Kettering, OH CSA",Shelby County,OH,active,yes,16,175203,403
+"Baton Rouge–Hammond, LA CSA",Ascension Parish,LA,shallow,yes,0,,1505
+"Baton Rouge–Hammond, LA CSA",Assumption Parish,,post-disaster zone (FEMA DR-4817: 0.067 large awards per home),no,,,
+"Baton Rouge–Hammond, LA CSA",East Baton Rouge Parish,LA,active,yes,84,259209,5301
+"Baton Rouge–Hammond, LA CSA",East Feliciana Parish,,"thin (0 sales, 117 structures)",no,,,
+"Baton Rouge–Hammond, LA CSA",Iberville Parish,LA,shallow,yes,2,212500,184
+"Baton Rouge–Hammond, LA CSA",Livingston Parish,LA,active,yes,8,351250,1947
+"Baton Rouge–Hammond, LA CSA",Pointe Coupee Parish,LA,shallow,yes,2,160000,146
+"Baton Rouge–Hammond, LA CSA",St. Helena Parish,,"thin (0 sales, 70 structures)",no,,,
+"Baton Rouge–Hammond, LA CSA",Tangipahoa Parish,LA,active,yes,25,266280,1224
+"Baton Rouge–Hammond, LA CSA",West Baton Rouge Parish,LA,shallow,yes,2,320000,271
+"Baton Rouge–Hammond, LA CSA",West Feliciana Parish,,"thin (1 sales, 196 structures)",no,,,
+"Little Rock–North Little Rock, AR CSA",Cleveland County,,"thin (0 sales, 67 structures)",no,,,
+"Little Rock–North Little Rock, AR CSA",Faulkner County,AR,active,yes,17,211226,1819
+"Little Rock–North Little Rock, AR CSA",Grant County,,"thin (0 sales, 109 structures)",no,,,
+"Little Rock–North Little Rock, AR CSA",Jefferson County,AR,shallow,yes,1,154000,443
+"Little Rock–North Little Rock, AR CSA",Lonoke County,AR,active,yes,6,283658,1258
+"Little Rock–North Little Rock, AR CSA",Perry County,,"thin (0 sales, 133 structures)",no,,,
+"Little Rock–North Little Rock, AR CSA",Pulaski County,AR,active,yes,97,244680,5199
+"Little Rock–North Little Rock, AR CSA",Saline County,AR,active,yes,6,266500,2199
+"Little Rock–North Little Rock, AR CSA",White County,AR,active,yes,6,158333,924
+"Wichita–Arkansas City–Winfield, KS CSA",Butler County,KS,active,yes,32,248306,1002
+"Wichita–Arkansas City–Winfield, KS CSA",Cowley County,KS,active,yes,6,170000,317
+"Wichita–Arkansas City–Winfield, KS CSA",Harvey County,KS,active,yes,8,212687,383
+"Wichita–Arkansas City–Winfield, KS CSA",Sedgwick County,KS,active,yes,565,208799,7619
+"Wichita–Arkansas City–Winfield, KS CSA",Sumner County,KS,active,yes,3,148833,239
+"Jackson–Vicksburg–Brookhaven, MS CSA",Copiah County,MS,shallow,yes,0,,86
+"Jackson–Vicksburg–Brookhaven, MS CSA",Hinds County,MS,active,yes,27,147064,1633
+"Jackson–Vicksburg–Brookhaven, MS CSA",Holmes County,,post-disaster zone (FEMA DR-4899: 0.165 large awards per home),no,,,
+"Jackson–Vicksburg–Brookhaven, MS CSA",Lincoln County,MS,shallow,yes,1,59900,142
+"Jackson–Vicksburg–Brookhaven, MS CSA",Madison County,MS,shallow,yes,1,165000,1383
+"Jackson–Vicksburg–Brookhaven, MS CSA",Rankin County,MS,active,yes,5,167780,1944
+"Jackson–Vicksburg–Brookhaven, MS CSA",Scott County,,post-disaster zone (FEMA DR-4790: 0.057 large awards per home),no,,,
+"Jackson–Vicksburg–Brookhaven, MS CSA",Simpson County,MS,shallow,yes,0,,136
+"Jackson–Vicksburg–Brookhaven, MS CSA",Warren County,MS,shallow,yes,1,140000,193
+"Jackson–Vicksburg–Brookhaven, MS CSA",Yazoo County,,post-disaster zone (FEMA DR-4899: 0.070 large awards per home),no,,,
+"Mobile–Daphne–Fairhope, AL CSA",Baldwin County,,resort/second-home market (14.6% seasonal homes),no,,,
+"Mobile–Daphne–Fairhope, AL CSA",Mobile County,AL,active,yes,23,208576,4485
+"Savannah–Hinesville–Statesboro, GA CSA",Bryan County,GA,shallow,yes,0,,1005
+"Savannah–Hinesville–Statesboro, GA CSA",Bulloch County,GA,active (campus-radius ZIPs out),yes,36,244656,983
+"Savannah–Hinesville–Statesboro, GA CSA",Chatham County,GA,"kept under a ZIP-level price cap (likely eliminated, 7.8 feasible sales/quarter)",yes,96,568547,4541
+"Savannah–Hinesville–Statesboro, GA CSA",Effingham County,GA,shallow,yes,1,275000,1100
+"Savannah–Hinesville–Statesboro, GA CSA",Evans County,GA,shallow,yes,0,,54
+"Savannah–Hinesville–Statesboro, GA CSA",Liberty County,GA,active,yes,3,578708,1058
+"Savannah–Hinesville–Statesboro, GA CSA",Long County,,"thin (0 sales, 72 structures)",no,,,
+"Savannah–Hinesville–Statesboro, GA CSA",Wayne County,GA,shallow,yes,2,931500,218
+"Augusta-Richmond County, GA-SC MSA",Burke County,,post-disaster zone (FEMA DR-4830: 0.047 large awards per home),no,,,
+"Augusta-Richmond County, GA-SC MSA",Columbia County,GA,active,yes,3,250666,2789
+"Augusta-Richmond County, GA-SC MSA",Lincoln County,,resort/second-home market (30.5% seasonal homes),no,,,
+"Augusta-Richmond County, GA-SC MSA",McDuffie County,GA,active,yes,3,73333,183
+"Augusta-Richmond County, GA-SC MSA",Richmond County,GA,active,yes,20,220240,2112
+"Augusta-Richmond County, GA-SC MSA",Aiken County,SC,active,yes,7,385642,2853
+"Augusta-Richmond County, GA-SC MSA",Edgefield County,SC,shallow,yes,1,100000,385
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Boyd County,KY,active,yes,8,318487,488
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Carter County,KY,active,yes,4,264250,127
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Greenup County,KY,active,yes,6,227916,285
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Lawrence County,,"thin (2 sales, 140 structures)",no,,,
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Scioto County,OH,shallow,yes,1,195000,67
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Boone County,WV,shallow,yes,0,,55
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Cabell County,WV,active,yes,28,180007,699
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Clay County,,"thin (0 sales, 92 structures)",no,,,
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Kanawha County,WV,active,yes,23,128152,1215
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Putnam County,WV,shallow,yes,1,200000,445
+"Charleston–Huntington–Ashland, WV-OH-KY CSA",Wayne County,WV,shallow,yes,1,540000,225
+"Toledo, OH MSA",Fulton County,OH,active,yes,6,122366,364
+"Toledo, OH MSA",Lucas County,OH,active,yes,211,106231,5178
+"Toledo, OH MSA",Wood County,OH,active,yes,18,153122,1326
+"Scranton–Wilkes-Barre, PA MSA",Lackawanna County,PA,active,yes,384,239715,2087
+"Scranton–Wilkes-Barre, PA MSA",Luzerne County,PA,active,yes,449,235231,3117
+"Scranton–Wilkes-Barre, PA MSA",Wyoming County,PA,active,yes,3,210333,174
+"Columbus–Auburn–Opelika, GA-AL CSA",Lee County,AL,active (campus-radius ZIPs out),yes,16,383806,2863
+"Columbus–Auburn–Opelika, GA-AL CSA",Macon County,AL,shallow (campus-radius ZIPs out),yes,0,,47
+"Columbus–Auburn–Opelika, GA-AL CSA",Russell County,,shallow,yes,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Tallapoosa County,,resort/second-home market (14.8% seasonal homes),no,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Chattahoochee County,,shallow,yes,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Harris County,,shallow,yes,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Marion County,,no duplex stock (53 structures),no,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Muscogee County,,shallow,yes,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Stewart County,,no duplex stock (15 structures),no,,,
+"Columbus–Auburn–Opelika, GA-AL CSA",Talbot County,,"thin (0 sales, 60 structures)",no,,,
+"Lafayette–New Iberia–Opelousas, LA CSA",Acadia Parish,LA,shallow,yes,2,74500,308
+"Lafayette–New Iberia–Opelousas, LA CSA",Iberia Parish,LA,active,yes,4,107125,419
+"Lafayette–New Iberia–Opelousas, LA CSA",Lafayette Parish,LA,active,yes,52,186411,3224
+"Lafayette–New Iberia–Opelousas, LA CSA",St. Landry Parish,LA,shallow,yes,2,194750,478
+"Lafayette–New Iberia–Opelousas, LA CSA",St. Martin Parish,LA,active,yes,4,175750,327
+"Lafayette–New Iberia–Opelousas, LA CSA",Vermilion Parish,LA,shallow,yes,1,23000,399
+"Lansing–East Lansing–Owosso, MI CSA",Clinton County,MI,active,yes,10,267450,854
+"Lansing–East Lansing–Owosso, MI CSA",Eaton County,MI,active,yes,22,250028,1138
+"Lansing–East Lansing–Owosso, MI CSA",Ingham County,MI,active (campus-radius ZIPs out),yes,114,188613,3253
+"Lansing–East Lansing–Owosso, MI CSA",Shiawassee County,MI,active,yes,25,139309,825
+"Corpus Christi–Kingsville–Alice, TX CSA",Aransas County,,resort/second-home market (19.2% seasonal homes),no,,,
+"Corpus Christi–Kingsville–Alice, TX CSA",Brooks County,TX,shallow,yes,0,,6
+"Corpus Christi–Kingsville–Alice, TX CSA",Jim Wells County,TX,shallow,yes,0,,98
+"Corpus Christi–Kingsville–Alice, TX CSA",Kleberg County,TX,shallow (campus-radius ZIPs out),yes,2,207450,172
+"Corpus Christi–Kingsville–Alice, TX CSA",Nueces County,,shallow,yes,,,
+"Corpus Christi–Kingsville–Alice, TX CSA",San Patricio County,,shallow,yes,,,
+"Youngstown–Warren–Salem, OH CSA",Columbiana County,OH,active,yes,16,106625,856
+"Youngstown–Warren–Salem, OH CSA",Mahoning County,OH,active,yes,58,127158,2547
+"Youngstown–Warren–Salem, OH CSA",Trumbull County,OH,active,yes,39,123658,1931
+"Davenport–Moline, IA-IL CSA",Henry County,IL,active,yes,7,127785,478
+"Davenport–Moline, IA-IL CSA",Mercer County,IL,shallow,yes,2,113500,189
+"Davenport–Moline, IA-IL CSA",Rock Island County,IL,active,yes,61,121224,1620
+"Davenport–Moline, IA-IL CSA",Clinton County,IA,active,yes,7,92892,545
+"Davenport–Moline, IA-IL CSA",Muscatine County,IA,active,yes,7,140714,424
+"Davenport–Moline, IA-IL CSA",Scott County,IA,active,yes,90,157320,2499
+"Macon-Bibb County–Warner Robins, GA CSA",Bibb County,GA,active,yes,45,155823,1885
+"Macon-Bibb County–Warner Robins, GA CSA",Crawford County,,"thin (0 sales, 61 structures)",no,,,
+"Macon-Bibb County–Warner Robins, GA CSA",Houston County,GA,active,yes,7,286000,2843
+"Macon-Bibb County–Warner Robins, GA CSA",Jones County,GA,shallow,yes,2,223750,251
+"Macon-Bibb County–Warner Robins, GA CSA",Monroe County,,"thin (1 sales, 120 structures)",no,,,
+"Macon-Bibb County–Warner Robins, GA CSA",Peach County,GA,active,yes,20,312600,362
+"Macon-Bibb County–Warner Robins, GA CSA",Twiggs County,,no duplex stock (48 structures),no,,,
+"Rockford–Freeport–Rochelle, IL CSA",Boone County,IL,active,yes,14,232464,579
+"Rockford–Freeport–Rochelle, IL CSA",Ogle County,IL,active,yes,16,211807,551
+"Rockford–Freeport–Rochelle, IL CSA",Stephenson County,IL,active,yes,61,82849,702
+"Rockford–Freeport–Rochelle, IL CSA",Winnebago County,IL,active,yes,221,173176,3476
+"Gulfport–Biloxi, MS MSA",Hancock County,MS,active,yes,20,278975,762
+"Gulfport–Biloxi, MS MSA",Harrison County,MS,active,yes,43,188151,2994
+"Gulfport–Biloxi, MS MSA",Jackson County,MS,active,yes,15,193960,1816
+"Gulfport–Biloxi, MS MSA",Stone County,,post-disaster zone (FEMA DR-4930: 0.034 large awards per home),no,,,
+"Montgomery–Selma, AL CSA",Autauga County,AL,shallow,yes,1,179900,752
+"Montgomery–Selma, AL CSA",Dallas County,AL,shallow,yes,2,87500,157
+"Montgomery–Selma, AL CSA",Elmore County,AL,shallow,yes,0,,1263
+"Montgomery–Selma, AL CSA",Lowndes County,AL,shallow,yes,0,,20
+"Montgomery–Selma, AL CSA",Montgomery County,AL,active,yes,26,117369,2624
+"Shreveport–Bossier City–Minden, LA CSA",Bossier Parish,LA,active,yes,9,102727,1681
+"Shreveport–Bossier City–Minden, LA CSA",Caddo Parish,LA,active,yes,35,156394,2252
+"Shreveport–Bossier City–Minden, LA CSA",De Soto Parish,LA,shallow,yes,0,,180
+"Shreveport–Bossier City–Minden, LA CSA",Webster Parish,LA,shallow,yes,0,,238
+"Lubbock–Plainview, TX CSA",Cochran County,,no duplex stock (36 structures),no,,,
+"Lubbock–Plainview, TX CSA",Crosby County,,"thin (0 sales, 188 structures)",no,,,
+"Lubbock–Plainview, TX CSA",Floyd County,,"thin (0 sales, 136 structures)",no,,,
+"Lubbock–Plainview, TX CSA",Garza County,,"thin (0 sales, 136 structures)",no,,,
+"Lubbock–Plainview, TX CSA",Hale County,,"borderline, undecided (3 recorded sales)",no,,,
+"Lubbock–Plainview, TX CSA",Hockley County,,post-disaster zone (FEMA DR-4781: 0.052 large awards per home),no,,,
+"Lubbock–Plainview, TX CSA",Lubbock County,TX,active,yes,151,225821,5087
+"Lubbock–Plainview, TX CSA",Lynn County,,"thin (0 sales, 76 structures)",no,,,
+"Beaumont–Port Arthur, TX MSA",Hardin County,,"borderline, undecided (4 recorded sales)",no,,,
+"Beaumont–Port Arthur, TX MSA",Jefferson County,TX,active,yes,17,209764,2067
+"Beaumont–Port Arthur, TX MSA",Orange County,TX,active,yes,8,330753,860
+"Peoria–Canton, IL CSA",Fulton County,IL,active,yes,6,115083,329
+"Peoria–Canton, IL CSA",Marshall County,IL,active,yes,3,150000,120
+"Peoria–Canton, IL CSA",Peoria County,IL,active,yes,64,155014,2594
+"Peoria–Canton, IL CSA",Stark County,,"thin (0 sales, 178 structures)",no,,,
+"Peoria–Canton, IL CSA",Tazewell County,IL,active,yes,24,189125,1743
+"Peoria–Canton, IL CSA",Woodford County,IL,active,yes,7,165914,408
+"Midland–Odessa–Andrews, TX CSA",Andrews County,,"thin (0 sales, 193 structures)",no,,,
+"Midland–Odessa–Andrews, TX CSA",Ector County,TX,shallow,yes,0,,17
+"Midland–Odessa–Andrews, TX CSA",Martin County,,no duplex stock (52 structures),no,,,
+"Midland–Odessa–Andrews, TX CSA",Midland County,TX,shallow,yes,0,,17
+"Saginaw–Midland–Bay City, MI CSA",Bay County,MI,active,yes,25,124356,1086
+"Saginaw–Midland–Bay City, MI CSA",Midland County,MI,active,yes,11,207654,556
+"Saginaw–Midland–Bay City, MI CSA",Saginaw County,,post-disaster zone (FEMA DR-4925: 0.035 large awards per home),no,,,
+"Clarksville, TN-KY MSA",Christian County,KY,active,yes,6,311166,635
+"Clarksville, TN-KY MSA",Trigg County,KY,shallow,yes,1,250000,197
+"Clarksville, TN-KY MSA",Montgomery County,TN,"kept under a ZIP-level price cap (likely eliminated, 2.4 feasible sales/quarter)",yes,43,464570,4618
+"Clarksville, TN-KY MSA",Stewart County,,"thin (0 sales, 81 structures)",no,,,
+"Erie–Meadville, PA CSA",Crawford County,PA,active,yes,20,126537,563
+"Erie–Meadville, PA CSA",Erie County,PA,active,yes,161,113580,2342
+"Evansville–Henderson, IN-KY CSA",Posey County,IN,active,yes,3,161633,238
+"Evansville–Henderson, IN-KY CSA",Vanderburgh County,IN,active,yes,46,122560,2474
+"Evansville–Henderson, IN-KY CSA",Warrick County,IN,shallow,yes,1,155620,829
+"Evansville–Henderson, IN-KY CSA",Henderson County,KY,active,yes,3,156333,387
+"Evansville–Henderson, IN-KY CSA",Webster County,KY,shallow,yes,1,2380808,48
+"Champaign–Urbana–Danville, IL CSA",Champaign County,IL,active (campus-radius ZIPs out),yes,34,241524,2183
+"Champaign–Urbana–Danville, IL CSA",Ford County,IL,shallow,yes,2,210000,162
+"Champaign–Urbana–Danville, IL CSA",Piatt County,IL,shallow,yes,1,235000,239
+"Champaign–Urbana–Danville, IL CSA",Vermilion County,IL,active,yes,10,74450,629
+"Springfield–Jacksonville–Lincoln, IL CSA",Christian County,IL,active,yes,3,112833,350
+"Springfield–Jacksonville–Lincoln, IL CSA",Logan County,IL,active,yes,6,129666,359
+"Springfield–Jacksonville–Lincoln, IL CSA",Menard County,IL,shallow,yes,1,49900,157
+"Springfield–Jacksonville–Lincoln, IL CSA",Morgan County,IL,active,yes,7,106200,361
+"Springfield–Jacksonville–Lincoln, IL CSA",Sangamon County,IL,active,yes,50,144026,2465
+"Springfield–Jacksonville–Lincoln, IL CSA",Scott County,,"thin (0 sales, 182 structures)",no,,,
+"Longview, TX MSA",Gregg County,TX,active,yes,23,231459,1178
+"Longview, TX MSA",Harrison County,TX,active,yes,3,264600,534
+"Longview, TX MSA",Rusk County,TX,active,yes,3,286500,345
+"Longview, TX MSA",Upshur County,TX,active,yes,3,226000,291
+"Amarillo–Borger, TX CSA",Armstrong County,,no duplex stock (6 structures),no,,,
+"Amarillo–Borger, TX CSA",Carson County,,"thin (1 sales, 69 structures)",no,,,
+"Amarillo–Borger, TX CSA",Hutchinson County,TX,shallow,yes,0,,222
+"Amarillo–Borger, TX CSA",Oldham County,,no data,no,,,
+"Amarillo–Borger, TX CSA",Potter County,TX,active,yes,15,370353,1015
+"Amarillo–Borger, TX CSA",Randall County,TX,active,yes,12,349566,2287
+"Lafayette–West Lafayette–Frankfort, IN CSA",Benton County,IN,shallow,yes,0,,117
+"Lafayette–West Lafayette–Frankfort, IN CSA",Carroll County,IN,active,yes,4,169162,199
+"Lafayette–West Lafayette–Frankfort, IN CSA",Clinton County,IN,active,yes,4,149600,321
+"Lafayette–West Lafayette–Frankfort, IN CSA",Tippecanoe County,IN,active (campus-radius ZIPs out),yes,37,267959,1941
+"Lafayette–West Lafayette–Frankfort, IN CSA",Warren County,,"thin (0 sales, 161 structures)",no,,,
+"Lafayette–West Lafayette–Frankfort, IN CSA",White County,,resort/second-home market (15.0% seasonal homes),no,,,
+"Tuscaloosa, AL MSA",Greene County,,"thin (0 sales, 164 structures)",no,,,
+"Tuscaloosa, AL MSA",Hale County,AL,shallow,yes,0,,63
+"Tuscaloosa, AL MSA",Pickens County,AL,shallow,yes,0,,52
+"Tuscaloosa, AL MSA",Tuscaloosa County,,"price screen: eliminated (typical duplex $762K, 0.56 feasible sales/quarter)",no,,,
+"Lake Charles–DeRidder, LA CSA",Beauregard Parish,LA,shallow,yes,0,,290
+"Lake Charles–DeRidder, LA CSA",Calcasieu Parish,LA,active,yes,24,270729,1997
+"Lake Charles–DeRidder, LA CSA",Cameron Parish,,resort/second-home market (20.3% seasonal homes),no,,,
+"Lake Charles–DeRidder, LA CSA",Jefferson Davis Parish,LA,shallow,yes,1,200000,215
+"Monroe–Ruston, LA CSA",Lincoln Parish,LA,active (campus-radius ZIPs out),yes,5,196199,362
+"Monroe–Ruston, LA CSA",Morehouse Parish,LA,shallow,yes,0,,104
+"Monroe–Ruston, LA CSA",Ouachita Parish,LA,active,yes,12,163125,1274
+"Monroe–Ruston, LA CSA",Richland Parish,LA,shallow,yes,0,,85
+"Monroe–Ruston, LA CSA",Union Parish,LA,shallow,yes,0,,93
+"Dothan–Enterprise–Ozark, AL CSA",Coffee County,AL,shallow,yes,1,162000,754
+"Dothan–Enterprise–Ozark, AL CSA",Dale County,AL,active,yes,5,502000,415
+"Dothan–Enterprise–Ozark, AL CSA",Geneva County,AL,shallow,yes,1,235000,177
+"Dothan–Enterprise–Ozark, AL CSA",Henry County,,"thin (1 sales, 176 structures)",no,,,
+"Dothan–Enterprise–Ozark, AL CSA",Houston County,AL,active,yes,5,343740,1124
+"Bloomsburg–Berwick–Sunbury, PA CSA",Columbia County,PA,active,yes,43,197023,485
+"Bloomsburg–Berwick–Sunbury, PA CSA",Montour County,PA,active,yes,11,226363,167
+"Bloomsburg–Berwick–Sunbury, PA CSA",Northumberland County,PA,active,yes,37,146310,689
+"Bloomsburg–Berwick–Sunbury, PA CSA",Snyder County,PA,active,yes,9,361111,186
+"Bloomsburg–Berwick–Sunbury, PA CSA",Union County,PA,active,yes,8,254862,277
+"Binghamton, NY MSA",Broome County,NY,active,yes,255,164715,1710
+"Binghamton, NY MSA",Tioga County,NY,active,yes,21,142995,351
+"Hattiesburg–Laurel, MS CSA",Forrest County,,shallow,yes,,,
+"Hattiesburg–Laurel, MS CSA",Jasper County,,"thin (0 sales, 143 structures)",no,,,
+"Hattiesburg–Laurel, MS CSA",Jones County,,shallow,yes,,,
+"Hattiesburg–Laurel, MS CSA",Lamar County,,shallow,yes,,,
+"Hattiesburg–Laurel, MS CSA",Perry County,,"thin (0 sales, 162 structures)",no,,,
+"Joplin–Miami, MO-OK-KS CSA",Cherokee County,KS,active,yes,4,135750,183
+"Joplin–Miami, MO-OK-KS CSA",Jasper County,MO,active,yes,32,270210,1865
+"Joplin–Miami, MO-OK-KS CSA",Newton County,MO,active,yes,12,379812,718
+"Joplin–Miami, MO-OK-KS CSA",Ottawa County,OK,shallow,yes,0,,48
+"State College–DuBois, PA CSA",Centre County,PA,active (campus-radius ZIPs out),yes,24,443708,1389
+"State College–DuBois, PA CSA",Clearfield County,PA,active,yes,3,90000,223
+"Fort Smith, AR-OK MSA",Crawford County,AR,active,yes,6,290833,699
+"Fort Smith, AR-OK MSA",Sebastian County,AR,active,yes,34,203183,1432
+"Fort Smith, AR-OK MSA",Sequoyah County,OK,active,yes,3,219166,337
+"Topeka, KS MSA",Jackson County,KS,shallow,yes,1,179900,95
+"Topeka, KS MSA",Jefferson County,KS,shallow,yes,0,,165
+"Topeka, KS MSA",Osage County,KS,shallow,yes,0,,149
+"Topeka, KS MSA",Shawnee County,KS,active,yes,36,162776,2279
+"Topeka, KS MSA",Wabaunsee County,,"thin (1 sales, 61 structures)",no,,,
+"Bloomington–Bedford, IN CSA",Lawrence County,IN,active,yes,7,149457,541
+"Bloomington–Bedford, IN CSA",Monroe County,,student market (25.3% enrolled),no,,,
+"Bloomington–Bedford, IN CSA",Owen County,IN,shallow,yes,0,,171
+"Florence, SC MSA",Darlington County,SC,active,yes,4,179000,489
+"Florence, SC MSA",Florence County,SC,active,yes,8,218437,1327
+"Johnstown–Somerset, PA CSA",Cambria County,PA,active,yes,71,65030,990
+"Johnstown–Somerset, PA CSA",Somerset County,PA,active,yes,12,87783,565
+"Houma–Bayou Cane–Thibodaux, LA MSA",Lafourche Parish,LA,active,yes,7,268642,814
+"Houma–Bayou Cane–Thibodaux, LA MSA",Terrebonne Parish,LA,active,yes,9,246381,871
+"Abilene–Sweetwater, TX CSA",Callahan County,,"thin (0 sales, 126 structures)",no,,,
+"Abilene–Sweetwater, TX CSA",Jones County,,"thin (1 sales, 169 structures)",no,,,
+"Abilene–Sweetwater, TX CSA",Nolan County,TX,shallow,yes,0,,106
+"Abilene–Sweetwater, TX CSA",Taylor County,TX,active,yes,30,277205,2395
+"Florence–Muscle Shoals–Russellville, AL CSA",Colbert County,AL,active,yes,4,327375,689
+"Florence–Muscle Shoals–Russellville, AL CSA",Franklin County,AL,shallow,yes,0,,138
+"Florence–Muscle Shoals–Russellville, AL CSA",Lauderdale County,AL,active,yes,12,285736,1097
+"Jonesboro–Paragould, AR CSA",Craighead County,AR,active,yes,31,167867,1575
+"Jonesboro–Paragould, AR CSA",Greene County,AR,active,yes,10,111900,580
+"Jonesboro–Paragould, AR CSA",Poinsett County,AR,shallow,yes,1,425000,184
+"Salisbury–Ocean Pines, MD CSA",Somerset County,,shallow,yes,,,
+"Salisbury–Ocean Pines, MD CSA",Wicomico County,,shallow,yes,,,
+"Salisbury–Ocean Pines, MD CSA",Worcester County,,resort/second-home market (52.6% seasonal homes),no,,,
+"Jackson, TN MSA",Chester County,TN,shallow,yes,1,128000,169
+"Jackson, TN MSA",Crockett County,TN,shallow,yes,1,100000,108
+"Jackson, TN MSA",Gibson County,TN,active,yes,12,161847,586
+"Jackson, TN MSA",Madison County,TN,active,yes,26,213883,1103
+"Middlesborough–Corbin, KY CSA",Bell County,KY,shallow,yes,0,,111
+"Middlesborough–Corbin, KY CSA",Clay County,KY,shallow,yes,0,,48
+"Middlesborough–Corbin, KY CSA",Knox County,KY,active,yes,3,189666,144
+"Middlesborough–Corbin, KY CSA",Laurel County,KY,active,yes,5,213540,501
+"Middlesborough–Corbin, KY CSA",Whitley County,KY,active,yes,3,245000,222
+"Elmira–Corning, NY CSA",Chemung County,NY,active,yes,81,87900,782
+"Elmira–Corning, NY CSA",Steuben County,NY,active,yes,45,129333,772
+"Lawton–Duncan, OK CSA",Comanche County,OK,active,yes,34,238764,1479
+"Lawton–Duncan, OK CSA",Cotton County,,"thin (0 sales, 74 structures)",no,,,
+"Lawton–Duncan, OK CSA",Stephens County,OK,shallow,yes,2,145500,433
+"Terre Haute, IN MSA",Clay County,IN,shallow,yes,2,220000,206
+"Terre Haute, IN MSA",Sullivan County,IN,shallow,yes,1,189900,119
+"Terre Haute, IN MSA",Vermillion County,IN,shallow,yes,2,200000,119
+"Terre Haute, IN MSA",Vigo County,IN,active,yes,17,156964,725
+"Waterloo–Cedar Falls, IA MSA",Black Hawk County,IA,active,yes,33,161288,1635
+"Waterloo–Cedar Falls, IA MSA",Bremer County,IA,shallow,yes,2,229250,257
+"Waterloo–Cedar Falls, IA MSA",Grundy County,IA,shallow,yes,0,,128
+"Tupelo–Corinth, MS CSA",Alcorn County,MS,shallow,yes,2,165000,212
+"Tupelo–Corinth, MS CSA",Itawamba County,MS,shallow,yes,2,297000,132
+"Tupelo–Corinth, MS CSA",Lee County,MS,active,yes,6,329166,804
+"Tupelo–Corinth, MS CSA",Prentiss County,MS,active,yes,3,600000,130
+"Altoona–Huntingdon, PA CSA",Blair County,PA,active,yes,37,99289,1065
+"Altoona–Huntingdon, PA CSA",Huntingdon County,,shallow,yes,,,
+"Jackson, MI MSA",Jackson County,MI,active,yes,43,119357,1922
+"Valdosta, GA MSA",Brooks County,GA,shallow,yes,0,,82
+"Valdosta, GA MSA",Echols County,,post-disaster zone (FEMA DR-4830: 0.057 large awards per home),no,,,
+"Valdosta, GA MSA",Lanier County,,post-disaster zone (FEMA DR-4830: 0.057 large awards per home),no,,,
+"Valdosta, GA MSA",Lowndes County,GA,active,yes,29,391913,1575
+"Wichita Falls, TX MSA",Archer County,,"thin (0 sales, 97 structures)",no,,,
+"Wichita Falls, TX MSA",Clay County,,"thin (0 sales, 131 structures)",no,,,
+"Wichita Falls, TX MSA",Wichita County,TX,active,yes,20,107281,1601
+"Cape Girardeau–Sikeston, MO-IL CSA",Alexander County,,no duplex stock (53 structures),no,,,
+"Cape Girardeau–Sikeston, MO-IL CSA",Bollinger County,,no duplex stock (47 structures),no,,,
+"Cape Girardeau–Sikeston, MO-IL CSA",Cape Girardeau County,MO,active,yes,22,289995,1032
+"Cape Girardeau–Sikeston, MO-IL CSA",Mississippi County,MO,shallow,yes,0,,61
+"Cape Girardeau–Sikeston, MO-IL CSA",Scott County,MO,active,yes,4,225250,304
+"Alexandria, LA MSA",Grant Parish,,"thin (0 sales, 144 structures)",no,,,
+"Alexandria, LA MSA",Rapides Parish,LA,active,yes,13,100861,928
+"Texarkana, TX-AR MSA",Little River County,AR,shallow,yes,0,,34
+"Texarkana, TX-AR MSA",Miller County,AR,active,yes,3,218300,276
+"Texarkana, TX-AR MSA",Bowie County,TX,active,yes,13,265246,728
+"Parkersburg–Marietta–Vienna, WV-OH CSA",Washington County,OH,active,yes,8,139187,435
+"Parkersburg–Marietta–Vienna, WV-OH CSA",Wirt County,,"thin (0 sales, 78 structures)",no,,,
+"Parkersburg–Marietta–Vienna, WV-OH CSA",Wood County,WV,active,yes,13,123230,713
+"Albany, GA MSA",Dougherty County,GA,active,yes,8,149562,185
+"Albany, GA MSA",Lee County,GA,shallow,yes,0,,94
+"Albany, GA MSA",Terrell County,GA,shallow,yes,0,,10
+"Albany, GA MSA",Worth County,GA,shallow,yes,0,,69
+"Fairmont–Clarksburg, WV CSA",Doddridge County,,no duplex stock (29 structures),no,,,
+"Fairmont–Clarksburg, WV CSA",Harrison County,WV,active,yes,14,173750,526
+"Fairmont–Clarksburg, WV CSA",Marion County,WV,active,yes,7,122500,477
+"Fairmont–Clarksburg, WV CSA",Taylor County,WV,shallow,yes,1,130000,76
+"Morgantown, WV MSA",Monongalia County,WV,active (campus-radius ZIPs out),yes,46,298425,1079
+"Morgantown, WV MSA",Preston County,WV,shallow,yes,0,,180
+"Paducah–Mayfield, KY-IL CSA",Massac County,IL,shallow,yes,0,,92
+"Paducah–Mayfield, KY-IL CSA",Ballard County,KY,shallow,yes,0,,39
+"Paducah–Mayfield, KY-IL CSA",Carlisle County,,"thin (0 sales, 66 structures)",no,,,
+"Paducah–Mayfield, KY-IL CSA",Graves County,KY,active,yes,4,178700,310
+"Paducah–Mayfield, KY-IL CSA",Livingston County,,no duplex stock (45 structures),no,,,
+"Paducah–Mayfield, KY-IL CSA",McCracken County,KY,active,yes,24,241912,850
+"Manhattan, KS MSA",Geary County,KS,active,yes,11,244809,517
+"Manhattan, KS MSA",Pottawatomie County,KS,active,yes,4,277500,317
+"Manhattan, KS MSA",Riley County,,student market (25.7% enrolled),no,,,
+"Wheeling, WV-OH MSA",Belmont County,OH,active,yes,15,105700,489
+"Wheeling, WV-OH MSA",Marshall County,WV,active,yes,9,120555,235
+"Wheeling, WV-OH MSA",Ohio County,WV,active,yes,12,144825,376
+"Hot Springs–Malvern, AR CSA",Garland County,AR,active,yes,19,252289,1740
+"Hot Springs–Malvern, AR CSA",Hot Spring County,AR,shallow,yes,2,227525,254
+"Findlay–Tiffin, OH CSA",Hancock County,OH,active,yes,8,180312,831
+"Findlay–Tiffin, OH CSA",Seneca County,OH,active,yes,12,138516,398
+"Starkville–Columbus, MS CSA",Lowndes County,MS,shallow,yes,0,,12
+"Starkville–Columbus, MS CSA",Noxubee County,,"thin (0 sales, 112 structures)",no,,,
+"Starkville–Columbus, MS CSA",Oktibbeha County,,student market (29.0% enrolled),no,,,
+"Starkville–Columbus, MS CSA",Webster County,,"thin (0 sales, 182 structures)",no,,,
+"San Angelo, TX MSA",Irion County,,no duplex stock (0 structures),no,,,
+"San Angelo, TX MSA",Tom Green County,TX,active,yes,8,213200,1503
+"Carbondale–Marion–Herrin, IL CSA",Jackson County,IL,active (campus-radius ZIPs out),yes,49,77567,505
+"Carbondale–Marion–Herrin, IL CSA",Williamson County,IL,active,yes,10,204092,769
+"Victoria–Port Lavaca, TX CSA",Calhoun County,TX,shallow,yes,0,,186
+"Victoria–Port Lavaca, TX CSA",Goliad County,,"thin (0 sales, 119 structures)",no,,,
+"Victoria–Port Lavaca, TX CSA",Victoria County,TX,shallow,yes,1,475000,736
+"Anniston–Oxford, AL MSA",Calhoun County,AL,active,yes,11,130932,1078
+"Beckley, WV MSA",Fayette County,WV,shallow,yes,2,324000,154
+"Beckley, WV MSA",Raleigh County,WV,active,yes,4,156937,595
+"Gadsden, AL MSA",Etowah County,AL,active,yes,7,117528,930
+"Decatur, IL MSA",Macon County,IL,active,yes,6,204066,1364
+"Fairbanks–College, AK MSA",Fairbanks North Star Borough,AK,active,yes,92,386463,1151
+"Richmond–Connersville, IN CSA",Fayette County,IN,active,yes,5,128980,273
+"Richmond–Connersville, IN CSA",Wayne County,IN,active,yes,40,76523,779
+"Dixon–Sterling, IL CSA",Lee County,IL,active,yes,8,174712,319
+"Dixon–Sterling, IL CSA",Whiteside County,IL,active,yes,17,89394,625
+"Burlington–Fort Madison, IA-IL CSA",Henderson County,,"thin (0 sales, 100 structures)",no,,,
+"Burlington–Fort Madison, IA-IL CSA",Des Moines County,IA,active,yes,10,92800,508
+"Burlington–Fort Madison, IA-IL CSA",Lee County,IA,active,yes,22,65977,368
+"Union City–Martin, TN CSA",Obion County,TN,active,yes,9,89055,218
+"Union City–Martin, TN CSA",Weakley County,TN,active,yes,6,156925,273
+"Enid, OK MSA",Garfield County,OK,active,yes,8,141625,715
+"Weatherford–Elk City, OK CSA",Beckham County,OK,shallow,yes,0,,225
+"Weatherford–Elk City, OK CSA",Custer County,,"price screen: eliminated (typical duplex $1950K, 0.25 feasible sales/quarter)",no,,,
+"Weatherford–Elk City, OK CSA",Washita County,,"thin (0 sales, 191 structures)",no,,,
+"Pottsville, PA μSA",Schuylkill County,PA,active,yes,89,167070,1507
+"Massena–Ogdensburg, NY μSA",St. Lawrence County,NY,active,yes,34,134058,691
+"Bluefield, WV-VA μSA (but excluding Virginia areas: Tazewell county)",Mercer County,WV,shallow,yes,1,130000,203
+"Cumberland, MD-WV μSA",Allegany County,MD,active,yes,48,100991,711
+"Cumberland, MD-WV μSA",Mineral County,WV,active,yes,11,101363,233
+"Lufkin, TX μSA",Angelina County,TX,shallow,yes,1,279900,241
+"Meridian, MS μSA",Clarke County,,"thin (0 sales, 167 structures)",no,,,
+"Meridian, MS μSA",Lauderdale County,MS,shallow,yes,1,275000,20
+"Hobbs, NM μSA",Lea County,NM,active,yes,14,286928,531
+"Thomasville, GA μSA",Grady County,GA,shallow,yes,0,,128
+"Thomasville, GA μSA",Thomas County,GA,shallow,yes,1,55000,451
+"Alamogordo, NM μSA",Otero County,NM,active,yes,3,215633,769
+"Clearlake, CA μSA",Lake County,CA,active,yes,13,402692,693
+"Somerset, KY μSA",Pulaski County,KY,active,yes,7,306142,662
+"Marion, IN μSA",Grant County,IN,active,yes,18,93394,625
+"Clovis, NM μSA",Curry County,NM,active,yes,29,276513,596
+"Clovis, NM μSA",Roosevelt County,NM,active,yes,7,268185,143
+"Paris, TX μSA",Lamar County,TX,active,yes,9,176444,382
+"Paris, TX μSA",Red River County,TX,shallow,yes,0,,49
+"Carlsbad–Artesia, NM μSA",Eddy County,NM,active,yes,6,411833,644
+"Hutchinson, KS μSA",Reno County,KS,shallow,yes,1,62000,130
+"Dublin, GA μSA",Johnson County,,post-disaster zone (FEMA DR-4830: 0.054 large awards per home),no,,,
+"Dublin, GA μSA",Laurens County,GA,shallow,yes,1,37500,384
+"Palestine, TX μSA",Anderson County,TX,shallow,yes,0,,326
+"Sayre, PA μSA",Bradford County,PA,active,yes,12,129688,332
+"Salina, KS μSA",Ottawa County,KS,shallow,yes,0,,51
+"Salina, KS μSA",Saline County,KS,active,yes,44,185815,736
+"Waycross, GA μSA",Pierce County,,"thin (1 sales, 134 structures)",no,,,
+"Waycross, GA μSA",Ware County,GA,active,yes,8,114625,253
+"Natchez, MS-LA μSA",Concordia Parish,LA,shallow,yes,0,,46
+"Natchez, MS-LA μSA",Adams County,,post-disaster zone (FEMA DR-4899: 0.038 large awards per home),no,,,
+"Natchez, MS-LA μSA",Jefferson County,,post-disaster zone (FEMA DR-4899: 0.071 large awards per home),no,,,
+"Fort Leonard Wood, MO μSA",Pulaski County,MO,active,yes,14,216744,688
+"McComb, MS μSA",Pike County,MS,shallow,yes,2,239875,208
+"McComb, MS μSA",Walthall County,,post-disaster zone (FEMA DR-4874: 0.092 large awards per home),no,,,
+"Oil City, PA μSA",Venango County,PA,active,yes,19,74863,345
+"Ardmore, OK μSA",Carter County,OK,shallow,yes,0,,503
+"Del Rio, TX μSA",Val Verde County,TX,active,yes,4,344336,316
+"Galesburg, IL μSA",Knox County,IL,active,yes,10,67750,533
+"Moultrie, GA μSA",Colquitt County,GA,shallow,yes,2,162000,219
+"Charleston–Mattoon, IL μSA",Coles County,IL,active,yes,11,131500,466
+"Coldwater, MI μSA",Branch County,MI,active,yes,6,146916,430
+"Madisonville, KY μSA",Hopkins County,KY,shallow,yes,2,285000,403
+"Sedalia, MO μSA",Pettis County,MO,active,yes,3,193333,479
+"Ponca City, OK μSA",Kay County,OK,active,yes,8,87812,508
+"McAlester, OK μSA",Pittsburg County,OK,shallow,yes,0,,412
+"Poplar Bluff, MO μSA",Butler County,MO,active,yes,7,223928,436
+"Murray, KY μSA",Calloway County,KY,active,yes,7,326035,323
+"Pittsburg, KS μSA",Crawford County,KS,active,yes,10,157000,387
+"Bradford, PA μSA",McKean County,PA,active,yes,10,118125,246
+"Batesville, AR μSA",Independence County,AR,active,yes,8,345625,345
+"Brownwood, TX μSA",Brown County,TX,shallow,yes,1,110500,430
+"Ada, OK μSA",Pontotoc County,OK,shallow,yes,0,,438
+"Defiance, OH μSA",Defiance County,OH,active,yes,7,128142,370
+"Logansport, IN μSA",Cass County,IN,active,yes,17,127985,392
+"Blytheville, AR μSA",Mississippi County,AR,active,yes,4,67000,294
+"El Dorado, AR μSA",Union County,AR,shallow,yes,1,50000,286
+"Fort Dodge, IA μSA",Webster County,IA,shallow,yes,0,,35
+"Dyersburg, TN μSA",Dyer County,TN,active,yes,8,116625,320
+"Mount Vernon, IL μSA",Jefferson County,IL,active,yes,4,95000,234
+"Vincennes, IN μSA",Knox County,IN,active,yes,5,173600,313
+"Ottumwa, IA μSA",Wapello County,IA,shallow,yes,1,170000,298
+"Troy, AL μSA",Pike County,AL,shallow (campus-radius ZIPs out),yes,0,,56
+"Americus, GA μSA",Schley County,,no duplex stock (50 structures),no,,,
+"Americus, GA μSA",Sumter County,GA,shallow,yes,1,75000,58
+"Beeville, TX μSA",Bee County,TX,shallow,yes,1,677305,126
+"Big Spring, TX μSA",Howard County,TX,shallow,yes,0,,8
+"Grenada, MS μSA",Grenada County,MS,shallow,yes,0,,36
+"Grenada, MS μSA",Montgomery County,,post-disaster zone (FEMA DR-4899: 0.047 large awards per home),no,,,
+"St. Marys, PA μSA",Elk County,PA,shallow,yes,1,65000,29
+"Gallipolis, OH μSA",Gallia County,OH,active,yes,7,171857,146
+"Susanville, CA μSA",Lassen County,CA,active,yes,6,208890,266
+"Silver City, NM μSA",Grant County,NM,shallow,yes,1,265000,196
+"Elkins, WV μSA",Randolph County,WV,shallow,yes,2,237500,146
+"Eufaula, AL-GA μSA",Barbour County,AL,shallow,yes,0,,122
+"Eufaula, AL-GA μSA",Quitman County,,resort/second-home market (25.5% seasonal homes),no,,,
+"Kennett, MO μSA",Dunklin County,MO,shallow,yes,0,,166
+"Macomb, IL μSA",McDonough County,IL,active (campus-radius ZIPs out),yes,5,75750,277
+"Deming, NM μSA",Luna County,NM,shallow,yes,1,190000,140
+"Uvalde, TX μSA",Uvalde County,TX,shallow,yes,0,,113
+"Great Bend, KS μSA",Barton County,KS,shallow,yes,1,220000,231
+"Altus, OK μSA",Jackson County,OK,shallow,yes,0,,265
+"Magnolia, AR μSA",Columbia County,AR,shallow,yes,0,,35
+"Dumas, TX μSA",Moore County,TX,shallow,yes,1,180000,187
+"Liberal, KS μSA",Seward County,KS,shallow,yes,0,,15
+"Arkadelphia, AR μSA",Clark County,AR,active (campus-radius ZIPs out),yes,3,237500,150
+"Storm Lake, IA μSA",Buena Vista County,IA,active,yes,3,98000,176
+"Guymon, OK μSA",Texas County,OK,shallow,yes,0,,49
+"Woodward, OK μSA",Woodward County,OK,shallow,yes,1,113000,178
+"Huron, SD μSA",Beadle County,SD,active,yes,3,228333,164
+"Cordele, GA μSA",Crisp County,GA,shallow,yes,0,,119
+"Hereford, TX μSA",Deaf Smith County,TX,shallow,yes,0,,86
+"Fitzgerald, GA μSA",Ben Hill County,GA,shallow,yes,1,60000,121
+"Snyder, TX μSA",Scurry County,TX,shallow,yes,0,,9
+"Zapata, TX μSA",Zapata County,TX,shallow,yes,0,,28
+"Vernon, TX μSA",Wilbarger County,TX,shallow,yes,0,,48
+"Town of Pecos, TX μSA",Reeves County,TX,shallow,yes,0,,1

@@ -1,0 +1,4 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0.241,0.418,0.185,0.625,0.206,0.611,B+,B-,A-,C-,A-,C
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,0.844,0.467,0.889,0.737,0.737,0.658,D,C+,D-,D+,D+,C-
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0.241,0.418,0.185,0.625,0.206,0.611,B+,B-,A-,C-,A-,C

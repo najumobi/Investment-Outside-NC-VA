@@ -1,0 +1,4 @@
+id,address,source,zip,Robbery_pos,Assault_pos,Burglary_pos,Vandalism_pos,Drug-Related Crime_pos,Murder_pos,Robbery_grade,Assault_grade,Burglary_grade,Vandalism_grade,Drug-Related Crime_grade,Murder_grade
+g10,"245 N Ruby St, Philadelphia, PA 19139",photo list,19139,0.895,0.935,0.889,0.934,0.961,0.983,D-,F,D-,F,F,F
+g11,"4902 Kershaw St, Philadelphia, PA 19131",photo list,19131,0.985,0.961,0.991,0.991,0.991,0.991,F,F,F,F,F,F
+g12,"3601 Memphis Ave, Cleveland, OH 44109",photo list,44109,0.954,0.756,0.934,0.799,0.844,0.799,F,D+,F,D,D,D

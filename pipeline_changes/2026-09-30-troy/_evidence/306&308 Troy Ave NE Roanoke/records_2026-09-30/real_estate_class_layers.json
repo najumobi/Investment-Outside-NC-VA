@@ -1,0 +1,83 @@
+{
+ "duplexes": {
+  "displayFieldName": "ASSOCNAME",
+  "fieldAliases": {
+   "TAXID": "TAXID",
+   "LOCADDR": "LocAddr",
+   "PROPERTYDE": "PROPERTYDESC",
+   "NEIGHBORHO": "NEIGHBORHOODNUM"
+  },
+  "fields": [
+   {
+    "name": "TAXID",
+    "type": "esriFieldTypeString",
+    "alias": "TAXID",
+    "length": 8
+   },
+   {
+    "name": "LOCADDR",
+    "type": "esriFieldTypeString",
+    "alias": "LocAddr",
+    "length": 64
+   },
+   {
+    "name": "PROPERTYDE",
+    "type": "esriFieldTypeString",
+    "alias": "PROPERTYDESC",
+    "length": 40
+   },
+   {
+    "name": "NEIGHBORHO",
+    "type": "esriFieldTypeInteger",
+    "alias": "NEIGHBORHOODNUM"
+   }
+  ],
+  "features": [
+   {
+    "attributes": {
+     "TAXID": "3180117",
+     "LOCADDR": "306 TROY AVE NE",
+     "PROPERTYDE": "Multi-Family Duplex",
+     "NEIGHBORHO": 15
+    }
+   }
+  ]
+ },
+ "multifam": {
+  "displayFieldName": "ASSOCNAME",
+  "fieldAliases": {
+   "TAXID": "TAXID",
+   "LOCADDR": "LocAddr",
+   "PROPERTYDE": "PROPERTYDESC"
+  },
+  "fields": [
+   {
+    "name": "TAXID",
+    "type": "esriFieldTypeString",
+    "alias": "TAXID",
+    "length": 8
+   },
+   {
+    "name": "LOCADDR",
+    "type": "esriFieldTypeString",
+    "alias": "LocAddr",
+    "length": 64
+   },
+   {
+    "name": "PROPERTYDE",
+    "type": "esriFieldTypeString",
+    "alias": "PROPERTYDESC",
+    "length": 40
+   }
+  ],
+  "features": [
+   {
+    "attributes": {
+     "TAXID": "3180105",
+     "LOCADDR": "126 TROY AVE NE",
+     "PROPERTYDE": "300-Multifamily"
+    }
+   }
+  ]
+ }
+}

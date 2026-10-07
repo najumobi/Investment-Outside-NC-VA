@@ -1,0 +1,14 @@
+# 2026-10-02: unread rows last, the rebuilt block-group table, and eight board cells (memo 71)
+
+- `_pipeline/patch_weekly_sweep_1002.py` is the third crime patch of `weekly_sweep.py`, applied on top of the two 9/30 patches. It adds `crime_rank()`, so that a row whose block group no map covers sorts below the rows that have a reading. This applies in the detail queue (within each rent-to-price band group, after the Robbery-F rows), in the verdict list, and in file 14 when the sweep writes it. Scores, verdicts and knockouts are unchanged.
+- `_pipeline/weekly_sweep.py` is the patched script as written to Dropbox (`_pipeline/weekly_sweep.py`). The copy from before the patch is `_backup_weekly_sweep_before_1002crime.py` there, which is the same file as `pipeline_changes/2026-09-30-crime/_pipeline/weekly_sweep.py`.
+- `board_changes_1002.json` holds the file-14 rows that gained a block-level reading from the rebuilt table, with the crime cell, score and why note of each before and after: eight on the morning of 10/2, and 896 Huber St, Akron, from the 12:46 and 12:48 PM batches. The board was then sorted with the patched sweep's key. The copy of file 14 from before the change is `_pipeline/_backup_14_before_1002crime.csv` on Dropbox.
+- `row_status_2026-10-02.csv` gives the status of every active board row, every detail-queue row that passes the money gates, and every other money-passing listing against the rebuilt table. The status is read, page not shot, or off the page map (with the side and the distance).
+- The rebuilt table is `pipeline_changes/2026-09-29-crimegrade/model/crime_bg.json`, with 5,623 block groups. It is mirrored to Dropbox as `_pipeline/model/crime_bg.json`; the old one is backed up beside it as `_backup_crime_bg_before_1002.json`. The full per-view table is `crime_bg_2026-10-02.csv` and `.json.gz` in the same folder.
+
+## 2026-10-04: the rest of the board, the flags, and the final checks
+
+- `board_changes_1004.json` holds the 13 file-14 rows that gained their block-level reading from the 9:20 PM batch, in the same form as the 10/2 file.
+- `flag_changes_1004.json` holds the flags added to file-14 crime cells on 10/4: Drug-Related Crime for 12 rows, from the 10:45 PM batch, and Murder for the two Tamaqua rows (234 Mauch Chunk St and 234 E Mauch Chunk St), from the 12:15 PM set. The copies of file 14 from before these edits are `_pipeline/_backup_14_before_1004flags.csv` and `_pipeline/_backup_14_before_1004murder.csv` on Dropbox.
+- `row_status_2026-10-04.csv` gives the status of all 633 rows (207 board, 204 detail queue, 222 money-passing listings) against the final table. Every one reads on all six tabs.
+- `across_check_2026-10-04.json` lists every Robbery-F row outside NC and VA (28 board, 37 queue, 105 money-passing), the other block groups within 15 m of it, and the knockout verdict. No neighbour is missing from the table, so no verdict waits on a map.

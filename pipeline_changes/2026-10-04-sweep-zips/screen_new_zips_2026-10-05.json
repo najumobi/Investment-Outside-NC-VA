@@ -1,0 +1,428 @@
+{
+ "23602": {
+  "region": "ncva",
+  "bgs": 30,
+  "pop": 43048,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "27330": {
+  "region": "ncva",
+  "bgs": 26,
+  "pop": 38798,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "27406": {
+  "region": "ncva",
+  "bgs": 40,
+  "pop": 63568,
+  "covered": 29,
+  "covered_pop_share": 0.71,
+  "robberyF_count_share": 0.1,
+  "robberyF_pop_share": 0.05,
+  "ncva_rule_pop_share": 0.03,
+  "flags_pop_share": {
+   "M": 0.21,
+   "D": 0.02
+  }
+ },
+ "08012": {
+  "region": "phila",
+  "bgs": 26,
+  "pop": 40923,
+  "covered": 12,
+  "covered_pop_share": 0.55,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "08053": {
+  "region": "phila",
+  "bgs": 27,
+  "pop": 46819,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "08079": {
+  "region": "phila",
+  "bgs": 8,
+  "pop": 11457,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "08107": {
+  "region": "phila",
+  "bgs": 12,
+  "pop": 15063,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "08332": {
+  "region": "phila",
+  "bgs": 26,
+  "pop": 34405,
+  "covered": 1,
+  "covered_pop_share": 0.02,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "19132": {
+  "region": "phila",
+  "bgs": 35,
+  "pop": 33556,
+  "covered": 35,
+  "covered_pop_share": 1.0,
+  "robberyF_count_share": 0.77,
+  "robberyF_pop_share": 0.72,
+  "ncva_rule_pop_share": 0.51,
+  "flags_pop_share": {
+   "M": 0.69,
+   "D": 0.73
+  }
+ },
+ "19320": {
+  "region": "phila",
+  "bgs": 37,
+  "pop": 58959,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "19606": {
+  "region": "phila",
+  "bgs": 24,
+  "pop": 35423,
+  "covered": 9,
+  "covered_pop_share": 0.29,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "25303": {
+  "region": "pitt",
+  "bgs": 7,
+  "pop": 6853,
+  "covered": 5,
+  "covered_pop_share": 0.79,
+  "robberyF_count_share": 0.2,
+  "robberyF_pop_share": 0.13,
+  "ncva_rule_pop_share": 0.13,
+  "flags_pop_share": {
+   "M": 0.13,
+   "D": 0.13
+  }
+ },
+ "25309": {
+  "region": "pitt",
+  "bgs": 10,
+  "pop": 12529,
+  "covered": 2,
+  "covered_pop_share": 0.18,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 1.0,
+   "D": 0.0
+  }
+ },
+ "25314": {
+  "region": "pitt",
+  "bgs": 15,
+  "pop": 15979,
+  "covered": 13,
+  "covered_pop_share": 0.85,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "44432": {
+  "region": "pitt",
+  "bgs": 9,
+  "pop": 10625,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "44505": {
+  "region": "pitt",
+  "bgs": 19,
+  "pop": 17596,
+  "covered": 7,
+  "covered_pop_share": 0.39,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "43078": {
+  "region": "ohio",
+  "bgs": 18,
+  "pop": 20114,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "43537": {
+  "region": "ohio",
+  "bgs": 27,
+  "pop": 29171,
+  "covered": 16,
+  "covered_pop_share": 0.58,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "43551": {
+  "region": "ohio",
+  "bgs": 25,
+  "pop": 46541,
+  "covered": 3,
+  "covered_pop_share": 0.11,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "43567": {
+  "region": "ohio",
+  "bgs": 9,
+  "pop": 13926,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "43609": {
+  "region": "ohio",
+  "bgs": 27,
+  "pop": 18999,
+  "covered": 27,
+  "covered_pop_share": 1.0,
+  "robberyF_count_share": 0.63,
+  "robberyF_pop_share": 0.52,
+  "ncva_rule_pop_share": 0.52,
+  "flags_pop_share": {
+   "M": 0.37,
+   "D": 0.02
+  }
+ },
+ "43611": {
+  "region": "ohio",
+  "bgs": 21,
+  "pop": 18264,
+  "covered": 6,
+  "covered_pop_share": 0.32,
+  "robberyF_count_share": 0.33,
+  "robberyF_pop_share": 0.18,
+  "ncva_rule_pop_share": 0.18,
+  "flags_pop_share": {
+   "M": 0.18,
+   "D": 0.1
+  }
+ },
+ "45309": {
+  "region": "ohio",
+  "bgs": 9,
+  "pop": 12606,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "45322": {
+  "region": "ohio",
+  "bgs": 10,
+  "pop": 19948,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "45342": {
+  "region": "ohio",
+  "bgs": 23,
+  "pop": 38756,
+  "covered": 20,
+  "covered_pop_share": 0.89,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "45356": {
+  "region": "ohio",
+  "bgs": 24,
+  "pop": 25089,
+  "covered": 1,
+  "covered_pop_share": 0.04,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "45373": {
+  "region": "ohio",
+  "bgs": 29,
+  "pop": 36655,
+  "covered": 0,
+  "covered_pop_share": 0.0,
+  "robberyF_count_share": null,
+  "robberyF_pop_share": null,
+  "ncva_rule_pop_share": null,
+  "flags_pop_share": null
+ },
+ "45377": {
+  "region": "ohio",
+  "bgs": 10,
+  "pop": 17510,
+  "covered": 1,
+  "covered_pop_share": 0.14,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "45403": {
+  "region": "ohio",
+  "bgs": 14,
+  "pop": 13998,
+  "covered": 14,
+  "covered_pop_share": 1.0,
+  "robberyF_count_share": 0.36,
+  "robberyF_pop_share": 0.29,
+  "ncva_rule_pop_share": 0.29,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.07
+  }
+ },
+ "45410": {
+  "region": "ohio",
+  "bgs": 17,
+  "pop": 15075,
+  "covered": 16,
+  "covered_pop_share": 0.96,
+  "robberyF_count_share": 0.06,
+  "robberyF_pop_share": 0.05,
+  "ncva_rule_pop_share": 0.05,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "45419": {
+  "region": "ohio",
+  "bgs": 18,
+  "pop": 17076,
+  "covered": 18,
+  "covered_pop_share": 1.0,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ },
+ "45426": {
+  "region": "ohio",
+  "bgs": 12,
+  "pop": 16130,
+  "covered": 2,
+  "covered_pop_share": 0.14,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.49,
+   "D": 0.0
+  }
+ },
+ "45440": {
+  "region": "ohio",
+  "bgs": 14,
+  "pop": 19656,
+  "covered": 12,
+  "covered_pop_share": 0.83,
+  "robberyF_count_share": 0.0,
+  "robberyF_pop_share": 0.0,
+  "ncva_rule_pop_share": 0.0,
+  "flags_pop_share": {
+   "M": 0.0,
+   "D": 0.0
+  }
+ }
+}

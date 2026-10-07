@@ -1,0 +1,30 @@
+{
+ "read": "2026-10-06",
+ "status_reads": {
+  "realtor.com": {"listing_id": "2995420342", "mls": "PAPH2603378", "status": "off_market", "mls_raw_status": "Active", "source_last_update_date": "2026-08-14T01:35:35Z", "list_date": "2026-05-15T01:32:05Z", "list_price": 230000, "last_price_change_amount": -20000, "last_sold_date": "2025-08-06", "last_sold_price": 275000, "photo_count": 34, "units": 2, "year_built": 1925, "sqft": 1800, "lot_sqft": 1174, "type": "multi_family", "listing_courtesy": "Malik Carter, Realty ONE Group Focus, office 484-500-1681"},
+  "everyhome.com": {"banner": "No Longer Available", "asking_price": 230000, "mls": "PAPH2603378", "views": 172, "photos_advertised": 34, "zoning": "CMX2"},
+  "zillow.com main record (zpid 165321952)": {"homeStatus": "SOLD", "keystoneHomeStatus": "RecentlySold", "photoCount": 1, "lastSoldPrice": 275000, "taxAssessedValue": 250200, "livingArea": 1800, "lotSize": 1174, "no 2026 for-sale record on this zpid": true},
+  "zillow.com Floor 1 record (zpid 2055305913)": {"homeStatus": "OTHER", "photoCount": 1, "bedrooms": 2, "bathrooms": 1, "livingArea": 900, "rentZestimate": 1390},
+  "zillow.com Floor 2 record (zpid 2055492781)": {"homeStatus": "OTHER", "photoCount": 5, "bedrooms": 3, "bathrooms": 1, "livingArea": 1200, "daysOnZillow": 266, "rentZestimate": 1654, "rentalMarketingTreatments": ["zillowRentalManager"], "providerListingID": "19xeufj5b5sx2", "asking_rent": "not exposed in the page (price field 0)"},
+  "redfin.com": {"homeStatusLabel": "Off Market", "PAPH2603378_in_history": false, "soldDate": "2025-08-06", "tax_2026": {"land": 50000, "improvement": 200200, "taxes_due": 3502.3}},
+  "offermarket.us": {"ListPrice": "545000", "Live": false, "created_at": "2023-09-01T02:43:32Z", "updated_at": "2025-11-20T20:22:10Z", "PropertyType": "Multi-unit house", "description_excerpt": "Unit 1: 2 Bedrooms & 1 Bathroom; Unit 2: 2 Bedrooms & 1 Bathroom; Potentially Generates $1100-$1400 / Month in Income Each Unit; Washer and Dryer Hookups in Both Units; Separately Metered for Gas & Electric (2 Gas meters and 3 Electric meters)"}
+ },
+ "redfin_property_history": [
+  {"date": "2025-08-06", "event": "Sold (Public Records)", "price": 275000},
+  {"date": "2023-05-25", "event": "Listing Removed", "mls": "PAPH2224964"},
+  {"date": "2023-04-16", "event": "Listed", "price": 309000, "mls": "PAPH2224964", "mls_status": "Active"},
+  {"date": "2010-08-06", "event": "Listing Removed", "mls": "1006806006"},
+  {"date": "2010-05-10", "event": "Listed", "price": 149000, "mls": "1006806006"},
+  {"date": "2007-04-10", "event": "Listing Removed", "mls": "1000750585"},
+  {"date": "2006-09-15", "event": "Listed", "price": 129000, "mls": "1000750585"}
+ ],
+ "photo_sources": {
+  "PAPH2603378 (2026 listing)": "Realtor.com photo CDN, 34 photos, 2048 x 1362",
+  "PAPH2224964 (2023 listing)": "Redfin photo CDN, https://ssl.cdn-redfin.com/photo/235/bigphoto/964/PAPH2224964_0.jpg and PAPH2224964_<n>_0.jpg for n = 1..25 (26 and up answer 404); 26 files, 23 distinct (17, 22 and 24 are byte-identical repeats of 16, 21 and 23)",
+  "1000750585 (2006 listing)": "Redfin photo CDN, https://ssl.cdn-redfin.com/photo/235/bigphoto/585/1000750585_0.jpg, 320 x 240; the 2010 listing 1006806006 has nothing on the CDN",
+  "Zillow Floor 2 rental": "photos.zillowstatic.com, 5 photos at 864 x 1152",
+  "OfferMarket": "cms.offermarket.us, 2 interior photos at 1600 x 1200 and a parcel map at 1214 x 908",
+  "Street View": "the signed Google frames embedded in the Zillow (1536 x 1152) and Realtor.com (950 x 428) pages",
+  "eXp IDX CDN (d36xftgacqn2p.cloudfront.net/listingphotos382/PAPH2603378-n.jpg)": "answers 200 for every n with the same 640 x 480 'Photo Coming Soon' placeholder; not saved"
+ }
+}

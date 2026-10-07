@@ -1,0 +1,19 @@
+id,address,source,zip_page,view,type,image,zoom,fit_score,block_group,grade,position,position_iqr,at_address_position,pixels,edge_distance_m,neighbours,bg_inside,note
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Assault,maps/types_batchmt/18252_assault.png,12.735,0.62,421070026002,B-,0.418,0.418-0.418,0.418,107,44,421070026003 C- at 44 m,1.0,
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Assault,maps/types_batchmt/18252_assault.png,12.735,0.62,421070026002,B-,0.418,0.418-0.418,0.418,107,44,421070026003 C- at 44 m,1.0,
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Drug-Related Crime,maps/types_batchmt/18252_drug.png,12.735,0.62,421070026002,A-,0.206,0.206-0.206,0.206,109,44,421070026003 D+ at 44 m,1.0,
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Drug-Related Crime,maps/types_batchmt/18252_drug.png,12.735,0.62,421070026002,A-,0.206,0.206-0.206,0.206,109,44,421070026003 D+ at 44 m,1.0,
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Vandalism,maps/types_batchmt/18252_vandalism.png,12.735,0.62,421070026002,C-,0.625,0.625-0.625,0.625,109,44,421070026003 D- at 44 m,1.0,
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Vandalism,maps/types_batchmt/18252_vandalism.png,12.735,0.62,421070026002,C-,0.625,0.625-0.625,0.625,109,44,421070026003 D- at 44 m,1.0,
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Murder,maps/types_batchmt/18252_murder.png,12.735,0.62,421070026002,C,0.611,0.611-0.611,0.611,107,44,421070026003 D+ at 44 m,1.0,on the C/C- line
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Murder,maps/types_batchmt/18252_murder.png,12.735,0.62,421070026002,C,0.611,0.611-0.611,0.611,107,44,421070026003 D+ at 44 m,1.0,on the C/C- line
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Burglary,maps/types_batchmt/18252_burglary.png,12.735,0.62,421070026002,A-,0.185,0.185-0.185,0.185,109,44,421070026003 D+ at 44 m,1.0,
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Burglary,maps/types_batchmt/18252_burglary.png,12.735,0.62,421070026002,A-,0.185,0.185-0.185,0.185,109,44,421070026003 D+ at 44 m,1.0,
+f128,"234 Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Robbery,maps/types_batchmt/18252_robbery.png,12.735,0.62,421070026002,B+,0.241,0.241-0.241,0.241,110,44,421070026003 D+ at 44 m,1.0,
+f204,"234 E Mauch Chunk St, Tamaqua, PA 18252",file 14,18252,0,Robbery,maps/types_batchmt/18252_robbery.png,12.735,0.62,421070026002,B+,0.241,0.241-0.241,0.241,110,44,421070026003 D+ at 44 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Assault,maps/types_batchmt/16001_assault.png,12.74,0.684,420199023001,C+,0.467,0.467-0.467,0.467,380,52,420199022001 C+ at 52 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Drug-Related Crime,maps/types_batchmt/16001_drug.png,12.74,0.684,420199023001,D+,0.737,0.737-0.737,0.737,380,52,420199022001 C- at 52 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Vandalism,maps/types_batchmt/16001_vandalism.png,12.74,0.684,420199023001,D+,0.737,0.737-0.737,0.737,382,52,420199022001 C+ at 52 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Murder,maps/types_batchmt/16001_murder.png,12.74,0.684,420199023001,C-,0.658,0.658-0.658,0.658,385,52,420199022001 D+ at 52 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Burglary,maps/types_batchmt/16001_burglary.png,12.74,0.684,420199023001,D-,0.889,0.889-0.889,0.889,373,52,420199022001 D at 52 m,1.0,
+f143,"220 Mercer St, Butler, PA 16001",file 14,16001,4,Robbery,maps/types_batchmt/16001_robbery.png,12.74,0.684,420199023001,D,0.844,0.844-0.844,0.844,384,52,420199022001 D at 52 m,1.0,on the D/D- line
