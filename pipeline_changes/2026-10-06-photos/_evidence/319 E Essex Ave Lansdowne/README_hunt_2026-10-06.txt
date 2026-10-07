@@ -1,9 +1,11 @@
+Updated 2026-10-07: at Najum's request, the smaller copy of the cover (319_essex_redfin_cover_2026-10-06/essex319_cover.jpg) and the Street View folder 319_essex_google_streetview_via_realtor_2026-10-06 with its one frame were deleted from Dropbox; both are recoverable from Dropbox's Deleted files. The folder's one image is now 319_essex_redfin_cover_2026-10-06/essex319_cover_larger_from_broker_feed.jpg. The frame's description below is kept as a record of what was found.
+
 Photo hunt, 2026-10-06, second pass (Najum's ask: more usable photos than the one listing image, which is a crop of a Google Street View frame). Rewritten the same evening: the first version said the saved Street View frame "shows the brick row from 317 to 321"; it does not.
 
 RESULT: no photograph of 319 exists in any public source beyond the one listing cover (saved on 10/6 at two sizes), and the listing brokerage's own page carries that one image too. The Street View frame added here is Google's view of the same block CENTRED ON 315's pair of doors; 319's own doorway, with the black chairs, the grill and the satellite dish that the cover shows, sits at the frame's right edge under the "no parking, commercial vehicles" sign. The cover matches that Google capture (ASSUMPTION: the cover is a crop of it), so 319 keeps ONE unique view. Also added: the county's footprint sketch and the county's residential card, which the morning pass could not read.
 
 NEW FILES
-- 319_essex_google_streetview_via_realtor_2026-10-06/
+- 319_essex_google_streetview_via_realtor_2026-10-06/ (DELETED 2026-10-07)
   streetview_950x428.jpg: the frame Realtor.com embeds for the address (Google resolves the address to a point in front of 315, which is why the frame is centred there); capture date not exposed. Shows the brick row from the pair of doors at the far left (311 and 313, ASSUMPTION) through 315 and 317 at the centre to 319's hood at the right edge.
 - 319_essex_delco_county_card_2026-10-06/
   delco_sketch_main_building_20x36.png: the county's footprint: Main Building 20 x 36 ft (1,440 sq ft over two floors).
